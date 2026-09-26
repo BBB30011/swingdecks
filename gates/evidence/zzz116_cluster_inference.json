@@ -1,0 +1,34 @@
+{
+  "beta_evidence_pp": 3.1037474219009606,
+  "raw_sample_N": 73,
+  "effective_sample_diagnostics": {
+    "raw_N": 73,
+    "unique_dates": 49,
+    "unique_tickers": 11,
+    "unique_date_exposure_clusters": 52,
+    "unique_evidence_events": 30
+  },
+  "iid_inference": {
+    "se": 1.711309522823558,
+    "t_stat": 1.8136680597557617,
+    "p_value": 0.0739546228505561
+  },
+  "date_clustered_inference": {
+    "clusters_G": 49,
+    "se": 1.2948427411390238,
+    "t_stat": 2.3970072374740368,
+    "p_value": 0.020471230560584974
+  },
+  "cluster_d_x_e_inference": {
+    "clusters_G": 52,
+    "se": 1.3307699551641032,
+    "t_stat": 2.332294480993316,
+    "p_value": 0.02367044062691548
+  },
+  "ticker_clustered_inference": {
+    "clusters_G": 11,
+    "se": 1.312841107770176,
+    "t_stat": 2.364145518853069,
+    "p_value": 0.03967163990978051
+  }
+}

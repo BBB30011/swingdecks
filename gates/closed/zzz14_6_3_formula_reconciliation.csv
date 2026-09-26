@@ -1,0 +1,11 @@
+formula_id,population_N,eligible_N,missing_N,result_pp,mean_pp,denominator,formula_definition,classification
+FORMULA_A,161,161,0,298.44,-1.85,161,Sum(-H5_i) across all N=161 contradiction setups (Net Avoided Loss),CANONICAL_NET_AVOIDED_LOSS_H5
+FORMULA_B,161,123,0,362.26,-2.95,123,Sum(-H5_i | H5_i < 0) across negative-outcome setups (Gross Avoided Loss),CANONICAL_GROSS_AVOIDED_LOSS_H5
+FORMULA_C,161,161,0,544.71,-3.38,161,Sum(-H10_i) across all N=161 setups (Multi-Day Holding Avoided Loss),CANONICAL_NET_AVOIDED_LOSS_H10
+FORMULA_D,161,128,0,618.63,-4.83,128,Sum(-H10_i | H10_i < 0) across negative H10 setups (Gross Avoided Loss H10),GROSS_AVOIDED_LOSS_H10
+FORMULA_E,161,161,0,821.96,-5.11,161,Sum(-MAE_i) across all N=161 setups (Cumulative Intra-Trade Drawdown Avoided),INTRA_TRADE_MAX_DRAWDOWN_AVOIDED
+FORMULA_F,161,161,0,421.58,-2.62,161,0.5 * (Sum(-H5) + Sum(-H10)) (Horizon-Averaged Avoided Loss),HORIZON_AVERAGED_PROXY
+FORMULA_G,161,161,0,283.52,-1.76,161,Risk-weighted H5 loss (Sum(w_i * -H5_i)),RISK_WEIGHTED_PROXY
+FORMULA_H,161,123,0,362.26,-2.95,123,1.0 standardized unit * Sum(-H5_i[H5<0]) (Standardized Gross Unit Sum),STANDARDIZED_GROSS_UNIT_PROXY
+FORMULA_I_HISTORICAL_NARRATIVE,159,159,0,496.08,-3.12,159,N_159 * Mean_H10_Loss (-3.12 pp) = +496.08 pp (Historical narrative multiplication),LEGACY_NON_CANONICAL
+FORMULA_I_CANONICAL_RECALCULATED,161,161,0,544.71,-3.38,161,N_161 * Mean_H10_Loss (-3.40 pp) = +546.61 pp (Canonical population multiplication),CANONICAL_FORMULA_I_ESTIMATOR

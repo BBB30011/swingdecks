@@ -1,0 +1,8 @@
+drift_dimension,metric,drift_rate_pct,status
+SEMANTIC_DRIFT,Vocabulary & Transmission Stability,0.0,NO_DRIFT_DETECTED_ON_TESTED_HARNESS
+SOURCE_DRIFT,Authority Registry Stability,0.0,NO_DRIFT_DETECTED_ON_TESTED_HARNESS
+ENTITY_DRIFT,Entity Resolution Stability across Eras,0.5,WITHIN_ACCEPTABLE_TOLERANCE
+ONTOLOGY_DRIFT,12-Class Event Taxonomy Integrity,0.0,ZERO_DRIFT
+PROMPT_DRIFT,Frozen System Prompt Hash Match,0.0,ZERO_DRIFT
+MODEL_DRIFT,Harness Execution Determinism,0.0,ZERO_DRIFT
+OUTPUT_SCHEMA_DRIFT,Decision & Thesis Pydantic Match,0.0,ZERO_DRIFT

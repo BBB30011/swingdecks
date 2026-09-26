@@ -1,0 +1,3461 @@
+{
+  "matrix_count": 432,
+  "matrix": [
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MARKET",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Pre-2016 structured disclosure digitization gap"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "CORPORATE_ACTION",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Known pre-2018 regulatory disclosure archive missingness"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "OWNERSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "RELATIONSHIP",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "EXPOSURE",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "PEER",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "NEWS",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "MACRO",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "PRE_2016",
+      "sample_date": "2015-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "LIMITED",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2016_2017",
+      "sample_date": "2017-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2018_2024",
+      "sample_date": "2020-05-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ADRO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ANTM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ASII",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBCA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBNI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BBRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "BMRI",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "INCO",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "ITMG",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "PTBA",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "TLKM",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    },
+    {
+      "domain": "COMMODITY",
+      "period": "2025_2026",
+      "sample_date": "2025-09-15",
+      "ticker": "UNTR",
+      "eligibility_state": "READY",
+      "reason": "Nominal coverage"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+    "metadata": {
+        "experiment_id": "BATCH_ZZZ_7_ATTRIBUTION_VALIDATION",
+        "timestamp": "2026-09-14T13:40:00Z",
+        "total_observations": 3000,
+        "n_signals": 1242,
+        "n_controls": 1758,
+        "signal_states": {
+            "WATCH": 702,
+            "EARLY_WATCH": 540
+        }
+    },
+    "evidence_coverage_18_dimensions": {
+        "news": {
+            "NO_EVIDENCE_IN_DATASET": 1239,
+            "AVAILABLE": 3
+        },
+        "corporate_action": {
+            "AVAILABLE": 1242
+        },
+        "fundamental": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "macro": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "commodity": {
+            "NO_EVIDENCE_IN_DATASET": 1240,
+            "PARTIAL": 2
+        },
+        "fx": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "monetary": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "policy": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "politics": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "geopolitics": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "ownership": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "relationship": {
+            "NOT_AVAILABLE": 1242
+        },
+        "exposure": {
+            "NOT_AVAILABLE": 1240,
+            "AVAILABLE": 2
+        },
+        "flow": {
+            "AVAILABLE": 1242
+        },
+        "sentiment": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "market_structure": {
+            "AVAILABLE": 1242
+        },
+        "event_calendar": {
+            "PARTIAL": 1242
+        },
+        "peer_information": {
+            "AVAILABLE": 1242
+        }
+    },
+    "pit_metrics": {
+        "signals": {
+            "total_valid_events_mean": 32.2085346215781,
+            "total_valid_events_max": 49,
+            "future_excluded_mean": 1.3075684380032206,
+            "future_excluded_max": 5,
+            "candidates_with_pit_events": 1242,
+            "candidates_with_zero_pit_events": 0
+        },
+        "controls": {
+            "total_valid_events_mean": 32.11262798634812,
+            "candidates_with_pit_events": 1758,
+            "candidates_with_zero_pit_events": 0
+        }
+    },
+    "specificity_distribution": {
+        "signals": {
+            "FACTOR_WIDE": 613,
+            "COMPANY_SPECIFIC_CANDIDATE": 274,
+            "SECTOR_WIDE": 252,
+            "MARKET_WIDE": 54,
+            "UNKNOWN": 49
+        },
+        "controls": {
+            "FACTOR_WIDE": 800,
+            "SECTOR_WIDE": 410,
+            "COMPANY_SPECIFIC_CANDIDATE": 322,
+            "MARKET_WIDE": 126,
+            "UNKNOWN": 100
+        }
+    },
+    "primary_attribution_distribution": {
+        "signals": {
+            "UNKNOWN_COMPONENT": 393,
+            "MARKET_COMPONENT": 310,
+            "COMPANY_SPECIFIC_COMPONENT": 274,
+            "SECTOR_COMPONENT": 219,
+            "FLOW_COMPONENT": 46
+        },
+        "controls": {
+            "UNKNOWN_COMPONENT": 615,
+            "MARKET_COMPONENT": 588,
+            "COMPANY_SPECIFIC_COMPONENT": 322,
+            "SECTOR_COMPONENT": 233
+        }
+    },
+    "red_team_distribution": {
+        "signals": {
+            "WEAK": 667,
+            "PASS": 575
+        },
+        "controls": {
+            "WEAK": 937,
+            "PASS": 821
+        }
+    },
+    "specificity_vs_forward_return": {
+        "MARKET_WIDE": {
+            "n": 54,
+            "H1_mean": -0.002311838332347621,
+            "H5_mean": -0.008487307253874858,
+            "H20_mean": -0.0040981796968542605,
+            "H5_win_rate": 0.4444444444444444
+        },
+        "SECTOR_WIDE": {
+            "n": 252,
+            "H1_mean": 0.0010648512646710317,
+            "H5_mean": 0.0031982131293760126,
+            "H20_mean": -0.007156759339569778,
+            "H5_win_rate": 0.5220883534136547
+        },
+        "FACTOR_WIDE": {
+            "n": 613,
+            "H1_mean": 0.001033044463666749,
+            "H5_mean": 0.0015162796103258044,
+            "H20_mean": -0.0024123713937271663,
+            "H5_win_rate": 0.4939550949913644
+        },
+        "COMPANY_SPECIFIC_CANDIDATE": {
+            "n": 274,
+            "H1_mean": -0.0027673934402942637,
+            "H5_mean": -0.004713857939534437,
+            "H20_mean": 0.002044246686886724,
+            "H5_win_rate": 0.46494464944649444
+        },
+        "UNKNOWN": {
+            "n": 49,
+            "H1_mean": -0.0021057142402305428,
+            "H5_mean": -0.004652342087255152,
+            "H20_mean": -0.03036086102123974,
+            "H5_win_rate": 0.4444444444444444
+        }
+    }
+}

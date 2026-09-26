@@ -1,0 +1,77 @@
+{
+  "batch": "ZZZ.14.4",
+  "timestamp": "2026-09-16T14:01:12.334296",
+  "metadata": {
+    "batch": "ZZZ.14.4",
+    "dataset_name": "DATASET_V2_20260915",
+    "total_eval_setups": 1760,
+    "total_universe_tickers": 80,
+    "canonical_tickers": 12,
+    "time_horizon": "2016-2026 (Decade Scale)",
+    "distinct_eras": [
+      "2016-2018",
+      "2019-2021",
+      "2022-2024",
+      "2025-2026"
+    ],
+    "market_regimes": [
+      "BULL",
+      "BEAR",
+      "SIDEWAYS",
+      "HIGH_VOLATILITY"
+    ],
+    "event_classes": [
+      "COMMODITY",
+      "MACRO",
+      "POLICY",
+      "CORPORATE_ACTION",
+      "EARNINGS_FUNDAMENTAL",
+      "OWNERSHIP",
+      "REGULATORY",
+      "GEOPOLITICAL",
+      "OPERATIONAL",
+      "CAPEX",
+      "FINANCING",
+      "SUPPLY_CHAIN"
+    ],
+    "timestamp": "2026-09-16T14:01:12.334296"
+  },
+  "ai_selection_summary": {
+    "total_setups_processed": 1760,
+    "total_raw_evidence_objects": 29968,
+    "total_ai_selected_evidence": 11131,
+    "total_contradictions_flagged": 437,
+    "mean_compression_ratio": 0.37416604798287684,
+    "mean_material_retention": 0.9397727272727273,
+    "overall_provenance_traceable_pct": 1.0
+  },
+  "oos_summary": {
+    "oos_partitions_evaluated": 3,
+    "oos_verdict": "OOS_INTEGRITY_PASS (Consistent discriminatory pattern preserved across holdout)",
+    "prompt_contamination": "NONE (Logic strictly frozen prior to OOS evaluation)"
+  },
+  "reproducibility_summary": {
+    "run_1_manifest_sha256": "448713dd1d5df10f9e1daec108f6676698a7c37361865e87c52139d4187cf728",
+    "run_2_manifest_sha256": "448713dd1d5df10f9e1daec108f6676698a7c37361865e87c52139d4187cf728",
+    "hash_identical": true,
+    "numeric_reproducibility": "100.0%_EXACT",
+    "semantic_reproducibility": "100.0%_EXACT",
+    "reproducibility_verdict": "REPRODUCIBILITY_PROVEN"
+  },
+  "red_team_passed_count": 50,
+  "files_generated": [
+    "reports/zzz14_4_ai_quality_matrix.csv",
+    "reports/zzz14_4_ai_evidence_selection.csv",
+    "reports/zzz14_4_ai_reference_audit.csv",
+    "reports/zzz14_4_ai_pit_audit.csv",
+    "reports/zzz14_4_ai_coverage_bias.csv",
+    "reports/zzz14_4_ai_cross_ticker.csv",
+    "reports/zzz14_4_ai_cross_event.csv",
+    "reports/zzz14_4_ai_cross_regime.csv",
+    "reports/zzz14_4_ai_oos.csv",
+    "reports/zzz14_4_ai_vs_deterministic.csv",
+    "reports/zzz14_4_ai_reproducibility.csv",
+    "reports/zzz14_4_ai_red_team.csv",
+    "reports/zzz14_4_manifest.json"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_version": "1.0",
+  "gate_id": "ZZZ.14.8.1.1",
+  "timestamp": "2026-09-17T16:13:37.955009",
+  "artifacts_count": 6,
+  "artifacts": [
+    {
+      "artifact_name": "zzz14_8_1_1_canonical_decision_population.csv",
+      "sha256": "75ddbe4c491b144ece6cc2bae76492d851ccd5c95c0bdbfbe9a56bdc8999dfda",
+      "size_bytes": 460695
+    },
+    {
+      "artifact_name": "zzz14_8_1_1_transition_matrix_25x25.csv",
+      "sha256": "1a6efd18ed5743572bac6e6efc4436e19d9ae4b542f469e96e54c43a4ec7cb7a",
+      "size_bytes": 2279
+    },
+    {
+      "artifact_name": "zzz14_8_1_1_reconciliation.csv",
+      "sha256": "b317bbffb1247730d893882e97b121ec8201b415945a8f9767d384d799fe2b65",
+      "size_bytes": 334
+    },
+    {
+      "artifact_name": "zzz14_8_1_1_exception_ledger.csv",
+      "sha256": "172d528f43db88e37bd9b73cfe7b44237248bdcc542e334a1e0f177adbdaf231",
+      "size_bytes": 1020
+    },
+    {
+      "artifact_name": "zzz14_8_1_1_validation.json",
+      "sha256": "8357c97ecf71d2d47d11796a31a2b79025e3db0facd4d383c14dd683216b6517",
+      "size_bytes": 3698
+    },
+    {
+      "artifact_name": "zzz14_8_1_1_red_team.csv",
+      "sha256": "1a29bd2053e72107dbd12eded63cbd5a71ea9c167dce94d200ae0e0ab85fc77e",
+      "size_bytes": 5367
+    }
+  ]
+}

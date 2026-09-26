@@ -1,0 +1,95 @@
+{
+  "stratifications": [
+    {
+      "stratum": "Commodity Universe (N=51)",
+      "N": 51,
+      "h5_peer_excess_mean_pct": 0.1956,
+      "h5_peer_excess_median_pct": 0.3215,
+      "raw_h5_mean_pct": 1.8093,
+      "se_pct": 0.959,
+      "ci_95": [
+        -1.684,
+        2.0753
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Non-Commodity Universe (N=22)",
+      "N": 22,
+      "h5_peer_excess_mean_pct": -0.2622,
+      "h5_peer_excess_median_pct": 0.1369,
+      "raw_h5_mean_pct": 0.0283,
+      "se_pct": 0.4953,
+      "ci_95": [
+        -1.2331,
+        0.7086
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Pre-2019 (2016-2018)",
+      "N": 0,
+      "h5_peer_excess_mean_pct": NaN,
+      "h5_peer_excess_median_pct": NaN,
+      "raw_h5_mean_pct": NaN,
+      "se_pct": NaN,
+      "ci_95": [
+        NaN,
+        NaN
+      ],
+      "status": "NOT_ESTIMABLE"
+    },
+    {
+      "stratum": "Post-2019 (2019-2026)",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "raw_h5_mean_pct": 1.2726,
+      "se_pct": 0.6844,
+      "ci_95": [
+        -1.2837,
+        1.399
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Evidence Present (N=59)",
+      "N": 59,
+      "h5_peer_excess_mean_pct": 0.6529,
+      "h5_peer_excess_median_pct": 0.4315,
+      "raw_h5_mean_pct": 1.4206,
+      "se_pct": 0.8008,
+      "ci_95": [
+        -0.9168,
+        2.2225
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Unobserved / No Evidence (N=14)",
+      "N": 14,
+      "h5_peer_excess_mean_pct": -2.4509,
+      "h5_peer_excess_median_pct": -2.516,
+      "raw_h5_mean_pct": 0.6486,
+      "se_pct": 0.9319,
+      "ci_95": [
+        -4.2774,
+        -0.6243
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "READY Overall (N=73)",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "raw_h5_mean_pct": 1.2726,
+      "se_pct": 0.6844,
+      "ci_95": [
+        -1.2837,
+        1.399
+      ],
+      "status": "ESTIMATED"
+    }
+  ]
+}

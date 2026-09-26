@@ -1,0 +1,20 @@
+{
+  "dataset_id": "DATASET_V2_20260915",
+  "artifacts": [
+    {
+      "domain": "OHLCV",
+      "row_count": 223440,
+      "status": "VERIFIED"
+    },
+    {
+      "domain": "EVENTS",
+      "row_count": 122483,
+      "status": "VERIFIED"
+    },
+    {
+      "domain": "RELATIONSHIPS",
+      "row_count": 8430,
+      "status": "VERIFIED"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+coverage_stratum,setup_count,decision_change_rate_pct,insufficient_info_count,coverage_attribution_verdict
+HIGH_COVERAGE,247,38.05668016194332,0,COVERAGE_CONTROLLED (Preserves missingness as information state)
+MEDIUM_COVERAGE,612,30.392156862745097,0,COVERAGE_CONTROLLED (Preserves missingness as information state)
+LOW_COVERAGE,784,38.52040816326531,0,COVERAGE_CONTROLLED (Preserves missingness as information state)
+ARCHIVAL_GAP,117,100.0,104,COVERAGE_CONTROLLED (Preserves missingness as information state)

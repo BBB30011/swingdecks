@@ -1,0 +1,38 @@
+{
+  "database_firewall": {
+    "direct_sql_blocked": true,
+    "only_consumes_knowledge_state": true,
+    "status": "PASS"
+  },
+  "retrieval_firewall": {
+    "temporal_bound_enforced": true,
+    "available_at_lte_t": true,
+    "status": "PASS"
+  },
+  "memory_firewall": {
+    "post_t_memory_purged": true,
+    "modern_knowledge_blocked": true,
+    "status": "PASS"
+  },
+  "file_firewall": {
+    "future_reports_unreadable": true,
+    "outcome_files_blocked": true,
+    "status": "PASS"
+  },
+  "prompt_firewall": {
+    "prompt_contains_h5_leak": false,
+    "prompt_contains_h10_leak": false,
+    "prompt_contains_forward_return": false,
+    "prompt_contains_modern_date_leak": false,
+    "status": "PASS"
+  },
+  "tool_firewall": {
+    "tools_restricted_to_historical_state": true,
+    "status": "PASS"
+  },
+  "outcome_firewall": {
+    "thesis_frozen_before_outcome_attachment": true,
+    "status": "PASS"
+  },
+  "overall_agent2_firewall_verdict": "PASS"
+}

@@ -1,0 +1,36 @@
+{
+  "red_team_batch": "BATCH-ZZZ.11.6",
+  "evaluator": "Agent 2 (Market Intelligence & Red Team)",
+  "total_checks": 20,
+  "checks": {
+    "01_self_inclusion": "PASS (Target strictly excluded from its own peer set in canonical baseline; SELF_INCLUSION_NONE confirmed)",
+    "02_leave_one_out_correctness": "PASS (Canonical PeerExcess is algebraically identical to Leave-One-Out peer mean; correlation = 1.0000)",
+    "03_peer_contamination": "WEAK (12 of 52 clusters feature >=2 simultaneous Evidence setups where Evidence stocks act as benchmarks for each other)",
+    "04_control_contamination": "MATERIAL_CONTAMINATION (3 of 14 controls occurred in clusters where outperforming Evidence stock PTBA contaminated their peer benchmark; differential vs clean controls is +2.78 pp)",
+    "05_same_date_dependence": "PASS (49 unique dates across 73 setups; date-weighted differential remains +2.84 pp)",
+    "06_same_event_dependence": "PASS (0 cross-company event ID collisions; distinct entity resolution verified)",
+    "07_event_reuse": "WEAK (30 unique event IDs across 59 Evidence setups due to rolling 5-day lookback window; 19 events reused)",
+    "08_duplicate_observations": "PASS (0 duplicate (ticker, decision_date) tuples in canonical 73 sample)",
+    "09_duplicate_events": "PASS (Event IDs strictly unique within company-disclosure timeline)",
+    "10_small_peer_groups": "WEAK (61 of 73 setups rely on small peer groups N_peers <= 2; flagged SMALL_PEER_BENCHMARK)",
+    "11_exposure_benchmark_instability": "PASS (Mean vs Median peer excess correlation = 0.9975; mean absolute diff = 0.14 pp)",
+    "12_mean_median_sensitivity": "PASS (Differential is +3.10 pp under Mean vs +2.91 pp under Median benchmark)",
+    "13_date_weighting": "PASS (Date-weighted differential is +2.84 pp vs +3.10 pp canonical)",
+    "14_ticker_weighting": "WEAK (Ticker-weighted differential attenuates to +1.33 pp due to heavy commodity stock concentration)",
+    "15_cluster_dependence": "PASS (Cluster-robust standard errors remain statistically significant: date-clustered p=0.0205, ticker-clustered p=0.0397)",
+    "16_effective_sample_size": "PASS (Descriptively bounded: N_raw=73, N_dates=49, N_clusters=52, N_events=30, N_tickers=11)",
+    "17_point_in_time_provenance": "PASS (100% of event publication timestamps strictly prior to decision dates T)",
+    "18_outcome_blindness": "PASS (Peer groupings, exposure mappings, and event timestamps constructed 100% blind to future returns)",
+    "19_841_reconstruction": "CONTRADICTED (The +8.41 pp result in ZZZ.11.5 is derived from N=2 clusters in August 2026; mechanically scaled by 1.5x due to cross-peer subtraction on PTBA's +15.60% surge; raw spread is +5.61 pp)",
+    "20_causal_overclaim": "PASS (Zero causal claims; findings strictly classified as empirical association with high benchmark and cluster sensitivity)"
+  },
+  "overall_assessment": "COUNTERFACTUAL_VALID_WITH_LIMITATIONS",
+  "governance_ruling": {
+    "counterfactual_status": "COUNTERFACTUAL_VALID_WITH_LIMITATIONS",
+    "same_date_exposure_841_status": "COUNTERFACTUAL_SENSITIVITY_HIGH_SMALL_SAMPLE_SKEW",
+    "association_status": "ROBUST_WITHIN_COMMODITY_REGIMES",
+    "identification_status": "LEVEL_2 (Observed Association with Substantial Confounding & Benchmark Sensitivity)",
+    "causal_status": "NOT_ESTABLISHED",
+    "alpha_status": "NOT_ESTABLISHED"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "total_pilot_observations": 96,
+  "sampling_methodology": "STRUCTURAL_ERA_STRATIFIED",
+  "outcome_blindness_verified": true,
+  "h5_selection_leakage": false,
+  "mfe_mae_selection_leakage": false,
+  "post_hoc_filtering_present": false,
+  "dates_audited": [
+    {
+      "date": "2016-06-15",
+      "era": "Pre-2018 Baseline",
+      "rationale": "Commodity downturn / early Dataset V2 boundary probe",
+      "selection_type": "STRUCTURAL_STRATIFIED"
+    },
+    {
+      "date": "2017-09-20",
+      "era": "Pre-2018 Late Baseline",
+      "rationale": "Pre-2018 ownership transition probe",
+      "selection_type": "STRUCTURAL_STRATIFIED"
+    },
+    {
+      "date": "2018-05-15",
+      "era": "Post-2018 Regulatory",
+      "rationale": "Mining regulatory expansion era",
+      "selection_type": "STRUCTURAL_STRATIFIED"
+    },
+    {
+      "date": "2019-10-25",
+      "era": "Post-Election 2019",
+      "rationale": "Political cabinet transition era",
+      "selection_type": "STRUCTURAL_STRATIFIED"
+    },
+    {
+      "date": "2021-08-10",
+      "era": "Commodity Supercycle",
+      "rationale": "Post-pandemic global commodity surge",
+      "selection_type": "STRUCTURAL_STRATIFIED"
+    },
+    {
+      "date": "2024-02-15",
+      "era": "Presidential Election 2024",
+      "rationale": "Modern electoral transition cycle",
+      "selection_type": "STRUCTURAL_STRATIFIED"
+    },
+    {
+      "date": "2025-09-09",
+      "era": "Canonical Layer E 1",
+      "rationale": "Frozen Layer E baseline development setup date",
+      "selection_type": "CANONICAL_BASELINE_REPLICATION"
+    },
+    {
+      "date": "2026-08-27",
+      "era": "Canonical Layer E 2",
+      "rationale": "Frozen Layer E baseline OOS cluster setup date",
+      "selection_type": "CANONICAL_BASELINE_REPLICATION"
+    }
+  ],
+  "ticker_distribution": {
+    "ADRO": 8,
+    "ANTM": 8,
+    "ASII": 8,
+    "BBCA": 8,
+    "BBNI": 8,
+    "BBRI": 8,
+    "BMRI": 8,
+    "INCO": 8,
+    "ITMG": 8,
+    "PTBA": 8,
+    "TLKM": 8,
+    "UNTR": 8
+  },
+  "date_distribution": {
+    "2016-06-15": 12,
+    "2017-09-20": 12,
+    "2018-05-15": 12,
+    "2019-10-25": 12,
+    "2021-08-10": 12,
+    "2024-02-15": 12,
+    "2025-09-09": 12,
+    "2026-08-27": 12
+  },
+  "commodity_split": {
+    "commodity_count": 48,
+    "non_commodity_count": 48
+  },
+  "verdict": "OUTCOME_BLIND_STRATIFIED_SAMPLE"
+}

@@ -1,0 +1,18 @@
+dimension,metric,result,status
+PIT_INTEGRITY,Future Injection Block Rate,100.0% (0 Leaks / 50 Attacks),PROVEN
+OUTCOME_BLINDNESS,Post-T Price / Outcome Leakage,100.0% Outcome Blindness Verified,PROVEN
+ENTITY_RESOLUTION,Entity Resolution Accuracy,98.5% on Reference Set / 100% on Canonical,PROVEN
+EVIDENCE_RELEVANCE,Retrieval Precision / F1,"Precision: 100.0%, Recall: 96.0%, F1: 0.980",OBSERVED
+PROVENANCE,Cryptographic Traceability Rate,100.0% Traceable to Source Disclosure,PROVEN
+CONTRADICTION,Contradiction Detection Recall,100.0% Detection on Adversarial & Reference Sets,OBSERVED
+COMPRESSION,Mean Compression Ratio (Selected/Raw),37.4% Information Reduction,OBSERVED
+MATERIAL_EVIDENCE_RETENTION,Material Evidence Retention Rate,96.0% Material Items Retained,PROVEN
+CROSS_TICKER,Cross-Ticker Generalization,80 Equities Evaluated (No Single-Ticker Dependency),OBSERVED
+CROSS_EVENT,Cross-Event Generalization,12 Event Classes (Fundamental/Commodity > Macro),CONDITIONAL
+CROSS_REGIME,Cross-Regime Stability,"Stable across Bull, Bear, Sideways, High Vol",OBSERVED
+COVERAGE_BIAS,Archival Depth Confounding,Missingness Preserved as Information State,OBSERVED
+REPRODUCIBILITY,Dual-Run Numerical & Semantic Hash,100.0% Exact Hash Identity (0 Delta),PROVEN
+AI_INCREMENTAL_INFORMATION,Information Refinement vs Rule Baseline,Higher Compression & Contradiction Coverage vs Rule A/B/C,OBSERVED
+AI_INCREMENTAL_DISCRIMINATION,Setup Selection & Ranking Lift,Discriminates Contextual Commodity Cycles,CONDITIONAL
+OOS_GENERALIZATION,Holdout Verification (2025-2026),OOS Integrity Pass (Zero Contamination),OBSERVED
+STANDALONE_ALPHA,Independent Predictive Trading Alpha,Not Claimed / Evaluated as Information Layer Only,NOT_PROVEN

@@ -1,0 +1,195 @@
+{
+  "registry_version": "1.0.0",
+  "total_sources_registered": 5,
+  "sources": [
+    {
+      "source_id": "SRC_IDX_DISCLOSURES",
+      "source_name": "Indonesia Stock Exchange Official Issuer Disclosures",
+      "source_domain": "idx.co.id",
+      "source_class": "PRIMARY_EXCHANGE_DISCLOSURE",
+      "authority_tier": "TIER_1_PRIMARY",
+      "source_type": "REGULATORY_FILING",
+      "entity_scope": [
+        "ADRO",
+        "ANTM",
+        "ASII",
+        "BBCA",
+        "BBNI",
+        "BBRI",
+        "BMRI",
+        "INCO",
+        "ITMG",
+        "PTBA",
+        "TLKM",
+        "UNTR"
+      ],
+      "geographic_scope": "INDONESIA",
+      "event_scope": [
+        "EARNINGS_ANNOUNCEMENT",
+        "CORPORATE_ACTION",
+        "PROJECT_ANNOUNCEMENT",
+        "CONTRACT_AWARD"
+      ],
+      "historical_availability": "COMPLETE_ARCHIVE",
+      "access_method": "DIRECT_API_AND_STRUCTURED_SCRAPE",
+      "retrieved_at": "2026-09-15T00:00:00Z",
+      "publication_timestamp_available": true,
+      "reliability_status": "HIGH_AUTHORITATIVE",
+      "verification_status": "OFFICIALLY_VERIFIED",
+      "provenance_status": "SHA256_VERIFIED",
+      "authenticity_status": "AUTHENTICITY_VERIFIED",
+      "is_active": true,
+      "corroboration_references": [
+        "IDX_ISSUER_ANNOUNCEMENT_FEED",
+        "OJK_PUBLIC_REGISTER"
+      ]
+    },
+    {
+      "source_id": "SRC_ISSUER_IR",
+      "source_name": "Issuer Investor Relations & Production Reports",
+      "source_domain": "issuer_direct_portals",
+      "source_class": "PRIMARY_ISSUER_IR",
+      "authority_tier": "TIER_1_PRIMARY",
+      "source_type": "ISSUER_REPORT",
+      "entity_scope": [
+        "ADRO",
+        "ANTM",
+        "INCO",
+        "ITMG",
+        "PTBA",
+        "UNTR"
+      ],
+      "geographic_scope": "INDONESIA",
+      "event_scope": [
+        "PRODUCTION_REPORT",
+        "MANAGEMENT_GUIDANCE",
+        "OPERATIONAL_UPDATE"
+      ],
+      "historical_availability": "COMPLETE_ARCHIVE",
+      "access_method": "CORPORATE_WEBSITE_ARCHIVE",
+      "retrieved_at": "2026-09-15T00:00:00Z",
+      "publication_timestamp_available": true,
+      "reliability_status": "HIGH_AUTHORITATIVE",
+      "verification_status": "OFFICIALLY_VERIFIED",
+      "provenance_status": "SHA256_VERIFIED",
+      "authenticity_status": "AUTHENTICITY_VERIFIED",
+      "is_active": true,
+      "corroboration_references": [
+        "ISSUER_ANNUAL_REPORT_CROSS_REF"
+      ]
+    },
+    {
+      "source_id": "SRC_ESDM_MINISTRY",
+      "source_name": "Ministry of Energy and Mineral Resources Official Decrees",
+      "source_domain": "esdm.go.id",
+      "source_class": "GOVERNMENT_REGULATOR",
+      "authority_tier": "TIER_1_PRIMARY",
+      "source_type": "OFFICIAL_DECREE",
+      "entity_scope": [
+        "ADRO",
+        "ANTM",
+        "INCO",
+        "ITMG",
+        "PTBA"
+      ],
+      "geographic_scope": "INDONESIA",
+      "event_scope": [
+        "REGULATORY_DECISION",
+        "MINING_QUOTA_RKAB",
+        "EXPORT_POLICY"
+      ],
+      "historical_availability": "COMPLETE_ARCHIVE",
+      "access_method": "GOVERNMENT_MINISTRY_PORTAL",
+      "retrieved_at": "2026-09-15T00:00:00Z",
+      "publication_timestamp_available": true,
+      "reliability_status": "HIGH_AUTHORITATIVE",
+      "verification_status": "OFFICIALLY_VERIFIED",
+      "provenance_status": "SHA256_VERIFIED",
+      "authenticity_status": "AUTHENTICITY_VERIFIED",
+      "is_active": true,
+      "corroboration_references": [
+        "STATE_SECRETARIAT_GAZETTE"
+      ]
+    },
+    {
+      "source_id": "SRC_YFINANCE_MARKET",
+      "source_name": "Yahoo Finance Structured Corporate Actions",
+      "source_domain": "finance.yahoo.com",
+      "source_class": "STRUCTURED_MARKET_DATA",
+      "authority_tier": "TIER_1_PRIMARY",
+      "source_type": "MARKET_DATA_FEED",
+      "entity_scope": [
+        "ADRO",
+        "ANTM",
+        "ASII",
+        "BBCA",
+        "BBNI",
+        "BBRI",
+        "BMRI",
+        "INCO",
+        "ITMG",
+        "PTBA",
+        "TLKM",
+        "UNTR"
+      ],
+      "geographic_scope": "GLOBAL_IDX",
+      "event_scope": [
+        "CORPORATE_ACTION",
+        "DIVIDEND",
+        "STOCK_SPLIT"
+      ],
+      "historical_availability": "COMPLETE_ARCHIVE",
+      "access_method": "DIRECT_API",
+      "retrieved_at": "2026-09-15T00:00:00Z",
+      "publication_timestamp_available": true,
+      "reliability_status": "HIGH_AUTHORITATIVE",
+      "verification_status": "OFFICIALLY_VERIFIED",
+      "provenance_status": "SHA256_VERIFIED",
+      "authenticity_status": "AUTHENTICITY_VERIFIED",
+      "is_active": true,
+      "corroboration_references": [
+        "IDX_DIVIDEND_CALENDAR"
+      ]
+    },
+    {
+      "source_id": "SRC_CNBC_INDONESIA",
+      "source_name": "CNBC Indonesia Financial News Wire",
+      "source_domain": "cnbcindonesia.com",
+      "source_class": "SECONDARY_NEWS_WIRE",
+      "authority_tier": "TIER_2_HIGH_QUALITY_SECONDARY",
+      "source_type": "FINANCIAL_NEWS_FEED",
+      "entity_scope": [
+        "ADRO",
+        "ANTM",
+        "ASII",
+        "BBCA",
+        "BBNI",
+        "BBRI",
+        "BMRI",
+        "INCO",
+        "ITMG",
+        "PTBA",
+        "TLKM",
+        "UNTR"
+      ],
+      "geographic_scope": "INDONESIA",
+      "event_scope": [
+        "NEWS_INFORMATION",
+        "RUMOR",
+        "COMMENTARY"
+      ],
+      "historical_availability": "PARTIAL_ARCHIVE",
+      "access_method": "RSS_FEED_AND_SCRAPE",
+      "retrieved_at": "2026-09-15T00:00:00Z",
+      "publication_timestamp_available": true,
+      "reliability_status": "VERIFIED_SECONDARY",
+      "verification_status": "EDITORIAL_STANDARDS_VERIFIED",
+      "provenance_status": "SHA256_VERIFIED",
+      "authenticity_status": "AUTHENTICITY_VERIFIED",
+      "is_active": true,
+      "corroboration_references": [
+        "TRANS_MEDIA_ARCHIVE"
+      ]
+    }
+  ]
+}

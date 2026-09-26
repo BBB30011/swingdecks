@@ -1,0 +1,9 @@
+metric_name,value,interpretation
+TOTAL_CONTRADICTION_SETUPS,161,Identified adverse disclosures (Red Team)
+NEGATIVE_OUTCOME_RATE_H5,76.4%,Proportion of contradiction setups yielding negative peer-excess
+MEAN_H5_PEER_EXCESS_PCT,-1.85%,Underlying forward peer-excess if trades had been executed
+MEAN_H10_PEER_EXCESS_PCT,-3.38%,10-day forward return confirming multi-day downward drift
+MEAN_MAXIMUM_ADVERSE_EXCURSION_MAE,-5.11%,Average intra-trade maximum loss
+MEAN_MAXIMUM_FAVORABLE_EXCURSION_MFE,+0.65%,Average intra-trade upward excursion
+TAIL_LOSS_RATE_LE_MINUS_3PCT,32.3%,Proportion of setups experiencing severe loss > -3.0%
+AGGREGATE_AVOIDED_LOSS_PROXY_PP,+362.3 pp,Cumulative gross downside avoided by Red Team rejections

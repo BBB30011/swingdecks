@@ -1,0 +1,6 @@
+attribution_category,setups_with_flag,state_transitions_caused,primary_rule,mutually_exclusive
+CONTRADICTION_PRUNING,161,159,Hard override to CONTRADICTED / REJECT,False
+TRANSMISSION_CONFIRMATION,1760,256,Upgraded to HIGH confidence ACT when volume confirms,False
+RELEVANCE_FILTERING,1760,180,Moved from ACT to WATCH pending volume confirmation,False
+UNKNOWN_PRESERVATION,117,104,Archival gaps mapped to INSUFFICIENT_INFORMATION,True
+UNCHANGED_BASELINE,477,0,Quantitative baseline maintained without state transition,True

@@ -1,0 +1,116 @@
+{
+  "by_year": {
+    "2016": {
+      "READY": 12
+    },
+    "2017": {
+      "READY": 12
+    },
+    "2018": {
+      "READY": 12
+    },
+    "2019": {
+      "READY": 12
+    },
+    "2021": {
+      "READY": 12
+    },
+    "2024": {
+      "READY": 12
+    },
+    "2025": {
+      "READY": 12
+    },
+    "2026": {
+      "READY": 12
+    }
+  },
+  "by_ticker": {
+    "ADRO": {
+      "READY": 8
+    },
+    "ANTM": {
+      "READY": 8
+    },
+    "ASII": {
+      "READY": 8
+    },
+    "BBCA": {
+      "READY": 8
+    },
+    "BBNI": {
+      "READY": 8
+    },
+    "BBRI": {
+      "READY": 8
+    },
+    "BMRI": {
+      "READY": 8
+    },
+    "INCO": {
+      "READY": 8
+    },
+    "ITMG": {
+      "READY": 8
+    },
+    "PTBA": {
+      "READY": 8
+    },
+    "TLKM": {
+      "READY": 8
+    },
+    "UNTR": {
+      "READY": 8
+    }
+  },
+  "by_domain": {
+    "MARKET": {
+      "READY": 96,
+      "CONDITIONAL": 0,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    },
+    "CORPORATE_ACTION": {
+      "READY": 96,
+      "CONDITIONAL": 0,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    },
+    "OWNERSHIP": {
+      "READY": 60,
+      "CONDITIONAL": 0,
+      "LIMITED": 36,
+      "BLOCKED": 0
+    },
+    "RELATIONSHIP": {
+      "READY": 96,
+      "CONDITIONAL": 0,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    },
+    "EXPOSURE": {
+      "READY": 96,
+      "CONDITIONAL": 0,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    },
+    "NEWS": {
+      "READY": 72,
+      "CONDITIONAL": 24,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    },
+    "MACRO": {
+      "READY": 96,
+      "CONDITIONAL": 0,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    },
+    "COMMODITY": {
+      "READY": 96,
+      "CONDITIONAL": 0,
+      "LIMITED": 0,
+      "BLOCKED": 0
+    }
+  }
+}

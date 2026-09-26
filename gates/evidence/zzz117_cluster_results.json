@@ -1,0 +1,27 @@
+{
+  "beta_c5_differential_pp": 2.9778542034367756,
+  "valid_sample_N": 56,
+  "iid_inference": {
+    "se": 1.845920122734649,
+    "t_stat": 1.6132085927018427,
+    "p_value": 0.11252865663287337
+  },
+  "date_clustered_inference": {
+    "clusters_G": 43,
+    "se": 1.2756754591119441,
+    "t_stat": 2.33433525914953,
+    "p_value": 0.0244347731078971
+  },
+  "cluster_clustered_inference": {
+    "clusters_G": 45,
+    "se": 1.2886204438311533,
+    "t_stat": 2.310885426109972,
+    "p_value": 0.02558612990373188
+  },
+  "ticker_clustered_inference": {
+    "clusters_G": 11,
+    "se": 1.1886540154106318,
+    "t_stat": 2.5052321069289856,
+    "p_value": 0.031166196139256197
+  }
+}

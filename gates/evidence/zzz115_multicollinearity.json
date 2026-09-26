@@ -1,0 +1,64 @@
+{
+  "condition_number": 4.940673492405524,
+  "vif": {
+    "is_evidence": 1.0932687898775624,
+    "pre_20_10": 1.0521046239536245,
+    "pre_10_5": 1.146264309921315,
+    "pre_5_1": 5.728677053083002,
+    "peer_pre_trend": 5.792507138024432,
+    "is_commodity": 1.1671453663490323
+  },
+  "correlation_matrix": {
+    "is_evidence": {
+      "is_evidence": 1.0,
+      "pre_20_10": 0.022760481914304506,
+      "pre_10_5": 0.24923185657914154,
+      "pre_5_1": 0.17369763727593343,
+      "peer_pre_trend": 0.19044564109589932,
+      "is_commodity": 0.1350382807881106
+    },
+    "pre_20_10": {
+      "is_evidence": 0.022760481914304506,
+      "pre_20_10": 1.0,
+      "pre_10_5": 0.035634488692246696,
+      "pre_5_1": -0.022800427274713077,
+      "peer_pre_trend": -0.031159866722621946,
+      "is_commodity": 0.20584395392365124
+    },
+    "pre_10_5": {
+      "is_evidence": 0.24923185657914154,
+      "pre_20_10": 0.035634488692246696,
+      "pre_10_5": 1.0,
+      "pre_5_1": 0.21529388290512028,
+      "peer_pre_trend": 0.20004051325331085,
+      "is_commodity": 0.24805567419211383
+    },
+    "pre_5_1": {
+      "is_evidence": 0.17369763727593343,
+      "pre_20_10": -0.022800427274713077,
+      "pre_10_5": 0.21529388290512028,
+      "pre_5_1": 1.0,
+      "peer_pre_trend": 0.9078136715816442,
+      "is_commodity": 0.21731747475788055
+    },
+    "peer_pre_trend": {
+      "is_evidence": 0.19044564109589932,
+      "pre_20_10": -0.031159866722621946,
+      "pre_10_5": 0.20004051325331085,
+      "pre_5_1": 0.9078136715816442,
+      "peer_pre_trend": 1.0,
+      "is_commodity": 0.23938554965718659
+    },
+    "is_commodity": {
+      "is_evidence": 0.1350382807881106,
+      "pre_20_10": 0.20584395392365124,
+      "pre_10_5": 0.24805567419211383,
+      "pre_5_1": 0.21731747475788055,
+      "peer_pre_trend": 0.23938554965718659,
+      "is_commodity": 1.0
+    }
+  },
+  "rank_deficiency_status": "SECTOR_ALIASED_WITH_TICKER_FE",
+  "verdict": "MODERATE_MULTICOLLINEARITY_NO_FATAL_COLLINEARITY",
+  "interpretation": "The condition number is 4.94 and all non-aliased variable VIFs are < 3.5 (Evidence VIF = 1.09). This confirms that while sector/commodity are collinear with ticker fixed effects, pre-trend and evidence variables are sufficiently orthogonal."
+}

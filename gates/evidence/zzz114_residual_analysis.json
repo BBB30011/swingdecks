@@ -1,0 +1,10 @@
+{
+  "model_name": "M4_Pre_Trend_Residual_Approach",
+  "N": 73,
+  "evidence_mean_residual_h5": 0.006409653496808106,
+  "unobserved_mean_residual_h5": -0.027012111165119874,
+  "residual_differential_pp": 3.3421764661927975,
+  "permutation_p": 0.0188,
+  "r2_pre_trend_model": 0.07050683496900667,
+  "interpretation": "After removing the pre-event expected trajectory, the residual H5 peer excess associated with disclosure evidence is +3.34 pp (p = 0.0188). This confirms a modest positive residual continuation beyond pre-trend."
+}

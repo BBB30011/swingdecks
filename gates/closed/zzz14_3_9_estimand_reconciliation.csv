@@ -1,0 +1,3 @@
+specification,matching_pool_treatment_n,matching_pool_control_n,caliper_restriction,matched_pairs,effect_pp,se_pp,p_value,estimand_definition,identity_verdict
+PRIMARY_E2_UNRESTRICTED_MATCHING,59,14,NONE (Full Treatment Cohort Searched),14,2.6001061459793773,1.9240155450535337,0.17656874184690086,Local ATT on 14 closest pairs formed from entire candidate pool,CANONICAL_PRIMARY_E2 (+2.6001 pp)
+CALIPER_RESTRICTED_SENSITIVITY_D150,17,13,d_min <= 1.50 (Pre-Filtered Subsample),13,4.992293970942351,2.1221444303529093,0.018648890111442107,Subsample ATT on 13 pairs strictly within tight geometric core,SENSITIVITY_GRID_D150 (+4.9923 pp)

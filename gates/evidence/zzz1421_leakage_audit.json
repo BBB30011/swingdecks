@@ -1,0 +1,14 @@
+{
+  "test_timestamp": "2018-05-15 16:00:00",
+  "total_adversarial_records": 8,
+  "admitted_valid_records": 1,
+  "leaks_detected": 0,
+  "four_timestamp_enforced": true,
+  "future_published_blocked": true,
+  "future_available_blocked": true,
+  "future_observed_blocked": true,
+  "future_valid_from_blocked": true,
+  "expired_valid_to_blocked": true,
+  "current_state_flag_blocked": true,
+  "status": "PASS"
+}

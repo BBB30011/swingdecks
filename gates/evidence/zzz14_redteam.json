@@ -1,0 +1,129 @@
+{
+  "checks": [
+    {
+      "dimension": 1,
+      "name": "Baseline Immutability",
+      "rule": "Methodology V1 and Dataset V1 strictly frozen",
+      "status": "PASS"
+    },
+    {
+      "dimension": 2,
+      "name": "Controlled Evolution",
+      "rule": "4-Layer Governance separates baseline from extensions",
+      "status": "PASS"
+    },
+    {
+      "dimension": 3,
+      "name": "No Methodology Prison",
+      "rule": "Intake pipeline registers and classifies all new criteria",
+      "status": "PASS"
+    },
+    {
+      "dimension": 4,
+      "name": "Intake Classification",
+      "rule": "6-Type categorization (Types A-F) strictly enforced",
+      "status": "PASS"
+    },
+    {
+      "dimension": 5,
+      "name": "Backward Compatibility",
+      "rule": "Compatibility status (Compatible, Experimental, etc.) assigned",
+      "status": "PASS"
+    },
+    {
+      "dimension": 6,
+      "name": "Schema Version Lineage",
+      "rule": "Additive field versioning preserves historical schemas",
+      "status": "PASS"
+    },
+    {
+      "dimension": 7,
+      "name": "Taxonomy Evolution",
+      "rule": "New domains added without retroactively modifying V1",
+      "status": "PASS"
+    },
+    {
+      "dimension": 8,
+      "name": "Temporal State Invariance",
+      "rule": "valid_from/valid_to enforced on all new relationships",
+      "status": "PASS"
+    },
+    {
+      "dimension": 9,
+      "name": "Preservation of UNKNOWN",
+      "rule": "UNKNOWN / NO_EVIDENCE stratum strictly preserved",
+      "status": "PASS"
+    },
+    {
+      "dimension": 10,
+      "name": "Hypothesis Invalidation",
+      "rule": "Scientific failure recorded as valid output (not data rejection)",
+      "status": "PASS"
+    },
+    {
+      "dimension": 11,
+      "name": "Conclusion Mutability",
+      "rule": "V2 allowed to find stronger, weaker, or zero effects",
+      "status": "PASS"
+    },
+    {
+      "dimension": 12,
+      "name": "Research Branching",
+      "rule": "Sandboxed branches prevent mutating parent baselines",
+      "status": "PASS"
+    },
+    {
+      "dimension": 13,
+      "name": "10-Point Promotion Gate",
+      "rule": "Promotion requires meeting all 10 institutional criteria",
+      "status": "PASS"
+    },
+    {
+      "dimension": 14,
+      "name": "Point-In-Time Integrity",
+      "rule": "publication_time <= AS_OF enforced on all new sources",
+      "status": "PASS"
+    },
+    {
+      "dimension": 15,
+      "name": "Source Provenance",
+      "rule": "Cryptographic SHA-256 hashes recorded for all new files",
+      "status": "PASS"
+    },
+    {
+      "dimension": 16,
+      "name": "Strategy Isolation",
+      "rule": "Type F strategy changes quarantined from historical foundation",
+      "status": "PASS"
+    },
+    {
+      "dimension": 17,
+      "name": "Methodology Versioning",
+      "rule": "Type E changes mandate distinct METHODOLOGY_V2 version",
+      "status": "PASS"
+    },
+    {
+      "dimension": 18,
+      "name": "Entity Resolution Bounds",
+      "rule": "Ambiguous entities mapped to ENTITY_UNRESOLVED",
+      "status": "PASS"
+    },
+    {
+      "dimension": 19,
+      "name": "Replication-First Mandate",
+      "rule": "Dataset V2 must replicate V1 subset before expansion",
+      "status": "PASS"
+    },
+    {
+      "dimension": 20,
+      "name": "Causal Overclaim Prevention",
+      "rule": "New evidence classified under strict 6-level causality hierarchy",
+      "status": "PASS"
+    }
+  ],
+  "total_checks": 20,
+  "passed_checks": 20,
+  "failed_checks": 0,
+  "overall_status": "PASS",
+  "verdict": "ADAPTIVE_FOUNDATION_GOVERNANCE_CERTIFIED"
+}

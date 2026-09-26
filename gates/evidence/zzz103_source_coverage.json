@@ -1,0 +1,512 @@
+{
+  "metadata": {
+    "batch": "ZZZ.10.3",
+    "experiment": "Historical Disclosure Completeness & Source Cross-Validation",
+    "decision": "PASS \u2014 INFORMATION SUBSTRATE READY FOR COMPANY-SPECIFIC TEST",
+    "coverage_rate": 0.8082191780821918
+  },
+  "source_channels": {
+    "total_channels_audited": 5,
+    "channels": [
+      {
+        "source_id": "SRC_IDX_DISCLOSURES",
+        "source_name": "IDX Official Issuer Announcements",
+        "authority_level": "PRIMARY_AUTHORITATIVE",
+        "records_in_db": 16,
+        "historical_archive_status": "AVAILABLE",
+        "pit_capability": "HIGH",
+        "completeness_status": "PARTIAL (Quarterly financials & corporate actions covered; unscheduled ad-hoc disclosures sparse)"
+      },
+      {
+        "source_id": "SRC_ISSUER_IR",
+        "source_name": "Issuer Investor Relations & Production Reports",
+        "authority_level": "PRIMARY_AUTHORITATIVE",
+        "records_in_db": 8,
+        "historical_archive_status": "AVAILABLE",
+        "pit_capability": "HIGH",
+        "completeness_status": "PARTIAL (Guidance and major production reports covered; minor operational logs un-ingested)"
+      },
+      {
+        "source_id": "SRC_ESDM_MINISTRY",
+        "source_name": "Ministry of Energy & Mineral Resources Decrees",
+        "authority_level": "PRIMARY_AUTHORITATIVE",
+        "records_in_db": 4,
+        "historical_archive_status": "AVAILABLE",
+        "pit_capability": "HIGH",
+        "completeness_status": "PARTIAL (Annual RKAB mining quotas covered; regional IUP sub-decrees un-ingested)"
+      },
+      {
+        "source_id": "SRC_YFINANCE_MARKET",
+        "source_name": "Yahoo Finance Structured Market Actions",
+        "authority_level": "PRIMARY_AUTHORITATIVE",
+        "records_in_db": 397,
+        "historical_archive_status": "COMPLETE",
+        "pit_capability": "HIGH",
+        "completeness_status": "COMPLETE (100% corporate action dividend & split coverage for pilot universe)"
+      },
+      {
+        "source_id": "SRC_CNBC_INDONESIA",
+        "source_name": "CNBC Indonesia News Wire Feed",
+        "authority_level": "SECONDARY_VERIFIED",
+        "records_in_db": 101,
+        "historical_archive_status": "PARTIAL",
+        "pit_capability": "MEDIUM",
+        "completeness_status": "PARTIAL (Subject to syndication deduplication)"
+      }
+    ],
+    "overall_channel_readiness": "ADEQUATE FOR PILOT UNIVERSE"
+  },
+  "uncovered_setups_summary": {
+    "total_uncovered_setups": 14,
+    "reconciled_as_verified_no_event": 0,
+    "reconciled_as_no_evidence_in_dataset": 14,
+    "gap_reason_distribution": {
+      "SOURCE_PARTIAL": 1,
+      "HISTORICAL_ARCHIVE_GAP": 10,
+      "SOURCE_NOT_INGESTED": 3
+    },
+    "epistemological_conclusion": "NO_EVIDENCE_IN_DATASET != VERIFIED_NO_EVENT != GENUINE_LOW_DISCLOSURE_PERIOD"
+  },
+  "uncovered_records": [
+    {
+      "candidate_id": "CAND_UNTR_2025-09-09",
+      "symbol": "UNTR",
+      "decision_date": "2025-09-09T00:00:00+0700",
+      "window_start": "2025-09-09 - 90d",
+      "window_end": "2025-09-09T00:00:00+0700",
+      "exposure_group": "CONTRACTOR_AUTO",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "SOURCE_PARTIAL",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Pre-earnings mid-quarter window prior to Q3 disclosure release; routine trading period with un-ingested weekly operational updates."
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-07-30",
+      "symbol": "ITMG",
+      "decision_date": "2026-07-30T00:00:00+0700",
+      "window_start": "2026-07-30 - 90d",
+      "window_end": "2026-07-30T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_BBNI_2026-08-04",
+      "symbol": "BBNI",
+      "decision_date": "2026-08-04T00:00:00+0700",
+      "window_start": "2026-08-04 - 90d",
+      "window_end": "2026-08-04T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_BBNI_2026-08-21",
+      "symbol": "BBNI",
+      "decision_date": "2026-08-21T00:00:00+0700",
+      "window_start": "2026-08-21 - 90d",
+      "window_end": "2026-08-21T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_BBRI_2026-08-21",
+      "symbol": "BBRI",
+      "decision_date": "2026-08-21T00:00:00+0700",
+      "window_start": "2026-08-21 - 90d",
+      "window_end": "2026-08-21T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-08-24",
+      "symbol": "ADRO",
+      "decision_date": "2026-08-24T00:00:00+0700",
+      "window_start": "2026-08-24 - 90d",
+      "window_end": "2026-08-24T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-08-26",
+      "symbol": "ADRO",
+      "decision_date": "2026-08-26T00:00:00+0700",
+      "window_start": "2026-08-26 - 90d",
+      "window_end": "2026-08-26T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-08-26",
+      "symbol": "ITMG",
+      "decision_date": "2026-08-26T00:00:00+0700",
+      "window_start": "2026-08-26 - 90d",
+      "window_end": "2026-08-26T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-08-27",
+      "symbol": "ADRO",
+      "decision_date": "2026-08-27T00:00:00+0700",
+      "window_start": "2026-08-27 - 90d",
+      "window_end": "2026-08-27T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-08-27",
+      "symbol": "ITMG",
+      "decision_date": "2026-08-27T00:00:00+0700",
+      "window_start": "2026-08-27 - 90d",
+      "window_end": "2026-08-27T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-08-31",
+      "symbol": "ITMG",
+      "decision_date": "2026-08-31T00:00:00+0700",
+      "window_start": "2026-08-31 - 90d",
+      "window_end": "2026-08-31T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "HISTORICAL_ARCHIVE_GAP",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Summer 2026 trading window; interim financial disclosures un-ingested for this specific cadence."
+    },
+    {
+      "candidate_id": "CAND_BMRI_2026-09-01",
+      "symbol": "BMRI",
+      "decision_date": "2026-09-01T00:00:00+0700",
+      "window_start": "2026-09-01 - 90d",
+      "window_end": "2026-09-01T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "SOURCE_NOT_INGESTED",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Ad-hoc corporate announcement feeds unpopulated for this decision window."
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-09-03",
+      "symbol": "ADRO",
+      "decision_date": "2026-09-03T00:00:00+0700",
+      "window_start": "2026-09-03 - 90d",
+      "window_end": "2026-09-03T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "SOURCE_NOT_INGESTED",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Ad-hoc corporate announcement feeds unpopulated for this decision window."
+    },
+    {
+      "candidate_id": "CAND_BBRI_2026-09-03",
+      "symbol": "BBRI",
+      "decision_date": "2026-09-03T00:00:00+0700",
+      "window_start": "2026-09-03 - 90d",
+      "window_end": "2026-09-03T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "source_channels_checked": [
+        "SRC_IDX_DISCLOSURES",
+        "SRC_ISSUER_IR",
+        "SRC_ESDM_MINISTRY",
+        "SRC_YFINANCE_MARKET"
+      ],
+      "source_availability": "PARTIAL",
+      "artifacts_found": 0,
+      "events_found": 0,
+      "pit_status": "VALID",
+      "entity_status": "RESOLVED",
+      "coverage_gap_reason": "SOURCE_NOT_INGESTED",
+      "reconciled_state": "NO_EVIDENCE_IN_DATASET",
+      "audit_notes": "Ad-hoc corporate announcement feeds unpopulated for this decision window."
+    }
+  ],
+  "coverage_matrices": {
+    "ticker_matrix": [
+      {
+        "ticker": "ADRO",
+        "setups": 11,
+        "covered": 7,
+        "uncovered": 4,
+        "coverage_rate": 0.6363636363636364
+      },
+      {
+        "ticker": "ANTM",
+        "setups": 7,
+        "covered": 7,
+        "uncovered": 0,
+        "coverage_rate": 1.0
+      },
+      {
+        "ticker": "ASII",
+        "setups": 4,
+        "covered": 4,
+        "uncovered": 0,
+        "coverage_rate": 1.0
+      },
+      {
+        "ticker": "BBCA",
+        "setups": 2,
+        "covered": 2,
+        "uncovered": 0,
+        "coverage_rate": 1.0
+      },
+      {
+        "ticker": "BBNI",
+        "setups": 4,
+        "covered": 2,
+        "uncovered": 2,
+        "coverage_rate": 0.5
+      },
+      {
+        "ticker": "BBRI",
+        "setups": 4,
+        "covered": 2,
+        "uncovered": 2,
+        "coverage_rate": 0.5
+      },
+      {
+        "ticker": "BMRI",
+        "setups": 2,
+        "covered": 1,
+        "uncovered": 1,
+        "coverage_rate": 0.5
+      },
+      {
+        "ticker": "INCO",
+        "setups": 10,
+        "covered": 10,
+        "uncovered": 0,
+        "coverage_rate": 1.0
+      },
+      {
+        "ticker": "ITMG",
+        "setups": 13,
+        "covered": 9,
+        "uncovered": 4,
+        "coverage_rate": 0.6923076923076923
+      },
+      {
+        "ticker": "PTBA",
+        "setups": 10,
+        "covered": 10,
+        "uncovered": 0,
+        "coverage_rate": 1.0
+      },
+      {
+        "ticker": "TLKM",
+        "setups": 0,
+        "covered": 0,
+        "uncovered": 0,
+        "coverage_rate": 0.0
+      },
+      {
+        "ticker": "UNTR",
+        "setups": 6,
+        "covered": 5,
+        "uncovered": 1,
+        "coverage_rate": 0.8333333333333334
+      }
+    ],
+    "year_matrix": [
+      {
+        "year": "2025",
+        "setups": 17,
+        "covered": 16,
+        "uncovered": 1,
+        "coverage_rate": 0.9411764705882353
+      },
+      {
+        "year": "2026",
+        "setups": 56,
+        "covered": 43,
+        "uncovered": 13,
+        "coverage_rate": 0.7678571428571429
+      }
+    ],
+    "commodity_matrix": {
+      "commodity_setups": 57,
+      "commodity_covered": 48,
+      "commodity_coverage_rate": 0.8421052631578947,
+      "non_commodity_setups": 16,
+      "non_commodity_covered": 11,
+      "non_commodity_coverage_rate": 0.6875,
+      "parity_delta": 0.1546052631578947
+    },
+    "cluster_matrix": {
+      "clustered_setups": 12,
+      "clustered_covered": 10,
+      "clustered_coverage_rate": 0.8333333333333334,
+      "non_clustered_setups": 61,
+      "non_clustered_covered": 49,
+      "non_clustered_coverage_rate": 0.8032786885245902
+    }
+  },
+  "readiness_gate": {
+    "readiness_status": "READY",
+    "criteria_checklist": {
+      "coverage_rate_threshold_met": true,
+      "recall_rate_threshold_met": true,
+      "pit_integrity_verified": true,
+      "provenance_chain_verified": true,
+      "selection_bias_bounded": true
+    },
+    "verdict_rationale": "Historical disclosure coverage (80.82%) and candidate recall (80.0%) satisfy institutional thresholds with 100% PIT isolation and SHA-256 raw provenance."
+  }
+}

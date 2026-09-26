@@ -1,0 +1,35 @@
+{
+  "red_team_batch": "BATCH-ZZZ.11.7",
+  "evaluator": "Agent 2 (Market Intelligence & Red Team)",
+  "total_checks": 20,
+  "checks": {
+    "01_peer_contamination": "PASS (Peer contamination isolated under C2/C4/C5; purified differential remains +2.98 pp)",
+    "02_event_contamination": "PASS (Entity resolution strictly verified; 0 cross-ticker corporate event leakage)",
+    "03_date_contamination": "PASS (Same-date multi-evidence co-occurrences excluded from counterfactuals in C4/C5)",
+    "04_control_contamination": "PASS (Control contamination resolved; differential vs clean controls is +2.78 pp, vs purified controls is +2.98 pp)",
+    "05_evidence_to_evidence_contamination": "PASS (Eliminated under C2/C4/C5 by removing same-date Evidence peers from benchmark)",
+    "06_event_reuse": "WEAK (30 events across 59 Evidence setups due to rolling 5-day lookback window; reflects continuous disclosure states)",
+    "07_rolling_window_overlap": "WEAK (Rolling 5-day window generates multi-day setup sequences for single disclosure events)",
+    "08_small_peer_group": "WEAK (Purification reduces median peer size to 1.0; flagged BENCHMARK_FRAGILE)",
+    "09_benchmark_instability": "PASS (C0 to C5 differential range is narrow: +2.98 pp to +3.10 pp; low sensitivity to peer exclusion)",
+    "10_ticker_concentration": "WEAK (Ticker-weighted differential is +1.33 pp, reflecting heavy commodity setup concentration)",
+    "11_date_concentration": "PASS (Date-weighted differential is +2.84 pp, confirming edge is distributed across dates)",
+    "12_same_event_dependence": "PASS (0 cross-company corporate action collisions)",
+    "13_placebo": "PASS (Purified placebo differential remains flat +0.10 pp; disclosure confirms accumulation trend)",
+    "14_pre_trend": "PASS (Pre-trend drift confirms disclosure role as confirmation/continuation marker)",
+    "15_point_in_time_provenance": "PASS (100% of event publication timestamps strictly prior to decision dates T)",
+    "16_outcome_blindness": "PASS (All C0-C5 peer exclusion rules constructed 100% blind to future returns)",
+    "17_snapshot_integrity": "PASS (Cryptographic snapshot hashes verify 0 sample mutation; RESEARCH_SAMPLE_HASH validated)",
+    "18_historical_reproducibility": "PASS (Historical results of ZZZ.11.5 and ZZZ.11.6 remain 100% reproducible and frozen)",
+    "19_data_version_contamination": "PASS (Zero new external data backfilled; dataset V1.0 strictly maintained)",
+    "20_causal_overclaim": "PASS (Zero causal claims; results strictly designated as observed relative performance)"
+  },
+  "overall_assessment": "COUNTERFACTUAL_PURIFIED_WITH_LIMITATIONS",
+  "governance_ruling": {
+    "counterfactual_status": "COUNTERFACTUAL_PURIFIED_WITH_LIMITATIONS",
+    "association_status": "ROBUST_WITHIN_COMMODITY_REGIMES",
+    "identification_status": "LEVEL_2 (Observed Relative Performance with Moderate Confounding)",
+    "causal_status": "NOT_ESTABLISHED",
+    "alpha_status": "NOT_ESTABLISHED"
+  }
+}

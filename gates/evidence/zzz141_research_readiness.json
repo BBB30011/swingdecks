@@ -1,0 +1,7 @@
+{
+  "decision": "PASS - DATASET V2 RESEARCH READY",
+  "limitations": [
+    "Historical ownership data sparse before 2018",
+    "News coverage heavily biased towards top 20 tickers"
+  ]
+}

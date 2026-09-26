@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "batch": "ZZZ.10.1",
+    "experiment": "Historical Disclosure Coverage & Event Completeness Audit",
+    "audit_scope": "73 Layer E Setups & 497 DuckDB Event Records",
+    "random_seed": 42
+  },
+  "substrate_audit": {
+    "total_event_records": 497,
+    "event_type_distribution": {
+      "CORPORATE_ACTION_DIVIDEND": 385,
+      "NEWS_INFORMATION_ARTICLE": 100,
+      "CORPORATE_ACTION_SPLIT": 12
+    },
+    "source_distribution": {
+      "SRC_YFINANCE_MARKET": 397,
+      "INFO_RSS_CNBC_ID": 100
+    },
+    "entity_record_counts": {
+      "None": 95,
+      "ENT_BBCA": 50,
+      "ENT_ASII": 47,
+      "ENT_UNTR": 43,
+      "ENT_ITMG": 38,
+      "ENT_ADRO": 35,
+      "ENT_BBRI": 31,
+      "ENT_TLKM": 31,
+      "ENT_BMRI": 30,
+      "ENT_PTBA": 29,
+      "ENT_BBNI": 25,
+      "ENT_INCO": 22,
+      "ENT_ANTM": 21
+    },
+    "pit_valid_records": 497,
+    "pit_validity_rate": 1.0
+  },
+  "coverage_metrics": {
+    "total_layer_e_setups": 73,
+    "event_present_count": 24,
+    "no_evidence_in_dataset_count": 49,
+    "verified_no_event_count": 0,
+    "entity_unresolved_count": 0,
+    "c0_no_event_reconciliation": {
+      "original_c0_no_event_count": 49,
+      "reconciled_as_no_evidence_in_dataset": 49,
+      "reconciled_as_verified_no_event": 0
+    },
+    "observed_event_incidence_in_dataset": 0.3287671232876712,
+    "full_qualitative_disclosure_coverage_rate": 0.3288,
+    "coverage_state_conclusion": "CONDITIONAL \u2014 COVERAGE INSUFFICIENT / CONCLUSION LIMITED"
+  },
+  "type_completeness": [
+    {
+      "event_type": "EARNINGS_FINANCIAL_RESULTS",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "MANAGEMENT_GUIDANCE",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "PRODUCTION_OPERATIONAL",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "OPERATIONAL_DISRUPTION",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "MATERIAL_CONTRACT",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "GOVERNMENT_PERMIT_REGULATION",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "OWNERSHIP_CONTROLLER_CHANGE",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "CORPORATE_ACTION_DIVIDEND",
+      "record_count": 385,
+      "ingestion_status": "POPULATED",
+      "audit_state": "COVERED"
+    },
+    {
+      "event_type": "CORPORATE_ACTION_SPLIT",
+      "record_count": 12,
+      "ingestion_status": "POPULATED",
+      "audit_state": "COVERED"
+    },
+    {
+      "event_type": "M_AND_A_RESTRUCTURING",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "LITIGATION_LEGAL",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    },
+    {
+      "event_type": "PROJECT_ANNOUNCEMENT",
+      "record_count": 0,
+      "ingestion_status": "NO_EVIDENCE_IN_DATASET",
+      "audit_state": "SOURCE_UNAVAILABLE_OR_UNPOPULATED"
+    }
+  ],
+  "ticker_coverage": [
+    {
+      "symbol": "ADRO",
+      "layer_e_setups": 11,
+      "event_present": 6,
+      "no_evidence_in_dataset": 5,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "ANTM",
+      "layer_e_setups": 7,
+      "event_present": 1,
+      "no_evidence_in_dataset": 6,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "ASII",
+      "layer_e_setups": 4,
+      "event_present": 4,
+      "no_evidence_in_dataset": 0,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "BBCA",
+      "layer_e_setups": 2,
+      "event_present": 1,
+      "no_evidence_in_dataset": 1,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "BBNI",
+      "layer_e_setups": 4,
+      "event_present": 0,
+      "no_evidence_in_dataset": 4,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "BBRI",
+      "layer_e_setups": 4,
+      "event_present": 2,
+      "no_evidence_in_dataset": 2,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "BMRI",
+      "layer_e_setups": 2,
+      "event_present": 1,
+      "no_evidence_in_dataset": 1,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "INCO",
+      "layer_e_setups": 10,
+      "event_present": 1,
+      "no_evidence_in_dataset": 9,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "ITMG",
+      "layer_e_setups": 13,
+      "event_present": 3,
+      "no_evidence_in_dataset": 10,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "PTBA",
+      "layer_e_setups": 10,
+      "event_present": 2,
+      "no_evidence_in_dataset": 8,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "TLKM",
+      "layer_e_setups": 0,
+      "event_present": 0,
+      "no_evidence_in_dataset": 0,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    },
+    {
+      "symbol": "UNTR",
+      "layer_e_setups": 6,
+      "event_present": 3,
+      "no_evidence_in_dataset": 3,
+      "verified_no_event": 0,
+      "corporate_action_coverage": "100%",
+      "qualitative_disclosure_coverage": "SPARSE"
+    }
+  ],
+  "future_injection_audit": {
+    "audit_results": [
+      {
+        "future_delta_days": 1,
+        "injected_at": "2025-09-10T00:00:00+07:00",
+        "queried_at_T": "2025-09-09T00:00:00+0700",
+        "found_at_T": false,
+        "leakage_status": "PASS"
+      },
+      {
+        "future_delta_days": 2,
+        "injected_at": "2025-09-11T00:00:00+07:00",
+        "queried_at_T": "2025-09-09T00:00:00+0700",
+        "found_at_T": false,
+        "leakage_status": "PASS"
+      },
+      {
+        "future_delta_days": 5,
+        "injected_at": "2025-09-14T00:00:00+07:00",
+        "queried_at_T": "2025-09-09T00:00:00+0700",
+        "found_at_T": false,
+        "leakage_status": "PASS"
+      }
+    ],
+    "overall_status": "PASS",
+    "future_evidence_used_count": 0
+  }
+}

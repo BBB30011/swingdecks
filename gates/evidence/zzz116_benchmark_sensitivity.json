@@ -1,0 +1,75 @@
+{
+  "small_peer_stats": {
+    "peer_N_1": {
+      "total_setups": 27,
+      "evidence_count": 26,
+      "unobserved_count": 1,
+      "evidence_mean_excess_pct": 0.43634396118098623,
+      "unobserved_mean_excess_pct": -4.100678733031671,
+      "differential_pp": 4.5370226942126575,
+      "benchmark_flag": "SMALL_PEER_BENCHMARK"
+    },
+    "peer_N_2": {
+      "total_setups": 34,
+      "evidence_count": 26,
+      "unobserved_count": 8,
+      "evidence_mean_excess_pct": 1.046114215058052,
+      "unobserved_mean_excess_pct": -3.913714826894394,
+      "differential_pp": 4.959829041952446,
+      "benchmark_flag": "SMALL_PEER_BENCHMARK"
+    },
+    "peer_N_3": {
+      "total_setups": 12,
+      "evidence_count": 7,
+      "unobserved_count": 5,
+      "evidence_mean_excess_pct": -0.0033456361504672584,
+      "unobserved_mean_excess_pct": 0.21967788766472052,
+      "differential_pp": -0.22302352381518778,
+      "benchmark_flag": "STANDARD_PEER_BENCHMARK"
+    }
+  },
+  "exposure_group_stats": {
+    "BIG_BANKS": {
+      "total_setups": 12,
+      "peer_N": 3,
+      "evidence_count": 7,
+      "unobserved_count": 5,
+      "mean_target_h5_pct": -0.5285488056269383,
+      "mean_loo_excess_pct": 0.08958083210586099,
+      "mean_median_excess_pct": -0.407851896968688,
+      "mean_inclusive_excess_pct": 0.06718562407939574
+    },
+    "COAL_PRODUCER": {
+      "total_setups": 34,
+      "peer_N": 2,
+      "evidence_count": 26,
+      "unobserved_count": 8,
+      "mean_target_h5_pct": 1.27419231256415,
+      "mean_loo_excess_pct": -0.12090438304840584,
+      "mean_median_excess_pct": -0.12090438304840584,
+      "mean_inclusive_excess_pct": -0.08060292203227053
+    },
+    "CONTRACTOR_AUTO": {
+      "total_setups": 10,
+      "peer_N": 1,
+      "evidence_count": 9,
+      "unobserved_count": 1,
+      "mean_target_h5_pct": 0.6964898467889669,
+      "mean_loo_excess_pct": -0.6844231461613415,
+      "mean_median_excess_pct": -0.6844231461613415,
+      "mean_inclusive_excess_pct": -0.34221157308067074
+    },
+    "NICKEL_MINER": {
+      "total_setups": 17,
+      "peer_N": 1,
+      "evidence_count": 17,
+      "unobserved_count": 0,
+      "mean_target_h5_pct": 2.8796468799469745,
+      "mean_loo_excess_pct": 0.8287350423110227,
+      "mean_median_excess_pct": 0.8287350423110227,
+      "mean_inclusive_excess_pct": 0.41436752115551134
+    }
+  },
+  "benchmark_sensitivity": "LOW_TO_MODERATE (Mean vs Median diff is minimal 0.14 pp; Small-N peer groups predominate)",
+  "small_peer_proportion": 0.8356164383561644
+}

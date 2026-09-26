@@ -1,0 +1,267 @@
+{
+  "peer_contamination_classification": "MATERIAL_CONTAMINATION",
+  "multi_evidence_clusters_count": 12,
+  "multi_evidence_clusters": [
+    {
+      "cluster_id": "2025-10-30T00:00:00+0700__COAL_PRODUCER",
+      "date": "2025-10-30T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "cluster_id": "2025-10-31T00:00:00+0700__CONTRACTOR_AUTO",
+      "date": "2025-10-31T00:00:00+0700",
+      "exposure_group": "CONTRACTOR_AUTO",
+      "evidence_tickers": [
+        "ASII",
+        "UNTR"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2025-12-02T00:00:00+0700__CONTRACTOR_AUTO",
+      "date": "2025-12-02T00:00:00+0700",
+      "exposure_group": "CONTRACTOR_AUTO",
+      "evidence_tickers": [
+        "ASII",
+        "UNTR"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2026-01-05T00:00:00+0700__NICKEL_MINER",
+      "date": "2026-01-05T00:00:00+0700",
+      "exposure_group": "NICKEL_MINER",
+      "evidence_tickers": [
+        "ANTM",
+        "INCO"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2026-01-07T00:00:00+0700__NICKEL_MINER",
+      "date": "2026-01-07T00:00:00+0700",
+      "exposure_group": "NICKEL_MINER",
+      "evidence_tickers": [
+        "ANTM",
+        "INCO"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2026-01-15T00:00:00+0700__BIG_BANKS",
+      "date": "2026-01-15T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "evidence_tickers": [
+        "BBNI",
+        "BBRI",
+        "BMRI"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "cluster_id": "2026-01-22T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-01-22T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "cluster_id": "2026-03-02T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-02T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2026-03-03T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-03T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2026-03-05T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-05T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 2
+    },
+    {
+      "cluster_id": "2026-03-25T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-25T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 3
+    },
+    {
+      "cluster_id": "2026-07-20T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-07-20T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG"
+      ],
+      "evidence_count": 2
+    }
+  ],
+  "total_controls_N": 14,
+  "clean_controls_N": 11,
+  "contaminated_controls_N": 3,
+  "evidence_mean_excess_pct": 0.6528897140535884,
+  "clean_controls_mean_excess_pct": -2.1307189287663912,
+  "contaminated_controls_mean_excess_pct": -3.6246998978109715,
+  "differential_vs_clean_controls_pp": 2.78360864281998,
+  "differential_vs_contaminated_controls_pp": 4.27758961186456,
+  "canonical_differential_pp": 3.103747421900961,
+  "control_records": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09T00:00:00+0700",
+      "exposure_group": "CONTRACTOR_AUTO",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.04100678733031671
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.002040226192006167
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.012111591820122669
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": 0.013871134803001431
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.020513834085075934
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 1,
+      "control_purity": "CONTAMINATED",
+      "excess_H5": 0.028109912683703664
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.06657811930139557
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.029805668873223112
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 1,
+      "control_purity": "CONTAMINATED",
+      "excess_H5": -0.07492686815974481
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 1,
+      "control_purity": "CONTAMINATED",
+      "excess_H5": -0.061924041458288004
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.04500857260887786
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": 0.018716504293427416
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": 0.011021681192005785
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "co_occurring_evidence_count": 0,
+      "control_purity": "CLEAN",
+      "excess_H5": -0.060923602241719665
+    }
+  ]
+}

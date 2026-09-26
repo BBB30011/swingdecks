@@ -1,0 +1,42 @@
+{
+  "is_commodity": {
+    "treatment_mean": 0.7288135593220338,
+    "control_mean": 0.5714285714285714,
+    "treatment_std": 0.4483882428930302,
+    "control_std": 0.5135525910130955,
+    "standardized_mean_diff_smd": 0.32647559236851503,
+    "balance_status": "MODERATE_IMBALANCE"
+  },
+  "pre_5_1": {
+    "treatment_mean": 0.03636053481700001,
+    "control_mean": 0.017500046290662135,
+    "treatment_std": 0.04610041516851514,
+    "control_std": 0.02169116889389185,
+    "standardized_mean_diff_smd": 0.5235233764688884,
+    "balance_status": "MODERATE_IMBALANCE"
+  },
+  "pre_10_5": {
+    "treatment_mean": 0.045487366381397894,
+    "control_mean": 0.006169288974924215,
+    "treatment_std": 0.06701294969469096,
+    "control_std": 0.016748218397377824,
+    "standardized_mean_diff_smd": 0.8049922877762512,
+    "balance_status": "MODERATE_IMBALANCE"
+  },
+  "pre_20_10": {
+    "treatment_mean": 0.023340463641316957,
+    "control_mean": 0.020135572303410693,
+    "treatment_std": 0.06047706260801835,
+    "control_std": 0.030505422254119452,
+    "standardized_mean_diff_smd": 0.0669135324402222,
+    "balance_status": "BALANCED"
+  },
+  "peer_pre_trend": {
+    "treatment_mean": 0.036343699015242134,
+    "control_mean": 0.017570997169498906,
+    "treatment_std": 0.04156651508490819,
+    "control_std": 0.021021462756305388,
+    "standardized_mean_diff_smd": 0.5699598067549222,
+    "balance_status": "MODERATE_IMBALANCE"
+  }
+}

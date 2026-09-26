@@ -1,0 +1,389 @@
+{
+  "batch_id": "BATCH-ZZZ.11.2",
+  "zero_differential_audit": {
+    "root_cause_classification": "REPORTING_TEXT_ARTIFACT",
+    "defect_analysis": "The 0.00 pp values in the markdown table of ZZZ.11.1 Section 4 were a formatting copy-paste artifact where the overall ticker mean return was inadvertently inserted into both conditional columns in the text table. The underlying JSON (scratch/zzz111_coverage_control.json) and execution code accurately computed distinct conditional excess returns: ITMG (+8.69 pp), UNTR (+4.82 pp), ADRO (+1.44 pp), BBNI (+0.50 pp), BBRI (-0.43 pp), BMRI (-0.82 pp).",
+    "ticker_audits": {
+      "ADRO": {
+        "total_observations": 11,
+        "evidence_present_N": 7,
+        "unobserved_N": 4,
+        "evidence_present_mean_excess_H5": -0.029183134506576527,
+        "unobserved_mean_excess_H5": -0.043579669254789094,
+        "actual_within_ticker_delta_pp": 1.4396534748212568,
+        "observation_rows": [
+          {
+            "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+            "decision_date": "2025-10-30T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.030303030303030276,
+            "peer_H5": -0.008300499080640955,
+            "excess_H5": -0.02200253122238932
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+            "decision_date": "2026-01-22T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.05531914893617018,
+            "peer_H5": -0.029337716380333667,
+            "excess_H5": -0.025981432555836514
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+            "decision_date": "2026-01-28T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.013574660633484115,
+            "peer_H5": 0.023258790403276497,
+            "excess_H5": -0.03683345103676061
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+            "decision_date": "2026-03-02T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.024896265560165998,
+            "peer_H5": 0.1384912959381045,
+            "excess_H5": -0.1633875614982705
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+            "decision_date": "2026-03-25T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.05323193916349811,
+            "peer_H5": -0.06633459002927611,
+            "excess_H5": 0.013102650865777998
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+            "decision_date": "2026-07-13T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.048979591836734615,
+            "peer_H5": 0.014583523025360146,
+            "excess_H5": 0.03439606881137447
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+            "decision_date": "2026-07-20T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.01945525291828798,
+            "peer_H5": -0.01587956800835677,
+            "excess_H5": -0.0035756849099312094
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+            "decision_date": "2026-08-24T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.057034220532319324,
+            "peer_H5": 0.02892430784861566,
+            "excess_H5": 0.028109912683703664
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+            "decision_date": "2026-08-26T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.015325670498084198,
+            "peer_H5": 0.08190378979947976,
+            "excess_H5": -0.06657811930139557
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+            "decision_date": "2026-08-27T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.014814814814814836,
+            "peer_H5": 0.08974168297455964,
+            "excess_H5": -0.07492686815974481
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+            "decision_date": "2026-09-03T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": -0.025547445255474477,
+            "peer_H5": 0.03537615698624519,
+            "excess_H5": -0.060923602241719665
+          }
+        ]
+      },
+      "ITMG": {
+        "total_observations": 13,
+        "evidence_present_N": 9,
+        "unobserved_N": 4,
+        "evidence_present_mean_excess_H5": 0.05220693567453642,
+        "unobserved_mean_excess_H5": -0.034694627283098786,
+        "actual_within_ticker_delta_pp": 8.69015629576352,
+        "observation_rows": [
+          {
+            "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+            "decision_date": "2025-10-30T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.004255319148936176,
+            "peer_H5": -0.021324354657688005,
+            "excess_H5": 0.01706903550875183
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+            "decision_date": "2026-01-22T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.02310231023102305,
+            "peer_H5": -0.045446135732907234,
+            "excess_H5": 0.022343825501884185
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+            "decision_date": "2026-01-27T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.007882882882882858,
+            "peer_H5": -0.04408119910303315,
+            "excess_H5": 0.036198316220150295
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+            "decision_date": "2026-03-02T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.20425531914893624,
+            "peer_H5": 0.023915503583553377,
+            "excess_H5": 0.18033981556538287
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+            "decision_date": "2026-03-03T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.121,
+            "peer_H5": -0.013081637180411554,
+            "excess_H5": 0.13408163718041155
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+            "decision_date": "2026-03-05T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.06737247353224252,
+            "peer_H5": 0.004302282080059838,
+            "excess_H5": 0.06307019145218268
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+            "decision_date": "2026-03-12T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.06402164111812447,
+            "peer_H5": 0.05380068728522336,
+            "excess_H5": 0.010220953832901114
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+            "decision_date": "2026-03-25T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.07570715474209655,
+            "peer_H5": -0.05509698223997689,
+            "excess_H5": -0.02061017250211966
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+            "decision_date": "2026-07-20T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.0010277492291881352,
+            "peer_H5": -0.026121069082094828,
+            "excess_H5": 0.027148818311282963
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+            "decision_date": "2026-07-30T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": -0.0040322580645161255,
+            "peer_H5": -0.0019920318725099584,
+            "excess_H5": -0.002040226192006167
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+            "decision_date": "2026-08-26T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.03984063745019917,
+            "peer_H5": 0.06964630632342228,
+            "excess_H5": -0.029805668873223112
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+            "decision_date": "2026-08-27T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.023483365949119372,
+            "peer_H5": 0.08540740740740738,
+            "excess_H5": -0.061924041458288004
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+            "decision_date": "2026-08-31T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.018234165067178454,
+            "peer_H5": 0.06324273767605632,
+            "excess_H5": -0.04500857260887786
+          }
+        ]
+      },
+      "UNTR": {
+        "total_observations": 6,
+        "evidence_present_N": 5,
+        "unobserved_N": 1,
+        "evidence_present_mean_excess_H5": 0.007243150762870121,
+        "unobserved_mean_excess_H5": -0.04100678733031671,
+        "actual_within_ticker_delta_pp": 4.824993809318682,
+        "observation_rows": [
+          {
+            "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+            "decision_date": "2025-09-09T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": -0.018382352941176516,
+            "peer_H5": 0.02262443438914019,
+            "excess_H5": -0.04100678733031671
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+            "decision_date": "2025-10-31T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.02230483271375472,
+            "peer_H5": 0.04471544715447151,
+            "excess_H5": -0.022410614440716792
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+            "decision_date": "2025-11-03T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.021998166819431786,
+            "peer_H5": 0.011811023622047223,
+            "excess_H5": 0.010187143197384563
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+            "decision_date": "2025-12-02T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.034180543382997364,
+            "peer_H5": -0.0037735849056603765,
+            "excess_H5": 0.03795412828865774
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+            "decision_date": "2026-03-31T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.0016103059581320522,
+            "peer_H5": -0.008000000000000007,
+            "excess_H5": 0.00961030595813206
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+            "decision_date": "2026-04-10T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.012779552715654896,
+            "peer_H5": 0.011904761904761862,
+            "excess_H5": 0.0008747908108930336
+          }
+        ]
+      },
+      "BBNI": {
+        "total_observations": 4,
+        "evidence_present_N": 2,
+        "unobserved_N": 2,
+        "evidence_present_mean_excess_H5": 0.0058576171209880346,
+        "unobserved_mean_excess_H5": 0.0008797714914393811,
+        "actual_within_ticker_delta_pp": 0.49778456295486534,
+        "observation_rows": [
+          {
+            "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+            "decision_date": "2025-12-18T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.0273972602739726,
+            "peer_H5": -0.01097057688310917,
+            "excess_H5": -0.01642668339086343
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+            "decision_date": "2026-01-15T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.013215859030837107,
+            "peer_H5": -0.014926058602002393,
+            "excess_H5": 0.0281419176328395
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+            "decision_date": "2026-08-04T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": -0.030054644808743203,
+            "peer_H5": -0.017943052988620534,
+            "excess_H5": -0.012111591820122669
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+            "decision_date": "2026-08-21T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.013404825737265424,
+            "peer_H5": -0.00046630906573600733,
+            "excess_H5": 0.013871134803001431
+          }
+        ]
+      },
+      "BBRI": {
+        "total_observations": 4,
+        "evidence_present_N": 2,
+        "unobserved_N": 2,
+        "evidence_present_mean_excess_H5": -0.009072468059685403,
+        "unobserved_mean_excess_H5": -0.004746076446535075,
+        "actual_within_ticker_delta_pp": -0.43263916131503277,
+        "observation_rows": [
+          {
+            "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+            "decision_date": "2026-01-15T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.007853403141361293,
+            "peer_H5": -0.013138573305510456,
+            "excess_H5": 0.02099197644687175
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+            "decision_date": "2026-01-30T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": -0.007874015748031482,
+            "peer_H5": 0.031262896818211074,
+            "excess_H5": -0.039136912566242556
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+            "decision_date": "2026-08-21T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": -0.012383900928792602,
+            "peer_H5": 0.008129933156283334,
+            "excess_H5": -0.020513834085075934
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+            "decision_date": "2026-09-03T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": -0.02639296187683282,
+            "peer_H5": -0.037414643068838606,
+            "excess_H5": 0.011021681192005785
+          }
+        ]
+      },
+      "BMRI": {
+        "total_observations": 2,
+        "evidence_present_N": 1,
+        "unobserved_N": 1,
+        "evidence_present_mean_excess_H5": 0.010520772258390024,
+        "unobserved_mean_excess_H5": 0.018716504293427416,
+        "actual_within_ticker_delta_pp": -0.8195732035037392,
+        "observation_rows": [
+          {
+            "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+            "decision_date": "2026-01-15T00:00:00+0700",
+            "evidence_state": "EVIDENCE_PRESENT",
+            "target_H5": 0.0,
+            "peer_H5": -0.010520772258390024,
+            "excess_H5": 0.010520772258390024
+          },
+          {
+            "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+            "decision_date": "2026-09-01T00:00:00+0700",
+            "evidence_state": "NO_EVIDENCE_IN_DATASET",
+            "target_H5": 0.02546296296296302,
+            "peer_H5": 0.006746458669535604,
+            "excess_H5": 0.018716504293427416
+          }
+        ]
+      }
+    }
+  }
+}

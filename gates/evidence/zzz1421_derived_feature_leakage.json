@@ -1,0 +1,89 @@
+{
+  "features_audited_count": 8,
+  "lookahead_violations": 0,
+  "current_state_fallbacks_found": 0,
+  "all_features_pit_compliant": true,
+  "features": [
+    {
+      "FEATURE_NAME": "relative_volume_20d",
+      "INPUT_DATA": "Parquet Market Volume",
+      "LOOKBACK": "T-20 to T strictly",
+      "AS_OF_TIME": "T 16:00:00",
+      "ELIGIBILITY_RULE": "MARKET == READY",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "peer_excess_h5",
+      "INPUT_DATA": "Forward Close H5",
+      "LOOKBACK": "Post-T evaluation only",
+      "AS_OF_TIME": "T+5 (Joined AFTER thesis freeze)",
+      "ELIGIBILITY_RULE": "OUTCOME_FIREWALL_ENFORCED",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "contextual_peer_mean_h5",
+      "INPUT_DATA": "Peer Forward Close H5",
+      "LOOKBACK": "Post-T evaluation only",
+      "AS_OF_TIME": "T+5 (Joined AFTER thesis freeze)",
+      "ELIGIBILITY_RULE": "OUTCOME_FIREWALL_ENFORCED",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "deterministic_exposure_score",
+      "INPUT_DATA": "DuckDB fact_exposure",
+      "LOOKBACK": "valid_from <= T < valid_to",
+      "AS_OF_TIME": "T 16:00:00",
+      "ELIGIBILITY_RULE": "EXPOSURE == READY",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "market_regime_ihsg_ma200",
+      "INPUT_DATA": "^JKSE Benchmark Close",
+      "LOOKBACK": "T-200 to T strictly",
+      "AS_OF_TIME": "T 16:00:00",
+      "ELIGIBILITY_RULE": "MARKET == READY",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "historical_event_evidence_count",
+      "INPUT_DATA": "DuckDB fact_event",
+      "LOOKBACK": "published_at <= T strictly",
+      "AS_OF_TIME": "T 16:00:00",
+      "ELIGIBILITY_RULE": "CORPORATE_ACTION == READY",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "relationship_graph_state",
+      "INPUT_DATA": "DuckDB fact_relationship",
+      "LOOKBACK": "valid_from <= T < valid_to",
+      "AS_OF_TIME": "T 16:00:00",
+      "ELIGIBILITY_RULE": "RELATIONSHIP == READY_OR_LIMITED",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    },
+    {
+      "FEATURE_NAME": "opportunity_score_composite",
+      "INPUT_DATA": "Quant + Market Regime at T",
+      "LOOKBACK": "T strictly",
+      "AS_OF_TIME": "T 16:00:00",
+      "ELIGIBILITY_RULE": "QUANT == READY",
+      "FUTURE_DATA_POSSIBLE": false,
+      "CURRENT_STATE_FALLBACK": false,
+      "STATUS": "SAFE"
+    }
+  ],
+  "status": "PASS"
+}

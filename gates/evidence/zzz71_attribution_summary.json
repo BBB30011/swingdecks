@@ -1,0 +1,214 @@
+{
+    "metadata": {
+        "experiment_id": "BATCH_ZZZ_7_1_ATTRIBUTION_LOGIC_AUDIT",
+        "timestamp": "2026-09-14T14:05:00Z",
+        "total_observations": 3000,
+        "n_signals": 1242,
+        "n_controls": 1758,
+        "signal_states": {
+            "WATCH": 702,
+            "EARLY_WATCH": 540
+        }
+    },
+    "evidence_coverage_18_dimensions": {
+        "news": {
+            "NO_EVIDENCE_IN_DATASET": 1240,
+            "AVAILABLE": 2
+        },
+        "corporate_action": {
+            "NO_EVIDENCE_IN_DATASET": 1230,
+            "AVAILABLE": 12
+        },
+        "fundamental": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "macro": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "commodity": {
+            "NO_EVIDENCE_IN_DATASET": 1240,
+            "PARTIAL": 2
+        },
+        "fx": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "monetary": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "policy": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "politics": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "geopolitics": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "ownership": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "relationship": {
+            "NOT_AVAILABLE": 1242
+        },
+        "exposure": {
+            "NOT_AVAILABLE": 1240,
+            "AVAILABLE": 2
+        },
+        "flow": {
+            "AVAILABLE": 1242
+        },
+        "sentiment": {
+            "NO_EVIDENCE_IN_DATASET": 1242
+        },
+        "market_structure": {
+            "AVAILABLE": 1242
+        },
+        "event_calendar": {
+            "PARTIAL": 1242
+        },
+        "peer_information": {
+            "AVAILABLE": 1242
+        }
+    },
+    "pit_metrics": {
+        "signals": {
+            "total_valid_events_mean": 32.2085346215781,
+            "total_valid_events_max": 49,
+            "future_excluded_mean": 1.3075684380032206,
+            "future_excluded_max": 5,
+            "candidates_with_pit_events": 1242,
+            "candidates_with_zero_pit_events": 0
+        },
+        "controls": {
+            "total_valid_events_mean": 32.11262798634812,
+            "candidates_with_pit_events": 1758,
+            "candidates_with_zero_pit_events": 0
+        }
+    },
+    "specificity_distribution": {
+        "signals": {
+            "FACTOR_WIDE": 613,
+            "COMPANY_SPECIFIC_CANDIDATE": 274,
+            "SECTOR_WIDE": 252,
+            "MARKET_WIDE": 54,
+            "UNKNOWN": 49
+        },
+        "controls": {
+            "FACTOR_WIDE": 800,
+            "SECTOR_WIDE": 410,
+            "COMPANY_SPECIFIC_CANDIDATE": 322,
+            "MARKET_WIDE": 126,
+            "UNKNOWN": 100
+        }
+    },
+    "primary_attribution_distribution": {
+        "signals": {
+            "UNKNOWN_COMPONENT": 628,
+            "SECTOR_COMPONENT": 367,
+            "MARKET_COMPONENT": 174,
+            "FLOW_COMPONENT": 68,
+            "OWNERSHIP_COMPONENT": 3,
+            "NEWS_COMPONENT": 2
+        },
+        "controls": {
+            "UNKNOWN_COMPONENT": 882,
+            "SECTOR_COMPONENT": 504,
+            "MARKET_COMPONENT": 341,
+            "OWNERSHIP_COMPONENT": 30,
+            "NEWS_COMPONENT": 1
+        }
+    },
+    "causality_distribution": {
+        "signals": {
+            "OBSERVED": 628,
+            "CORRELATED": 612,
+            "ECONOMICALLY_PLAUSIBLE": 2
+        },
+        "controls": {
+            "OBSERVED": 882,
+            "CORRELATED": 875,
+            "ECONOMICALLY_PLAUSIBLE": 1
+        }
+    },
+    "red_team_checks": {
+        "signals": {
+            "overall_status": {
+                "WEAK": 1235,
+                "PASS": 7
+            },
+            "time_leakage": {
+                "PASS": 1242
+            },
+            "evidence_hallucination": {
+                "PASS": 633,
+                "WEAK": 609
+            },
+            "logic_consistency": {
+                "PASS": 1242
+            },
+            "alternative_explanation": {
+                "INSUFFICIENT_EVIDENCE": 626,
+                "PASS": 605,
+                "WEAK": 11
+            }
+        },
+        "controls": {
+            "overall_status": {
+                "WEAK": 1722,
+                "PASS": 36
+            },
+            "time_leakage": {
+                "PASS": 1758
+            },
+            "evidence_hallucination": {
+                "PASS": 913,
+                "WEAK": 845
+            },
+            "logic_consistency": {
+                "PASS": 1758
+            },
+            "alternative_explanation": {
+                "INSUFFICIENT_EVIDENCE": 877,
+                "PASS": 849,
+                "WEAK": 32
+            }
+        }
+    },
+    "specificity_vs_forward_return": {
+        "COMPANY_SPECIFIC_CANDIDATE": {
+            "n": 274,
+            "H1_mean": -0.0027673934402942637,
+            "H5_mean": -0.004713857939534437,
+            "H20_mean": 0.002044246686886724,
+            "H5_win_rate": 0.46494464944649444
+        },
+        "FACTOR_WIDE": {
+            "n": 613,
+            "H1_mean": 0.001033044463666749,
+            "H5_mean": 0.0015162796103258044,
+            "H20_mean": -0.0024123713937271663,
+            "H5_win_rate": 0.4939550949913644
+        },
+        "MARKET_WIDE": {
+            "n": 54,
+            "H1_mean": -0.002311838332347621,
+            "H5_mean": -0.008487307253874858,
+            "H20_mean": -0.0040981796968542605,
+            "H5_win_rate": 0.4444444444444444
+        },
+        "SECTOR_WIDE": {
+            "n": 252,
+            "H1_mean": 0.0010648512646710317,
+            "H5_mean": 0.0031982131293760126,
+            "H20_mean": -0.007156759339569778,
+            "H5_win_rate": 0.5220883534136547
+        },
+        "UNKNOWN": {
+            "n": 49,
+            "H1_mean": -0.0021057142402305428,
+            "H5_mean": -0.004652342087255152,
+            "H20_mean": -0.03036086102123974,
+            "H5_win_rate": 0.4444444444444444
+        }
+    }
+}

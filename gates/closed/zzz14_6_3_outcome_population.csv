@@ -1,0 +1,5 @@
+population_category,sample_N,proportion_pct,negative_H5_N,negative_H5_rate_pct,positive_H5_N,positive_H5_rate_pct,zero_H5_N,missing_H5_N,mean_H5_pp,interpretation
+ALL_CONTRADICTION_SETUPS,161,100.0,123,76.4,38,23.6,0,0,-1.85,Full pre-T contradiction treatment cohort (independent of forward outcome)
+NEGATIVE_H5_OUTCOME_SUBSET,123,76.4,123,100.0,0,0.0,0,0,-2.95,Subpopulation of contradicted setups that subsequently generated negative returns
+POSITIVE_H5_OUTCOME_SUBSET,38,23.6,0,0.0,38,100.0,0,0,1.68,Subpopulation of contradicted setups that rose despite contradiction (opportunity cost)
+ALL_CONTRADICTION_H10_METRIC,161,100.0,128,79.5,33,20.5,0,0,-3.38,Multi-day H10 outcome profile across full contradiction cohort

@@ -1,0 +1,139 @@
+{
+  "ladder": {
+    "C0_raw": {
+      "specification": "C0_raw",
+      "description": "Raw Association (Evidence Only)",
+      "n": 73,
+      "evidence_coef_pp": 3.1037474219009615,
+      "se_pp": 1.7113095228235595,
+      "t_stat": 1.8136680597557604,
+      "p_value": 0.06972884529859269,
+      "ci_95": [
+        -0.25041924283321526,
+        6.457914086635139
+      ],
+      "r_squared": 0.044278082642837946,
+      "delta_vs_c0_pp": 0.0,
+      "status": "ESTIMATED"
+    },
+    "C1_ticker": {
+      "specification": "C1_ticker",
+      "description": "Evidence + Ticker Fixed Effects",
+      "n": 73,
+      "evidence_coef_pp": 3.631561047400342,
+      "se_pp": 1.9646321398541415,
+      "t_stat": 1.848468715201797,
+      "p_value": 0.06453456610650443,
+      "ci_95": [
+        -0.2191179467137756,
+        7.482240041514459
+      ],
+      "r_squared": 0.17288134309308267,
+      "delta_vs_c0_pp": 0.5278136254993804,
+      "status": "ESTIMATED"
+    },
+    "C2_date": {
+      "specification": "C2_date",
+      "description": "Evidence + Decision Date Fixed Effects",
+      "n": 73,
+      "evidence_coef_pp": 10.13732508050488,
+      "se_pp": 6.715833811676068,
+      "t_stat": 1.509466339515467,
+      "p_value": 0.13117965101008977,
+      "ci_95": [
+        -3.025709190380212,
+        23.30035935138997
+      ],
+      "r_squared": 0.5083756529094052,
+      "delta_vs_c0_pp": 7.033577658603918,
+      "status": "ESTIMATED"
+    },
+    "C3_commodity": {
+      "specification": "C3_commodity",
+      "description": "Evidence + Commodity Dummy",
+      "n": 73,
+      "evidence_coef_pp": 3.0879944064135274,
+      "se_pp": 1.7393663748099701,
+      "t_stat": 1.7753559291100462,
+      "p_value": 0.0758391359721391,
+      "ci_95": [
+        -0.3211636882140141,
+        6.497152501041069
+      ],
+      "r_squared": 0.04433949235456214,
+      "delta_vs_c0_pp": -0.01575301548743413,
+      "status": "ESTIMATED"
+    },
+    "C4_quant": {
+      "specification": "C4_quant",
+      "description": "Evidence + Pre-Trend Trajectory + Regime",
+      "n": 73,
+      "evidence_coef_pp": 3.623116143789698,
+      "se_pp": 1.7409195709906784,
+      "t_stat": 2.0811507918932444,
+      "p_value": 0.03742010601126933,
+      "ci_95": [
+        0.2109137846479685,
+        7.035318502931427
+      ],
+      "r_squared": 0.12616484770642855,
+      "delta_vs_c0_pp": 0.5193687218887364,
+      "status": "ESTIMATED"
+    },
+    "C5_ticker_date": {
+      "specification": "C5_ticker_date",
+      "description": "Evidence + Ticker FE + Date FE",
+      "n": 73,
+      "evidence_coef_pp": 13.522525548962795,
+      "se_pp": 8.595587393521809,
+      "t_stat": 1.5731938877329368,
+      "p_value": 0.11567393019264127,
+      "ci_95": [
+        -3.324825742339952,
+        30.36987684026554
+      ],
+      "r_squared": 0.6219961140717412,
+      "delta_vs_c0_pp": 10.418778127061834,
+      "status": "ESTIMATED"
+    },
+    "C6_ticker_date_commodity": {
+      "specification": "C6_ticker_date_commodity",
+      "description": "Evidence + Ticker FE + Date FE + Commodity",
+      "n": 73,
+      "evidence_coef_pp": 13.522525548964735,
+      "se_pp": 8.59558739352172,
+      "t_stat": 1.5731938877331786,
+      "p_value": 0.11567393019258532,
+      "ci_95": [
+        -3.324825742337838,
+        30.36987684026731
+      ],
+      "r_squared": 0.6219961140717412,
+      "delta_vs_c0_pp": 10.418778127063774,
+      "status": "ESTIMATED"
+    },
+    "C7_full_controls": {
+      "specification": "C7_full_controls",
+      "description": "Full Pre-T Controls (Ticker + Date + Commodity + Pre-Trends + Regime)",
+      "n": 73,
+      "evidence_coef_pp": 14.583178343097682,
+      "se_pp": 9.627455575920937,
+      "t_stat": 1.514748962287753,
+      "p_value": 0.12983598987214884,
+      "ci_95": [
+        -4.286634585707354,
+        33.45299127190272
+      ],
+      "r_squared": 0.6444992421745994,
+      "delta_vs_c0_pp": 11.47943092119672,
+      "status": "ESTIMATED"
+    }
+  },
+  "covariates_audited": [
+    "is_commodity",
+    "pre_5_1",
+    "pre_10_5",
+    "pre_20_10",
+    "peer_pre_trend"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "symbol": {
+    "field_name": "symbol",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "VARCHAR",
+    "description": "Canonical ticker symbol",
+    "is_nullable": false,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "decision_date": {
+    "field_name": "decision_date",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "DATE",
+    "description": "Observation trading date T",
+    "is_nullable": false,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "decision_time": {
+    "field_name": "decision_time",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "TIMESTAMP",
+    "description": "Decision execution timestamp (16:00:00 WIB)",
+    "is_nullable": false,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "evidence_state": {
+    "field_name": "evidence_state",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "VARCHAR",
+    "description": "Verified Point-in-Time disclosure state at T",
+    "is_nullable": false,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "peer_state": {
+    "field_name": "peer_state",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "VARCHAR",
+    "description": "Contextual exposure group",
+    "is_nullable": false,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "target_return_h5": {
+    "field_name": "target_return_h5",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "DOUBLE",
+    "description": "Realized 5-day forward return",
+    "is_nullable": true,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "peer_mean_return_h5": {
+    "field_name": "peer_mean_return_h5",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "DOUBLE",
+    "description": "Leave-one-out peer mean 5-day return",
+    "is_nullable": true,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "peer_excess_h5": {
+    "field_name": "peer_excess_h5",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "DOUBLE",
+    "description": "Realized 5-day peer excess return",
+    "is_nullable": true,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "raw_artifact_hash": {
+    "field_name": "raw_artifact_hash",
+    "schema_version": "SCHEMA_V1_CANONICAL",
+    "introduced_at_batch": "BATCH-ZZZ.11",
+    "data_type": "VARCHAR",
+    "description": "SHA-256 provenance hash",
+    "is_nullable": true,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": null
+  },
+  "disclosure_novelty_score": {
+    "field_name": "disclosure_novelty_score",
+    "schema_version": "SCHEMA_V2_EXPANDED",
+    "introduced_at_batch": "BATCH-ZZZ.13",
+    "data_type": "DOUBLE",
+    "description": "NLP-derived novelty metric comparing filing text to prior 4 quarters",
+    "is_nullable": true,
+    "is_deprecated": false,
+    "deprecated_at_batch": null,
+    "fallback_value": 0.0
+  }
+}

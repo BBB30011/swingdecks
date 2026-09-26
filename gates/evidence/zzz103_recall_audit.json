@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "batch": "ZZZ.10.3",
+    "random_seed": 42,
+    "sample_size": 15
+  },
+  "recall_metrics": {
+    "sample_size": 15,
+    "sampled_setups": [
+      {
+        "symbol": "UNTR",
+        "decision_date": "2025-09-09T00:00:00+0700",
+        "events_in_db": 0,
+        "expected_ref_events": 1,
+        "detected": false,
+        "missed": 1
+      },
+      {
+        "symbol": "INCO",
+        "decision_date": "2025-10-08T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ASII",
+        "decision_date": "2025-10-23T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ITMG",
+        "decision_date": "2025-10-30T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "PTBA",
+        "decision_date": "2025-10-30T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "UNTR",
+        "decision_date": "2025-10-31T00:00:00+0700",
+        "events_in_db": 4,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "INCO",
+        "decision_date": "2026-01-05T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ANTM",
+        "decision_date": "2026-01-21T00:00:00+0700",
+        "events_in_db": 4,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "PTBA",
+        "decision_date": "2026-01-22T00:00:00+0700",
+        "events_in_db": 3,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ANTM",
+        "decision_date": "2026-01-28T00:00:00+0700",
+        "events_in_db": 3,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ADRO",
+        "decision_date": "2026-03-25T00:00:00+0700",
+        "events_in_db": 5,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ITMG",
+        "decision_date": "2026-07-20T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "PTBA",
+        "decision_date": "2026-08-24T00:00:00+0700",
+        "events_in_db": 1,
+        "expected_ref_events": 1,
+        "detected": true,
+        "missed": 0
+      },
+      {
+        "symbol": "ITMG",
+        "decision_date": "2026-08-26T00:00:00+0700",
+        "events_in_db": 0,
+        "expected_ref_events": 1,
+        "detected": false,
+        "missed": 1
+      },
+      {
+        "symbol": "BBRI",
+        "decision_date": "2026-09-03T00:00:00+0700",
+        "events_in_db": 0,
+        "expected_ref_events": 1,
+        "detected": false,
+        "missed": 1
+      }
+    ],
+    "total_reference_events": 15,
+    "detected_events_in_db": 12,
+    "missed_events": 3,
+    "recall_estimate": 0.8,
+    "false_negative_rate": 0.2,
+    "audit_verdict": "ACCEPTABLE_FOR_DISCRIMINATION_PILOT",
+    "limitations": "Reference set is bounded by quarterly corporate reporting cadence; daily ad-hoc press releases are partially sampled."
+  }
+}

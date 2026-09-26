@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "batch": "ZZZ.10",
+    "experiment": "Company-Specific Information Discrimination",
+    "future_injection_audit": {
+      "audit_results": [
+        {
+          "future_delta_days": 1,
+          "injected_at": "2025-09-04T00:00:00+07:00",
+          "queried_at_T": "2025-09-03T00:00:00+0700",
+          "found_at_T": false,
+          "leakage_status": "PASS"
+        },
+        {
+          "future_delta_days": 2,
+          "injected_at": "2025-09-05T00:00:00+07:00",
+          "queried_at_T": "2025-09-03T00:00:00+0700",
+          "found_at_T": false,
+          "leakage_status": "PASS"
+        },
+        {
+          "future_delta_days": 5,
+          "injected_at": "2025-09-08T00:00:00+07:00",
+          "queried_at_T": "2025-09-03T00:00:00+0700",
+          "found_at_T": false,
+          "leakage_status": "PASS"
+        }
+      ],
+      "overall_status": "PASS",
+      "future_evidence_used_count": 0
+    },
+    "exposure_groups": {
+      "COAL_PRODUCER": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "NICKEL_MINER": [
+        "ANTM",
+        "INCO"
+      ],
+      "CONTRACTOR_AUTO": [
+        "ASII",
+        "UNTR"
+      ],
+      "BIG_BANKS": [
+        "BBCA",
+        "BBNI",
+        "BBRI",
+        "BMRI"
+      ],
+      "TELCO": [
+        "TLKM"
+      ]
+    },
+    "random_seed": 42
+  },
+  "states": {
+    "C0_ALL_BASELINE": {
+      "label": "C0_ALL_BASELINE",
+      "N": 73,
+      "mean_h1": 0.00010932717670061001,
+      "mean_h3": 0.009651414057914422,
+      "mean_h5": 0.012725869642006313,
+      "mean_h10": 0.022005923512927815,
+      "mean_h20": 0.00948926230344178,
+      "mean_excess_h5": 0.0005765048245614388,
+      "mean_excess_h10": -0.0032770791643838464,
+      "win_rate_h5": 0.5342465753424658,
+      "win_rate_excess_h5": 0.5205479452054794
+    },
+    "C0_NO_EVENT_PEER": {
+      "label": "C0_NO_EVENT_PEER",
+      "N": 49,
+      "mean_h1": -0.0010870005755438995,
+      "mean_h3": 0.013145460956351357,
+      "mean_h5": 0.015296972081551306,
+      "mean_h10": 0.02558534995395739,
+      "mean_h20": 0.005172910044553941,
+      "mean_excess_h5": -0.0014001555018115061,
+      "mean_excess_h10": -0.013763332538699597,
+      "win_rate_h5": 0.5714285714285714,
+      "win_rate_excess_h5": 0.4897959183673469
+    },
+    "C1_COMPANY_SPECIFIC_EVENT": {
+      "label": "C1_COMPANY_SPECIFIC_EVENT",
+      "N": 24,
+      "mean_h1": 0.0025518296708664837,
+      "mean_h3": 0.0025177349736056807,
+      "mean_h5": 0.007476535494601949,
+      "mean_h10": 0.01514535616762113,
+      "mean_h20": 0.017299804486191204,
+      "mean_excess_h5": 0.004612186324239536,
+      "mean_excess_h10": 0.016821573136388004,
+      "win_rate_h5": 0.4583333333333333,
+      "win_rate_excess_h5": 0.5833333333333334
+    },
+    "C2_AGENT2_THESIS": {
+      "label": "C2_AGENT2_THESIS",
+      "N": 16,
+      "mean_h1": 0.0013843245517482644,
+      "mean_h3": 0.003904881933330405,
+      "mean_h5": 0.013449222458440345,
+      "mean_h10": 0.02630330338583587,
+      "mean_h20": 0.022068411925210005,
+      "mean_excess_h5": 0.011256584645613951,
+      "mean_excess_h10": 0.02542165009458287,
+      "win_rate_h5": 0.5625,
+      "win_rate_excess_h5": 0.625
+    },
+    "C3_RED_TEAM_PASS": {
+      "label": "C3_RED_TEAM_PASS",
+      "N": 16,
+      "mean_h1": 0.0013843245517482644,
+      "mean_h3": 0.003904881933330405,
+      "mean_h5": 0.013449222458440345,
+      "mean_h10": 0.02630330338583587,
+      "mean_h20": 0.022068411925210005,
+      "mean_excess_h5": 0.011256584645613951,
+      "mean_excess_h10": 0.02542165009458287,
+      "win_rate_h5": 0.5625,
+      "win_rate_excess_h5": 0.625
+    }
+  },
+  "incremental_deltas": {
+    "delta_h5": -0.007820436586949357,
+    "delta_excess_h5": 0.006012341826051043,
+    "delta_win_rate": -0.11309523809523808,
+    "p_event_vs_no_event": 0.697,
+    "p_excess_event_vs_no_event": 0.3335
+  }
+}

@@ -1,0 +1,8 @@
+probe_id,test_description,observed_decision_change_pct,p_value,verdict
+P1_SHUFFLED_SEMANTIC_LABELS,Shuffle relevance & thesis labels across setups,0.8,0.89,PASS (No artificial signal)
+P2_DATE_SHIFTED_EVIDENCE,Shift disclosure timestamps by +180 days,0.5,0.94,PASS (No lookahead)
+P3_TICKER_MISMATCHED_EVIDENCE,Assign entity filings to unrelated peers,1.1,0.85,PASS (Entity boundary solid)
+P4_IRRELEVANT_NOISE_EVIDENCE,Inject non-financial web crawl text,0.3,0.97,PASS (Noise rejected)
+P5_STRUCTURE_MATCHED_RANDOM,Random selector matching document volume,4.8,0.38,PASS (Underperforms real AI)
+P6_RANDOM_CONTRADICTION_LABELS,Assign random negative flags to bullish setups,1.4,0.81,PASS (Fails corroboration)
+P7_RANDOM_TRANSMISSION_LABELS,Assign random transmission channels to sectors,1.2,0.84,PASS (Fails peer alignment)

@@ -1,0 +1,5 @@
+semantic_dimension,formal_specification,interpretation,classification
+C0_EXPOSURE_DEFINITION,0 UNITS / SETUP (Rejected by Red Team contradiction gate),Zero capital committed; zero trade exposure,EXACT_ZERO_EXPOSURE
+C1_EXPOSURE_DEFINITION,1 STANDARDIZED UNIT / SETUP,One unbudgeted unit position per candidate setup,UNIT_PER_SETUP
+UNIT_CONSISTENCY,Percentage points (pp) cumulative summation across independent setups,Represents the sum of single-trade return differentials; not compounded portfolio equity,STANDARDIZED_UNIT_SUM
+ACTUAL_PORTFOLIO_CAPITAL,"Dynamic cash balance, concurrent position limits, margin, slippage, rebalancing",Requires full portfolio execution simulation,NOT_ESTIMABLE_PRE_ZZZ147

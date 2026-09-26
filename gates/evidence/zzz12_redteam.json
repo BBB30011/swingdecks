@@ -1,0 +1,129 @@
+{
+  "checks": [
+    {
+      "dimension": 1,
+      "name": "Methodology Drift",
+      "rule": "Primary research question and unit of analysis frozen",
+      "status": "PASS"
+    },
+    {
+      "dimension": 2,
+      "name": "Endpoint Drift",
+      "rule": "H5 Peer-Excess Differential locked as primary endpoint",
+      "status": "PASS"
+    },
+    {
+      "dimension": 3,
+      "name": "Peer Definition Drift",
+      "rule": "Outcome-blind PIT peer construction strictly enforced",
+      "status": "PASS"
+    },
+    {
+      "dimension": 4,
+      "name": "Evidence State Drift",
+      "rule": "6-state taxonomy locked (NO_EVIDENCE != NO_EVENT)",
+      "status": "PASS"
+    },
+    {
+      "dimension": 5,
+      "name": "PIT Drift",
+      "rule": "Strict publication_time <= AS_OF enforced across all queries",
+      "status": "PASS"
+    },
+    {
+      "dimension": 6,
+      "name": "Taxonomy Drift",
+      "rule": "Causality (6 levels) and Attribution (11 components) locked",
+      "status": "PASS"
+    },
+    {
+      "dimension": 7,
+      "name": "Hidden Threshold Change",
+      "rule": "Layer E signal parameters strictly immutable",
+      "status": "PASS"
+    },
+    {
+      "dimension": 8,
+      "name": "Hidden Sample Change",
+      "rule": "Sample N=73 locked via cryptographic hash",
+      "status": "PASS"
+    },
+    {
+      "dimension": 9,
+      "name": "Dataset Mutation",
+      "rule": "V1 Parquet / DuckDB frozen and read-only",
+      "status": "PASS"
+    },
+    {
+      "dimension": 10,
+      "name": "Snapshot Mutation",
+      "rule": "SNAPSHOT_ZZZ117_687970d0e904 verified immutable",
+      "status": "PASS"
+    },
+    {
+      "dimension": 11,
+      "name": "Code/Config Mismatch",
+      "rule": "Code and config hashes cryptographically locked",
+      "status": "PASS"
+    },
+    {
+      "dimension": 12,
+      "name": "Historical Overwrite",
+      "rule": "UPDATED KNOWLEDGE != OVERWRITE HISTORICAL STATE enforced",
+      "status": "PASS"
+    },
+    {
+      "dimension": 13,
+      "name": "Outcome Leakage",
+      "rule": "0 forward return variables used in peer/event definitions",
+      "status": "PASS"
+    },
+    {
+      "dimension": 14,
+      "name": "Hindsight Prevention",
+      "rule": "Point-in-Time uncertainty strictly preserved",
+      "status": "PASS"
+    },
+    {
+      "dimension": 15,
+      "name": "Source Authenticity Confusion",
+      "rule": "SHA-256 integrity separated from source authenticity",
+      "status": "PASS"
+    },
+    {
+      "dimension": 16,
+      "name": "Missingness Conflation",
+      "rule": "Unobserved stratum classified as NO_EVIDENCE_IN_DATASET",
+      "status": "PASS"
+    },
+    {
+      "dimension": 17,
+      "name": "Exploratory to Confirmatory Drift",
+      "rule": "Mandatory labelling of exploratory vs confirmatory tests",
+      "status": "PASS"
+    },
+    {
+      "dimension": 18,
+      "name": "V1 Replication Protocol",
+      "rule": "Replication-first rule codified for all V2 expansions",
+      "status": "PASS"
+    },
+    {
+      "dimension": 19,
+      "name": "Silent Methodology Change",
+      "rule": "Class A-D change control protocol enforced",
+      "status": "PASS"
+    },
+    {
+      "dimension": 20,
+      "name": "Causal Overclaim Prevention",
+      "rule": "Causal Alpha ruled NOT_ESTABLISHED; Level 2 Identification",
+      "status": "PASS"
+    }
+  ],
+  "total_checks": 20,
+  "passed_checks": 20,
+  "failed_checks": 0,
+  "overall_status": "PASS",
+  "redteam_verdict": "METHODOLOGY_LOCK_CERTIFIED_DEFENSIBLE"
+}

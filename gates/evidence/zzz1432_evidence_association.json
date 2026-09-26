@@ -1,0 +1,38 @@
+{
+  "treatment_cohort": {
+    "name": "Evidence Present (Treatment)",
+    "N": 59,
+    "mean_excess_h5_pct": 0.6529,
+    "median_excess_h5_pct": 0.4315,
+    "std_pct": 6.1514,
+    "se_pct": 0.8008,
+    "ci_95_pct": [
+      -0.9168,
+      2.2225
+    ]
+  },
+  "control_cohort": {
+    "name": "No Evidence in Dataset (Control)",
+    "N": 14,
+    "mean_excess_h5_pct": -2.4509,
+    "median_excess_h5_pct": -2.516,
+    "std_pct": 3.4868,
+    "se_pct": 0.9319,
+    "ci_95_pct": [
+      -4.2774,
+      -0.6243
+    ]
+  },
+  "differential_summary": {
+    "peer_excess_differential_pp": 3.1037,
+    "differential_se_pp": 1.2287,
+    "ci_95_differential_pp": [
+      0.6954,
+      5.5121
+    ],
+    "t_statistic": 2.526,
+    "replication_benchmark_pp": 3.1037,
+    "replication_delta_pp": 0.0,
+    "replicated_successfully": true
+  }
+}

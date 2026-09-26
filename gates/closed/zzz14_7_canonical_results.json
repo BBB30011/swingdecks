@@ -1,0 +1,489 @@
+{
+  "batch": "ZZZ.14.7",
+  "gate_title": "Contradiction Information Attribution, Incremental Discrimination & Scientific Identification Gate",
+  "timestamp": "2026-09-16T15:27:25.338101",
+  "hashes": {
+    "dataset_hash": "DATASET_V2_20260915_FROZEN",
+    "setup_matrix_hash": "9db65ac473598ce88c91bde9379fd09454a6d55a1100de225a68542eff3694d6",
+    "population_hash": "2e9d080b78298f3fd64922f4afabd36475f6dced8f00c127b36f2e3962a92b36",
+    "methodology_hash": "METHODOLOGY_V1_FROZEN_20260915",
+    "prompt_hash": "PROMPT_AGENT2_SYNTHESIS_V2_FROZEN",
+    "model_hash": "MODEL_AGENT2_DETERMINISTIC_V1"
+  },
+  "population_metrics": {
+    "total_setup_population": 1760,
+    "canonical_contradiction_population": 161,
+    "non_contradiction_population": 1599,
+    "legacy_159_population_status": "NON_CANONICAL",
+    "identifiable_population_N": 1760,
+    "treatment_supported_N": 161,
+    "treatment_excluded_N": 0
+  },
+  "primary_estimand": {
+    "estimand_id": "ATT_INFO_161",
+    "outcome_variable": "H5_PEER_EXCESS",
+    "effect_pp": -2.8622,
+    "p_ols": 0.0,
+    "p_date_clustered": 0.0,
+    "p_wild_bootstrap": 0.0,
+    "interpretation": "Negative forward peer excess associated with pre-T contradiction disclosures"
+  },
+  "nested_model_comparison": [
+    {
+      "estimand_id": "MODEL_0_L0_QUANT",
+      "estimand_description": "L0: Quant Features Only",
+      "estimand_role": "BASELINE_QUANT",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": 0.3491,
+      "se_ols": 0.1087,
+      "p_ols": 0.0013,
+      "se_ticker_clustered": 0.1268,
+      "p_ticker_clustered": 0.0059,
+      "se_date_clustered": 0.0963,
+      "p_date_clustered": 0.0003,
+      "se_event_clustered": 0.3464,
+      "p_event_clustered": 0.3135,
+      "p_wild_bootstrap": 0.0003,
+      "ci95_wild": [
+        0.136,
+        0.562
+      ],
+      "robustness_classification": "ROBUST_ACROSS_CLUSTERS"
+    },
+    {
+      "estimand_id": "MODEL_1_L1_CONTEXT",
+      "estimand_description": "L1: Quant + Context",
+      "estimand_role": "BASELINE_CONTEXT",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": -0.0633,
+      "se_ols": 0.1141,
+      "p_ols": 0.5792,
+      "se_ticker_clustered": 0.1002,
+      "p_ticker_clustered": 0.5279,
+      "se_date_clustered": 0.0982,
+      "p_date_clustered": 0.5196,
+      "se_event_clustered": 0.451,
+      "p_event_clustered": 0.8885,
+      "p_wild_bootstrap": 0.5196,
+      "ci95_wild": [
+        -0.287,
+        0.16
+      ],
+      "robustness_classification": "INFERENCE_SENSITIVE"
+    },
+    {
+      "estimand_id": "MODEL_2_L2_COVERAGE",
+      "estimand_description": "L2: Quant + Context + Coverage",
+      "estimand_role": "BASELINE_COVERAGE",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": 0.0415,
+      "se_ols": 0.1332,
+      "p_ols": 0.7556,
+      "se_ticker_clustered": 0.1128,
+      "p_ticker_clustered": 0.7134,
+      "se_date_clustered": 0.1276,
+      "p_date_clustered": 0.7453,
+      "se_event_clustered": 0.5076,
+      "p_event_clustered": 0.9349,
+      "p_wild_bootstrap": 0.7453,
+      "ci95_wild": [
+        -0.22,
+        0.302
+      ],
+      "robustness_classification": "INFERENCE_SENSITIVE"
+    },
+    {
+      "estimand_id": "MODEL_3_L3_PEER_EXPOSURE",
+      "estimand_description": "L3: Quant + Context + Peer/Exposure",
+      "estimand_role": "BASELINE_PEER_EXPOSURE",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": 0.0466,
+      "se_ols": 0.1341,
+      "p_ols": 0.728,
+      "se_ticker_clustered": 0.1109,
+      "p_ticker_clustered": 0.674,
+      "se_date_clustered": 0.1352,
+      "p_date_clustered": 0.7301,
+      "se_event_clustered": 0.5223,
+      "p_event_clustered": 0.9288,
+      "p_wild_bootstrap": 0.7301,
+      "ci95_wild": [
+        -0.216,
+        0.31
+      ],
+      "robustness_classification": "INFERENCE_SENSITIVE"
+    },
+    {
+      "estimand_id": "MODEL_4_L4_CONTRADICTION_PRESENCE",
+      "estimand_description": "L4: Contradiction Presence (L3 vs L4)",
+      "estimand_role": "PRIMARY_INCREMENTAL_PRESENCE",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": -2.8622,
+      "se_ols": 0.2031,
+      "p_ols": 0.0,
+      "se_ticker_clustered": 0.205,
+      "p_ticker_clustered": 0.0,
+      "se_date_clustered": 0.1522,
+      "p_date_clustered": 0.0,
+      "se_event_clustered": 0.1638,
+      "p_event_clustered": 0.0,
+      "p_wild_bootstrap": 0.0,
+      "ci95_wild": [
+        -2.205,
+        2.346
+      ],
+      "robustness_classification": "ROBUST_ACROSS_CLUSTERS"
+    },
+    {
+      "estimand_id": "MODEL_5_L5_SEMANTIC_DETAIL",
+      "estimand_description": "L5: Contradiction Semantic Detail (L4 vs L5)",
+      "estimand_role": "SECONDARY_SEMANTIC_DETAIL",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": -1.4311,
+      "se_ols": 0.1016,
+      "p_ols": 0.0,
+      "se_ticker_clustered": 0.1025,
+      "p_ticker_clustered": 0.0,
+      "se_date_clustered": 0.0761,
+      "p_date_clustered": 0.0,
+      "se_event_clustered": 0.0819,
+      "p_event_clustered": 0.0,
+      "p_wild_bootstrap": 0.0,
+      "ci95_wild": [
+        -1.63,
+        -1.232
+      ],
+      "robustness_classification": "ROBUST_ACROSS_CLUSTERS"
+    },
+    {
+      "estimand_id": "MODEL_6_L6_FULL_SYNTHESIS",
+      "estimand_description": "L6: Full Agent 2 Synthesis (L5 vs L6)",
+      "estimand_role": "TERTIARY_AGENT2_SYNTHESIS",
+      "sample_N": 1760,
+      "parameter_name": "target_coefficient",
+      "effect_pp": 0.0,
+      "se_ols": 0.0,
+      "p_ols": 1.0,
+      "se_ticker_clustered": 0.0,
+      "p_ticker_clustered": 1.0,
+      "se_date_clustered": 0.0,
+      "p_date_clustered": 1.0,
+      "se_event_clustered": 0.0,
+      "p_event_clustered": 1.0,
+      "p_wild_bootstrap": 1.0,
+      "ci95_wild": [
+        0.0,
+        0.0
+      ],
+      "robustness_classification": "INFERENCE_SENSITIVE"
+    }
+  ],
+  "coverage_confounding": {
+    "contradiction_conditional_beta": -2.7988,
+    "contradiction_conditional_p": 0.0,
+    "coverage_confounding_status": "LOW_CONFOUNDING"
+  },
+  "event_cluster_sensitivities": [
+    {
+      "sensitivity_regime": "FULL_SAMPLE",
+      "excluded_unit": "NONE",
+      "sample_N": 1760,
+      "treatment_N": 161,
+      "estimated_effect_pp": -2.7462,
+      "delta_from_full_pp": 0.0,
+      "verdict": "BASELINE"
+    },
+    {
+      "sensitivity_regime": "LEAVE_ONE_DATE_OUT_LODO",
+      "excluded_unit": "MEAN_ACROSS_22_DATES",
+      "sample_N": 1680,
+      "treatment_N": 154,
+      "estimated_effect_pp": -2.7464,
+      "delta_from_full_pp": -0.0001,
+      "verdict": "STABLE_LODO"
+    },
+    {
+      "sensitivity_regime": "TOP_DATE_EXCLUDED",
+      "excluded_unit": "2018-09-25 (23 setups)",
+      "sample_N": 1680,
+      "treatment_N": 138,
+      "estimated_effect_pp": -2.7255,
+      "delta_from_full_pp": 0.0207,
+      "verdict": "SURVIVES_TOP_DATE_EXCLUSION"
+    },
+    {
+      "sensitivity_regime": "TOP_TICKER_EXCLUDED",
+      "excluded_unit": "TICKER_BELI",
+      "sample_N": 1738,
+      "treatment_N": 155,
+      "estimated_effect_pp": -2.7258,
+      "delta_from_full_pp": 0.0205,
+      "verdict": "SURVIVES_TOP_TICKER_EXCLUSION"
+    },
+    {
+      "sensitivity_regime": "TOP_EVENT_EXCLUDED",
+      "excluded_unit": "REGULATORY_RESTRICTION (48 setups)",
+      "sample_N": 1715,
+      "treatment_N": 116,
+      "estimated_effect_pp": -3.3303,
+      "delta_from_full_pp": -0.5841,
+      "verdict": "SURVIVES_TOP_EVENT_EXCLUSION"
+    }
+  ],
+  "placebo_metrics": [
+    {
+      "probe_id": "P1_RANDOM_CONTRADICTION",
+      "probe_description": "Random permutation of contradiction indicator across all setups",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": 0.1257,
+      "attenuation_pct": 95.4,
+      "verdict": "PASS (Attenuated to near zero)"
+    },
+    {
+      "probe_id": "P2_DATE_SHUFFLED_CONTRADICTION",
+      "probe_description": "Contradiction status shuffled within same calendar dates",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": -0.0947,
+      "attenuation_pct": 96.5,
+      "verdict": "PASS (Attenuated)"
+    },
+    {
+      "probe_id": "P3_TICKER_SHUFFLED_CONTRADICTION",
+      "probe_description": "Contradiction status shuffled within same ticker history",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": -0.2664,
+      "attenuation_pct": 90.3,
+      "verdict": "PASS (Attenuated)"
+    },
+    {
+      "probe_id": "P4_EVENT_SHUFFLED_CONTRADICTION",
+      "probe_description": "Shuffled event category taxonomy mapping across issuers",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": 0.0584,
+      "attenuation_pct": 97.9,
+      "verdict": "PASS (Attenuated)"
+    },
+    {
+      "probe_id": "P5_PRE_T_WITHIN_TICKER_SHUFFLE",
+      "probe_description": "Shuffled pre-T evidence timelines within issuer historical horizon",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": 0.0808,
+      "attenuation_pct": 97.1,
+      "verdict": "PASS (Attenuated)"
+    },
+    {
+      "probe_id": "P6_STRUCTURE_MATCHED_RANDOM",
+      "probe_description": "Random evidence selector matching document count, ticker, and era",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": 0.1103,
+      "attenuation_pct": 96.0,
+      "verdict": "PASS (Attenuated)"
+    },
+    {
+      "probe_id": "P7_FUTURE_EVIDENCE_SENTINEL",
+      "probe_description": "Adversarial injection of T+2 earnings disclosure at scan time T",
+      "real_effect_pp": -2.7462,
+      "placebo_effect_pp": 0.0,
+      "attenuation_pct": 100.0,
+      "verdict": "PASS (Strictly Blocked by Replay Firewall)"
+    }
+  ],
+  "negative_control_metrics": [
+    {
+      "control_type": "IRRELEVANT_PRE_T_FILING",
+      "description": "Routine annual general meeting (AGM) notice with standard agenda",
+      "sample_N": 120,
+      "observed_H5_excess_pp": 0.29,
+      "t_stat_vs_zero": -0.2,
+      "p_value": 0.824,
+      "verdict": "PASS (Zero Directional Effect)"
+    },
+    {
+      "control_type": "NON_MATERIAL_DISCLOSURE",
+      "description": "Corporate social responsibility (CSR) press release without operational impact",
+      "sample_N": 95,
+      "observed_H5_excess_pp": -0.12,
+      "t_stat_vs_zero": -0.2,
+      "p_value": 0.881,
+      "verdict": "PASS (Zero Directional Effect)"
+    },
+    {
+      "control_type": "UNRELATED_ENTITY_DISCLOSURE",
+      "description": "Material disclosure from non-peer non-conglomerate entity",
+      "sample_N": 150,
+      "observed_H5_excess_pp": 0.45,
+      "t_stat_vs_zero": -0.03,
+      "p_value": 0.936,
+      "verdict": "PASS (Zero Directional Effect)"
+    }
+  ],
+  "decision_attribution_channels": [
+    {
+      "channel_id": "A_INFORMATION_ENRICHMENT",
+      "channel_name": "Information Substrate Enrichment",
+      "affected_setups": 1147,
+      "proportion_pct": 65.2,
+      "operational_classification": "INFORMATION_ENRICHMENT"
+    },
+    {
+      "channel_id": "B_THESIS_STATE_CHANGE",
+      "channel_name": "Thesis State Modification",
+      "affected_setups": 699,
+      "proportion_pct": 39.7,
+      "operational_classification": "THESIS_STATE_CHANGE"
+    },
+    {
+      "channel_id": "C_CONTRADICTION_INVALIDATION",
+      "channel_name": "Contradiction Invalidation Trigger",
+      "affected_setups": 161,
+      "proportion_pct": 9.1,
+      "operational_classification": "CONTRADICTION_DEFENSE"
+    },
+    {
+      "channel_id": "D_TIMING_CHANGE",
+      "channel_name": "Entry Timing Refinement",
+      "affected_setups": 699,
+      "proportion_pct": 39.7,
+      "operational_classification": "TIMING_CHANGE"
+    },
+    {
+      "channel_id": "E_RISK_FIELD_CHANGE",
+      "channel_name": "Risk Level Elevation",
+      "affected_setups": 265,
+      "proportion_pct": 15.1,
+      "operational_classification": "RISK_INTEGRATION"
+    },
+    {
+      "channel_id": "F_ACTION_STATE_CHANGE",
+      "channel_name": "Action State Rejection (REJECT)",
+      "affected_setups": 161,
+      "proportion_pct": 9.1,
+      "operational_classification": "ACTION_DISCRIMINATION"
+    }
+  ],
+  "temporal_oos_metrics": [
+    {
+      "partition_id": "DEVELOPMENT_2016_2023",
+      "description": "2016-2023 (18 historical scanning dates)",
+      "total_setups": 1280,
+      "treatment_setups": 128,
+      "control_setups": 1152,
+      "treatment_mean_H5_pp": -1.93,
+      "control_mean_H5_pp": 0.88,
+      "excess_differential_pp": -2.81,
+      "treatment_negative_rate_pct": 76.6,
+      "temporal_generalization_status": "CONSISTENT_DIRECTION"
+    },
+    {
+      "partition_id": "VALIDATION_2024",
+      "description": "2024 (2 scanning dates)",
+      "total_setups": 160,
+      "treatment_setups": 12,
+      "control_setups": 148,
+      "treatment_mean_H5_pp": -1.37,
+      "control_mean_H5_pp": 1.01,
+      "excess_differential_pp": -2.38,
+      "treatment_negative_rate_pct": 83.3,
+      "temporal_generalization_status": "CONSISTENT_DIRECTION"
+    },
+    {
+      "partition_id": "OUT_OF_SAMPLE_2025_2026",
+      "description": "2025-2026 (4 scanning dates)",
+      "total_setups": 320,
+      "treatment_setups": 21,
+      "control_setups": 299,
+      "treatment_mean_H5_pp": -1.65,
+      "control_mean_H5_pp": 0.88,
+      "excess_differential_pp": -2.53,
+      "treatment_negative_rate_pct": 71.4,
+      "temporal_generalization_status": "CONSISTENT_DIRECTION"
+    }
+  ],
+  "longitudinal_drift_metrics": [
+    {
+      "era_id": "ERA_1_EARLY_2016_2018",
+      "years_covered": "2016, 2017, 2018",
+      "total_setups": 480,
+      "contradiction_count": 59,
+      "contradiction_rate_pct": 12.3,
+      "mean_30d_event_density": 17.3,
+      "mean_archive_depth_months": 36.3,
+      "mean_primary_ratio_pct": 57.4,
+      "drift_verdict": "STABLE_WITHIN_EXPECTED_BOUNDS"
+    },
+    {
+      "era_id": "ERA_2_MID_2019_2021",
+      "years_covered": "2019, 2020, 2021",
+      "total_setups": 480,
+      "contradiction_count": 33,
+      "contradiction_rate_pct": 6.9,
+      "mean_30d_event_density": 16.9,
+      "mean_archive_depth_months": 37.1,
+      "mean_primary_ratio_pct": 59.2,
+      "drift_verdict": "STABLE_WITHIN_EXPECTED_BOUNDS"
+    },
+    {
+      "era_id": "ERA_3_LATE_2022_2024",
+      "years_covered": "2022, 2023, 2024",
+      "total_setups": 480,
+      "contradiction_count": 48,
+      "contradiction_rate_pct": 10.0,
+      "mean_30d_event_density": 17.2,
+      "mean_archive_depth_months": 36.9,
+      "mean_primary_ratio_pct": 59.3,
+      "drift_verdict": "STABLE_WITHIN_EXPECTED_BOUNDS"
+    },
+    {
+      "era_id": "ERA_4_OOS_2025_2026",
+      "years_covered": "2025, 2026",
+      "total_setups": 320,
+      "contradiction_count": 21,
+      "contradiction_rate_pct": 6.6,
+      "mean_30d_event_density": 16.9,
+      "mean_archive_depth_months": 36.9,
+      "mean_primary_ratio_pct": 59.7,
+      "drift_verdict": "STABLE_WITHIN_EXPECTED_BOUNDS"
+    }
+  ],
+  "semantic_benchmark": {
+    "total_benchmark_items": 500,
+    "overall_mean_score_pct": 97.6,
+    "benchmark_verdict": "PASS"
+  },
+  "firewall_and_red_team": {
+    "token_leakage_violations": 0,
+    "red_team_attack_count": 63,
+    "red_team_pass_rate_pct": 100.0,
+    "reproducibility_verdict": "PASS"
+  },
+  "gate_answers": {
+    "question_a_semantic_novelty": "YES (Pre-T contradiction information is semantically novel, non-redundant with raw price/momentum features, and verified across N=500 benchmark).",
+    "question_b_incremental_discrimination": "OBSERVED (Pre-T contradiction presence adds statistically significant negative discriminatory power on subsequent H5 peer-excess returns across OLS, clustered sandwich, and Wild bootstrap controls).",
+    "question_c_trading_alpha": "NOT_PROVEN (Observational outcome association and avoided-loss proxy do not constitute proven causal alpha or strategy readiness; dynamic multi-cycle portfolio replay in ZZZ.14.8 required)."
+  },
+  "final_classifications": {
+    "POPULATION_IDENTITY": "EXACT",
+    "INFORMATION_INTEGRITY": "PASS",
+    "INFORMATION_NOVELTY": "OBSERVED",
+    "INCREMENTAL_INFORMATION": "OBSERVED",
+    "INCREMENTAL_DISCRIMINATION": "OBSERVED",
+    "INFERENCE_ROBUSTNESS": "ROBUST",
+    "COVERAGE_CONFOUNDING": "LOW",
+    "TEMPORAL_GENERALIZATION": "SUPPORTED",
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY",
+    "REPRODUCIBILITY": "PASS",
+    "RED_TEAM": "PASS",
+    "SCIENTIFIC_FIREWALL": "PASS",
+    "ZZZ_14_8_STATUS": "ELIGIBLE",
+    "FINAL_CLASSIFICATION": "INCREMENTAL_DISCRIMINATION_OBSERVED_CAUSAL_ALPHA_NOT_PROVEN"
+  }
+}

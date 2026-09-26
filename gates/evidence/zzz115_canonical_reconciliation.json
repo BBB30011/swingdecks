@@ -1,0 +1,41 @@
+{
+  "batch_id": "BATCH-ZZZ.11.5",
+  "canonical_universe": [
+    "ADRO",
+    "ANTM",
+    "ASII",
+    "BBCA",
+    "BBNI",
+    "BBRI",
+    "BMRI",
+    "INCO",
+    "ITMG",
+    "PTBA",
+    "TLKM",
+    "UNTR"
+  ],
+  "ticker_count": 12,
+  "sample_N": 73,
+  "evidence_N": 59,
+  "unobserved_N": 14,
+  "primary_endpoint": "H5_PEER_EXCESS_RETURN",
+  "H5_definition": "Cumulative target return over 5 trading days relative to exposure group mean",
+  "peer_excess_definition": "Target_H5 - Exposure_Group_Mean_H5",
+  "canonical_permutation_count": 10000,
+  "canonical_random_seed": 42,
+  "canonical_p_value": 0.033,
+  "confidence_interval_method": "ANALYTICAL_NORMAL_95_AND_BOOTSTRAP_PERCENTILE",
+  "pretrend_windows": [
+    "[-20,-10]",
+    "[-10,-5]",
+    "[-5,-1]"
+  ],
+  "event_time_definition": "T-20 to T+20 trading days windowed return",
+  "placebo_definition": "Outcome-blind same-ticker non-event dates with matched regime",
+  "same_company_definition": "Within-ticker evidence vs unobserved setups (dual-arm minimum N>=3)",
+  "commodity_definition": "Deterministic exposure mapping (COAL_MINING / METALS_NICKEL)",
+  "sector_definition": "Five deterministic pilot exposure groups",
+  "source_availability_definition": "Verified uniform feed accessibility across all 73 setups (NOT_ESTIMABLE as synthetic control)",
+  "sample_lock_status": "LOCKED_EXACT_12_TICKERS",
+  "governance_exceptions": "NONE (0 external tickers permitted in canonical dataset)"
+}

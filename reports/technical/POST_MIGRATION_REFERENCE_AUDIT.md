@@ -1,0 +1,71 @@
+# POST MIGRATION REFERENCE AUDIT
+## Checked paths
+- `config/` -> `configs/`
+- `data/intelligence.duckdb` -> `data/duckdb/intelligence.duckdb`
+## Status
+- **AMBIGUOUS**: `config/` referenced in `audit_v2.py`
+- **AMBIGUOUS**: `config/` referenced in `post_migration_audit.py`
+- **BROKEN**: Legacy duckdb path in `post_migration_audit.py`
+- **AMBIGUOUS**: `config/` referenced in `agents/agent1_quant/pipeline.py`
+- **AMBIGUOUS**: `config/` referenced in `core/benchmark.py`
+- **BROKEN**: Legacy duckdb path in `core/candidate_attribution_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/canonical_replication_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/common_support_inference_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/company_specific_discrimination_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/counterfactual_integrity_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/counterfactual_purification_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/coverage_aware_discrimination_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/db_init.py`
+- **BROKEN**: Legacy duckdb path in `core/fixed_sample_layer_attribution_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/historical_disclosure_completeness_audit.py`
+- **BROKEN**: Legacy duckdb path in `core/historical_disclosure_coverage_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/historical_disclosure_ingestion_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/historical_discrimination_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/historical_replay_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/identification_audit_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/identification_stress_test_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/information_coverage_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/joint_identification_engine.py`
+- **AMBIGUOUS**: `config/` referenced in `core/liquidity.py`
+- **BROKEN**: Legacy duckdb path in `core/pretrend_adjusted_information_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/research_oos.py`
+- **BROKEN**: Legacy duckdb path in `core/semantic_ablation_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/semantic_attribution_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/semantic_substrate_engine.py`
+- **BROKEN**: Legacy duckdb path in `core/strict_counterfactual_inference_engine.py`
+- **AMBIGUOUS**: `config/` referenced in `core/universe.py`
+- **BROKEN**: Legacy duckdb path in `core/zzz1438_closure_gate.py`
+- **BROKEN**: Legacy duckdb path in `core/zzz1439_estimand_ai_gate.py`
+- **BROKEN**: Legacy duckdb path in `core/zzz144_ai_scaleup.py`
+- **BROKEN**: Legacy duckdb path in `core/zzz145_ai_attribution.py`
+- **BROKEN**: Legacy duckdb path in `core/zzz146_syntactic_synthesis.py`
+- **BROKEN**: Legacy duckdb path in `core/ingestion/news_rss_ingestor.py`
+- **BROKEN**: Legacy duckdb path in `core/ingestion/semantic_ingestor.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz102_historical_disclosure_ingestion.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz103_completeness_audit.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz111_coverage_aware_discrimination.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz112_identification_audit.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz113_identification_stress_test.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz114_pretrend_adjusted_information.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz115_joint_identification.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz11_company_specific_discrimination.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz71_audit_population.py`
+- **BROKEN**: Legacy duckdb path in `gates/evidence/run_zzz7_attribution_validation.py`
+- **BROKEN**: Legacy duckdb path in `scratch/inspect_db.py`
+- **BROKEN**: Legacy duckdb path in `scripts/pilot_xxx2_seed.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_xxx2.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_yyy3_oos.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz101_historical_disclosure_coverage.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz102_historical_disclosure_ingestion.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz103_historical_disclosure_completeness.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz10_company_specific_discrimination.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz111_coverage_aware_discrimination.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz112_identification_audit.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz113_identification_stress_test.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz114_pretrend_adjusted_information.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz115_joint_identification.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz11_company_specific_discrimination.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz71_attribution_logic_audit.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz7_candidate_attribution.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz91_semantic_ablation_causal_audit.py`
+- **BROKEN**: Legacy duckdb path in `tests/test_batch_zzz9_semantic_explanation_attribution.py`

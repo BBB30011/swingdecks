@@ -1,0 +1,24 @@
+{
+  "batch_id": "ZZZ.14.6.2",
+  "timestamp": "2026-09-16T14:43:55.139058",
+  "canonical_dataset_version": "DATASET_V2_20260915",
+  "methodology_lock": "METHODOLOGY_V1_FROZEN_20260915",
+  "total_canonical_setups": 1760,
+  "total_contradiction_setups": 161,
+  "c0_c1_input_integrity": "PASS",
+  "c0_c1_estimand": "CLEAR (1 Unit/Setup Counterfactual Exposure)",
+  "avoided_loss_proxy_reconciliation": "RECONCILED",
+  "historical_496_1_pp_derivation": "Formula I: Narrative multiplication of N=159 * Mean H10 loss (-3.12 pp) = +496.08 pp",
+  "canonical_avoided_loss_formula": "Formula B: Sum(-H5_i[H5<0]) = +362.3 pp (Unit Per Setup)",
+  "capital_semantics": "CLEAR",
+  "outcome_association": "OBSERVED",
+  "pit_status": "PASS",
+  "selection_sequence_status": "PASS",
+  "red_team_attacks_total": 52,
+  "red_team_attacks_passed": 52,
+  "reproducibility_status": "PASS",
+  "gate_status": {
+    "FINAL_CLASSIFICATION": "COUNTERFACTUAL_CLOSED",
+    "ZZZ_14_7_STATUS": "ELIGIBLE"
+  }
+}

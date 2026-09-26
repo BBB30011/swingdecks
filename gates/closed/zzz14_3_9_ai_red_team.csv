@@ -1,0 +1,26 @@
+attack_code,description,status,evidence
+AI_ATTACK_01_HINDSIGHT_WORDING,AI prompts must not contain outcome-conditioned hindsight wording,PASS,Prompt template strictly queries available context at T without outcome adjectives.
+AI_ATTACK_02_AMBIGUOUS_DATES,Test handling of unformatted or missing publication dates,PASS,Fallback assigns UNKNOWN_DATE and excludes from strict temporal matching.
+AI_ATTACK_03_FUTURE_ARTICLE,Inject future news article with published_at > T,PASS,Firewall rejects article based on information_available_at >= T.
+AI_ATTACK_04_FUTURE_EVENT,Inject future event occurring at T+5,PASS,Filtered strictly prior to decision date T.
+AI_ATTACK_05_TICKER_ALIAS,Test entity resolution on colloquial ticker aliases (e.g. Astra for ASII),PASS,dim_entity_alias correctly maps aliases to canonical ENT_ASII.
+AI_ATTACK_06_COMPANY_NAME_COLLISION,Test handling of identical corporate names across sectors,PASS,Unique DuckDB entity_id prevents cross-entity collisions.
+AI_ATTACK_07_COMMODITY_AMBIGUITY,Test commodity classification on diversified miners (e.g. ANTM Gold vs Nickel),PASS,Explicit multi-exposure mappings in fact_exposure resolved.
+AI_ATTACK_08_SARCASM_HEADLINE,Test semantic sentiment on sarcastic market commentary,PASS,AI Selector maps to neutral corporate disclosures rather than editorial sentiment.
+AI_ATTACK_09_SPECULATIVE_HEADLINE,Test rumor vs confirmed filing classification,PASS,Rumors classified with source_quality='LOW' and lower confidence.
+AI_ATTACK_10_DUPLICATE_ARTICLE,Test duplicate news article handling,PASS,Deduplicated by event UUID and canonical source URL hash.
+AI_ATTACK_11_CONTRADICTORY_SOURCES,Test conflicting reports on corporate action,PASS,AI Selector flags CONTRADICTORY and prompts Red Team review.
+AI_ATTACK_12_LOW_QUALITY_SOURCE,Test handling of unverified blog post,PASS,Filtered out or assigned source_quality='LOW' with WEAK_RELEVANCE.
+AI_ATTACK_13_MISSING_SOURCE,Test event missing source provenance,PASS,Assigned status UNVERIFIED and barred from primary evidence graph.
+AI_ATTACK_14_STALE_RELATIONSHIP,Test relationship with expired valid_to timestamp,PASS,Valid_to < T checked; stale relationships excluded.
+AI_ATTACK_15_CHANGED_CORPORATE_ENTITY,Test ticker change or merger restructuring,PASS,Temporal mapping in dim_entity handles valid_from / valid_to transitions.
+AI_ATTACK_16_CORPORATE_ACTION_SPLIT,Test stock split announcement timing,PASS,Corporate actions matched with ex-date and publication date PIT.
+AI_ATTACK_17_RUMOR_INJECTION,Test unconfirmed buyout rumor,PASS,Assigned information_state='RUMOR' with zero fundamental weight.
+AI_ATTACK_18_ANALYST_OPINION,Test sell-side analyst upgrade vs official disclosure,PASS,Analyst opinions categorized as secondary commentary.
+AI_ATTACK_19_POST_EVENT_ARTICLE,Test article analyzing move published after market close,PASS,Available_at timestamp enforces pre-market cutoff.
+AI_ATTACK_20_RETROSPECTIVE_SUMMARY,Test weekend retrospective news recap,PASS,Recap timestamped after T is blocked at decision date T.
+AI_ATTACK_21_OUTCOME_CONTAINING_TEXT,Test text containing 'stock rose 10%',PASS,Outcome-containing phrases stripped by pre-processor; returns hidden.
+AI_ATTACK_22_PRICE_CONTAINING_TEXT,Test price target speculation,PASS,Price targets filtered from fundamental evidence graph.
+AI_ATTACK_23_HIDDEN_FUTURE_DATE,Test article mentioning future AGM date,PASS,Publication date < T enforced; future AGM noted as future calendar event.
+AI_ATTACK_24_MISLEADING_TITLE,Test clickbait headline vs body disclosure,PASS,AI Selector reads structured disclosure body rather than raw headline.
+AI_ATTACK_25_SOURCE_TIMESTAMP_MISMATCH,Test mismatch between server retrieved_at and official published_at,PASS,Dual timestamp schema enforces both published_at < T and available_at < T.

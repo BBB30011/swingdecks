@@ -1,0 +1,80 @@
+{
+  "tier_results": {
+    "c0": {
+      "tier": "C0",
+      "description": "C0_Canonical",
+      "total_valid_N": 73,
+      "evidence_N": 59,
+      "unobserved_N": 14,
+      "evidence_mean_excess_pct": 0.6528897140535884,
+      "unobserved_mean_excess_pct": -2.450857707847373,
+      "differential_pp": 3.103747421900961,
+      "median_peer_N": 2.0,
+      "estimable_status": "ESTIMABLE"
+    },
+    "c1": {
+      "tier": "C1",
+      "description": "C1_Leave_One_Out",
+      "total_valid_N": 73,
+      "evidence_N": 59,
+      "unobserved_N": 14,
+      "evidence_mean_excess_pct": 0.6528897140535884,
+      "unobserved_mean_excess_pct": -2.450857707847373,
+      "differential_pp": 3.103747421900961,
+      "median_peer_N": 2.0,
+      "estimable_status": "ESTIMABLE"
+    },
+    "c2": {
+      "tier": "C2",
+      "description": "C2_Evidence_Excluded",
+      "total_valid_N": 56,
+      "evidence_N": 42,
+      "unobserved_N": 14,
+      "evidence_mean_excess_pct": 1.5283155404861617,
+      "unobserved_mean_excess_pct": -1.4495386629506146,
+      "differential_pp": 2.9778542034367765,
+      "median_peer_N": 1.0,
+      "estimable_status": "ESTIMABLE"
+    },
+    "c3": {
+      "tier": "C3",
+      "description": "C3_Event_Purified",
+      "total_valid_N": 73,
+      "evidence_N": 59,
+      "unobserved_N": 14,
+      "evidence_mean_excess_pct": 0.6528897140535884,
+      "unobserved_mean_excess_pct": -2.450857707847373,
+      "differential_pp": 3.103747421900961,
+      "median_peer_N": 2.0,
+      "estimable_status": "ESTIMABLE"
+    },
+    "c4": {
+      "tier": "C4",
+      "description": "C4_Date_Purified",
+      "total_valid_N": 56,
+      "evidence_N": 42,
+      "unobserved_N": 14,
+      "evidence_mean_excess_pct": 1.5283155404861617,
+      "unobserved_mean_excess_pct": -1.4495386629506146,
+      "differential_pp": 2.9778542034367765,
+      "median_peer_N": 1.0,
+      "estimable_status": "ESTIMABLE"
+    },
+    "c5": {
+      "tier": "C5",
+      "description": "C5_Fully_Purified",
+      "total_valid_N": 56,
+      "evidence_N": 42,
+      "unobserved_N": 14,
+      "evidence_mean_excess_pct": 1.5283155404861617,
+      "unobserved_mean_excess_pct": -1.4495386629506146,
+      "differential_pp": 2.9778542034367765,
+      "median_peer_N": 1.0,
+      "estimable_status": "ESTIMABLE"
+    }
+  },
+  "delta_c0_pp": 3.103747421900961,
+  "delta_c5_pp": 2.9778542034367765,
+  "attenuation_percentage": 4.05616828147306,
+  "interpretation": "Under the fully purified counterfactual (C5), the differential is +2.98 pp compared to +3.10 pp in C0 (attenuation = 4.06%). The company-specific relative performance association survives counterfactual purification with minimal attenuation."
+}

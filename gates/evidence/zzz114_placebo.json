@@ -1,0 +1,18 @@
+{
+  "M9_Matched_Placebo": {
+    "total_placebo_pairs": 59,
+    "real_evidence_mean_excess_h5": 0.006528897140535885,
+    "placebo_mean_excess_h5": 0.005538735134782426,
+    "real_vs_placebo_delta_pp": 0.09901620057534587,
+    "permutation_p": 0.46,
+    "verdict": "IDENTIFICATION_WEAKENED_BY_PLACEBO",
+    "interpretation": "Placebo non-event dates for the same ticker produce a mean peer excess return of +0.55% (vs +0.65% for real disclosure dates, delta = +0.10 pp, p = 0.4600). This indicates that ticker-level momentum and exposure characteristics account for most of the forward return, while the precise event timing provides a modest incremental lift (+0.10 pp)."
+  },
+  "M10_Accumulation_Placebo": {
+    "model_name": "M10_Pre_Trend_Placebo_Accumulation",
+    "real_evidence_peer_excess_h5": 0.006528897140535885,
+    "accumulation_regime_placebo_peer_excess_h5": -0.0013421924898011435,
+    "differential_pp": 0.7871089630337028,
+    "interpretation": "Stocks in an accumulation regime without disclosure events exhibit a mean peer excess of +-0.13%, compared to +0.65% when disclosure is present (delta = +0.79 pp). This supports the interpretation of disclosure as a confirmation marker within accumulation regimes."
+  }
+}

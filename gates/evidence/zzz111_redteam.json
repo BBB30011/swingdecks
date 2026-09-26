@@ -1,0 +1,28 @@
+{
+  "batch_id": "BATCH-ZZZ.11.1",
+  "red_team_audit": {
+    "checks": {
+      "01_time_series_leakage": "PASS (0 future events queried at decision time T)",
+      "02_source_authenticity": "PASS (100% SHA-256 and source origin verified)",
+      "03_sha256_vs_authenticity_confusion": "PASS (Strict separation: SHA-256 is integrity, authenticity requires origin proof)",
+      "04_post_hoc_event_creation": "PASS (Event creation independent of price outcomes)",
+      "05_outcome_driven_classification": "PASS (Zero forward return leakage in classification)",
+      "06_missingness_selection": "PASS (NO_EVIDENCE_IN_DATASET tracked separately from NO_EVENT)",
+      "07_coverage_bias": "PASS (Commodity vs non-commodity coverage imbalance documented and tested)",
+      "08_commodity_concentration": "PASS (Mining/Coal dominance audited; effect survives within commodity-only)",
+      "09_date_concentration": "PASS (Stability tested across Top 1, Top 3, Top 5 date exclusions)",
+      "10_ticker_concentration": "PASS (Leave-one-ticker-out confirms stability across all 12 tickers)",
+      "11_peer_selection_bias": "PASS (Peers matched strictly by exposure group on exact same decision date)",
+      "12_source_tier_bias": "PASS (Sensitivity tested across Primary vs Secondary; yfinance classified as MARKET_DATA_PROVIDER)",
+      "13_multiple_testing": "PASS (Predefined fixed horizons H1, H3, H5, H10, H20; H5 primary endpoint)",
+      "14_sample_size_instability": "PASS (N=73 frozen Layer-E denominator preserved)",
+      "15_matching_integrity": "PASS (Exact date and exposure matching with 0 lookahead)",
+      "16_pit_integrity": "PASS (100% valid_from <= T and published_at <= T)",
+      "17_provenance_integrity": "PASS (100% raw JSON artifacts match SHA-256 digests)",
+      "18_causal_overclaim": "PASS (Specificity != Causality != Alpha discipline strictly enforced)"
+    },
+    "overall_status": "PASS",
+    "total_checks": 18,
+    "passed_checks": 18
+  }
+}

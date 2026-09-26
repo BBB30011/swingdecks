@@ -1,0 +1,71 @@
+{
+  "batch": "ZZZ.14.3.6",
+  "title": "Strict Information-Environment Counterfactual & Inference Reconciliation Gate",
+  "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+  "total_observations": 73,
+  "treatment_n": 59,
+  "control_n": 14,
+  "baseline_reconciliation": {
+    "treatment_n": 59,
+    "control_n": 14,
+    "treatment_mean_exact_pct": 0.6528897140535886,
+    "control_mean_exact_pct": -2.450857707847373,
+    "differential_exact_pp": 3.1037474219009615,
+    "benchmark_expected_pp": 3.1037,
+    "absolute_delta_pp": 4.742190096163057e-05,
+    "relative_delta_pct": 0.0015279151000944218,
+    "comparison_tolerance_pp": 0.0001,
+    "explanation": "Floating-point representation difference between float64 sum/mean vs 4-decimal rounded string benchmark.",
+    "gate_a_reconciliation_passed": true
+  },
+  "information_environment_diagnostics": {
+    "pre_90d_treatment_mean_with_exclusion": 1.0169491525423728,
+    "pre_90d_control_mean": 0.0,
+    "pre_90d_smd": 1.1611132672441824,
+    "archive_depth_smd": -0.5677465420764035,
+    "treatment_self_exclusion_effect": "Pre-90d event count reduced from 2.02 to 1.02; pre-30d reduced from 1.12 to 0.12"
+  },
+  "matched_counterfactual": {
+    "matched_pairs_count": 14,
+    "treatment_unmatched_count": 45,
+    "control_unmatched_count": 0,
+    "common_support_assessment": "CONTROL_BOUNDED (14 pairs formed, 45 unmatched treatments)",
+    "matched_treatment_mean_pct": 0.1492484381320045,
+    "matched_control_mean_pct": -2.450857707847373,
+    "matched_differential_pp": 2.6001061459793773,
+    "standard_error_pp": 1.9240155450535337,
+    "p_value": 0.17656874184690086,
+    "bootstrap_ci_95": [
+      -0.6366042715037566,
+      6.583132298552156
+    ],
+    "attenuation_pct": 16.22559699779691
+  },
+  "models_summary": {
+    "r0_effect_pp": 3.1037474219009615,
+    "r1_effect_pp": 2.6001061459793773,
+    "r2_effect_pp": 3.021476519220648,
+    "r3_effect_pp": 4.125836613220563,
+    "r4_effect_pp": 3.781869571823145,
+    "r5_effect_pp": 3.781869571823145,
+    "r6_effect_pp": 2.600106145979376,
+    "r7_effect_pp": 3.1505144825978926,
+    "r8_lodo_range_pp": [
+      2.1394633792969246,
+      3.388658658376689
+    ],
+    "r8_lodo_sign_changes": 0,
+    "wild_cluster_p_val_r5": 0.022,
+    "wild_cluster_p_val_r6": 0.069
+  },
+  "red_team_attacks_cleared": 35,
+  "reproducibility": {
+    "dual_run_executed": true,
+    "max_discrepancy_pp": 0.0,
+    "manifest_hash_run1": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "manifest_hash_run2": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "hash_identical": true,
+    "reproducibility_status": "EXACT_REPRODUCIBILITY_CONFIRMED"
+  },
+  "timestamp": "2026-09-16T13:25:14.467937"
+}

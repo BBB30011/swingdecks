@@ -1,0 +1,62 @@
+{
+  "coverage_state_distribution": {
+    "HIGH_COVERAGE": 59,
+    "ARCHIVAL_GAP": 14
+  },
+  "source_tier_distribution": {
+    "TIER_1_PRIMARY": 48,
+    "NONE": 14,
+    "TIER_2_HIGH_QUALITY_SECONDARY": 11
+  },
+  "historical_coverage_gap_matrix": [
+    {
+      "dimension": "issuer_disclosure",
+      "coverage_status": "PARTIAL (80.8%)",
+      "gap": "14 unobserved setups (19.2%)",
+      "impact": "NO_EVIDENCE_IN_DATASET preserves archival missingness"
+    },
+    {
+      "dimension": "idx_announcement",
+      "coverage_status": "PARTIAL",
+      "gap": "Historical filings sparse pre-2020",
+      "impact": "Contemporaneous disclosures concentrated in 2025-2026"
+    },
+    {
+      "dimension": "historical_news",
+      "coverage_status": "LIMITED",
+      "gap": "News feeds un-ingested pre-2024",
+      "impact": "Defaults to UNKNOWN_COMPONENT on broad news"
+    },
+    {
+      "dimension": "commodity_event",
+      "coverage_status": "COMPLETE",
+      "gap": "0%",
+      "impact": "Commodity policy & indices 100% PIT-available"
+    },
+    {
+      "dimension": "policy_event",
+      "coverage_status": "PARTIAL",
+      "gap": "ESDM regulations manually curated",
+      "impact": "High accuracy, discrete coverage"
+    },
+    {
+      "dimension": "corporate_action",
+      "coverage_status": "COMPLETE",
+      "gap": "0%",
+      "impact": "Dividends & splits 100% ingested from yfinance"
+    },
+    {
+      "dimension": "ownership",
+      "coverage_status": "LIMITED",
+      "gap": "Sparse pre-2018 records",
+      "impact": "Replay firewall enforces UNKNOWN on missing entities"
+    },
+    {
+      "dimension": "relationships",
+      "coverage_status": "STRUCTURED",
+      "gap": "Deterministic 12-ticker network",
+      "impact": "Peer networks locked and invariant"
+    }
+  ],
+  "epistemological_distinction_verified": "NO_EVIDENCE_IN_DATASET != VERIFIED_NO_EVENT"
+}

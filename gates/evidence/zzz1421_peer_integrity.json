@@ -1,0 +1,15 @@
+{
+  "total_observations_audited": 96,
+  "total_peer_links_evaluated": 52,
+  "self_inclusion_violations": 0,
+  "peer_self_exclusion_rate": 1.0,
+  "leave_one_out_verified": true,
+  "peer_n_distribution": {
+    "0": 64,
+    "2": 12,
+    "1": 16,
+    "3": 4
+  },
+  "peer_contamination_rate": 0.0,
+  "status": "PASS"
+}

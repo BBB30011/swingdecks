@@ -1,0 +1,34 @@
+{
+  "batch_id": "BATCH-ZZZ.11.2",
+  "red_team_audit": {
+    "checks": {
+      "01_time_series_leakage": "PASS (0 future events queried at decision time T)",
+      "02_source_authenticity": "PASS (100% SHA-256 and source origin verified)",
+      "03_sha256_vs_authenticity_confusion": "PASS (Strict separation: SHA-256 is integrity, authenticity requires origin proof)",
+      "04_post_hoc_event_creation": "PASS (Event creation independent of price outcomes)",
+      "05_outcome_driven_classification": "PASS (Zero forward return leakage in classification)",
+      "06_missingness_selection": "PASS (NO_EVIDENCE_IN_DATASET tracked separately from NO_EVENT)",
+      "07_coverage_bias": "PASS (Commodity vs non-commodity coverage imbalance documented: 26.91 pp)",
+      "08_commodity_concentration": "PASS (Mining/Coal dominance audited; effect expands to +4.68 pp in commodity-only)",
+      "09_date_concentration": "PASS (Stability tested across Top 1, Top 3, Top 5 date exclusions: p < 0.05)",
+      "10_ticker_concentration": "PASS (Leave-one-ticker-out confirms 12/12 positive point estimates)",
+      "11_peer_selection_bias": "PASS (Peers matched strictly by exposure group on exact same decision date)",
+      "12_source_tier_bias": "PASS (Primary-only filings produce +2.79 pp excess differential)",
+      "13_multiple_testing": "PASS (Predefined fixed horizons H1, H3, H5, H10, H20; H5 primary endpoint)",
+      "14_sample_size_instability": "PASS (N=73 frozen Layer-E denominator preserved)",
+      "15_matching_integrity": "PASS (Exact date and exposure matching with 0 lookahead)",
+      "16_pit_integrity": "PASS (100% valid_from <= T and published_at <= T)",
+      "17_provenance_integrity": "PASS (100% raw JSON artifacts match SHA-256 digests)",
+      "18_causal_overclaim": "PASS (Specificity != Causality != Alpha discipline strictly enforced)",
+      "19_within_ticker_calculation_integrity": "PASS (Observation-level audit verified distinct non-zero within-ticker deltas)",
+      "20_control_validity": "PASS (Evaluated as NOT_ESTIMABLE; no manufactured negative control)",
+      "21_missingness_control_contamination": "PASS (0 cross-contamination between evidence-present and unobserved rows)",
+      "22_observation_level_reproducibility": "PASS (All aggregate metrics match observation rows exactly)",
+      "23_grouping_cache_correctness": "PASS (0 cache leakage across ticker and exposure groupings)",
+      "24_source_available_control_semantics": "PASS (No false claim of verified absence of events)"
+    },
+    "overall_status": "PASS",
+    "total_checks": 24,
+    "passed_checks": 24
+  }
+}

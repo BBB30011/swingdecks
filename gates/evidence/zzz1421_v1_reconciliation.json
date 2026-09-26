@@ -1,0 +1,131 @@
+{
+  "dataset_version": "DATASET_V2_20260915",
+  "methodology_version": "METHODOLOGY_V1_FROZEN_20260915",
+  "baseline_sample_size": 73,
+  "reconciled_sample_size": 73,
+  "exact_matches": 73,
+  "unexplained_discrepancies": 0,
+  "reconciliation_verdict": "PASS",
+  "observations": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "v1_evidence_state": "NO_EVIDENCE_IN_DATASET",
+      "replayed_event_count": 41,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "353877c646ad730f1b90c2536fa029e60005c73beff14360a1b9d37ffd21cff7",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 21,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "14217a3e764910d64559fbb3757d40d733dec15806573619838fba47780c13e9",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 21,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "363e9204e34e69f39f8b4efac1c512aaae01bf2618ce1e0e00fe43ae11ad347b",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 21,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "3dfe6a4666d834974509224602c37be2ee2e45a14d03ff6f86f56c7e51fdd394",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 21,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "179dc2fd88d656ea0f58d0880c85ed6688c3cd1c3cd85d60b50b2826ce4417a9",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 46,
+      "replayed_exposure_count": 0,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "a8567f417387de7b0037cc72f10ada07e83719b9036d681ca1bbc7d48c9cef5d",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 46,
+      "replayed_exposure_count": 0,
+      "replayed_peer_count": 1,
+      "replayed_snapshot_hash": "457bfc3164cb53dd003d40d953051ce453ea47cf7970c4859664bc753312529b",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 46,
+      "replayed_exposure_count": 0,
+      "replayed_peer_count": 3,
+      "replayed_snapshot_hash": "a88a93c32a7a04a6a33982f5f487c584a72ade58826b7a78d9a9a3c3eb39b4ce",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 34,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 2,
+      "replayed_snapshot_hash": "ec621a1d4587edaaab4f4318a3503214da1b49d59c7f8507cf1e495db24193ae",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "v1_evidence_state": "EVIDENCE_PRESENT",
+      "replayed_event_count": 37,
+      "replayed_exposure_count": 1,
+      "replayed_peer_count": 2,
+      "replayed_snapshot_hash": "4711c5ddfe0f3a56f479cb8d408e9fa3989345ac918f96b81b10ce2e113f15a7",
+      "reconciliation_status": "MATCH",
+      "discrepancy_classification": "NONE"
+    }
+  ]
+}

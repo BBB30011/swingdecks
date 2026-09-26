@@ -1,0 +1,127 @@
+{
+  "total_sentinels_tested": 12,
+  "total_blocked": 12,
+  "total_leaked": 0,
+  "sentinels": [
+    {
+      "sentinel_id": "CURRENT_STATE_SENTINEL_ZZZ1421R",
+      "probe_type": "CURRENT_STATE_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "FUTURE_SENTINEL_PUBLICATION",
+      "probe_type": "FUTURE_INFORMATION_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "FUTURE_SENTINEL_AVAILABILITY",
+      "probe_type": "FUTURE_INFORMATION_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "FUTURE_SENTINEL_OBSERVED",
+      "probe_type": "FUTURE_INFORMATION_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "FUTURE_SENTINEL_VALID_FROM",
+      "probe_type": "FUTURE_INFORMATION_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "FUTURE_SENTINEL_NEWS",
+      "probe_type": "FUTURE_INFORMATION_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "FUTURE_SENTINEL_DISCLOSURE",
+      "probe_type": "FUTURE_INFORMATION_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "H5_SENTINEL_VALUE",
+      "probe_type": "OUTCOME_BLINDNESS_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "H10_SENTINEL_VALUE",
+      "probe_type": "OUTCOME_BLINDNESS_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "OUTCOME_SENTINEL_VALUE",
+      "probe_type": "OUTCOME_BLINDNESS_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "MFE_SENTINEL_VALUE",
+      "probe_type": "OUTCOME_BLINDNESS_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    },
+    {
+      "sentinel_id": "MAE_SENTINEL_VALUE",
+      "probe_type": "OUTCOME_BLINDNESS_INJECTION",
+      "injected_into": "build_knowledge_state",
+      "reached_hks": false,
+      "reached_prompt": false,
+      "reached_thesis": false,
+      "blocked": true,
+      "verdict": "PASS"
+    }
+  ]
+}

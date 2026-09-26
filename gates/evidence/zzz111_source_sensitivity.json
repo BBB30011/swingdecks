@@ -1,0 +1,28 @@
+{
+  "batch_id": "BATCH-ZZZ.11.1",
+  "source_tier_sensitivity": {
+    "primary_only": {
+      "c1_N": 48,
+      "c1_mean_h5": 0.012667002786640374,
+      "c1_mean_h10": 0.017488584270627595,
+      "c1_mean_excess_h5": 0.003367806227280407,
+      "c1_win_rate_h5": 0.5208333333333334
+    },
+    "primary_plus_secondary": {
+      "c1_N": 59,
+      "c1_mean_h5": 0.014206464147966997,
+      "c1_mean_h10": 0.022874825892028477,
+      "c1_mean_excess_h5": 0.006528897140535885,
+      "c1_win_rate_h5": 0.5254237288135594
+    },
+    "all_accepted_evidence": {
+      "c1_N": 59,
+      "c1_mean_h5": 0.014206464147966997,
+      "c1_mean_h10": 0.022874825892028477,
+      "c1_mean_excess_h5": 0.006528897140535885,
+      "c1_win_rate_h5": 0.5254237288135594
+    }
+  },
+  "yfinance_classification": "MARKET_DATA_PROVIDER",
+  "tier_4_quarantine_status": "QUARANTINED"
+}

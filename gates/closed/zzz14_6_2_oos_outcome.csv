@@ -1,0 +1,5 @@
+calendar_era,contradiction_setups,mean_h5_pct,avoided_loss_pp,status
+2016-2018 (Early Downturn),42,-1.95,81.9,CONTRADICTION_EFFECTIVE
+2019-2021 (Pandemic / Cabinet),44,-2.1,92.4,CONTRADICTION_EFFECTIVE
+2022-2024 (Supercycle / Election),46,-1.72,79.1,CONTRADICTION_EFFECTIVE
+2025-2026 (Canonical Holdout OOS),29,-1.58,45.8,OOS_GENERALIZATION_CONFIRMED

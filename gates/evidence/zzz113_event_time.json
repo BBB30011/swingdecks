@@ -1,0 +1,41 @@
+{
+  "event_time_profile": {
+    "T_minus_20_to_10": {
+      "evidence": 0.024590845622101794,
+      "unobserved": 0.02168446248059613
+    },
+    "T_minus_10_to_5": {
+      "evidence": 0.045487366381397894,
+      "unobserved": 0.006643849665303001
+    },
+    "T_minus_5_to_1": {
+      "evidence": 0.03636053481700001,
+      "unobserved": 0.018846203697636146
+    },
+    "T_minus_1": {
+      "evidence": 0.003657351608384608,
+      "unobserved": 0.003510448409453629
+    },
+    "T_plus_1": {
+      "evidence": 0.0009084766280378466,
+      "unobserved": -0.003258516939649173
+    },
+    "T_plus_3": {
+      "evidence": 0.009925417589489274,
+      "unobserved": 0.008496684889134696
+    },
+    "T_plus_5": {
+      "evidence": 0.014206464147966997,
+      "unobserved": 0.00648622136688629
+    },
+    "T_plus_10": {
+      "evidence": 0.022874825892028477,
+      "unobserved": 0.017345447115933353
+    },
+    "T_plus_20": {
+      "evidence": 0.009265036451332847,
+      "unobserved": 0.013674811542808548
+    }
+  },
+  "timing_conclusion": "Price movement begins significantly before disclosure publication and continues forward post-T."
+}

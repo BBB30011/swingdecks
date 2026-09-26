@@ -1,0 +1,10 @@
+{
+  "run1_manifest_hash": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+  "run2_manifest_hash": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+  "manifest_hashes_identical": true,
+  "baseline_diff_run1_pp": 3.1037474219009615,
+  "baseline_diff_run2_pp": 3.1037474219009615,
+  "ladder_specifications_matched": 8,
+  "reproducibility_verified": true,
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "batch": "ZZZ.14.3.3",
+  "experiment": "Evidence Presence Deconfounding & Information Attribution Stress-Test",
+  "total_canonical_observations": 73,
+  "evidence_count": 59,
+  "unobserved_count": 14,
+  "commodity_count": 51,
+  "non_commodity_count": 22,
+  "unique_tickers_count": 11,
+  "unique_dates_count": 49,
+  "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+  "manifest_hash_verified": true,
+  "timestamp": "2026-09-16T13:53:19.453345"
+}

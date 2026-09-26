@@ -1,0 +1,4670 @@
+{
+  "metadata": {
+    "batch": "ZZZ.9",
+    "experiment": "Historical Semantic Explanation & Attribution Expansion",
+    "total_layer_e_candidates": 73,
+    "substrate_table_counts": {
+      "dim_entity": 28,
+      "dim_entity_alias": 24,
+      "fact_exposure": 10,
+      "fact_relationship": 11,
+      "fact_peer_network": 15,
+      "fact_event": 497
+    },
+    "random_seed": 42
+  },
+  "thesis_distribution": {
+    "SUPPORTED": 57,
+    "PARTIALLY_SUPPORTED": 16
+  },
+  "outcome_alignment_distribution": {
+    "THESIS_SUPPORTED_BY_OUTCOME": 39,
+    "THESIS_NOT_SUPPORTED_BY_OUTCOME": 34
+  },
+  "commodity_breakdown": {
+    "COMMODITY_EXPOSED": {
+      "N": 57,
+      "H5_Mean": 0.017495726394940195,
+      "H10_Mean": 0.028267901747536565,
+      "H5_WinRate": 0.5789473684210527
+    },
+    "NON_COMMODITY": {
+      "N": 16,
+      "H5_Mean": -0.004266745040320638,
+      "H10_Mean": -0.003041989425507184,
+      "H5_WinRate": 0.375
+    }
+  },
+  "thesis_vs_outcome": {
+    "PARTIALLY_SUPPORTED": {
+      "N": 16,
+      "H5_Mean": -0.004266745040320638,
+      "H10_Mean": -0.003041989425507184,
+      "H5_WinRate": 0.375
+    },
+    "SUPPORTED": {
+      "N": 57,
+      "H5_Mean": 0.017495726394940195,
+      "H10_Mean": 0.028267901747536565,
+      "H5_WinRate": 0.5789473684210527
+    }
+  },
+  "reconstructed_candidates": [
+    {
+      "candidate_id": "CAND_UNTR_2025-09-09",
+      "symbol": "UNTR",
+      "entity_id": "ENT_UNTR",
+      "canonical_name": "United Tractors Tbk",
+      "date": "2025-09-09T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.8893987175276534,
+      "day_return": 0.02835538752362954,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "CONTRACT_MINING",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.009922207800127314,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.89) -> UNTR breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ASII",
+          "UNTR"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.009922207800127314
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (UNTR moving with peers: mean +1.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-10.5%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.03125,
+        "H3": -0.026654411764705843,
+        "H5": -0.018382352941176516,
+        "H10": 0.0,
+        "H20": -0.05882352941176472
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2025-09-22",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2025-09-22T00:00:00+0700",
+      "quant_score": 99.0,
+      "rel_vol": 1.2094160444085826,
+      "day_return": 0.03712871287128716,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.0005524465490027719,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.21) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.0005524465490027719
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (INCO moving with peers: mean +3.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-13.9%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.019093078758949833,
+        "H3": 0.007159904534606243,
+        "H5": 0.06921241050119331,
+        "H10": 0.038186157517899666,
+        "H20": 0.019093078758949833
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2025-09-29",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2025-09-29T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.467712078711343,
+      "day_return": 0.04672897196261672,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.01869158878504673,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.47) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.01869158878504673
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (INCO moving with peers: mean +2.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-13.1%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.017857142857142905,
+        "H3": -0.024553571428571397,
+        "H5": -0.029017857142857095,
+        "H10": 0.013392857142857206,
+        "H20": -0.044642857142857095
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2025-09-30",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2025-09-30T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.8332278214349762,
+      "day_return": -0.017857142857142905,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.02456709956709957,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.83) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "INCO"
+        ],
+        "differential_magnitude": 0.02456709956709957
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-1.1%)",
+        "Contextual Sector Rotation (INCO moving with peers: mean +-4.2%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-14.8%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.03181818181818186,
+        "H3": -0.002272727272727315,
+        "H5": -0.03409090909090906,
+        "H10": -0.02954545454545454,
+        "H20": 0.00454545454545463
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2025-10-08",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2025-10-08T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.6478453912463331,
+      "day_return": 0.049411764705882266,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.01109778943424522,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.65) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.01109778943424522
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (INCO moving with peers: mean +6.1%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-14.2%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.004484304932735439,
+        "H3": 0.017937219730941756,
+        "H5": 0.0,
+        "H10": -0.058295964125560484,
+        "H20": 0.04484304932735417
+      }
+    },
+    {
+      "candidate_id": "CAND_ASII_2025-10-23",
+      "symbol": "ASII",
+      "entity_id": "ENT_ASII",
+      "canonical_name": "Astra International Tbk",
+      "date": "2025-10-23T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.5020387117444314,
+      "day_return": 0.02429149797570851,
+      "exposures": [],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.008477544487336397,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.50.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "UNTR",
+          "ASII"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.008477544487336397
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.2%)",
+        "Contextual Sector Rotation (ASII moving with peers: mean +1.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-10.0%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.03952569169960474,
+        "H3": 0.0,
+        "H5": -0.007905138339920903,
+        "H10": 0.0,
+        "H20": 0.015810276679841806
+      }
+    },
+    {
+      "candidate_id": "CAND_ASII_2025-10-27",
+      "symbol": "ASII",
+      "entity_id": "ENT_ASII",
+      "canonical_name": "Astra International Tbk",
+      "date": "2025-10-27T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.4391319473954065,
+      "day_return": 0.0038022813688212143,
+      "exposures": [],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.024769147202607256,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.44.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "UNTR",
+          "ASII"
+        ],
+        "actual_movers": [
+          "UNTR"
+        ],
+        "non_movers": [
+          "ASII"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.024769147202607256
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ASII moving with peers: mean +2.9%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-10.4%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.04166666666666663,
+        "H3": -0.0492424242424242,
+        "H5": -0.037878787878787845,
+        "H10": -0.02651515151515149,
+        "H20": -0.018939393939393923
+      }
+    },
+    {
+      "candidate_id": "CAND_BBCA_2025-10-29",
+      "symbol": "BBCA",
+      "entity_id": "ENT_BBCA",
+      "canonical_name": "Bank Central Asia Tbk",
+      "date": "2025-10-29T00:00:00+0700",
+      "quant_score": 90.0,
+      "rel_vol": 1.2410081037367138,
+      "day_return": 0.0392749244712991,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_DJARUM_GROUP",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.020124909261675688,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.24.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBNI",
+          "BBRI",
+          "BMRI",
+          "BBCA"
+        ],
+        "actual_movers": [
+          "BBCA",
+          "BBNI",
+          "BMRI"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "BBCA"
+        ],
+        "differential_magnitude": 0.020124909261675688
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.9%)",
+        "Contextual Sector Rotation (BBCA moving with peers: mean +1.9%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-8.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.008720930232558155,
+        "H3": 0.005813953488372103,
+        "H5": 0.011627906976744207,
+        "H10": -0.011627906976744207,
+        "H20": -0.02034883720930236
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2025-10-30",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2025-10-30T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.2311750911794053,
+      "day_return": 0.023255813953488413,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.000827876353807544,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.23) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.000827876353807544
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ADRO moving with peers: mean +2.4%)",
+        "Liquidity / Flow Burst (RelVol 2.23x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-11.1%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.04797979797979801,
+        "H3": -0.037878787878787845,
+        "H5": -0.030303030303030276,
+        "H10": -0.025252525252525304,
+        "H20": -0.08585858585858586
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2025-10-30",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2025-10-30T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.6257778918329375,
+      "day_return": 0.02285092491838947,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.0014352099064559587,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.63) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.0014352099064559587
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ITMG moving with peers: mean +2.4%)",
+        "Liquidity / Flow Burst (RelVol 2.63x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-3.9%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0,
+        "H3": -0.012765957446808529,
+        "H5": -0.004255319148936176,
+        "H10": -0.036170212765957444,
+        "H20": -0.06382978723404253
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2025-10-30",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2025-10-30T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.8709405881641754,
+      "day_return": 0.025316455696202445,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.0022630862602635027,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.87) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.0022630862602635027
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (PTBA moving with peers: mean +2.3%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-8.3%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.012345679012345734,
+        "H3": -0.012345679012345734,
+        "H5": -0.012345679012345734,
+        "H10": -0.028806584362139898,
+        "H20": -0.053497942386831254
+      }
+    },
+    {
+      "candidate_id": "CAND_ASII_2025-10-31",
+      "symbol": "ASII",
+      "entity_id": "ENT_ASII",
+      "canonical_name": "Astra International Tbk",
+      "date": "2025-10-31T00:00:00+0700",
+      "quant_score": 88.0,
+      "rel_vol": 1.379189962715678,
+      "day_return": -0.019920318725099584,
+      "exposures": [],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.01850684838839456,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.38.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "UNTR",
+          "ASII"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.01850684838839456
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-1.0%)",
+        "Contextual Sector Rotation (ASII moving with peers: mean +-3.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-12.3%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.03252032520325199,
+        "H3": 0.016260162601626105,
+        "H5": 0.04471544715447151,
+        "H10": 0.04065040650406515,
+        "H20": 0.06504065040650397
+      }
+    },
+    {
+      "candidate_id": "CAND_UNTR_2025-10-31",
+      "symbol": "UNTR",
+      "entity_id": "ENT_UNTR",
+      "canonical_name": "United Tractors Tbk",
+      "date": "2025-10-31T00:00:00+0700",
+      "quant_score": 98.0,
+      "rel_vol": 3.4017420968779213,
+      "day_return": -0.03842716711349414,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "CONTRACT_MINING",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.01850684838839456,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 3.40) -> UNTR breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ASII",
+          "UNTR"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.01850684838839456
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (UNTR moving with peers: mean +-2.0%)",
+        "Liquidity / Flow Burst (RelVol 3.40x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-8.2%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.013940520446096727,
+        "H3": 0.0037174721189590088,
+        "H5": 0.02230483271375472,
+        "H10": 0.04275092936802971,
+        "H20": 0.040892193308550207
+      }
+    },
+    {
+      "candidate_id": "CAND_UNTR_2025-11-03",
+      "symbol": "UNTR",
+      "entity_id": "ENT_UNTR",
+      "canonical_name": "United Tractors Tbk",
+      "date": "2025-11-03T00:00:00+0700",
+      "quant_score": 95.0,
+      "rel_vol": 1.3288017452378418,
+      "day_return": 0.013940520446096727,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "CONTRACT_MINING",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.01857980475715526,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.33) -> UNTR breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ASII",
+          "UNTR"
+        ],
+        "actual_movers": [
+          "ASII"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.01857980475715526
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (UNTR moving with peers: mean +3.3%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-8.1%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.002749770852429001,
+        "H3": 0.0036663611365719273,
+        "H5": 0.021998166819431786,
+        "H10": 0.027497708524289566,
+        "H20": 0.025664527956003713
+      }
+    },
+    {
+      "candidate_id": "CAND_ASII_2025-12-02",
+      "symbol": "ASII",
+      "entity_id": "ENT_ASII",
+      "canonical_name": "Astra International Tbk",
+      "date": "2025-12-02T00:00:00+0700",
+      "quant_score": 85.0,
+      "rel_vol": 1.390666565938124,
+      "day_return": 0.03921568627450989,
+      "exposures": [],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.019555275193187338,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.39.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "UNTR",
+          "ASII"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.019555275193187338
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ASII moving with peers: mean +2.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.5%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.0037735849056603765,
+        "H3": 0.01132075471698113,
+        "H5": -0.0037735849056603765,
+        "H10": -0.0037735849056603765,
+        "H20": 0.037735849056603765
+      }
+    },
+    {
+      "candidate_id": "CAND_UNTR_2025-12-02",
+      "symbol": "UNTR",
+      "entity_id": "ENT_UNTR",
+      "canonical_name": "United Tractors Tbk",
+      "date": "2025-12-02T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.5471562362599645,
+      "day_return": 0.01966041108132255,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "CONTRACT_MINING",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.019555275193187338,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.55) -> UNTR breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ASII",
+          "UNTR"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.019555275193187338
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (UNTR moving with peers: mean +3.9%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.006134969325153339,
+        "H3": 0.08150744960560918,
+        "H5": 0.034180543382997364,
+        "H10": -0.013146362839614345,
+        "H20": 0.07975460122699385
+      }
+    },
+    {
+      "candidate_id": "CAND_BBNI_2025-12-18",
+      "symbol": "BBNI",
+      "entity_id": "ENT_BBNI",
+      "canonical_name": "Bank Negara Indonesia Tbk",
+      "date": "2025-12-18T00:00:00+0700",
+      "quant_score": 80.0,
+      "rel_vol": 1.2694387135066825,
+      "day_return": 0.0022883295194509046,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.014900740705747095,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.27.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBRI",
+          "BMRI",
+          "BBNI"
+        ],
+        "actual_movers": [
+          "BBCA",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBRI",
+          "BBNI"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.014900740705747095
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.2%)",
+        "Contextual Sector Rotation (BBNI moving with peers: mean +1.7%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-7.2%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.0091324200913242,
+        "H3": -0.020547945205479423,
+        "H5": -0.0273972602739726,
+        "H10": -0.04109589041095896,
+        "H20": 0.047945205479452024
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-01-05",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-01-05T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.3611694721271226,
+      "day_return": 0.05607476635514019,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.0005290072297654547,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.36) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.0005290072297654547
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.2%)",
+        "Contextual Sector Rotation (ANTM moving with peers: mean +5.7%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-12.4%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.017699115044247815,
+        "H3": 0.029498525073746285,
+        "H5": 0.12979351032448383,
+        "H10": 0.21533923303834812,
+        "H20": 0.15929203539823011
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2026-01-05",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2026-01-05T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.9219400369150526,
+      "day_return": 0.05660377358490565,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.0005290072297654547,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.92) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.0005290072297654547
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.2%)",
+        "Contextual Sector Rotation (INCO moving with peers: mean +5.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-16.3%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0044642857142858094,
+        "H3": 0.0714285714285714,
+        "H5": 0.1428571428571428,
+        "H10": 0.1116071428571428,
+        "H20": 0.1071428571428572
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2026-01-06",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2026-01-06T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.6559005490803878,
+      "day_return": 0.0044642857142858094,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.013234829329962006,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.66) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM"
+        ],
+        "non_movers": [
+          "INCO"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.013234829329962006
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (INCO moving with peers: mean +1.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-17.1%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.12444444444444436,
+        "H3": 0.1200000000000001,
+        "H5": 0.16888888888888887,
+        "H10": 0.14666666666666672,
+        "H20": 0.17333333333333334
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-01-07",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-01-07T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 3.309572618016922,
+      "day_return": 0.11594202898550732,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.00850241545893704,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 3.31) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.00850241545893704
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.1%)",
+        "Contextual Sector Rotation (ANTM moving with peers: mean +12.4%)",
+        "Liquidity / Flow Burst (RelVol 3.31x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-12.2%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.09350649350649354,
+        "H3": -0.0051948051948051965,
+        "H5": 0.06233766233766236,
+        "H10": 0.09610389610389602,
+        "H20": -0.010389610389610393
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2026-01-07",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2026-01-07T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.6904163110601993,
+      "day_return": 0.12444444444444436,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.00850241545893704,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.69) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.00850241545893704
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.1%)",
+        "Contextual Sector Rotation (INCO moving with peers: mean +11.6%)",
+        "Liquidity / Flow Burst (RelVol 2.69x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-17.9%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.0513833992094862,
+        "H3": 0.011857707509881354,
+        "H5": 0.011857707509881354,
+        "H10": 0.031620553359683834,
+        "H20": -0.0039525691699604515
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-01-07",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-01-07T00:00:00+0700",
+      "quant_score": 96.0,
+      "rel_vol": 3.4485483267289676,
+      "day_return": 0.021097046413502074,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.018914604652326528,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 3.45) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "PTBA"
+        ],
+        "non_movers": [
+          "ITMG"
+        ],
+        "substantially_higher_movers": [
+          "ADRO"
+        ],
+        "differential_magnitude": -0.018914604652326528
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +3.0%)",
+        "Contextual Sector Rotation (PTBA moving with peers: mean +4.0%)",
+        "Liquidity / Flow Burst (RelVol 3.45x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-4.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.012396694214875992,
+        "H3": -0.016528925619834656,
+        "H5": 0.008264462809917328,
+        "H10": 0.045454545454545414,
+        "H20": 0.07024793388429762
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-01-09",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-01-09T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.2833766544662648,
+      "day_return": 0.04011461318051568,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.009885386819484365,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.28) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.009885386819484365
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ANTM moving with peers: mean +5.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-15.2%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.05509641873278226,
+        "H3": 0.1267217630853994,
+        "H5": 0.10192837465564741,
+        "H10": 0.3112947658402203,
+        "H20": 0.07162534435261714
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-01-13",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-01-13T00:00:00+0700",
+      "quant_score": 93.0,
+      "rel_vol": 1.5248983143754786,
+      "day_return": 0.01680672268907557,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.01918391112498441,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.52) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "PTBA"
+        ],
+        "non_movers": [
+          "ITMG"
+        ],
+        "substantially_higher_movers": [
+          "ADRO"
+        ],
+        "differential_magnitude": -0.01918391112498441
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.2%)",
+        "Contextual Sector Rotation (PTBA moving with peers: mean +3.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.0%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.008264462809917328,
+        "H3": 0.016528925619834656,
+        "H5": 0.024793388429751984,
+        "H10": 0.012396694214876103,
+        "H20": 0.05371900826446274
+      }
+    },
+    {
+      "candidate_id": "CAND_BBNI_2026-01-15",
+      "symbol": "BBNI",
+      "entity_id": "ENT_BBNI",
+      "canonical_name": "Bank Negara Indonesia Tbk",
+      "date": "2026-01-15T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 3.0053565729003644,
+      "day_return": 0.041284403669724856,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.018868251680625708,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=3.01.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBRI",
+          "BMRI",
+          "BBNI"
+        ],
+        "actual_movers": [
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBCA"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.018868251680625708
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (BBNI moving with peers: mean +2.2%)",
+        "Liquidity / Flow Burst (RelVol 3.01x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.9%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.017621145374449254,
+        "H3": 0.011013215859030812,
+        "H5": 0.013215859030837107,
+        "H10": -0.011013215859030812,
+        "H20": -0.013215859030836996
+      }
+    },
+    {
+      "candidate_id": "CAND_BBRI_2026-01-15",
+      "symbol": "BBRI",
+      "entity_id": "ENT_BBRI",
+      "canonical_name": "Bank Rakyat Indonesia Tbk",
+      "date": "2026-01-15T00:00:00+0700",
+      "quant_score": 93.0,
+      "rel_vol": 1.8558156411325741,
+      "day_return": 0.026881720430107503,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.0003353259721974311,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.86.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBNI",
+          "BMRI",
+          "BBRI"
+        ],
+        "actual_movers": [
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBCA"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.0003353259721974311
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (BBRI moving with peers: mean +2.7%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.2%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.005235602094240788,
+        "H3": 0.0,
+        "H5": 0.007853403141361293,
+        "H10": -0.002617801047120394,
+        "H20": -0.010471204188481686
+      }
+    },
+    {
+      "candidate_id": "CAND_BMRI_2026-01-15",
+      "symbol": "BMRI",
+      "entity_id": "ENT_BMRI",
+      "canonical_name": "Bank Mandiri Tbk",
+      "date": "2026-01-15T00:00:00+0700",
+      "quant_score": 85.0,
+      "rel_vol": 2.0490029206673297,
+      "day_return": 0.030991735537190035,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.005144694170579278,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=2.05.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "actual_movers": [
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBCA"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.005144694170579278
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (BMRI moving with peers: mean +2.6%)",
+        "Liquidity / Flow Burst (RelVol 2.05x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.5%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.002004008016031955,
+        "H3": 0.0,
+        "H5": 0.0,
+        "H10": -0.034068136272545124,
+        "H20": 0.017034068136272618
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-01-21",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-01-21T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.2811429141551085,
+      "day_return": 0.03640776699029136,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.0002631886770383396,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.28) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.0002631886770383396
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-2.2%)",
+        "Contextual Sector Rotation (ANTM moving with peers: mean +3.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-16.0%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.011709601873536313,
+        "H3": 0.11475409836065564,
+        "H5": 0.03512880562060894,
+        "H10": -0.06557377049180324,
+        "H20": -0.011709601873536313
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-01-22",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-01-22T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.790688316385728,
+      "day_return": 0.03982300884955747,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.02021321570620427,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.79) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ADRO"
+        ],
+        "differential_magnitude": 0.02021321570620427
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ADRO moving with peers: mean +2.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-16.4%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.02127659574468077,
+        "H3": -0.025531914893617058,
+        "H5": -0.05531914893617018,
+        "H10": -0.1063829787234043,
+        "H20": -0.012765957446808529
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-01-22",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-01-22T00:00:00+0700",
+      "quant_score": 93.0,
+      "rel_vol": 1.8326563769293258,
+      "day_return": 0.01905829596412567,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.010933853621943435,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.83) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.010933853621943435
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.1%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +3.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-3.1%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.00990099009900991,
+        "H3": -0.02310231023102305,
+        "H5": -0.02310231023102305,
+        "H10": -0.02640264026402639,
+        "H20": -0.004400440044004417
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-01-22",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-01-22T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.4039261867811907,
+      "day_return": 0.02016129032258074,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.009279362084260834,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.40) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.009279362084260834
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.1%)",
+        "Contextual Sector Rotation (PTBA moving with peers: mean +2.9%)",
+        "Liquidity / Flow Burst (RelVol 2.40x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.8%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.011857707509881354,
+        "H3": 0.02371541501976293,
+        "H5": -0.035573122529644285,
+        "H10": 0.02371541501976293,
+        "H20": 0.03952569169960474
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-01-27",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-01-27T00:00:00+0700",
+      "quant_score": 90.0,
+      "rel_vol": 1.2356633015451612,
+      "day_return": -0.019867549668874163,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.0010529524231760456,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.24) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG"
+        ],
+        "non_movers": [
+          "PTBA"
+        ],
+        "substantially_higher_movers": [
+          "PTBA"
+        ],
+        "differential_magnitude": 0.0010529524231760456
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-2.3%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +-2.1%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-3.7%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.012387387387387427,
+        "H3": -0.011261261261261257,
+        "H5": -0.007882882882882858,
+        "H10": -0.0045045045045044585,
+        "H20": 0.011261261261261257
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-01-28",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-01-28T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.423763861687898,
+      "day_return": -0.03493449781659386,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.0017137770958731147,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.42) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ITMG"
+        ],
+        "differential_magnitude": -0.0017137770958731147
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-4.8%)",
+        "Contextual Sector Rotation (ADRO moving with peers: mean +-3.3%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-20.2%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.004524886877828038,
+        "H3": -0.03167420814479638,
+        "H5": -0.013574660633484115,
+        "H10": 0.004524886877828038,
+        "H20": 0.05882352941176472
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-01-28",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-01-28T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.0707021079958765,
+      "day_return": -0.041214750542299394,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.021285249457700606,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.07) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ANTM"
+        ],
+        "differential_magnitude": 0.021285249457700606
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-4.7%)",
+        "Contextual Sector Rotation (ANTM moving with peers: mean +-6.2%)",
+        "Liquidity / Flow Burst (RelVol 2.07x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-18.8%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.022624434389140302,
+        "H3": -0.1380090497737556,
+        "H5": -0.09728506787330315,
+        "H10": -0.09728506787330315,
+        "H20": -0.015837104072398245
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-01-29",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-01-29T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.627985355580372,
+      "day_return": -0.022624434389140302,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.02051282051282044,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.63) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ANTM"
+        ],
+        "differential_magnitude": 0.02051282051282044
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ANTM moving with peers: mean +-4.3%)",
+        "Liquidity / Flow Burst (RelVol 2.63x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-21.3%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.02546296296296291,
+        "H3": -0.09027777777777779,
+        "H5": -0.11805555555555558,
+        "H10": -0.04629629629629628,
+        "H20": 0.06712962962962954
+      }
+    },
+    {
+      "candidate_id": "CAND_BBRI_2026-01-30",
+      "symbol": "BBRI",
+      "entity_id": "ENT_BBRI",
+      "canonical_name": "Bank Rakyat Indonesia Tbk",
+      "date": "2026-01-30T00:00:00+0700",
+      "quant_score": 86.0,
+      "rel_vol": 1.9083831676940053,
+      "day_return": 0.007936507936507908,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.02028069170109566,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.91.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBNI",
+          "BMRI",
+          "BBRI"
+        ],
+        "actual_movers": [
+          "BBCA",
+          "BBNI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBRI"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.02028069170109566
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.9%)",
+        "Contextual Sector Rotation (BBRI moving with peers: mean +2.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.6%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.005249343832020914,
+        "H3": 0.015748031496062964,
+        "H5": -0.007874015748031482,
+        "H10": -0.007874015748031482,
+        "H20": -0.01049868766404205
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-02-19",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-02-19T00:00:00+0700",
+      "quant_score": 98.0,
+      "rel_vol": 1.2441871046652775,
+      "day_return": 0.007633587786259444,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.009070364488162563,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.24) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO"
+        ],
+        "non_movers": [
+          "PTBA"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.009070364488162563
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (PTBA moving with peers: mean +1.7%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-8.4%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.007575757575757569,
+        "H3": -0.018939393939393923,
+        "H5": -0.011363636363636354,
+        "H10": 0.125,
+        "H20": 0.18560606060606055
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-03-02",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-03-02T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.6409808723989692,
+      "day_return": 0.029914529914529808,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.014848199123720596,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.64) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.014848199123720596
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ADRO moving with peers: mean +4.5%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.7%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.024896265560165887,
+        "H3": 0.008298755186721962,
+        "H5": -0.024896265560165998,
+        "H10": 0.012448132780082943,
+        "H20": 0.0
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-03-02",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-03-02T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 3.351503464133766,
+      "day_return": 0.0318331503841931,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.01197026841922566,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 3.35) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.01197026841922566
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ITMG moving with peers: mean +4.4%)",
+        "Liquidity / Flow Burst (RelVol 3.35x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-3.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.06382978723404253,
+        "H3": 0.10531914893617023,
+        "H5": 0.20425531914893624,
+        "H10": 0.18404255319148932,
+        "H20": 0.13404255319148928
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-03-03",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-03-03T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 4.78058949185574,
+      "day_return": 0.06382978723404253,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.020472563544868705,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 4.78) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ITMG"
+        ],
+        "differential_magnitude": 0.020472563544868705
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ITMG moving with peers: mean +4.3%)",
+        "Liquidity / Flow Burst (RelVol 4.78x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-4.6%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0,
+        "H3": 0.07899999999999996,
+        "H5": 0.121,
+        "H10": 0.1200000000000001,
+        "H20": 0.04699999999999993
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-03-03",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-03-03T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 4.903393450258852,
+      "day_return": 0.06181818181818177,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.01745515542107756,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 4.90) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.01745515542107756
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (PTBA moving with peers: mean +4.4%)",
+        "Liquidity / Flow Burst (RelVol 4.90x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.5%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.020547945205479423,
+        "H3": 0.020547945205479534,
+        "H5": 0.010273972602739656,
+        "H10": -0.003424657534246589,
+        "H20": -0.020547945205479423
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-03-05",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-03-05T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.5619637106881856,
+      "day_return": 0.038999999999999924,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.013519230769230672,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.56) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.013519230769230672
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.1%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +2.5%)",
+        "Liquidity / Flow Burst (RelVol 2.56x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.3%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.038498556304138676,
+        "H3": 0.07892204042348405,
+        "H5": 0.06737247353224252,
+        "H10": 0.1357074109720886,
+        "H20": 0.039461020211742026
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-03-05",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-03-05T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.408750832990274,
+      "day_return": 0.03846153846153855,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.012711538461538607,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.41) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.012711538461538607
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.1%)",
+        "Contextual Sector Rotation (PTBA moving with peers: mean +2.6%)",
+        "Liquidity / Flow Burst (RelVol 2.41x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-7.9%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0033670033670034627,
+        "H3": -0.006734006734006703,
+        "H5": -0.02020202020202022,
+        "H10": 0.05387205387205385,
+        "H20": -0.026936026936026924
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-03-12",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-03-12T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.5899746889689437,
+      "day_return": 0.056190476190476124,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.017306941458472225,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.59) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ADRO"
+        ],
+        "differential_magnitude": 0.017306941458472225
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ITMG moving with peers: mean +3.9%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-11.1%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0,
+        "H3": 0.009918845807033394,
+        "H5": 0.06402164111812447,
+        "H10": -0.014427412082957614,
+        "H20": -0.04147880973850315
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-03-25",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-03-25T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.63842351938907,
+      "day_return": 0.07346938775510203,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.006093081562521863,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.64) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.006093081562521863
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +3.7%)",
+        "Contextual Sector Rotation (ADRO moving with peers: mean +8.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-12.7%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.019011406844106515,
+        "H3": -0.0038022813688213253,
+        "H5": -0.05323193916349811,
+        "H10": -0.08365019011406849,
+        "H20": -0.04562737642585546
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-03-25",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-03-25T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.7050580006129594,
+      "day_return": 0.07321428571428568,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.006475734623746399,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.71) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.006475734623746399
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +3.7%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +8.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-12.7%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.01830282861896837,
+        "H3": 0.0008319467554076532,
+        "H5": -0.07570715474209655,
+        "H10": -0.09733777038269553,
+        "H20": -0.10981697171381033
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-03-25",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-03-25T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.724784644899283,
+      "day_return": 0.08591065292096212,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.012568816186268261,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.72) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.012568816186268261
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +3.6%)",
+        "Contextual Sector Rotation (PTBA moving with peers: mean +7.3%)",
+        "Liquidity / Flow Burst (RelVol 2.72x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-11.0%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.009493670886076,
+        "H3": -0.0031645569620253333,
+        "H5": -0.05696202531645567,
+        "H10": -0.08860759493670889,
+        "H20": -0.06329113924050633
+      }
+    },
+    {
+      "candidate_id": "CAND_UNTR_2026-03-31",
+      "symbol": "UNTR",
+      "entity_id": "ENT_UNTR",
+      "canonical_name": "United Tractors Tbk",
+      "date": "2026-03-31T00:00:00+0700",
+      "quant_score": 96.0,
+      "rel_vol": 1.2613590978239895,
+      "day_return": -0.002409638554216831,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "CONTRACT_MINING",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.013338392941846133,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.26) -> UNTR breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ASII",
+          "UNTR"
+        ],
+        "actual_movers": [
+          "ASII"
+        ],
+        "non_movers": [
+          "UNTR"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.013338392941846133
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (UNTR moving with peers: mean +-1.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.0%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.004025764895330131,
+        "H3": -0.01610305958132041,
+        "H5": 0.0016103059581320522,
+        "H10": 0.013687600644122444,
+        "H20": -0.020128824476650542
+      }
+    },
+    {
+      "candidate_id": "CAND_UNTR_2026-04-10",
+      "symbol": "UNTR",
+      "entity_id": "ENT_UNTR",
+      "canonical_name": "United Tractors Tbk",
+      "date": "2026-04-10T00:00:00+0700",
+      "quant_score": 85.0,
+      "rel_vol": 1.3748641111688802,
+      "day_return": 0.042464612822647796,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "CONTRACT_MINING",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.02222169784289063,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.37) -> UNTR breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ASII",
+          "UNTR"
+        ],
+        "actual_movers": [
+          "ASII",
+          "UNTR"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "UNTR"
+        ],
+        "differential_magnitude": 0.02222169784289063
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.2%)",
+        "Contextual Sector Rotation (UNTR moving with peers: mean +2.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.6%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.013578274760383424,
+        "H3": 0.005591054313099031,
+        "H5": 0.012779552715654896,
+        "H10": 0.01757188498402562,
+        "H20": -0.1317891373801917
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2026-04-14",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2026-04-14T00:00:00+0700",
+      "quant_score": 85.0,
+      "rel_vol": 1.4063196298141387,
+      "day_return": 0.04471544715447151,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.004715447154471475,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.41) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.004715447154471475
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.2%)",
+        "Contextual Sector Rotation (INCO moving with peers: mean +4.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-17.1%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.05836575875486383,
+        "H3": 0.07392996108949412,
+        "H5": 0.0778210116731517,
+        "H10": 0.05836575875486383,
+        "H20": -0.08560311284046696
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2026-04-27",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2026-04-27T00:00:00+0700",
+      "quant_score": 90.0,
+      "rel_vol": 1.2419713775925816,
+      "day_return": 0.02238805970149249,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.005104109084208552,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.24) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.005104109084208552
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-1.2%)",
+        "Contextual Sector Rotation (INCO moving with peers: mean +1.7%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-13.6%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.007299270072992692,
+        "H3": 0.0,
+        "H5": -0.12773722627737227,
+        "H10": -0.11313868613138689,
+        "H20": -0.2861313868613139
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-07-13",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-07-13T00:00:00+0700",
+      "quant_score": 86.0,
+      "rel_vol": 1.5527815117458474,
+      "day_return": 0.025104602510460206,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.005390064334674927,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.55) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.005390064334674927
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.2%)",
+        "Contextual Sector Rotation (ADRO moving with peers: mean +2.0%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-7.6%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.012244897959183598,
+        "H3": 0.02448979591836742,
+        "H5": 0.048979591836734615,
+        "H10": 0.02857142857142847,
+        "H20": 0.03265306122448974
+      }
+    },
+    {
+      "candidate_id": "CAND_BBCA_2026-07-17",
+      "symbol": "BBCA",
+      "entity_id": "ENT_BBCA",
+      "canonical_name": "Bank Central Asia Tbk",
+      "date": "2026-07-17T00:00:00+0700",
+      "quant_score": 98.0,
+      "rel_vol": 1.7158450028345211,
+      "day_return": 0.04016064257028118,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_DJARUM_GROUP",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.006573363646575313,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.72.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBNI",
+          "BBRI",
+          "BMRI",
+          "BBCA"
+        ],
+        "actual_movers": [
+          "BBCA",
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.006573363646575313
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.0%)",
+        "Contextual Sector Rotation (BBCA moving with peers: mean +3.4%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.8%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0,
+        "H3": 0.0038610038610038533,
+        "H5": -0.030888030888030937,
+        "H10": -0.02316602316602312,
+        "H20": -0.019305019305019266
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-07-20",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-07-20T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.3398225241395363,
+      "day_return": 0.032128514056224855,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.015946376387357408,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.34) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.015946376387357408
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ADRO moving with peers: mean +1.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-7.6%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.011673151750972721,
+        "H3": -0.011673151750972721,
+        "H5": -0.01945525291828798,
+        "H10": -0.03891050583657585,
+        "H20": 0.0
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-07-20",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-07-20T00:00:00+0700",
+      "quant_score": 98.0,
+      "rel_vol": 1.2269906973141829,
+      "day_return": 0.01991614255765195,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.002372180860501949,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.23) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.002372180860501949
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ITMG moving with peers: mean +2.2%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.006166495375128478,
+        "H3": 0.0030832476875641834,
+        "H5": 0.0010277492291881352,
+        "H10": 0.012332990750256956,
+        "H20": 0.01747173689619741
+      }
+    },
+    {
+      "candidate_id": "CAND_INCO_2026-07-24",
+      "symbol": "INCO",
+      "entity_id": "ENT_INCO",
+      "canonical_name": "Vale Indonesia Tbk",
+      "date": "2026-07-24T00:00:00+0700",
+      "quant_score": 83.0,
+      "rel_vol": 1.8293513839948128,
+      "day_return": -0.040394088669950756,
+      "exposures": [
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "SHAREHOLDER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.011173309449171498,
+      "economic_transmission": "Global/Domestic demand surge in ENT_NICKEL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.83) -> INCO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ANTM",
+          "INCO"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.011173309449171498
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-1.3%)",
+        "Contextual Sector Rotation (INCO moving with peers: mean +-2.9%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-10.6%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.02053388090349073,
+        "H3": -0.047227926078028726,
+        "H5": 0.08316221765913756,
+        "H10": 0.10882956878850103,
+        "H20": 0.08316221765913756
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-07-30",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-07-30T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.5049319904475134,
+      "day_return": 0.014314928425357865,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.002221815027388052,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.50) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO"
+        ],
+        "non_movers": [
+          "PTBA"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.002221815027388052
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.0%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +1.7%)",
+        "Liquidity / Flow Burst (RelVol 2.50x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.7%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.009072580645161255,
+        "H3": 0.0010080645161290036,
+        "H5": -0.0040322580645161255,
+        "H10": -0.015120967741935498,
+        "H20": 0.03427419354838701
+      }
+    },
+    {
+      "candidate_id": "CAND_BBNI_2026-08-04",
+      "symbol": "BBNI",
+      "entity_id": "ENT_BBNI",
+      "canonical_name": "Bank Negara Indonesia Tbk",
+      "date": "2026-08-04T00:00:00+0700",
+      "quant_score": 93.0,
+      "rel_vol": 1.3785408302986837,
+      "day_return": 0.03977272727272729,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.017581461048872482,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.38.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBRI",
+          "BMRI",
+          "BBNI"
+        ],
+        "actual_movers": [
+          "BBCA",
+          "BBNI",
+          "BMRI"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.017581461048872482
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.0%)",
+        "Contextual Sector Rotation (BBNI moving with peers: mean +2.2%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-7.3%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.008196721311475419,
+        "H3": -0.008196721311475419,
+        "H5": -0.030054644808743203,
+        "H10": -0.02732240437158473,
+        "H20": 0.06557377049180335
+      }
+    },
+    {
+      "candidate_id": "CAND_ANTM_2026-08-20",
+      "symbol": "ANTM",
+      "entity_id": "ENT_ANTM",
+      "canonical_name": "Aneka Tambang Tbk",
+      "date": "2026-08-20T00:00:00+0700",
+      "quant_score": 86.0,
+      "rel_vol": 1.425254299644778,
+      "day_return": 0.03630363036303641,
+      "exposures": [
+        {
+          "target": "ENT_GOLD",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        },
+        {
+          "target": "ENT_NICKEL",
+          "basis": "REVENUE",
+          "strength": "MEDIUM",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.0018208717423466858,
+      "economic_transmission": "Global/Domestic demand surge in ENT_GOLD -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.43) -> ANTM breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "INCO",
+          "ANTM"
+        ],
+        "actual_movers": [
+          "ANTM",
+          "INCO"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.0018208717423466858
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.2%)",
+        "Contextual Sector Rotation (ANTM moving with peers: mean +3.4%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.009554140127388644,
+        "H3": 0.015923566878981,
+        "H5": 0.01273885350318471,
+        "H10": 0.0031847133757962887,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_BBNI_2026-08-21",
+      "symbol": "BBNI",
+      "entity_id": "ENT_BBNI",
+      "canonical_name": "Bank Negara Indonesia Tbk",
+      "date": "2026-08-21T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.5389377471809578,
+      "day_return": 0.03899721448467974,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.021216417730785125,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=2.54.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBRI",
+          "BMRI",
+          "BBNI"
+        ],
+        "actual_movers": [
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBCA"
+        ],
+        "substantially_higher_movers": [
+          "BBNI"
+        ],
+        "differential_magnitude": 0.021216417730785125
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (BBNI moving with peers: mean +1.8%)",
+        "Liquidity / Flow Burst (RelVol 2.54x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.9%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.013404825737265424,
+        "H3": -0.013404825737265424,
+        "H5": 0.013404825737265424,
+        "H10": 0.05630026809651478,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_BBRI_2026-08-21",
+      "symbol": "BBRI",
+      "entity_id": "ENT_BBRI",
+      "canonical_name": "Bank Rakyat Indonesia Tbk",
+      "date": "2026-08-21T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.8424994586407457,
+      "day_return": 0.02866242038216571,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.007436692260766414,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.84.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBNI",
+          "BMRI",
+          "BBRI"
+        ],
+        "actual_movers": [
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBCA"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.007436692260766414
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (BBRI moving with peers: mean +2.1%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.8%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.015479876160990669,
+        "H3": -0.03095975232198145,
+        "H5": -0.012383900928792602,
+        "H10": 0.049535603715170184,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-08-24",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-08-24T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.985391087448448,
+      "day_return": 0.031372549019607954,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.010737628384687281,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.99) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "PTBA"
+        ],
+        "non_movers": [
+          "ITMG"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.010737628384687281
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ADRO moving with peers: mean +2.1%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.0%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.0076045627376425395,
+        "H3": 0.015209125475285079,
+        "H5": 0.057034220532319324,
+        "H10": 0.02281368821292773,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-08-24",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-08-24T00:00:00+0700",
+      "quant_score": 88.0,
+      "rel_vol": 2.8301206351324026,
+      "day_return": 0.03333333333333344,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.013678804855275506,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.83) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "PTBA"
+        ],
+        "non_movers": [
+          "ITMG"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.013678804855275506
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (PTBA moving with peers: mean +2.0%)",
+        "Liquidity / Flow Burst (RelVol 2.83x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.0%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0,
+        "H3": 0.008064516129032251,
+        "H5": 0.032258064516129004,
+        "H10": 0.21370967741935476,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-08-26",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-08-26T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.8208912886710173,
+      "day_return": -0.0076045627376425395,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.010397723266929448,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.82) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "PTBA"
+        ],
+        "non_movers": [
+          "ADRO"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.010397723266929448
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +-1.0%)",
+        "Contextual Sector Rotation (ADRO moving with peers: mean +-1.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.1%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.034482758620689724,
+        "H3": 0.08812260536398475,
+        "H5": 0.015325670498084198,
+        "H10": 0.03065134099616862,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-08-26",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-08-26T00:00:00+0700",
+      "quant_score": 81.0,
+      "rel_vol": 1.602419597234746,
+      "day_return": -0.011811023622047223,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.004088031940322423,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.60) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "PTBA"
+        ],
+        "non_movers": [
+          "ADRO"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.004088031940322423
+      },
+      "alternative_explanations": [
+        "Contextual Sector Rotation (ITMG moving with peers: mean +-1.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.1%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.017928286852589626,
+        "H3": 0.03784860557768921,
+        "H5": 0.03984063745019917,
+        "H10": 0.05776892430278879,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-08-27",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-08-27T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 2.2091128440164174,
+      "day_return": 0.034482758620689724,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.008989689574560256,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 2.21) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.008989689574560256
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.3%)",
+        "Contextual Sector Rotation (ADRO moving with peers: mean +2.5%)",
+        "Liquidity / Flow Burst (RelVol 2.21x)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-6.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.011111111111111072,
+        "H3": 0.029629629629629672,
+        "H5": 0.014814814814814836,
+        "H10": -0.011111111111111072,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-08-27",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-08-27T00:00:00+0700",
+      "quant_score": 98.0,
+      "rel_vol": 1.4181718189186059,
+      "day_return": 0.017928286852589626,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.015842018077589892,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.42) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.015842018077589892
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.5%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +3.4%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.2%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.00391389432485334,
+        "H3": 0.017612524461839474,
+        "H5": 0.023483365949119372,
+        "H10": 0.021526418786692814,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_PTBA_2026-08-27",
+      "symbol": "PTBA",
+      "entity_id": "ENT_PTBA",
+      "canonical_name": "Bukit Asam Tbk",
+      "date": "2026-08-27T00:00:00+0700",
+      "quant_score": 88.0,
+      "rel_vol": 1.8828905299605396,
+      "day_return": 0.03305785123966931,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_MIND_ID",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.006852328503029637,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.88) -> PTBA breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG",
+          "PTBA"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.006852328503029637
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.3%)",
+        "Contextual Sector Rotation (PTBA moving with peers: mean +2.6%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.7%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.01200000000000001,
+        "H3": 0.06800000000000006,
+        "H5": 0.15599999999999992,
+        "H10": 0.24,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ITMG_2026-08-31",
+      "symbol": "ITMG",
+      "entity_id": "ENT_ITMG",
+      "canonical_name": "Indo Tambangraya Megah Tbk",
+      "date": "2026-08-31T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.8434131496172175,
+      "day_return": 0.015594541910331383,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [
+        {
+          "controller_entity": "ENT_BANPU",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.022169517837118624,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.84) -> ITMG breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ADRO",
+          "PTBA",
+          "ITMG"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "ITMG"
+        ],
+        "non_movers": [],
+        "substantially_higher_movers": [
+          "ADRO"
+        ],
+        "differential_magnitude": -0.022169517837118624
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.1%)",
+        "Contextual Sector Rotation (ITMG moving with peers: mean +3.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.2%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.0019193857965451588,
+        "H3": 0.0038387715930903177,
+        "H5": 0.018234165067178454,
+        "H10": 0.0057581573896352545,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_BMRI_2026-09-01",
+      "symbol": "BMRI",
+      "entity_id": "ENT_BMRI",
+      "canonical_name": "Bank Mandiri Tbk",
+      "date": "2026-09-01T00:00:00+0700",
+      "quant_score": 99.0,
+      "rel_vol": 1.636489363855618,
+      "day_return": 0.02127659574468077,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.000644698117964488,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.64.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBNI",
+          "BBRI",
+          "BMRI"
+        ],
+        "actual_movers": [
+          "BBCA",
+          "BBRI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBNI"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": 0.000644698117964488
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +1.1%)",
+        "Contextual Sector Rotation (BMRI moving with peers: mean +2.1%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-4.3%)"
+      ],
+      "outcome_alignment": "THESIS_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": 0.0092592592592593,
+        "H3": 0.02314814814814814,
+        "H5": 0.02546296296296302,
+        "H10": NaN,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_ADRO_2026-09-03",
+      "symbol": "ADRO",
+      "entity_id": "ENT_ADRO",
+      "canonical_name": "Adaro Energy Indonesia Tbk",
+      "date": "2026-09-03T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.871679154041344,
+      "day_return": 0.03396226415094339,
+      "exposures": [
+        {
+          "target": "ENT_COAL",
+          "basis": "REVENUE",
+          "strength": "HIGH",
+          "direction": "POSITIVE"
+        }
+      ],
+      "controllers": [],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": 0.0017544097448131124,
+      "economic_transmission": "Global/Domestic demand surge in ENT_COAL -> Contextual peer revenue expansion -> Sector-wide volume acceleration (RelVol: 1.87) -> ADRO breakout in harmony with peers.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "ITMG",
+          "PTBA",
+          "ADRO"
+        ],
+        "actual_movers": [
+          "ADRO",
+          "PTBA"
+        ],
+        "non_movers": [
+          "ITMG"
+        ],
+        "substantially_higher_movers": [
+          "PTBA"
+        ],
+        "differential_magnitude": 0.0017544097448131124
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.2%)",
+        "Contextual Sector Rotation (ADRO moving with peers: mean +3.2%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "PASS",
+      "thesis_classification": "SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-9.6%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.007299270072992692,
+        "H3": -0.018248175182481785,
+        "H5": -0.025547445255474477,
+        "H10": NaN,
+        "H20": NaN
+      }
+    },
+    {
+      "candidate_id": "CAND_BBRI_2026-09-03",
+      "symbol": "BBRI",
+      "entity_id": "ENT_BBRI",
+      "canonical_name": "Bank Rakyat Indonesia Tbk",
+      "date": "2026-09-03T00:00:00+0700",
+      "quant_score": 100.0,
+      "rel_vol": 1.2585529971570073,
+      "day_return": 0.005899705014749346,
+      "exposures": [],
+      "controllers": [
+        {
+          "controller_entity": "ENT_GOV_INDONESIA",
+          "type": "CONTROLLER_OF",
+          "source": "SRC_IDX_DISCLOSURE"
+        }
+      ],
+      "specificity_status": "SECTOR_WIDE",
+      "differential_return": -0.011867517855040255,
+      "economic_transmission": "Market/Factor momentum propagation with RelVol=1.26.",
+      "peer_counterfactual": {
+        "expected_affected_universe": [
+          "BBCA",
+          "BBNI",
+          "BMRI",
+          "BBRI"
+        ],
+        "actual_movers": [
+          "BBNI",
+          "BMRI"
+        ],
+        "non_movers": [
+          "BBRI"
+        ],
+        "substantially_higher_movers": [],
+        "differential_magnitude": -0.011867517855040255
+      },
+      "alternative_explanations": [
+        "Broad Market Rally (IHSG / universe mean +2.5%)",
+        "Contextual Sector Rotation (BBRI moving with peers: mean +1.8%)"
+      ],
+      "unknowns": [
+        "Quarterly fundamental filing disclosures not populated at T",
+        "Specific company press releases not available in contemporary window"
+      ],
+      "red_team_status": "WEAK",
+      "thesis_classification": "PARTIALLY_SUPPORTED",
+      "invalidation_conditions": [
+        "Contextual peer breakdown (Peer mean return falls below -1.5%)",
+        "Volume contraction (RelVol falls below 0.8 on breakout confirmation day)",
+        "Price breaks below structural stop loss (-5.9%)"
+      ],
+      "outcome_alignment": "THESIS_NOT_SUPPORTED_BY_OUTCOME",
+      "forward_returns": {
+        "H1": -0.0058651026392961825,
+        "H3": 0.0,
+        "H5": -0.02639296187683282,
+        "H10": NaN,
+        "H20": NaN
+      }
+    }
+  ]
+}

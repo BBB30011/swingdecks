@@ -1,0 +1,479 @@
+{
+  "batch": "ZZZ.14.3.1",
+  "verdict": "CONDITIONAL_ASSOCIATION_REPRODUCED",
+  "gate_decision": "PASS \u2014 ZZZ.14.3.1 REPLICATION COMPLETE",
+  "next_research_eligibility": "ALLOWED",
+  "manifest_summary": {
+    "batch": "ZZZ.14.3.1",
+    "experiment": "Canonical Layer E Replay-Firewall Replication",
+    "total_canonical_observations": 73,
+    "evidence_count": 59,
+    "unobserved_count": 14,
+    "commodity_count": 51,
+    "non_commodity_count": 22,
+    "unique_tickers_count": 11,
+    "unique_dates_count": 49,
+    "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "timestamp": "2026-09-27T00:02:32.272517"
+  },
+  "layer_results": {
+    "layers": [
+      {
+        "layer": "A0",
+        "information": "Quant Baseline (Layer E)",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "raw_h5_mean_pct": 1.2726,
+        "incremental_vs_previous_pp": null,
+        "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+      },
+      {
+        "layer": "A1",
+        "information": "Quant + Contextual Peer",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "raw_h5_mean_pct": 1.2726,
+        "incremental_vs_previous_pp": 0.0,
+        "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+      },
+      {
+        "layer": "A2",
+        "information": "Quant + Peer + Exposure",
+        "N": 51,
+        "h5_peer_excess_mean_pct": 0.1956,
+        "h5_peer_excess_median_pct": 0.3215,
+        "h5_peer_excess_std_pct": 6.8486,
+        "h5_peer_excess_se_pct": 0.959,
+        "ci_95_pct": [
+          -1.684,
+          2.0753
+        ],
+        "raw_h5_mean_pct": 1.8093,
+        "incremental_vs_previous_pp": 0.138,
+        "status": "INCREMENTAL_DISCRIMINATION_OBSERVED"
+      },
+      {
+        "layer": "A3",
+        "information": "A2 + Historical Evidence",
+        "N": 59,
+        "h5_peer_excess_mean_pct": 0.6529,
+        "h5_peer_excess_median_pct": 0.4315,
+        "h5_peer_excess_std_pct": 6.1514,
+        "h5_peer_excess_se_pct": 0.8008,
+        "ci_95_pct": [
+          -0.9168,
+          2.2225
+        ],
+        "raw_h5_mean_pct": 1.4206,
+        "incremental_vs_previous_pp": 0.4572,
+        "status": "INCREMENTAL_DISCRIMINATION_OBSERVED"
+      },
+      {
+        "layer": "A4",
+        "information": "A3 + Agent 2 Thesis",
+        "N": 59,
+        "h5_peer_excess_mean_pct": 0.6529,
+        "h5_peer_excess_median_pct": 0.4315,
+        "h5_peer_excess_std_pct": 6.1514,
+        "h5_peer_excess_se_pct": 0.8008,
+        "ci_95_pct": [
+          -0.9168,
+          2.2225
+        ],
+        "raw_h5_mean_pct": 1.4206,
+        "incremental_vs_previous_pp": 0.0,
+        "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+      },
+      {
+        "layer": "A5",
+        "information": "A4 + Red Team",
+        "N": 59,
+        "h5_peer_excess_mean_pct": 0.6529,
+        "h5_peer_excess_median_pct": 0.4315,
+        "h5_peer_excess_std_pct": 6.1514,
+        "h5_peer_excess_se_pct": 0.8008,
+        "ci_95_pct": [
+          -0.9168,
+          2.2225
+        ],
+        "raw_h5_mean_pct": 1.4206,
+        "incremental_vs_previous_pp": 0.0,
+        "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+      }
+    ],
+    "differential_summary": {
+      "evidence_N": 59,
+      "evidence_mean_excess_h5_pct": 0.6529,
+      "unobserved_N": 14,
+      "unobserved_mean_excess_h5_pct": -2.4509,
+      "peer_excess_differential_pp": 3.1037,
+      "v1_baseline_differential_pp": 3.1037,
+      "replication_delta_pp": 0.0,
+      "replicated_successfully": true
+    }
+  },
+  "differential_summary": {
+    "evidence_N": 59,
+    "evidence_mean_excess_h5_pct": 0.6529,
+    "unobserved_N": 14,
+    "unobserved_mean_excess_h5_pct": -2.4509,
+    "peer_excess_differential_pp": 3.1037,
+    "v1_baseline_differential_pp": 3.1037,
+    "replication_delta_pp": 0.0,
+    "replicated_successfully": true
+  },
+  "stratification_results": {
+    "stratifications": [
+      {
+        "stratum": "Commodity Universe (N=51)",
+        "N": 51,
+        "h5_peer_excess_mean_pct": 0.1956,
+        "h5_peer_excess_median_pct": 0.3215,
+        "raw_h5_mean_pct": 1.8093,
+        "se_pct": 0.959,
+        "ci_95": [
+          -1.684,
+          2.0753
+        ],
+        "status": "ESTIMATED"
+      },
+      {
+        "stratum": "Non-Commodity Universe (N=22)",
+        "N": 22,
+        "h5_peer_excess_mean_pct": -0.2622,
+        "h5_peer_excess_median_pct": 0.1369,
+        "raw_h5_mean_pct": 0.0283,
+        "se_pct": 0.4953,
+        "ci_95": [
+          -1.2331,
+          0.7086
+        ],
+        "status": "ESTIMATED"
+      },
+      {
+        "stratum": "Pre-2019 (2016-2018)",
+        "N": 0,
+        "h5_peer_excess_mean_pct": NaN,
+        "h5_peer_excess_median_pct": NaN,
+        "raw_h5_mean_pct": NaN,
+        "se_pct": NaN,
+        "ci_95": [
+          NaN,
+          NaN
+        ],
+        "status": "NOT_ESTIMABLE"
+      },
+      {
+        "stratum": "Post-2019 (2019-2026)",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "raw_h5_mean_pct": 1.2726,
+        "se_pct": 0.6844,
+        "ci_95": [
+          -1.2837,
+          1.399
+        ],
+        "status": "ESTIMATED"
+      },
+      {
+        "stratum": "Evidence Present (N=59)",
+        "N": 59,
+        "h5_peer_excess_mean_pct": 0.6529,
+        "h5_peer_excess_median_pct": 0.4315,
+        "raw_h5_mean_pct": 1.4206,
+        "se_pct": 0.8008,
+        "ci_95": [
+          -0.9168,
+          2.2225
+        ],
+        "status": "ESTIMATED"
+      },
+      {
+        "stratum": "Unobserved / No Evidence (N=14)",
+        "N": 14,
+        "h5_peer_excess_mean_pct": -2.4509,
+        "h5_peer_excess_median_pct": -2.516,
+        "raw_h5_mean_pct": 0.6486,
+        "se_pct": 0.9319,
+        "ci_95": [
+          -4.2774,
+          -0.6243
+        ],
+        "status": "ESTIMATED"
+      },
+      {
+        "stratum": "READY Overall (N=73)",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "raw_h5_mean_pct": 1.2726,
+        "se_pct": 0.6844,
+        "ci_95": [
+          -1.2837,
+          1.399
+        ],
+        "status": "ESTIMATED"
+      }
+    ]
+  },
+  "concentration_audit": {
+    "top_3_dates": [
+      {
+        "decision_date": "2026-01-29",
+        "count": 1,
+        "mean": -0.15084244080145726,
+        "abs_mean": 0.15084244080145726
+      },
+      {
+        "decision_date": "2025-09-22",
+        "count": 1,
+        "mean": 0.14742470100398664,
+        "abs_mean": 0.14742470100398664
+      },
+      {
+        "decision_date": "2026-07-24",
+        "count": 1,
+        "mean": 0.11995151531800041,
+        "abs_mean": 0.11995151531800041
+      }
+    ],
+    "leave_one_ticker_out": [
+      {
+        "excluded_ticker": "UNTR",
+        "remaining_N": 67,
+        "differential_pp": 2.9702
+      },
+      {
+        "excluded_ticker": "INCO",
+        "remaining_N": 63,
+        "differential_pp": 2.725
+      },
+      {
+        "excluded_ticker": "ASII",
+        "remaining_N": 69,
+        "differential_pp": 3.267
+      },
+      {
+        "excluded_ticker": "BBCA",
+        "remaining_N": 71,
+        "differential_pp": 3.1342
+      },
+      {
+        "excluded_ticker": "ADRO",
+        "remaining_N": 62,
+        "differential_pp": 2.8216
+      },
+      {
+        "excluded_ticker": "ITMG",
+        "remaining_N": 60,
+        "differential_pp": 1.8741
+      },
+      {
+        "excluded_ticker": "PTBA",
+        "remaining_N": 63,
+        "differential_pp": 3.2239
+      },
+      {
+        "excluded_ticker": "BBNI",
+        "remaining_N": 69,
+        "differential_pp": 3.5292
+      },
+      {
+        "excluded_ticker": "ANTM",
+        "remaining_N": 66,
+        "differential_pp": 3.4031
+      },
+      {
+        "excluded_ticker": "BBRI",
+        "remaining_N": 69,
+        "differential_pp": 3.4879
+      },
+      {
+        "excluded_ticker": "BMRI",
+        "remaining_N": 71,
+        "differential_pp": 3.4294
+      }
+    ],
+    "leave_one_date_out": [
+      {
+        "excluded_date": "2026-01-29",
+        "remaining_N": 72,
+        "differential_pp": 3.3751
+      },
+      {
+        "excluded_date": "2025-09-22",
+        "remaining_N": 72,
+        "differential_pp": 2.8608
+      },
+      {
+        "excluded_date": "2026-07-24",
+        "remaining_N": 72,
+        "differential_pp": 2.9082
+      },
+      {
+        "excluded_date": "2026-01-09",
+        "remaining_N": 72,
+        "differential_pp": 2.9666
+      },
+      {
+        "excluded_date": "2026-01-28",
+        "remaining_N": 71,
+        "differential_pp": 3.4239
+      }
+    ]
+  },
+  "leakage_results": {
+    "all_leakage_probes_passed": true,
+    "probes": [
+      {
+        "test_id": "LKG-01",
+        "name": "Future Publication Injection",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "test_id": "LKG-02",
+        "name": "Current State Injection",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "test_id": "LKG-03",
+        "name": "Outcome H5 Injection",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "test_id": "FBK-01",
+        "name": "Silent Fallback on Missing Entity",
+        "blocked": true,
+        "status": "PASS"
+      }
+    ]
+  },
+  "reproducibility_results": {
+    "passed": true,
+    "matches": 73
+  },
+  "red_team_results": {
+    "batch": "ZZZ.14.3.1",
+    "checks": [
+      {
+        "check_id": "RT-01",
+        "name": "Exact N=73 Canonical Identity Match",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-02",
+        "name": "Zero Observation Addition/Removal/Substitution",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-03",
+        "name": "Historical Replay Engine 4-Timestamp PIT Active",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-04",
+        "name": "Agent 2 Context Bound Strictly to HKS(T)",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-05",
+        "name": "Pre-Outcome Thesis Freeze SHA-256 Verified",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-06",
+        "name": "Outcome Blindness Invariance 100% Maintained",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-07",
+        "name": "Zero Unexplained V1 Discrepancies (0 / 73)",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-08",
+        "name": "Leave-One-Out Peer Self-Exclusion Verified",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-09",
+        "name": "Zero Direct Database/Parquet Imports in Agent 2",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-10",
+        "name": "Zero Future Publication Leakage",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-11",
+        "name": "Zero Current-State Leakage",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-12",
+        "name": "Silent Fallback Absent on Missing Historical Data",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-13",
+        "name": "UNKNOWN / LIMITED Epistemological State Preserved",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-14",
+        "name": "Commodity Concentration Explicitly Bounded",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-15",
+        "name": "Date Concentration Audited via Leave-One-Out",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-16",
+        "name": "100% Deterministic Reproducibility Across Dual Runs",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-17",
+        "name": "No Causal or Standalone Alpha Claims Made",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-18",
+        "name": "No Profitability or Live-Trading Claims Made",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-19",
+        "name": "Zero Strategy / Threshold / Parameter Tuning",
+        "status": "PASS"
+      },
+      {
+        "check_id": "RT-20",
+        "name": "Tripartite Separation of Predictive, Explanatory, Governance Values",
+        "status": "PASS"
+      }
+    ],
+    "overall_red_team_verdict": "PASS"
+  }
+}

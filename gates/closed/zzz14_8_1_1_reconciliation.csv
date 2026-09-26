@@ -1,0 +1,6 @@
+action_state,arm_b_marginal_count,arm_b_row_sum,arm_b_row_delta,arm_b_reconciled,arm_d_marginal_count,arm_d_col_sum,arm_d_col_delta,arm_d_reconciled
+ACT,462,462,0,PASS,828,828,0,PASS
+WATCH,625,625,0,PASS,307,307,0,PASS
+WAIT,592,592,0,PASS,360,360,0,PASS
+REJECT,0,0,0,PASS,161,161,0,PASS
+INSUFFICIENT,81,81,0,PASS,104,104,0,PASS

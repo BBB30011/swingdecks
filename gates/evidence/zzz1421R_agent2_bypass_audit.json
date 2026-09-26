@@ -1,0 +1,28 @@
+{
+  "files_scanned": [
+    "agents/agent2_intelligence/pipeline.py",
+    "agents/agent2_intelligence/llm_reasoner.py",
+    "agents/agent2_intelligence/schemas.py"
+  ],
+  "prohibited_tokens_checked": [
+    "duckdb",
+    "read_parquet",
+    "parquet",
+    "open(",
+    "requests",
+    "urllib",
+    "sqlite3",
+    "psycopg2"
+  ],
+  "token_scan_findings": {
+    "agents/agent2_intelligence/pipeline.py": [],
+    "agents/agent2_intelligence/llm_reasoner.py": [],
+    "agents/agent2_intelligence/schemas.py": []
+  },
+  "database_bypass_possible": false,
+  "parquet_bypass_possible": false,
+  "filesystem_bypass_possible": false,
+  "network_bypass_possible": false,
+  "input_contract": "HistoricalKnowledgeState(T) ONLY",
+  "status": "PASS_NO_BYPASS_FOUND"
+}

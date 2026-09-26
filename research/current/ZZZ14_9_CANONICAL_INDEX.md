@@ -1,0 +1,14 @@
+# ZZZ.14.9 CANONICAL INDEX
+| Artifact | Current Path | Role | Status | Canonical? | Referenced By |
+| -------- | ------------ | ---- | ------ | ---------- | ------------- |
+| zzz14_9_coverage_audit.csv | `research/current/zzz14_9_coverage_audit.csv` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_decision_stability.csv | `research/current/zzz14_9_decision_stability.csv` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_frozen_decision_oos_matrix.csv | `research/current/zzz14_9_frozen_decision_oos_matrix.csv` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_inference.json | `research/current/zzz14_9_inference.json` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_manifest.json | `research/current/zzz14_9_manifest.json` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 1 more) |
+| zzz14_9_placebo.csv | `research/current/zzz14_9_placebo.csv` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_red_team.json | `research/current/zzz14_9_red_team.json` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_temporal_generalization.csv | `research/current/zzz14_9_temporal_generalization.csv` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_transition_oos.csv | `research/current/zzz14_9_transition_oos.csv` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_validation.json | `research/current/zzz14_9_validation.json` | Evidence | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`tests/test_zzz149_frozen_decision_oos.py`<br>`MIGRATION_EXECUTION_REPORT.md` (and 2 more) |
+| zzz14_9_validation.md | `research/current/zzz14_9_validation.md` | Report | ACTIVE | Yes | `core/zzz149_frozen_decision_oos_gate.py`<br>`MIGRATION_EXECUTION_REPORT.md`<br>`migration_proposal/MIGRATION_MAP.md` (and 2 more) |

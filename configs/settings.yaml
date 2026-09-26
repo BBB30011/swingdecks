@@ -1,0 +1,18 @@
+project:
+  name: "AI Swing Trading Desk"
+  environment: "PAPER"
+  dry_run: true
+
+system:
+  timezone: "Asia/Jakarta"
+  log_level: "INFO"
+
+pipeline:
+  mode: "SCAN_SELECT_DECIDE"
+  autonomous_trading: false
+
+data:
+  max_data_age_minutes: 60
+
+llm:
+  enabled: false

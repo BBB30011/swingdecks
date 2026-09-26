@@ -1,0 +1,148 @@
+{
+  "total_peer_links_audited": 131,
+  "evidence_to_evidence_links_count": 40,
+  "control_to_evidence_links_count": 3,
+  "multi_evidence_clusters_count": 12,
+  "multi_evidence_clusters": [
+    {
+      "cluster_id": "2025-10-30T00:00:00+0700__COAL_PRODUCER",
+      "date": "2025-10-30T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 3,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2025-10-31T00:00:00+0700__CONTRACTOR_AUTO",
+      "date": "2025-10-31T00:00:00+0700",
+      "exposure_group": "CONTRACTOR_AUTO",
+      "evidence_tickers": [
+        "ASII",
+        "UNTR"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2025-12-02T00:00:00+0700__CONTRACTOR_AUTO",
+      "date": "2025-12-02T00:00:00+0700",
+      "exposure_group": "CONTRACTOR_AUTO",
+      "evidence_tickers": [
+        "ASII",
+        "UNTR"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-01-05T00:00:00+0700__NICKEL_MINER",
+      "date": "2026-01-05T00:00:00+0700",
+      "exposure_group": "NICKEL_MINER",
+      "evidence_tickers": [
+        "ANTM",
+        "INCO"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-01-07T00:00:00+0700__NICKEL_MINER",
+      "date": "2026-01-07T00:00:00+0700",
+      "exposure_group": "NICKEL_MINER",
+      "evidence_tickers": [
+        "ANTM",
+        "INCO"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-01-15T00:00:00+0700__BIG_BANKS",
+      "date": "2026-01-15T00:00:00+0700",
+      "exposure_group": "BIG_BANKS",
+      "evidence_tickers": [
+        "BBNI",
+        "BBRI",
+        "BMRI"
+      ],
+      "evidence_count": 3,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-01-22T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-01-22T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 3,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-03-02T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-02T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-03-03T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-03T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-03-05T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-05T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-03-25T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-03-25T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG",
+        "PTBA"
+      ],
+      "evidence_count": 3,
+      "unobserved_count": 0
+    },
+    {
+      "cluster_id": "2026-07-20T00:00:00+0700__COAL_PRODUCER",
+      "date": "2026-07-20T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "ADRO",
+        "ITMG"
+      ],
+      "evidence_count": 2,
+      "unobserved_count": 0
+    }
+  ],
+  "unobserved_controls_total": 14,
+  "clean_unobserved_controls_count": 11,
+  "contaminated_unobserved_controls_count": 3,
+  "purified_evidence_setups_retained": 56
+}

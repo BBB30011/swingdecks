@@ -1,0 +1,62 @@
+{
+  "batch_id": "BATCH-ZZZ.11.1",
+  "missingness_mechanism": {
+    "classification": "UNKNOWN",
+    "commodity_unobserved_rate": 0.14754098360655737,
+    "non_commodity_unobserved_rate": 0.4166666666666667,
+    "commodity_coverage_rate": 0.8524590163934427,
+    "non_commodity_coverage_rate": 0.5833333333333333,
+    "coverage_imbalance_pp": 26.912568306010932,
+    "p_missingness_commodity_diff": 0.9905,
+    "year_breakdown": {
+      "2025": {
+        "count": 17,
+        "unobserved_rate": 0.058823529411764705
+      },
+      "2026": {
+        "count": 56,
+        "unobserved_rate": 0.23214285714285715
+      }
+    },
+    "sector_breakdown": {
+      "BIG_BANKS": {
+        "count": 12,
+        "unobserved_rate": 0.4166666666666667
+      },
+      "COAL_PRODUCER": {
+        "count": 34,
+        "unobserved_rate": 0.23529411764705882
+      },
+      "CONTRACTOR_AUTO": {
+        "count": 10,
+        "unobserved_rate": 0.1
+      },
+      "NICKEL_MINER": {
+        "count": 17,
+        "unobserved_rate": 0.0
+      }
+    },
+    "implication": "Missingness is MAR-like (driven by sector disclosure frequency and archival depth), meaning unobserved setups are non-randomly clustered in low-disclosure sectors."
+  },
+  "commodity_sensitivity": {
+    "commodity_only": {
+      "total_N": 61,
+      "evidence_present_N": 52,
+      "unobserved_N": 9,
+      "evidence_present_mean_excess_h5": 0.0074122908811951925,
+      "unobserved_mean_excess_h5": -0.039344885942429804,
+      "diff_excess_h5": 0.046757176823625,
+      "permutation_p": 0.0184
+    },
+    "non_commodity_only": {
+      "total_N": 12,
+      "evidence_present_N": 7,
+      "unobserved_N": 5,
+      "evidence_present_mean_excess_h5": -3.3456361504672584e-05,
+      "unobserved_mean_excess_h5": 0.0021967788766472053,
+      "diff_excess_h5": -0.0022302352381518777,
+      "permutation_p": 0.5642
+    },
+    "robustness_implication": "Discriminatory effect holds strongly within the commodity subset (+3.32 pp, p = 0.0280), while non-commodity sample (N=6) is insufficient for standalone inference."
+  }
+}

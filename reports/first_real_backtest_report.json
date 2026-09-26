@@ -1,0 +1,25 @@
+{
+    "dataset_id": "d4861da651af61aa3144da93af4f6be12ee02046d18ada050a8511fbc1deacd0",
+    "real_data_verified": true,
+    "symbols": 2,
+    "records": 0,
+    "coverage": {},
+    "data_quality": {},
+    "benchmark": {},
+    "backtest": {},
+    "walk_forward": {},
+    "oos": {},
+    "score_attribution": {},
+    "confidence_attribution": {},
+    "quality_attribution": {},
+    "regime_attribution": {},
+    "relative_strength": {},
+    "flow_attribution": {},
+    "robustness": {},
+    "statistical_sufficiency": "INSUFFICIENT",
+    "predictive_value": "INSUFFICIENT_EVIDENCE",
+    "warnings": [
+        "Dataset has fewer than 10 symbols. Evidence is insufficient."
+    ],
+    "blocking_issues": []
+}

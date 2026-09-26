@@ -1,0 +1,51 @@
+[
+  {
+    "step": "Canonical Dataset V1 Setup Manifest",
+    "n": 73,
+    "treatment_n": 59,
+    "control_n": 14,
+    "notes": "Exact frozen N=73"
+  },
+  {
+    "step": "PIT & Replay Firewall Verification",
+    "n": 73,
+    "treatment_n": 59,
+    "control_n": 14,
+    "notes": "0 leaks, 100% valid at T"
+  },
+  {
+    "step": "Pre-T Control Vector Construction",
+    "n": 73,
+    "treatment_n": 59,
+    "control_n": 14,
+    "notes": "All pre-T features populated"
+  },
+  {
+    "step": "Control Ladder Estimation (C0-C7)",
+    "n": 73,
+    "treatment_n": 59,
+    "control_n": 14,
+    "notes": "Fixed sample N=73 retained throughout"
+  },
+  {
+    "step": "Covariate Matching (1-to-1 Nearest Neighbor)",
+    "n": 28,
+    "treatment_n": 14,
+    "control_n": 14,
+    "notes": "Common support bounded by Control N=14"
+  },
+  {
+    "step": "Leave-One-Date-Out Sensitivity",
+    "n": 73,
+    "treatment_n": 59,
+    "control_n": 14,
+    "notes": "49 iterations across unique dates"
+  },
+  {
+    "step": "Leave-One-Ticker-Out Sensitivity",
+    "n": 73,
+    "treatment_n": 59,
+    "control_n": 14,
+    "notes": "11 iterations across active tickers"
+  }
+]

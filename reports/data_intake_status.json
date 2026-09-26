@@ -1,0 +1,21 @@
+{
+    "real_data_present": false,
+    "dataset_status": "REAL_DATA_NOT_PROVISIONED",
+    "readiness": "NOT_READY",
+    "summary": {
+        "total_symbols": 0,
+        "total_records": 0,
+        "earliest_date": "UNKNOWN",
+        "latest_date": "UNKNOWN",
+        "benchmark_available": false,
+        "survivorship": "UNKNOWN",
+        "corporate_actions": "UNKNOWN",
+        "provenance_documented": false,
+        "provider": "UNKNOWN",
+        "source": "UNKNOWN"
+    },
+    "dataset_id": "UNKNOWN",
+    "blocking_issues": [
+        "REAL_DATA_NOT_PROVISIONED"
+    ]
+}

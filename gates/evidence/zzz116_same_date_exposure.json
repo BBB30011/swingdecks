@@ -1,0 +1,71 @@
+{
+  "cluster_count": 2,
+  "clusters": [
+    {
+      "date": "2026-08-24T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "PTBA"
+      ],
+      "unobserved_tickers": [
+        "ADRO"
+      ],
+      "evidence_h5_raw": [
+        0.032258064516129004
+      ],
+      "unobserved_h5_raw": [
+        0.057034220532319324
+      ],
+      "evidence_excess_loo": [
+        -0.009054321340581817
+      ],
+      "unobserved_excess_loo": [
+        0.028109912683703664
+      ],
+      "evidence_mean_h5_raw": 0.032258064516129004,
+      "unobserved_mean_h5_raw": 0.057034220532319324,
+      "raw_return_difference_pp": -2.477615601619032,
+      "evidence_mean_excess_loo": -0.009054321340581817,
+      "unobserved_mean_excess_loo": 0.028109912683703664,
+      "loo_excess_differential_pp": -3.716423402428548,
+      "peer_count_per_setup": 2
+    },
+    {
+      "date": "2026-08-27T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "PTBA"
+      ],
+      "unobserved_tickers": [
+        "ADRO",
+        "ITMG"
+      ],
+      "evidence_h5_raw": [
+        0.15599999999999992
+      ],
+      "unobserved_h5_raw": [
+        0.014814814814814836,
+        0.023483365949119372
+      ],
+      "evidence_excess_loo": [
+        0.1368509096180328
+      ],
+      "unobserved_excess_loo": [
+        -0.07492686815974481,
+        -0.061924041458288004
+      ],
+      "evidence_mean_h5_raw": 0.15599999999999992,
+      "unobserved_mean_h5_raw": 0.019149090381967104,
+      "raw_return_difference_pp": 13.685090961803281,
+      "evidence_mean_excess_loo": 0.1368509096180328,
+      "unobserved_mean_excess_loo": -0.0684254548090164,
+      "loo_excess_differential_pp": 20.52763644270492,
+      "peer_count_per_setup": 2
+    }
+  ],
+  "raw_within_cluster_return_difference_pp": 5.603737680092125,
+  "loo_peer_excess_differential_pp": 8.405606520138186,
+  "cross_peer_multiplier": 1.4999999999999998,
+  "reconciliation_status": "COUNTERFACTUAL_SENSITIVITY_HIGH_SMALL_SAMPLE_SKEW",
+  "mathematical_explanation": "The +8.41 pp result originates from exactly 2 date clusters in August 2026 within COAL_PRODUCER: 1) 2026-08-24: PTBA (+3.23%) vs ADRO (+5.70%), pair diff = -3.72 pp. 2) 2026-08-27: PTBA (+15.60%) vs ADRO (+1.48%) & ITMG (+2.35%), pair diff = +20.53 pp. The raw return spread across these 2 clusters is +5.61 pp. When peer excess is calculated, PTBA's outsized +15.60% return is included in the peer benchmark of ADRO and ITMG, pushing their excess returns down to -7.49% and -6.19%. Comparing PTBA excess (+13.69%) against control excess (-6.84%) mechanically scales the spread by K/(K-1) = 3/2 = 1.5x, yielding exactly +8.41 pp."
+}

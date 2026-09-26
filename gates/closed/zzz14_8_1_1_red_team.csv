@@ -1,0 +1,36 @@
+attack_id,attack_description,status,mitigation_details
+RT01_SILENT_18_ACT_DROPPING,Attempt to silently drop 18 ACT setups to force narrative match,PASS,Rejected: Canonical 462 ACT preserved; narrative superseded
+RT02_SILENT_35_WATCH_INJECTION,Attempt to alter 35 WATCH setups to match 590 narrative count,PASS,Rejected: Canonical 625 WATCH preserved directly from setup ledger
+RT03_SILENT_6_WAIT_MUTATION,Attempt to drop 6 WAIT setups to force 586 narrative match,PASS,Rejected: Canonical 592 WAIT preserved from setup ledger
+RT04_SILENT_23_INSUFFICIENT_FABRICATION,Attempt to inject 23 synthetic INSUFFICIENT records,PASS,Rejected: Canonical 81 INSUFFICIENT preserved exactly
+RT05_DENOMINATOR_SHRINKAGE_ATTACK,"Attempt to evaluate N=1,742 by dropping discrepant setups",PASS,"N=1,760 strictly preserved across all operations"
+RT06_DUPLICATE_SETUP_INJECTION,Attempt to inject duplicate setup IDs to inflate cell counts,PASS,"Zero duplicate setup IDs verified (1,760 unique)"
+RT07_MISSING_SETUP_ID_AUDIT,Check whether any setup ID from Dataset V2 is missing,PASS,"Zero missing setup IDs verified (1,760/1,760 present)"
+RT08_ZERO_CELL_TRUNCATION,Attempt to omit 0-count transition cells to report 16 transitions,PASS,Complete 25-cell 5x5 matrix generated with all zero cells
+RT09_ROW_TOTAL_MISMATCH_ATTACK,Inject deliberate delta in Arm B row sums,PASS,Row totals strictly equal canonical Arm B marginals (Delta = 0)
+RT10_COLUMN_TOTAL_MISMATCH_ATTACK,Inject deliberate delta in Arm D column sums,PASS,Column totals strictly equal canonical Arm D marginals (Delta = 0)
+RT11_GLOBAL_SUM_LEAKAGE,"Test whether sum of all 25 cells deviates from 1,760",PASS,"Sum of all 25 transition cells strictly equals 1,760"
+RT12_HASH_MUTATION_POST_RECONCILIATION,Mutate decision hashes during transition matrix generation,PASS,0 hash mutations verified; SHA-256 hashes immutable
+RT13_ARM_B_HASH_COLLISION_PROBE,Test for hash collisions in Arm B decision objects,PASS,"All 1,760 Arm B decision hashes verified distinct and valid"
+RT14_ARM_D_HASH_COLLISION_PROBE,Test for hash collisions in Arm D decision objects,PASS,"All 1,760 Arm D decision hashes verified distinct and valid"
+RT15_L3_INTERMEDIATE_SUBSTITUTION,Attempt to substitute Layer L3 decision for Arm B,PASS,Arm B verified strictly as QUANT + DETERMINISTIC CONTEXT
+RT16_L6_INTERMEDIATE_SUBSTITUTION,Attempt to substitute Layer L5 decision for Arm D,PASS,Arm D verified strictly as FULL 3-AGENT DECISION (L6)
+RT17_STALE_DECISION_OBJECT_INJECTION,Inject stale decision object from preliminary test run,PASS,All decision objects loaded directly from sealed canonical matrix
+RT18_OUTCOME_DEPENDENT_STATE_RECONSTRUCTION,Condition Arm B/D state reconciliation on H5 return,PASS,States reconciled strictly on pre-T fields; 0 outcome leakage
+RT19_MAE_MFE_JOIN_CONTAMINATION,Use MAE/MFE to alter transition cell membership,PASS,Forward outcomes joined strictly post-freeze for descriptive analysis
+RT20_ACT_TO_REJECT_CELL_INTEGRITY,Verify that ACT -> REJECT contains exactly N=40 setups,PASS,"ACT -> REJECT strictly verified as N=40 (35 neg, 5 pos)"
+RT21_WATCH_TO_ACT_CELL_INTEGRITY,Verify that WATCH -> ACT contains exactly N=354 setups,PASS,"WATCH -> ACT strictly verified as N=354 (227 pos, 127 neg)"
+RT22_WAIT_TO_ACT_CELL_INTEGRITY,Verify that WAIT -> ACT contains exactly N=52 setups,PASS,"WAIT -> ACT strictly verified as N=52 (35 pos, 17 neg)"
+RT23_CONTRADICTION_N161_INVARIANCE,Verify that all 161 contradiction setups are accounted for,PASS,"All 161 contradiction setups accounted for (40 ACT, 46 WATCH, 71 WAIT, 4 INSUFF)"
+RT24_CAUSAL_ALPHA_CLAIM_REINJECTION,Attempt to claim proven causal alpha from cell reconciliation,PASS,Classified strictly as CAUSALITY = NOT_PROVEN
+RT25_STANDALONE_ALPHA_CLAIM_REINJECTION,Attempt to claim standalone trading alpha,PASS,Classified strictly as STANDALONE_ALPHA = NOT_PROVEN
+RT26_STRATEGY_OPTIMIZATION_ATTEMPT,Attempt to tune action thresholds during reconciliation,PASS,Strategy optimization strictly BLOCKED
+RT27_NARRATIVE_COUNT_OVERRIDE_ATTEMPT,Attempt to force narrative table counts over canonical records,PASS,Hierarchy enforced: Canonical Setup Data > Narrative Table
+RT28_DUAL_RUN_DIVERGENCE_ATTACK,Inject stochastic perturbation into reconciliation run,PASS,0 delta verified across dual independent runs
+RT29_MANIFEST_HASH_TAMPERING,Tamper with artifact hashes in manifest,PASS,SHA-256 cryptographic hashes verified for all artifacts
+RT30_EXCEPTION_LEDGER_CONCEALMENT,Attempt to conceal narrative delta from exception ledger,PASS,All 5 marginal state deltas fully disclosed and resolved
+RT31_REJECT_ROW_SUM_VALIDATION,Verify that Arm B REJECT row sum equals exactly 0,PASS,Arm B REJECT row sum strictly 0 (no pre-T rejections in Arm B)
+RT32_INSUFFICIENT_ROW_SUM_VALIDATION,Verify that Arm B INSUFFICIENT row sum equals exactly 81,PASS,"Arm B INSUFFICIENT row sum strictly 81 (4 REJECT, 77 INSUFFICIENT)"
+RT33_TRANSITION_OUTCOME_MEAN_INTEGRITY,Verify that weighted mean H5 across 25 cells matches population mean,PASS,Weighted mean H5 equals canonical population mean (+0.4439 pp)
+RT34_NO_AUTO_ADVANCE_ENFORCEMENT,Verify that NO_AUTO_ADVANCE is set to TRUE in closing block,PASS,NO_AUTO_ADVANCE = TRUE enforced
+RT35_FINAL_CLOSING_BLOCK_PARITY,Verify 100% field parity between validation JSON and Markdown report,PASS,100% field parity verified

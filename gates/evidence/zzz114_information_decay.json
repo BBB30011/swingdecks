@@ -1,0 +1,12 @@
+{
+  "model_name": "M12_Information_Decay",
+  "decay_stats": {
+    "0-1_days": {
+      "N": 59,
+      "mean_excess_H5_pp": 0.6528897140535884,
+      "mean_target_H5_pp": 1.4206464147966997
+    }
+  },
+  "verdict": "CONCENTRATED_IN_IMMEDIATE_DECISION_WINDOW",
+  "interpretation": "Disclosures ingested strictly prior to decision time T show immediate relevance to forward 5-day drift."
+}

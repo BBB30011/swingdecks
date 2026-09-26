@@ -1,0 +1,13 @@
+{
+    "real_data_present": false,
+    "dataset_status": "REAL_DATA_NOT_PROVISIONED",
+    "symbol_count": 0,
+    "record_count": 0,
+    "benchmark_available": false,
+    "dataset_ready": false,
+    "real_backtest_allowed": false,
+    "predictive_value_evaluated": false,
+    "blocking_issues": [
+        "REAL_DATA_NOT_PROVISIONED"
+    ]
+}

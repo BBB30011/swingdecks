@@ -1,0 +1,9 @@
+metric,value,interpretation
+total_unique_event_clusters,30.0,30 unique historical corporate/exchange disclosures across 59 Treatment setups
+max_setups_per_event,5.0,ADRO Coal Dividend event reused across 5 setups
+median_setups_per_event,1.0,Majority of events are distinct single-observation occurrences
+matched_sample_event_clusters,22.0,22 unique event/control clusters across the 28 matched observations
+lodo_jackknife_min_pp,2.1394633792969246,Worst-case single-event omission retains positive effect
+lodo_jackknife_max_pp,3.388658658376689,Best-case single-event omission
+lodo_jackknife_median_pp,3.0261950594158753,Median Jackknife effect
+lodo_sign_flips,0.0,Zero sign flips across all 30 unique event clusters

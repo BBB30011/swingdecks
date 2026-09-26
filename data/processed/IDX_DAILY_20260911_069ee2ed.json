@@ -1,0 +1,128 @@
+{
+    "snapshot_id": "IDX_DAILY_20260911_069ee2ed",
+    "created_at": "2026-09-11T01:23:49.319366+00:00",
+    "manifest": {
+        "retrieved_at": "2026-09-11T01:23:35.464214+00:00",
+        "symbols": {
+            "BBCA": {
+                "filepath": "data\\raw\\historical\\BBCA_2026-09-11T012339.574069+0000.json",
+                "checksum_sha256": "0f3427ce345175561c17e11ba285f0ee72be5063393cff1678a05c001786282c",
+                "record_count": 1203,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "BMRI": {
+                "filepath": "data\\raw\\historical\\BMRI_2026-09-11T012340.384783+0000.json",
+                "checksum_sha256": "07c5beff9b88dc1f596aa03af97f0df9c153b6cb90dc6661e706b9408b127dcd",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "BBNI": {
+                "filepath": "data\\raw\\historical\\BBNI_2026-09-11T012341.189741+0000.json",
+                "checksum_sha256": "2612983682b64bcb8dc486f40a54652dfc7304017cd7706344f79a4604e20bd4",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "BRIS": {
+                "filepath": "data\\raw\\historical\\BRIS_2026-09-11T012341.949325+0000.json",
+                "checksum_sha256": "4d714b95a173ec4f76a27493671965235c044e0d1cd51e6fc93e004bc7ec0ee6",
+                "record_count": 1203,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "TLKM": {
+                "filepath": "data\\raw\\historical\\TLKM_2026-09-11T012342.761762+0000.json",
+                "checksum_sha256": "1ae17b19a734d4d8afea005f1dea9cdad2e3983c84bb8915a9ae316bf064c0bf",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "ASII": {
+                "filepath": "data\\raw\\historical\\ASII_2026-09-11T012343.587406+0000.json",
+                "checksum_sha256": "027285b498d3ee6099402eeb98f0c435ec577509aba1883862d020fe024e00aa",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "UNVR": {
+                "filepath": "data\\raw\\historical\\UNVR_2026-09-11T012344.398170+0000.json",
+                "checksum_sha256": "3e7596c1982d1159e07416e4fed3ae7aa682ed846557b343be65cf9a2ddffc5d",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "ICBP": {
+                "filepath": "data\\raw\\historical\\ICBP_2026-09-11T012345.180439+0000.json",
+                "checksum_sha256": "4e57e69a5ade5cc9e82164f566b0735c4891dc8c8ce5a49a35fa36e3b4cbb1bb",
+                "record_count": 1203,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "INDF": {
+                "filepath": "data\\raw\\historical\\INDF_2026-09-11T012345.997529+0000.json",
+                "checksum_sha256": "c4e105a52065de7c6375a95bfaef09c52a4c48315af8a74d2477c777b2d5a85e",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "PGAS": {
+                "filepath": "data\\raw\\historical\\PGAS_2026-09-11T012346.795756+0000.json",
+                "checksum_sha256": "3ef581bec061c246336cd7eb42659e20394fa6599b76fd6427827d1f758e5eae",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "ADRO": {
+                "filepath": "data\\raw\\historical\\ADRO_2026-09-11T012347.581762+0000.json",
+                "checksum_sha256": "909135a94197e490004082cf21f589c4148377129e04b8d0f463c06b81537f57",
+                "record_count": 1203,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "ANTM": {
+                "filepath": "data\\raw\\historical\\ANTM_2026-09-11T012348.374726+0000.json",
+                "checksum_sha256": "b295fea0042f7d0d58da059d445117dc53f3f337105985b88f661ebd790caa80",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            },
+            "PTBA": {
+                "filepath": "data\\raw\\historical\\PTBA_2026-09-11T012349.242769+0000.json",
+                "checksum_sha256": "44c83c4d9b116df1145376644bf399472adc89aca7107357dd01ca89578bdd63",
+                "record_count": 1204,
+                "first_date": "2021-09-10T00:00:00+07:00",
+                "last_date": "2026-09-10T00:00:00+07:00",
+                "quality": "GOOD"
+            }
+        },
+        "benchmark": {
+            "symbol": "IHSG",
+            "filepath": "data\\raw\\historical\\IHSG_2026-09-11T012338.716817+0000.json",
+            "checksum_sha256": "c12232602e59398a8681d1f989e41747142c471d5b01cf9eb28587309d50cca2",
+            "record_count": 1198
+        },
+        "readiness": "RESEARCH_READY",
+        "warnings": [],
+        "provider_info": {
+            "name": "YFINANCE",
+            "yfinance_version": "1.7.0",
+            "source": "Yahoo Finance via yfinance"
+        },
+        "survivorship_risk": "HIGH",
+        "historical_universe": "NOT_AVAILABLE"
+    }
+}

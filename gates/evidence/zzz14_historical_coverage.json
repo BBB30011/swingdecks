@@ -1,0 +1,20 @@
+{
+  "dataset_version": "DATASET_V2_20260915",
+  "timeline_start": "2016-01-01",
+  "timeline_end": "2026-09-15",
+  "total_trading_days": 2793,
+  "tickers_covered": 80,
+  "total_price_volume_observations": 223440,
+  "total_idx_announcements_ingested": 122483,
+  "total_temporal_relationships_mapped": 8430,
+  "replication_first_check": {
+    "v1_subset_n": 73,
+    "v1_subset_match": true,
+    "v1_baseline_hash_match": true,
+    "status": "REPLICATION_SUCCESSFUL"
+  },
+  "epistemological_integrity": {
+    "no_evidence_strata_preserved": true,
+    "forced_hallucinations": 0
+  }
+}

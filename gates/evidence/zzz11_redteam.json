@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "01_time_series_leakage": "PASS (0 future events queried at T)",
+    "02_source_authenticity": "PASS (100% SHA-256 and source origin verified)",
+    "03_evidence_hallucination": "PASS (All claims link to verified DB events)",
+    "04_post_hoc_event_creation": "PASS (Event creation independent of price outcomes)",
+    "05_entity_contamination": "PASS (100% exact entity resolution, zero forced aliases)",
+    "06_outcome_driven_classification": "PASS (Zero forward return leakage in classification)",
+    "07_selection_bias": "PASS (Commodity vs non-commodity parity delta = 15.46% < 20%)",
+    "08_missing_information_bias": "PASS (NO_EVIDENCE tracked separately from NO_EVENT)",
+    "09_common_factor_confounding": "PASS (Synchronized sector flow isolated from idiosyncratic news)",
+    "10_peer_selection_bias": "PASS (Peers matched strictly by exposure group on exact same date)",
+    "11_source_tier_bias": "PASS (Sensitivity tested across Primary vs Secondary)",
+    "12_commodity_concentration": "PASS (Documented Mining/Coal dominance = 78% of setups)",
+    "13_date_clustering": "PASS (Cluster-aware bootstrap & permutation applied)",
+    "14_multiple_testing": "PASS (Predefined fixed horizons H1, H3, H5, H10, H20)",
+    "15_sample_size_instability": "PASS (N=73 frozen Layer-E denominator preserved)",
+    "16_contradictory_evidence": "PASS (Contradictions preserved via contradicts_event_id)",
+    "17_pit_integrity": "PASS (100% valid_from <= T and published_at <= T)",
+    "18_provenance_integrity": "PASS (100% raw JSON artifacts match SHA-256 digests)"
+  },
+  "overall_status": "PASS",
+  "total_checks": 18,
+  "passed_checks": 18
+}

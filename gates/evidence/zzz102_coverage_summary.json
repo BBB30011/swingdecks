@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "batch": "ZZZ.10.2",
+    "experiment": "Historical Disclosure Ingestion & Coverage Expansion",
+    "decision": "PASS \u2014 HISTORICAL COVERAGE MATERIALLY IMPROVED",
+    "evaluated_setups": 73,
+    "total_raw_artifacts": 29,
+    "deduplicated_events": 29,
+    "total_events_in_duckdb": 526
+  },
+  "coverage_comparison": {
+    "total_layer_e_setups": 73,
+    "before_ingestion": {
+      "event_present": 24,
+      "no_evidence_in_dataset": 49,
+      "verified_no_event": 0,
+      "coverage_rate": 0.3288
+    },
+    "after_ingestion": {
+      "event_present": 59,
+      "no_evidence_in_dataset": 14,
+      "verified_no_event": 0,
+      "coverage_rate": 0.8082191780821918
+    },
+    "reconciliation_of_former_49_c0": {
+      "total_former_c0": 49,
+      "now_event_present": 35,
+      "remains_no_evidence": 14,
+      "newly_covered_percentage": 0.7142857142857143
+    },
+    "coverage_improvement_absolute": 35,
+    "coverage_improvement_relative_pct": 47.94520547945205
+  },
+  "selection_bias_audit": {
+    "commodity_coverage_rate": 0.8421052631578947,
+    "non_commodity_coverage_rate": 0.6875,
+    "coverage_parity_delta": 0.1546052631578947,
+    "ticker_breakdown": {
+      "ADRO": {
+        "total_setups": 11,
+        "event_present": 7,
+        "coverage_rate": 0.6363636363636364
+      },
+      "ANTM": {
+        "total_setups": 7,
+        "event_present": 7,
+        "coverage_rate": 1.0
+      },
+      "ASII": {
+        "total_setups": 4,
+        "event_present": 4,
+        "coverage_rate": 1.0
+      },
+      "BBCA": {
+        "total_setups": 2,
+        "event_present": 2,
+        "coverage_rate": 1.0
+      },
+      "BBNI": {
+        "total_setups": 4,
+        "event_present": 2,
+        "coverage_rate": 0.5
+      },
+      "BBRI": {
+        "total_setups": 4,
+        "event_present": 2,
+        "coverage_rate": 0.5
+      },
+      "BMRI": {
+        "total_setups": 2,
+        "event_present": 1,
+        "coverage_rate": 0.5
+      },
+      "INCO": {
+        "total_setups": 10,
+        "event_present": 10,
+        "coverage_rate": 1.0
+      },
+      "ITMG": {
+        "total_setups": 13,
+        "event_present": 9,
+        "coverage_rate": 0.6923076923076923
+      },
+      "PTBA": {
+        "total_setups": 10,
+        "event_present": 10,
+        "coverage_rate": 1.0
+      },
+      "TLKM": {
+        "total_setups": 0,
+        "event_present": 0,
+        "coverage_rate": 0.0
+      },
+      "UNTR": {
+        "total_setups": 6,
+        "event_present": 5,
+        "coverage_rate": 0.8333333333333334
+      }
+    },
+    "selection_bias_risk": "LOW"
+  },
+  "subtype_distribution": {
+    "DIVIDEND": 385,
+    "ARTICLE": 100,
+    "EARNINGS_FINANCIAL_RESULTS": 14,
+    "SPLIT": 12,
+    "PRODUCTION_OPERATIONAL": 6,
+    "GOVERNMENT_PERMIT_REGULATION": 4,
+    "MATERIAL_CORPORATE_DEVELOPMENT": 3,
+    "MANAGEMENT_GUIDANCE": 1,
+    "MATERIAL_CONTRACT": 1
+  },
+  "deduplication_audit": []
+}

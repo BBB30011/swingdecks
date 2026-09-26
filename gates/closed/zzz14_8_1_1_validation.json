@@ -1,0 +1,126 @@
+{
+  "gate_id": "ZZZ.14.8.1.1",
+  "title": "Canonical Decision-State Population & Transition Identity Closure Gate",
+  "timestamp": "2026-09-17T16:13:37.943947",
+  "population": {
+    "dataset_version": "DATASET_V2_20260915",
+    "methodology_version": "METHODOLOGY_V1_FROZEN_20260915",
+    "total_setups": 1760,
+    "unique_setups": 1760,
+    "duplicate_count": 0,
+    "missing_count": 0,
+    "sample_attrition": 0
+  },
+  "arm_b_marginal_reconciliation": {
+    "source_of_truth": "CANONICAL_SETUP_DECISION_MATRIX",
+    "canonical_marginals": {
+      "ACT": 462,
+      "WATCH": 625,
+      "WAIT": 592,
+      "REJECT": 0,
+      "INSUFFICIENT": 81
+    },
+    "reported_14_8_narrative": {
+      "ACT": 480,
+      "WATCH": 590,
+      "WAIT": 586,
+      "REJECT": 0,
+      "INSUFFICIENT": 104
+    },
+    "marginal_deltas": {
+      "ACT": -18,
+      "WATCH": 35,
+      "WAIT": 6,
+      "REJECT": 0,
+      "INSUFFICIENT": -23
+    },
+    "status": "RECONCILED_TO_CANONICAL_SETUP_DATA"
+  },
+  "arm_d_marginal_reconciliation": {
+    "source_of_truth": "CANONICAL_SETUP_DECISION_MATRIX",
+    "canonical_marginals": {
+      "ACT": 828,
+      "WATCH": 307,
+      "WAIT": 360,
+      "REJECT": 161,
+      "INSUFFICIENT": 104
+    },
+    "reported_14_8_marginals": {
+      "ACT": 828,
+      "WATCH": 307,
+      "WAIT": 360,
+      "REJECT": 161,
+      "INSUFFICIENT": 104
+    },
+    "marginal_deltas": {
+      "ACT": 0,
+      "WATCH": 0,
+      "WAIT": 0,
+      "REJECT": 0,
+      "INSUFFICIENT": 0
+    },
+    "status": "EXACT_MATCH_PASS"
+  },
+  "transition_matrix_25x25": {
+    "dimension": "5x5",
+    "total_cells": 25,
+    "global_sum": 1760,
+    "row_totals_reconciled": true,
+    "column_totals_reconciled": true,
+    "key_cells": {
+      "ACT_TO_REJECT": 40,
+      "WATCH_TO_ACT": 354,
+      "WAIT_TO_ACT": 52,
+      "WATCH_TO_REJECT": 46,
+      "WAIT_TO_REJECT": 71,
+      "INSUFFICIENT_TO_REJECT": 4
+    },
+    "status": "PASS_ALL_TOTALS_RECONCILED"
+  },
+  "exception_resolution": {
+    "total_exceptions": 5,
+    "unresolved_exceptions": 0,
+    "resolution_provenance": "NARRATIVE_TABLE_APPROXIMATION_SUPERSEDED_BY_CANONICAL_SETUP_DATA",
+    "status": "PASS"
+  },
+  "red_team": {
+    "total_attacks": 35,
+    "passed_attacks": 35,
+    "failed_attacks": 0,
+    "pass_rate_pct": 100.0,
+    "domains_count": 9
+  },
+  "classifications": {
+    "ARM_B_IDENTITY": "PASS",
+    "ARM_D_IDENTITY": "PASS",
+    "SETUP_UNIQUENESS": "PASS",
+    "ARM_B_MARGINAL_RECONCILIATION": "PASS",
+    "ARM_D_MARGINAL_RECONCILIATION": "PASS",
+    "TRANSITION_MATRIX_DIMENSION": "5x5",
+    "TRANSITION_MATRIX_RECONCILIATION": "PASS",
+    "ROW_TOTAL_RECONCILIATION": "PASS",
+    "COLUMN_TOTAL_RECONCILIATION": "PASS",
+    "ACT_REJECT_RECONCILIATION": "PASS",
+    "WATCH_ACT_RECONCILIATION": "PASS",
+    "CONTRADICTION_POPULATION": "N_161",
+    "CONTRADICTION_STATE_RECONCILIATION": "PASS",
+    "DECISION_HASH_INTEGRITY": "PASS",
+    "OUTCOME_BLINDNESS": "PASS",
+    "INTERMEDIATE_LAYER_CONTAMINATION": "NONE",
+    "EXCEPTION_COUNT": 5,
+    "UNRESOLVED_EXCEPTIONS": 0,
+    "TERMINOLOGY_RECONCILIATION": "PASS",
+    "REPRODUCIBILITY": "PASS",
+    "RED_TEAM": "PASS",
+    "SCIENTIFIC_FIREWALL": "PASS",
+    "ZZZ_14_8_1_1_STATUS": "CLOSED",
+    "ZZZ_14_8_1_STATUS": "CLOSED",
+    "DECISION_DISCRIMINATION": "CONDITIONAL_ASSOCIATION_OBSERVED",
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY",
+    "NEXT_RESEARCH_ACTION": "CLOSED_RESEARCH_NODE_PROCEED_TO_DYNAMIC_PORTFOLIO_SIMULATION",
+    "NO_AUTO_ADVANCE": true
+  }
+}

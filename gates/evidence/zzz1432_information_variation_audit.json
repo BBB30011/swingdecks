@@ -1,0 +1,104 @@
+{
+  "field_summaries": {
+    "agent2_confidence": {
+      "field_name": "agent2_confidence",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "MEDIUM": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    },
+    "agent2_research_status": {
+      "field_name": "agent2_research_status",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "OBSERVATION": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    },
+    "agent2_information_state": {
+      "field_name": "agent2_information_state",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "FACT": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    },
+    "agent2_information_delta": {
+      "field_name": "agent2_information_delta",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "NEW": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    },
+    "agent2_differential_status": {
+      "field_name": "agent2_differential_status",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "COMPANY_SPECIFIC_CANDIDATE": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    },
+    "red_team_verdict": {
+      "field_name": "red_team_verdict",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "PASS": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    },
+    "red_team_contradictions_count": {
+      "field_name": "red_team_contradictions_count",
+      "total_observations": 73,
+      "unique_values_count": 1,
+      "value_distribution": {
+        "0": 73
+      },
+      "categorical_entropy": 0.0,
+      "is_constant_across_sample": true,
+      "is_constant_inside_treatment": true,
+      "is_constant_inside_control": true,
+      "variation_matches_evidence_presence_1to1": false
+    }
+  },
+  "audit_conclusion": {
+    "agent2_variation_summary": "Agent 2 output variables (confidence=MEDIUM, research_status=OBSERVATION, information_state=FACT, information_delta=NEW, differential_status=COMPANY_SPECIFIC_CANDIDATE) are constant across all N=73 observations because all 12 entities have historical records in fact_event prior to T.",
+    "treatment_subgroup_variation": "Inside the Treatment cohort (N=59), Agent 2 variables are constant (CONFIDENCE=MEDIUM, STATUS=OBSERVATION).",
+    "red_team_variation_summary": "Red Team cleared 73/73 setups with 0 blocking contradictions (VERDICT=PASS constant across all N=73).",
+    "diagnostic_status": "AGENT2_INFORMATION_PRESENT_BUT_NOT_DISCRIMINATIVELY_OPERATIONALIZED",
+    "operational_value_classification": "EXPLANATORY_AND_GOVERNANCE_ACTIVE_PREDICTIVE_DISCRIMINATION_NOT_ESTIMABLE",
+    "agent2_discrimination_estimability": "AGENT2_DISCRIMINATION_NOT_ESTIMABLE",
+    "red_team_discrimination_estimability": "RED_TEAM_DISCRIMINATION_NOT_ESTIMABLE"
+  }
+}

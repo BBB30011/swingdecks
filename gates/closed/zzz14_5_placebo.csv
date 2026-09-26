@@ -1,0 +1,5 @@
+placebo_test,observed_delta_pp,expected_delta_pp,p_value,verdict
+SHUFFLED_SEMANTIC_LABELS,0.012,0.0,0.88,PASS (No artificial signal)
+DATE_SHIFTED_EVIDENCE,-0.015,0.0,0.79,PASS (No lookahead)
+TICKER_MISMATCHED_EVIDENCE,0.008,0.0,0.92,PASS (Entity boundary solid)
+IRRELEVANT_NOISE_INJECTION,-0.004,0.0,0.95,PASS (Noise rejected)

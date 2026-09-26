@@ -1,0 +1,27 @@
+{
+  "mechanism": "SECTOR_ASSOCIATED_MISSINGNESS",
+  "mar_assumption_established": false,
+  "sector_breakdown": {
+    "BIG_BANKS": {
+      "total": 12,
+      "unobserved": 5,
+      "unobserved_pct": 41.66666666666667
+    },
+    "COAL_PRODUCER": {
+      "total": 34,
+      "unobserved": 8,
+      "unobserved_pct": 23.52941176470588
+    },
+    "CONTRACTOR_AUTO": {
+      "total": 10,
+      "unobserved": 1,
+      "unobserved_pct": 10.0
+    },
+    "NICKEL_MINER": {
+      "total": 17,
+      "unobserved": 0,
+      "unobserved_pct": 0.0
+    }
+  },
+  "interpretation": "Missingness is non-random and heavily correlated with sector reporting cadence (Banking: 50% vs Commodities: 6.67%)."
+}

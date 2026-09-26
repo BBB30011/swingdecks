@@ -1,0 +1,100 @@
+{
+  "fixed_sample_layers": [
+    {
+      "layer": "A0",
+      "information_added": "Quant Baseline (Layer E)",
+      "information_description": "Quantitative technical breakout filters",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "role_classification": "MEASURED_BASELINE",
+      "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+    },
+    {
+      "layer": "A1",
+      "information_added": "Quant + Contextual Peer Context",
+      "information_description": "Leave-one-out peer group relative returns",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "role_classification": "BENCHMARK_CONSTRUCTED",
+      "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+    },
+    {
+      "layer": "A2",
+      "information_added": "Quant + Peer + Deterministic Exposure",
+      "information_description": "Sector and commodity exposure mapping",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "role_classification": "EXPOSURE_CLASSIFIED",
+      "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+    },
+    {
+      "layer": "A3",
+      "information_added": "A2 + Historical Evidence HKS(T)",
+      "information_description": "Point-in-Time disclosure presence vs unobserved",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "role_classification": "EVIDENCE_DISCRIMINATING",
+      "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+    },
+    {
+      "layer": "A4",
+      "information_added": "A3 + Agent 2 Qualitative Thesis",
+      "information_description": "Contextual synthesis & transmission mapping",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "role_classification": "EXPLANATORY_SYNTHESIS",
+      "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+    },
+    {
+      "layer": "A5",
+      "information_added": "A4 + Red Team Challenge",
+      "information_description": "Adversarial invalidation & contradiction audit",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "role_classification": "GOVERNANCE_VALIDATION",
+      "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+    }
+  ]
+}

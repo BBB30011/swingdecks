@@ -1,0 +1,31 @@
+{
+  "batch": "ZZZ.14.2.1",
+  "review_type": "ACCEPTANCE_EVIDENCE_REVIEW",
+  "audit_timestamp": "2026-09-16T08:46:15",
+  "claims_total": 20,
+  "claims_verified": 20,
+  "claims_partially_verified": 0,
+  "claims_unverified": 0,
+  "claims_contradicted": 0,
+  "claims_not_estimable": 0,
+  "silent_fallback": "ABSENT_VERIFIED",
+  "unknown_preservation": "PRESERVED_VERIFIED",
+  "v1_unexplained_discrepancies": 0,
+  "agent2_hard_firewall": "ENFORCED_VERIFIED",
+  "outcome_blindness": "IMMUTABLE_VERIFIED",
+  "reproducibility": "100_PERCENT_DETERMINISTIC",
+  "final_status": "PASS — ZZZ.14.2.1 EVIDENCE VERIFIED",
+  "zzz143_eligibility": "ALLOWED",
+  "summary": {
+    "pilot_observations_verified": 96,
+    "canonical_tickers": 12,
+    "historical_decision_dates": 8,
+    "v1_baseline_setups_reconciled": 73,
+    "v1_exact_matches": 73,
+    "peer_self_exclusion_violations": 0,
+    "lookahead_violations": 0,
+    "current_state_leaks": 0,
+    "future_leaks": 0,
+    "red_team_pass_count": 20
+  }
+}

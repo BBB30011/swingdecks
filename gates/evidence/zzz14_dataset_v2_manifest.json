@@ -1,0 +1,22 @@
+{
+  "branch": {
+    "branch_id": "BRANCH_DATASET_V2_FORMAL",
+    "parent_version": "METHODOLOGY_V1_FROZEN_20260915",
+    "branch_type": "DATASET_EXPANSION",
+    "created_at": "2026-09-15T09:10:07.992906+00:00",
+    "hypothesis": "Dataset V2 accurately tracks 10 years of multi-dimensional intelligence without baseline contamination.",
+    "status": "ACTIVE"
+  },
+  "criteria_admitted": [
+    "CRIT-V2-001-IDX80-EXPANSION",
+    "CRIT-V2-002-MACRO-COMMODITY",
+    "CRIT-V2-003-ELECTION-POLITICAL-LINKS",
+    "CRIT-V2-004-NLP-DISCLOSURE-CLASSIFICATION"
+  ],
+  "schema_extensions": [
+    "macro_regime_state"
+  ],
+  "taxonomies_extended": [
+    "POLITICAL_EXPOSURE"
+  ]
+}

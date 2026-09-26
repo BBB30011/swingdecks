@@ -1,0 +1,374 @@
+{
+  "batch_id": "BATCH-ZZZ.11.1",
+  "date_concentration_robustness": {
+    "full_sample": {
+      "label": "Full Sample",
+      "total_N": 73,
+      "evidence_present_N": 59,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.006528897140535885,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.03103747421900961,
+      "permutation_p": 0.033
+    },
+    "exclude_top1_date": {
+      "label": "Exclude Top 1 Date",
+      "total_N": 72,
+      "evidence_present_N": 58,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.00587851247520946,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.03038708955368319,
+      "permutation_p": 0.0388
+    },
+    "exclude_top3_dates": {
+      "label": "Exclude Top 3 Dates",
+      "total_N": 69,
+      "evidence_present_N": 55,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.0046345157232639475,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.029143092801737675,
+      "permutation_p": 0.047
+    },
+    "exclude_top5_dates": {
+      "label": "Exclude Top 5 Dates",
+      "total_N": 66,
+      "evidence_present_N": 52,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.0022691268345077756,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.026777703912981503,
+      "permutation_p": 0.0344
+    },
+    "exclude_top10_dates": {
+      "label": "Exclude Top 10 Dates",
+      "total_N": 58,
+      "evidence_present_N": 46,
+      "unobserved_N": 12,
+      "evidence_present_mean_excess_h5": -0.007023127840549284,
+      "unobserved_mean_excess_h5": -0.017189097456716616,
+      "diff_excess_h5": 0.010165969616167333,
+      "permutation_p": 0.212
+    }
+  },
+  "ticker_concentration_and_leave_one_out": {
+    "ticker_breakdown": {
+      "ADRO": {
+        "count": 11,
+        "evidence_present_count": 7,
+        "unobserved_count": 4,
+        "coverage_rate": 0.6363636363636364,
+        "mean_h5": -0.007833949553468923,
+        "mean_excess_h5": -0.0344182380513811
+      },
+      "ANTM": {
+        "count": 7,
+        "evidence_present_count": 7,
+        "unobserved_count": 0,
+        "coverage_rate": 1.0,
+        "mean_h5": 0.01808379757324693,
+        "mean_excess_h5": -0.01571116980961962
+      },
+      "ASII": {
+        "count": 4,
+        "evidence_present_count": 4,
+        "unobserved_count": 0,
+        "coverage_rate": 1.0,
+        "mean_h5": -0.0012105159924744036,
+        "mean_excess_h5": -0.01591282027504201
+      },
+      "BBCA": {
+        "count": 2,
+        "evidence_present_count": 2,
+        "unobserved_count": 0,
+        "coverage_rate": 1.0,
+        "mean_h5": -0.009630061955643365,
+        "mean_excess_h5": -0.002162632455763999
+      },
+      "BBNI": {
+        "count": 4,
+        "evidence_present_count": 2,
+        "unobserved_count": 2,
+        "coverage_rate": 0.5,
+        "mean_h5": -0.007707805078653318,
+        "mean_excess_h5": 0.003368694306213708
+      },
+      "BBRI": {
+        "count": 4,
+        "evidence_present_count": 2,
+        "unobserved_count": 2,
+        "coverage_rate": 0.5,
+        "mean_h5": -0.009699368853073903,
+        "mean_excess_h5": -0.006909272253110239
+      },
+      "BMRI": {
+        "count": 2,
+        "evidence_present_count": 1,
+        "unobserved_count": 1,
+        "coverage_rate": 0.5,
+        "mean_h5": 0.01273148148148151,
+        "mean_excess_h5": 0.01461863827590872
+      },
+      "INCO": {
+        "count": 10,
+        "evidence_present_count": 10,
+        "unobserved_count": 0,
+        "coverage_rate": 1.0,
+        "mean_h5": 0.036295338657825714,
+        "mean_excess_h5": 0.02508631458602112
+      },
+      "ITMG": {
+        "count": 13,
+        "evidence_present_count": 9,
+        "unobserved_count": 4,
+        "coverage_rate": 0.6923076923076923,
+        "mean_h5": 0.03263503280196412,
+        "mean_excess_h5": 0.025467993226033284
+      },
+      "PTBA": {
+        "count": 10,
+        "evidence_present_count": 10,
+        "unobserved_count": 0,
+        "coverage_rate": 1.0,
+        "mean_h5": 0.009514340493443563,
+        "mean_excess_h5": 0.0006409216390301398
+      },
+      "UNTR": {
+        "count": 6,
+        "evidence_present_count": 5,
+        "unobserved_count": 1,
+        "coverage_rate": 0.8333333333333334,
+        "mean_h5": 0.01241517477479905,
+        "mean_excess_h5": -0.0007985055859943505
+      }
+    },
+    "leave_one_out_results": {
+      "ADRO": {
+        "dropped_symbol": "ADRO",
+        "remaining_N": 62,
+        "evidence_present_mean_excess": 0.01133628601610871,
+        "unobserved_mean_excess": -0.016880140207947585,
+        "diff_excess_h5": 0.028216426224056297,
+        "permutation_p": 0.0691
+      },
+      "ANTM": {
+        "dropped_symbol": "ANTM",
+        "remaining_N": 66,
+        "evidence_present_mean_excess": 0.009522752306902972,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess_h5": 0.0340313293853767,
+        "permutation_p": 0.0154
+      },
+      "ASII": {
+        "dropped_symbol": "ASII",
+        "remaining_N": 69,
+        "evidence_present_mean_excess": 0.008161022043487006,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess_h5": 0.032669599121960734,
+        "permutation_p": 0.0319
+      },
+      "BBCA": {
+        "dropped_symbol": "BBCA",
+        "remaining_N": 71,
+        "evidence_present_mean_excess": 0.006833863091283251,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess_h5": 0.03134244016975698,
+        "permutation_p": 0.0375
+      },
+      "BBNI": {
+        "dropped_symbol": "BBNI",
+        "remaining_N": 69,
+        "evidence_present_mean_excess": 0.006552450825432302,
+        "unobserved_mean_excess": -0.02873996850679258,
+        "diff_excess_h5": 0.035292419332224885,
+        "permutation_p": 0.0311
+      },
+      "BBRI": {
+        "dropped_symbol": "BBRI",
+        "remaining_N": 69,
+        "evidence_present_mean_excess": 0.007076313463350668,
+        "unobserved_mean_excess": -0.027802327183796837,
+        "diff_excess_h5": 0.034878640647147505,
+        "permutation_p": 0.0317
+      },
+      "BMRI": {
+        "dropped_symbol": "BMRI",
+        "remaining_N": 71,
+        "evidence_present_mean_excess": 0.006460071707469436,
+        "unobserved_mean_excess": -0.02783358333785074,
+        "diff_excess_h5": 0.03429365504532018,
+        "permutation_p": 0.028
+      },
+      "INCO": {
+        "dropped_symbol": "INCO",
+        "remaining_N": 63,
+        "evidence_present_mean_excess": 0.002741669090436858,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess_h5": 0.027250246168910586,
+        "permutation_p": 0.0564
+      },
+      "ITMG": {
+        "dropped_symbol": "ITMG",
+        "remaining_N": 60,
+        "evidence_present_mean_excess": -0.0016931497955842113,
+        "unobserved_mean_excess": -0.020434156996623706,
+        "diff_excess_h5": 0.018741007201039495,
+        "permutation_p": 0.1662
+      },
+      "PTBA": {
+        "dropped_symbol": "PTBA",
+        "remaining_N": 63,
+        "evidence_present_mean_excess": 0.0077305247939044065,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess_h5": 0.032239101872378134,
+        "permutation_p": 0.0314
+      },
+      "TLKM": {
+        "dropped_symbol": "TLKM",
+        "remaining_N": 73,
+        "evidence_present_mean_excess": 0.006528897140535885,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess_h5": 0.03103747421900961,
+        "permutation_p": 0.033
+      },
+      "UNTR": {
+        "dropped_symbol": "UNTR",
+        "remaining_N": 67,
+        "evidence_present_mean_excess": 0.006462762545875308,
+        "unobserved_mean_excess": -0.023239483982178115,
+        "diff_excess_h5": 0.029702246528053422,
+        "permutation_p": 0.0597
+      }
+    },
+    "worst_case_drop": {
+      "dropped_symbol": "ITMG",
+      "remaining_N": 60,
+      "evidence_present_mean_excess": -0.0016931497955842113,
+      "unobserved_mean_excess": -0.020434156996623706,
+      "diff_excess_h5": 0.018741007201039495,
+      "permutation_p": 0.1662
+    },
+    "best_case_drop": {
+      "dropped_symbol": "BBNI",
+      "remaining_N": 69,
+      "evidence_present_mean_excess": 0.006552450825432302,
+      "unobserved_mean_excess": -0.02873996850679258,
+      "diff_excess_h5": 0.035292419332224885,
+      "permutation_p": 0.0311
+    },
+    "min_diff_excess_h5": 0.018741007201039495,
+    "max_diff_excess_h5": 0.035292419332224885,
+    "robustness_implication": "Dropping any single ticker maintains a positive peer excess differential ranging from 0.02% (ex-ITMG) to 0.04% (ex-BBNI)."
+  },
+  "multi_horizon_robustness_matrix": {
+    "Full_Sample": {
+      "H1": {
+        "evidence_present_mean_excess": 0.0019204783680921839,
+        "unobserved_mean_excess": -0.004793849520799929,
+        "diff_excess": 0.0067143278888921135
+      },
+      "H3": {
+        "evidence_present_mean_excess": 0.0075621175015863715,
+        "unobserved_mean_excess": -0.012618038527761678,
+        "diff_excess": 0.02018015602934805
+      },
+      "H5": {
+        "evidence_present_mean_excess": 0.006528897140535885,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess": 0.03103747421900961
+      },
+      "H10": {
+        "evidence_present_mean_excess": 0.008115983115822987,
+        "unobserved_mean_excess": -0.06438532230367505,
+        "diff_excess": 0.07250130541949804
+      },
+      "H20": {
+        "evidence_present_mean_excess": 0.00286094612330326,
+        "unobserved_mean_excess": -0.053869824686910435,
+        "diff_excess": 0.056730770810213695
+      }
+    },
+    "Commodity_Only": {
+      "H1": {
+        "evidence_present_mean_excess": 0.0027374970138349503,
+        "unobserved_mean_excess": -0.006937632474935649,
+        "diff_excess": 0.0096751294887706
+      },
+      "H3": {
+        "evidence_present_mean_excess": 0.008509557292364599,
+        "unobserved_mean_excess": -0.01996623528886785,
+        "diff_excess": 0.028475792581232447
+      },
+      "H5": {
+        "evidence_present_mean_excess": 0.0074122908811951925,
+        "unobserved_mean_excess": -0.039344885942429804,
+        "diff_excess": 0.046757176823625
+      },
+      "H10": {
+        "evidence_present_mean_excess": 0.008934333434569109,
+        "unobserved_mean_excess": -0.08990717366341328,
+        "diff_excess": 0.09884150709798238
+      },
+      "H20": {
+        "evidence_present_mean_excess": 0.0006452779000180246,
+        "unobserved_mean_excess": -0.0846541209485423,
+        "diff_excess": 0.08529939884856032
+      }
+    },
+    "Exclude_Top1_Date": {
+      "H1": {
+        "evidence_present_mean_excess": 0.0018069966941120996,
+        "unobserved_mean_excess": -0.004793849520799929,
+        "diff_excess": 0.006600846214912029
+      },
+      "H3": {
+        "evidence_present_mean_excess": 0.006523083545466794,
+        "unobserved_mean_excess": -0.012618038527761678,
+        "diff_excess": 0.019141122073228472
+      },
+      "H5": {
+        "evidence_present_mean_excess": 0.00587851247520946,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess": 0.03038708955368319
+      },
+      "H10": {
+        "evidence_present_mean_excess": 0.009825129251503095,
+        "unobserved_mean_excess": -0.06438532230367505,
+        "diff_excess": 0.07421045155517815
+      },
+      "H20": {
+        "evidence_present_mean_excess": 0.0026072979764015266,
+        "unobserved_mean_excess": -0.053869824686910435,
+        "diff_excess": 0.05647712266331196
+      }
+    },
+    "Primary_Sources_Only": {
+      "H1": {
+        "evidence_present_mean_excess": 0.0015437133096937502,
+        "unobserved_mean_excess": -0.004793849520799929,
+        "diff_excess": 0.00633756283049368
+      },
+      "H3": {
+        "evidence_present_mean_excess": 0.00956238450070037,
+        "unobserved_mean_excess": -0.012618038527761678,
+        "diff_excess": 0.02218042302846205
+      },
+      "H5": {
+        "evidence_present_mean_excess": 0.003367806227280407,
+        "unobserved_mean_excess": -0.024508577078473728,
+        "diff_excess": 0.027876383305754135
+      },
+      "H10": {
+        "evidence_present_mean_excess": -0.0013635139733904438,
+        "unobserved_mean_excess": -0.06438532230367505,
+        "diff_excess": 0.0630218083302846
+      },
+      "H20": {
+        "evidence_present_mean_excess": 0.001657748230828985,
+        "unobserved_mean_excess": -0.053869824686910435,
+        "diff_excess": 0.05552757291773942
+      }
+    }
+  }
+}

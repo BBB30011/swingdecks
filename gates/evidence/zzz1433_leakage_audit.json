@@ -1,0 +1,139 @@
+{
+  "total_probes": 20,
+  "passed_probes": 20,
+  "all_probes_passed": true,
+  "probes": {
+    "ADV-A_future_publication": {
+      "description": "Inject publication timestamp after decision date T",
+      "injection": {
+        "publication_time": "2026-09-30 00:00:00"
+      },
+      "result": "BLOCKED_BY_REPLAY_FIREWALL",
+      "status": "PASS"
+    },
+    "ADV-B_future_ownership": {
+      "description": "Inject ownership relationship valid from future date",
+      "injection": {
+        "valid_from": "2026-10-01"
+      },
+      "result": "BLOCKED_BY_REPLAY_FIREWALL",
+      "status": "PASS"
+    },
+    "ADV-C_current_state_entity": {
+      "description": "Inject 2026-09 current state entity record into 2025 replay",
+      "injection": {
+        "source": "SYSTEM_NOW"
+      },
+      "result": "BLOCKED_BY_PIT_FILTER",
+      "status": "PASS"
+    },
+    "ADV-D_future_corporate_action": {
+      "description": "Inject future corporate split announcement",
+      "injection": {
+        "action_date": "2026-12-01"
+      },
+      "result": "BLOCKED_BY_REPLAY_FIREWALL",
+      "status": "PASS"
+    },
+    "ADV-E_forward_h5_injection": {
+      "description": "Inject realized H5 return into pre-decision knowledge state",
+      "injection": {
+        "target_H5": 0.15
+      },
+      "result": "STRIPPED_BEFORE_DECISION_FREEZE",
+      "status": "PASS"
+    },
+    "ADV-F_forward_mfe_mae_injection": {
+      "description": "Inject future maximum favorable/adverse excursions",
+      "injection": {
+        "mfe_h5": 0.2,
+        "mae_h5": -0.01
+      },
+      "result": "STRIPPED_BEFORE_DECISION_FREEZE",
+      "status": "PASS"
+    },
+    "ADV-G_forward_returns_injection": {
+      "description": "Inject H1, H3, H10, H20 forward holding returns",
+      "injection": {
+        "target_H20": 0.35
+      },
+      "result": "STRIPPED_BEFORE_DECISION_FREEZE",
+      "status": "PASS"
+    },
+    "ADV-H_future_news_injection": {
+      "description": "Inject semantic news item timestamped after T",
+      "injection": {
+        "published_at": "2026-09-20"
+      },
+      "result": "BLOCKED_BY_REPLAY_FIREWALL",
+      "status": "PASS"
+    },
+    "ADV-I_agent2_filesystem_access": {
+      "description": "AST scan for open() or file readers in Agent 2",
+      "has_open_call": false,
+      "result": "BLOCKED_0_FILESYSTEM_CALLS",
+      "status": "PASS"
+    },
+    "ADV-J_agent2_duckdb_access": {
+      "description": "AST scan for duckdb/sqlite3 connectors in Agent 2",
+      "has_duckdb_call": false,
+      "result": "BLOCKED_0_DIRECT_DB_CONNECTORS",
+      "status": "PASS"
+    },
+    "ADV-K_agent2_network_access": {
+      "description": "AST scan for requests/urllib/socket in Agent 2",
+      "has_network_call": false,
+      "result": "BLOCKED_0_NETWORK_CALLS",
+      "status": "PASS"
+    },
+    "ADV-L_silent_fallback": {
+      "description": "Check if missing historical data defaults to NO_EVENT instead of NO_EVIDENCE",
+      "result": "BLOCKED_EXPLICIT_NO_EVIDENCE_IN_DATASET_PRESERVED",
+      "status": "PASS"
+    },
+    "ADV-M_post_freeze_thesis_mutation": {
+      "description": "Attempt to mutate thesis after pre-outcome SHA-256 freeze",
+      "result": "BLOCKED_HASH_TAMPER_DETECTED",
+      "status": "PASS"
+    },
+    "ADV-N_post_freeze_hks_mutation": {
+      "description": "Attempt to mutate HKS snapshot hash after outcome attachment",
+      "result": "BLOCKED_HASH_INVARIANCE_ENFORCED",
+      "status": "PASS"
+    },
+    "ADV-O_peer_self_inclusion": {
+      "description": "Check if target ticker is included in its own contextual peer group",
+      "self_inclusions_detected": 0,
+      "result": "BLOCKED_0_SELF_INCLUSIONS",
+      "status": "PASS"
+    },
+    "ADV-P_outcome_derived_control": {
+      "description": "Attempt to inject forward H5 return into control set",
+      "injection": {
+        "control_x": "excess_H5"
+      },
+      "result": "BLOCKED_CONTROL_SET_RESTRICTED_TO_PRE_T",
+      "status": "PASS"
+    },
+    "ADV-Q_post_outcome_evidence_mutation": {
+      "description": "Attempt to alter evidence label based on realized outcome",
+      "result": "BLOCKED_TREATMENT_ASSIGNMENT_IMMUTABLE_PRE_OUTCOME",
+      "status": "PASS"
+    },
+    "ADV-R_future_event_count_injection": {
+      "description": "Attempt to use future event counts in density metrics",
+      "result": "BLOCKED_DENSITY_FILTERED_TO_PUBLISHED_LE_T",
+      "status": "PASS"
+    },
+    "ADV-S_future_evidence_density": {
+      "description": "Attempt to calculate evidence recency with future dates",
+      "result": "BLOCKED_RECENCY_CALCULATED_STRICTLY_AT_T",
+      "status": "PASS"
+    },
+    "ADV-T_future_coverage_injection": {
+      "description": "Attempt to apply 2026 dataset coverage state to 2025 decision date",
+      "result": "BLOCKED_POINT_IN_TIME_COVERAGE_STATE_ENFORCED",
+      "status": "PASS"
+    }
+  }
+}

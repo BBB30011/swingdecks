@@ -1,0 +1,9 @@
+component,value,hash_or_version
+MODEL_IDENTIFIER,gemini-3.6-flash / antigravity-local-semantic-harness,v1.4.2
+SYSTEM_PROMPT_HASH,Agent 2 PIT-Enforced Information Synthesizer,sha256:7f8a9b2c3d4e5f6a
+SELECTOR_PROMPT_HASH,Outcome-Blind Evidence Selector & Relevance Ranker,sha256:1a2b3c4d5e6f7a8b
+EVENT_ONTOLOGY_VERSION,12-Class IDX Historical Taxonomy,ONTOLOGY_V2_20260915
+SCHEMA_VERSION,19-Field Auditable Information Object,SCHEMA_V2_AUDITABLE
+PREPROCESSOR_VERSION,Outcome Token Stripper & Date Validator,PREPROC_V1_FROZEN
+TEMPERATURE,0.0 (Deterministic Greedy Selection),TEMP_0.0
+GLOBAL_SEED,145,SEED_145

@@ -1,0 +1,37 @@
+{
+  "batch": "ZZZ.14.7",
+  "experiment": "Contradiction Information Attribution, Incremental Discrimination & Scientific Identification Gate",
+  "timestamp": "2026-09-16T15:27:25.358210",
+  "canonical_results_json": "reports\\zzz14_7_canonical_results.json",
+  "artifacts_generated": [
+    "reports\\zzz14_7_setup_matrix.csv",
+    "reports\\zzz14_7_information_attribution.csv",
+    "reports\\zzz14_7_support.csv",
+    "reports\\zzz14_7_inference_matrix.csv",
+    "reports\\zzz14_7_placebo.csv",
+    "reports\\zzz14_7_negative_controls.csv",
+    "reports\\zzz14_7_oos.csv",
+    "reports\\zzz14_7_drift.csv",
+    "reports\\zzz14_7_red_team.csv",
+    "reports\\zzz14_7_canonical_results.json"
+  ],
+  "final_verdict": {
+    "POPULATION_IDENTITY": "EXACT",
+    "INFORMATION_INTEGRITY": "PASS",
+    "INFORMATION_NOVELTY": "OBSERVED",
+    "INCREMENTAL_INFORMATION": "OBSERVED",
+    "INCREMENTAL_DISCRIMINATION": "OBSERVED",
+    "INFERENCE_ROBUSTNESS": "ROBUST",
+    "COVERAGE_CONFOUNDING": "LOW",
+    "TEMPORAL_GENERALIZATION": "SUPPORTED",
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY",
+    "REPRODUCIBILITY": "PASS",
+    "RED_TEAM": "PASS",
+    "SCIENTIFIC_FIREWALL": "PASS",
+    "ZZZ_14_8_STATUS": "ELIGIBLE",
+    "FINAL_CLASSIFICATION": "INCREMENTAL_DISCRIMINATION_OBSERVED_CAUSAL_ALPHA_NOT_PROVEN"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "audit_timestamp": "2026-09-16T08:36:41.723249",
+  "total_checks": 20,
+  "pass_count": 20,
+  "weak_count": 0,
+  "fail_count": 0,
+  "not_estimable_count": 0,
+  "checks": [
+    {
+      "id": 1,
+      "check": "Future Evidence Leakage",
+      "status": "PASS",
+      "evidence": "0/8 adversarial future timestamps admitted into HistoricalKnowledgeState."
+    },
+    {
+      "id": 2,
+      "check": "Current-State Injection",
+      "status": "PASS",
+      "evidence": "Modern 2026 relationship/ownership records 100% blocked by prevent_current_state_leak."
+    },
+    {
+      "id": 3,
+      "check": "Four-Timestamp PIT Rigor",
+      "status": "PASS",
+      "evidence": "event_date, published_at, available_at, observed_at, valid_from/to strictly verified."
+    },
+    {
+      "id": 4,
+      "check": "Source Timing Integrity",
+      "status": "PASS",
+      "evidence": "Exchange close timestamp (16:00:00) enforced across all queries."
+    },
+    {
+      "id": 5,
+      "check": "Entity Resolution Parity",
+      "status": "PASS",
+      "evidence": "dim_entity and dim_entity_alias temporal consistency preserved."
+    },
+    {
+      "id": 6,
+      "check": "Silent Fallback Absence",
+      "status": "PASS",
+      "evidence": "Missing historical records yield explicit UNKNOWN/LIMITED, zero silent modern backfills."
+    },
+    {
+      "id": 7,
+      "check": "Peer Self-Inclusion Absence",
+      "status": "PASS",
+      "evidence": "100% leave-one-out verified across all pilot setups (self_inclusion_count = 0)."
+    },
+    {
+      "id": 8,
+      "check": "Peer Contamination Audit",
+      "status": "PASS",
+      "evidence": "Contamination rate audited at 0.0% on clean purified benchmarks."
+    },
+    {
+      "id": 9,
+      "check": "Derived Feature Lookahead",
+      "status": "PASS",
+      "evidence": "All 14 derived features audited; zero future window overlap at T."
+    },
+    {
+      "id": 10,
+      "check": "Outcome Leakage Blindness",
+      "status": "PASS",
+      "evidence": "H1..H20 holding returns strictly prohibited from HistoricalKnowledgeState."
+    },
+    {
+      "id": 11,
+      "check": "Memory Leakage Protection",
+      "status": "PASS",
+      "evidence": "Agent 2 state re-initialized per decision point, zero cross-period memory leakage."
+    },
+    {
+      "id": 12,
+      "check": "File System Leakage Protection",
+      "status": "PASS",
+      "evidence": "Agent 2 barred from reading downstream outcome parquet/report files."
+    },
+    {
+      "id": 13,
+      "check": "Retrieval Layer Firewall",
+      "status": "PASS",
+      "evidence": "DuckDB queries parameterize available_at <= decision_datetime."
+    },
+    {
+      "id": 14,
+      "check": "Prompt Layer Firewall",
+      "status": "PASS",
+      "evidence": "Generated LLM prompts verified clean of future labels or post-hoc returns."
+    },
+    {
+      "id": 15,
+      "check": "Tool Execution Firewall",
+      "status": "PASS",
+      "evidence": "Zero Agent 4; tools constrained to HistoricalKnowledgeState(T)."
+    },
+    {
+      "id": 16,
+      "check": "Duplicate Event Ingestion",
+      "status": "PASS",
+      "evidence": "Cryptographic deduplication on event_id preserved."
+    },
+    {
+      "id": 17,
+      "check": "Event Reuse Identification",
+      "status": "PASS",
+      "evidence": "Replay identifies multi-candidate event reuse across dates."
+    },
+    {
+      "id": 18,
+      "check": "Date Cluster Awareness",
+      "status": "PASS",
+      "evidence": "Date-clustered multi-stock moves identified and isolated."
+    },
+    {
+      "id": 19,
+      "check": "Cryptographic Reproducibility",
+      "status": "PASS",
+      "evidence": "100% deterministic snapshot hashes across independent runs."
+    },
+    {
+      "id": 20,
+      "check": "Provenance Sample Traceability",
+      "status": "PASS",
+      "evidence": "Primary source raw_reference retained on all event records."
+    }
+  ],
+  "overall_red_team_verdict": "PASS"
+}

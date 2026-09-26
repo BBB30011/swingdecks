@@ -1,0 +1,10 @@
+{
+  "ticker": "BBCA",
+  "decision_date": "2025-09-09",
+  "hash_before_outcome": "9bc3d700a89cb5335612484b988f9c007c654b123ed7f2d3a69bd02dc9472475",
+  "hash_after_outcome": "9bc3d700a89cb5335612484b988f9c007c654b123ed7f2d3a69bd02dc9472475",
+  "hashes_identical": true,
+  "knowledge_state_mutated_by_outcome": false,
+  "prohibited_outcome_keys_enforced": true,
+  "status": "PASS"
+}

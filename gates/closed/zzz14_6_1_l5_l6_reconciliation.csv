@@ -1,0 +1,6 @@
+dimension,differing_setups,delta_rate_pct,interpretation,classification
+L5_L6_ACTION_DELTA,0,0.0,Action state distribution is identical (Agent 3 respects Agent 2 thesis state),AGENT3_ACTION_IMPACT_NOT_OBSERVED
+L5_L6_RISK_DELTA,0,0.0,Categorical risk levels map monotonically from thesis confidence,AGENT3_RISK_LEVEL_CONGRUENT
+L5_L6_POSITION_SIZING_DELTA,800,45.45454545454545,"Agent 3 assigns risk-budgeted unit sizing (FULL, HALF, ZERO_UNIT)",AGENT3_RISK_SIZING_IMPACT_OBSERVED
+L5_L6_TIMING_TRIGGER_DELTA,676,38.40909090909091,Agent 3 defines executable market open triggers and volume filters,AGENT3_TIMING_IMPACT_OBSERVED
+L5_L6_INVALIDATION_STOP_DELTA,1760,100.0,Agent 3 integrates specific economic invalidation stop levels,AGENT3_INVALIDATION_IMPACT_OBSERVED

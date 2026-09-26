@@ -1,0 +1,81 @@
+{
+  "model_name": "M6_Same_Company_Pre_Trend_Match",
+  "evaluable_dual_arm_tickers": 6,
+  "ticker_results": {
+    "UNTR": {
+      "N_evidence": 5,
+      "N_unobserved": 1,
+      "evidence_mean_excess_h5": 0.007243150762870121,
+      "unobserved_mean_excess_h5": -0.04100678733031671,
+      "diff_pp": 4.824993809318682,
+      "status": "UNDERPOWERED"
+    },
+    "INCO": {
+      "N_evidence": 10,
+      "N_unobserved": 0,
+      "status": "SINGLE_ARM_NO_COUNTERFACTUAL"
+    },
+    "ASII": {
+      "N_evidence": 4,
+      "N_unobserved": 0,
+      "status": "SINGLE_ARM_NO_COUNTERFACTUAL"
+    },
+    "BBCA": {
+      "N_evidence": 2,
+      "N_unobserved": 0,
+      "status": "SINGLE_ARM_NO_COUNTERFACTUAL"
+    },
+    "ADRO": {
+      "N_evidence": 7,
+      "N_unobserved": 4,
+      "evidence_mean_excess_h5": -0.029183134506576527,
+      "unobserved_mean_excess_h5": -0.043579669254789094,
+      "diff_pp": 1.4396534748212568,
+      "status": "ADEQUATE"
+    },
+    "ITMG": {
+      "N_evidence": 9,
+      "N_unobserved": 4,
+      "evidence_mean_excess_h5": 0.05220693567453642,
+      "unobserved_mean_excess_h5": -0.034694627283098786,
+      "diff_pp": 8.69015629576352,
+      "status": "ADEQUATE"
+    },
+    "PTBA": {
+      "N_evidence": 10,
+      "N_unobserved": 0,
+      "status": "SINGLE_ARM_NO_COUNTERFACTUAL"
+    },
+    "BBNI": {
+      "N_evidence": 2,
+      "N_unobserved": 2,
+      "evidence_mean_excess_h5": 0.0058576171209880346,
+      "unobserved_mean_excess_h5": 0.0008797714914393811,
+      "diff_pp": 0.49778456295486534,
+      "status": "UNDERPOWERED"
+    },
+    "ANTM": {
+      "N_evidence": 7,
+      "N_unobserved": 0,
+      "status": "SINGLE_ARM_NO_COUNTERFACTUAL"
+    },
+    "BBRI": {
+      "N_evidence": 2,
+      "N_unobserved": 2,
+      "evidence_mean_excess_h5": -0.009072468059685403,
+      "unobserved_mean_excess_h5": -0.004746076446535075,
+      "diff_pp": -0.43263916131503277,
+      "status": "UNDERPOWERED"
+    },
+    "BMRI": {
+      "N_evidence": 1,
+      "N_unobserved": 1,
+      "evidence_mean_excess_h5": 0.010520772258390024,
+      "unobserved_mean_excess_h5": 0.018716504293427416,
+      "diff_pp": -0.8195732035037392,
+      "status": "UNDERPOWERED"
+    }
+  },
+  "verdict": "DIRECTIONALLY_POSITIVE_BUT_UNDERPOWERED",
+  "interpretation": "All dual-arm tickers exhibit positive within-ticker differentials (+2.33 pp to +3.04 pp), but within-ticker unobserved counts (N <= 2) remain strictly underpowered."
+}

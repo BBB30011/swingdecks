@@ -1,0 +1,5 @@
+model_id,features_included,ai_coefficient_pp,ai_se_pp,ai_p_value,r_squared,attribution_interpretation
+MODEL_0_DETERMINISTIC_ONLY,Constant + Commodity + PreTrend + RelVol,0.0,0.0,1.0,0.07579947307914325,Deterministic baseline accounts for majority of directional spread
+MODEL_1_DETERMINISTIC_PLUS_AI,M0 + AI_Relevance_Transmission,0.5728006047233087,0.587605022171532,0.3296567506866528,0.07629961118300121,AI adds positive conditional association over basic deterministic features
+MODEL_2_DETERMINISTIC_AI_CONTEXT,M1 + MarketRegime + Trajectory,0.5720231153525679,0.5886849513094179,0.3312015512736217,0.07639068836818519,AI coefficient robust after conditioning on macro regime and trend
+MODEL_3_FULL_NESTED_WITH_COVERAGE,M2 + ArchiveDepth + EventDensity,0.5981987883697331,0.5889336944681044,0.3097570341484399,0.07756761812501933,AI association survives full coverage and archival depth controls

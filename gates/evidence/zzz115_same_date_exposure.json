@@ -1,0 +1,35 @@
+{
+  "same_date_exposure_status": "ESTIMABLE",
+  "total_same_date_exposure_clusters": 2,
+  "mean_within_cluster_differential_pp": 8.405606520138186,
+  "cluster_details": [
+    {
+      "date": "2026-08-24T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "PTBA"
+      ],
+      "unobserved_tickers": [
+        "ADRO"
+      ],
+      "evidence_mean_excess": -0.009054321340581817,
+      "unobserved_mean_excess": 0.028109912683703664,
+      "pair_differential_pp": -3.716423402428548
+    },
+    {
+      "date": "2026-08-27T00:00:00+0700",
+      "exposure_group": "COAL_PRODUCER",
+      "evidence_tickers": [
+        "PTBA"
+      ],
+      "unobserved_tickers": [
+        "ADRO",
+        "ITMG"
+      ],
+      "evidence_mean_excess": 0.1368509096180328,
+      "unobserved_mean_excess": -0.0684254548090164,
+      "pair_differential_pp": 20.52763644270492
+    }
+  ],
+  "interpretation": "Within same-date, same-exposure clusters, evidence companies outperform unobserved peers."
+}

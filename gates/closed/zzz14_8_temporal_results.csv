@@ -1,0 +1,4 @@
+era,N,action_divergence_rate,contradiction_count,act_mean_H5,reject_mean_H5
+DEV_2016_2023,1280,0.3945,128,1.0308,-1.9328
+VAL_2024,160,0.3937,12,1.051,-1.3733
+OOS_2025_2026,320,0.3625,21,0.8518,-1.649

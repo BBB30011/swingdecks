@@ -1,0 +1,11 @@
+formula_id,mathematical_expression,input_columns,sample_n,calculated_result_pp,delta_from_496_1_pp,reconciliation_verdict
+FORMULA_A_FULL_NET_H5_SUM,Sum(-H5_i) across all N setups,excess_H5_pct (post-T holding return),161,298.44,-197.66,MATHEMATICALLY_EXACT_FOR_NET_H5
+FORMULA_B_STRICT_LOSS_AVOIDED_H5,Sum(-H5_i) for setups where H5_i < 0,excess_H5_pct (negative outcomes only),123,362.26,-133.84,CANONICAL_AVOIDED_GROSS_LOSS_H5 (+362.3 pp)
+FORMULA_C_FULL_NET_H10_SUM,Sum(-H10_i) across all N setups,excess_H10_pct (10-day forward return),161,544.71,48.61,H10_MULTI_DAY_ACCUMULATION (+544.7 pp)
+FORMULA_D_STRICT_LOSS_AVOIDED_H10,Sum(-H10_i) for setups where H10_i < 0,excess_H10_pct (negative outcomes only),128,618.63,122.53,H10_STRICT_LOSS_SUM (+618.6 pp)
+FORMULA_E_CUMULATIVE_MAE_AVOIDED,Sum(-MAE_i) across all N setups,maximum_adverse_excursion_pct,161,821.96,325.86,INTRA_TRADE_MAX_DRAWDOWN_AVOIDED (+822.0 pp)
+FORMULA_F_COMBINED_H5_H10_SUM,0.5 * (Sum(-H5_i) + Sum(-H10_i)),H5 and H10 returns,161,421.58,-74.52,HORIZON_AVERAGED_ACCUMULATION (+421.6 pp)
+FORMULA_G_RISK_WEIGHTED_H5_LOSS,Sum(w_i * -H5_i) with conviction weights,H5 return * unit weight,161,283.52,-212.58,RISK_WEIGHTED_ESTIMATE (+283.5 pp)
+FORMULA_H_STANDARDIZED_UNIT_SUM,1.0 unit * Sum(-H5_i[H5<0]),1 unit / setup * negative return,123,362.26,-133.84,UNIT_PER_SETUP_CANONICAL (+362.3 pp)
+FORMULA_I_HISTORICAL_NARRATIVE_PROXY,N * Mean_H10_Loss (159 * 3.12 pp),Descriptive narrative multiplication,159,496.08,-0.02,EXACT_RECONSTRUCTION_OF_496_1_PP (159 * 3.12 pp = 496.08 pp)
+FORMULA_J_PORTFOLIO_CAPITAL_PNL,Actual dynamic portfolio equity PnL,"Unmodeled cash, overlaps, execution costs",161,,,NOT_ESTIMABLE (Requires Portfolio Simulation Gate ZZZ.14.7)

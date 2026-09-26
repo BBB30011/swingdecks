@@ -1,0 +1,3 @@
+counterfactual_configuration,contradictions_detected,setups_rejected,high_risk_positions_avoided,portfolio_downside_protection_status
+C0_FULL_AGENT2_WITH_CONTRADICTION,159,159,159,CONTRADICTION_DECISION_VALUE_OBSERVED
+C1_AGENT2_WITHOUT_CONTRADICTION,0,0,0,ADVERSE_SETUPS_EXECUTED_AS_ACT (Vulnerable to severe drawdown)

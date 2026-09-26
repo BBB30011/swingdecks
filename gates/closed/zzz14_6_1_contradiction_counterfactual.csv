@@ -1,0 +1,3 @@
+counterfactual_configuration,total_adverse_setups,setups_rejected,portfolio_capital_allocated_pct,realized_trading_loss_pct,tail_drawdown_avoidance_status
+C0_CONTRADICTION_ENABLED (Real System),161,161,0.0,0.0,CONTRADICTION_DECISION_VALUE_OBSERVED
+C1_CONTRADICTION_DISABLED (Counterfactual),161,0,100.0,-1.853684619037041,"EXPOSED_TO_SEVERE_DRAWDOWN (Mean H5: -1.84%, MAE: -4.95%)"

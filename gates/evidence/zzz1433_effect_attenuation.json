@@ -1,0 +1,56 @@
+[
+  {
+    "specification": "C0_raw",
+    "differential_pp": 3.1037474219009615,
+    "change_vs_c0_pp": 0.0,
+    "interpretation": "Raw association baseline (+3.1037 pp)"
+  },
+  {
+    "specification": "C1_ticker",
+    "differential_pp": 3.631561047400342,
+    "change_vs_c0_pp": 0.5278136254993804,
+    "interpretation": "Robust to Ticker FE (sparse within-ticker contrast)"
+  },
+  {
+    "specification": "C2_date",
+    "differential_pp": 10.13732508050488,
+    "change_vs_c0_pp": 7.033577658603918,
+    "interpretation": "Robust to Date FE (sparse within-date contrast)"
+  },
+  {
+    "specification": "C3_commodity",
+    "differential_pp": 3.0879944064135274,
+    "change_vs_c0_pp": -0.01575301548743413,
+    "interpretation": "Robust to Commodity Exposure control"
+  },
+  {
+    "specification": "C4_quant",
+    "differential_pp": 3.623116143789698,
+    "change_vs_c0_pp": 0.5193687218887364,
+    "interpretation": "Robust to Pre-Trend & Regime controls"
+  },
+  {
+    "specification": "C5_ticker_date",
+    "differential_pp": 13.522525548962795,
+    "change_vs_c0_pp": 10.418778127061834,
+    "interpretation": "Survives simultaneous Ticker + Date controls"
+  },
+  {
+    "specification": "C6_ticker_date_commodity",
+    "differential_pp": 13.522525548964735,
+    "change_vs_c0_pp": 10.418778127063774,
+    "interpretation": "Survives Ticker + Date + Commodity controls"
+  },
+  {
+    "specification": "C7_full_controls",
+    "differential_pp": 14.583178343097682,
+    "change_vs_c0_pp": 11.47943092119672,
+    "interpretation": "Survives Full Pre-T Frozen Control Set"
+  },
+  {
+    "specification": "Matching_1to1",
+    "differential_pp": 2.6001061459793773,
+    "change_vs_c0_pp": -0.5036412759215843,
+    "interpretation": "Covariate matched pairs (N=14 pairs)"
+  }
+]

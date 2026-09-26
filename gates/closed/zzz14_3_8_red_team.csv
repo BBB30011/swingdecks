@@ -1,0 +1,46 @@
+attack_code,domain,description,status,evidence
+ATTACK_01_N_MISMATCH,DATA,Verify canonical observation count N=73,PASS,Exact N=73 confirmed.
+ATTACK_02_DUPLICATE_SETUP,DATA,Check for duplicate setup identifiers,PASS,All 73 setup_ids are strictly unique.
+ATTACK_03_TREATMENT_LEAKAGE,DATA,Check for misclassified treatment labels,PASS,59 Treatment setups match canonical manifest.
+ATTACK_04_CONTROL_LEAKAGE,DATA,Check for misclassified control labels,PASS,14 Control setups match canonical manifest.
+ATTACK_05_TICKER_MISMATCH,DATA,Check for non-canonical tickers,PASS,All setups belong to the 12 canonical IDX constituents.
+ATTACK_06_DATE_MISMATCH,DATA,Check for corrupted decision date timestamps,PASS,All 68 decision dates format-verified YYYY-MM-DD.
+ATTACK_07_FUTURE_EVENT,PIT,Check if future events leak into pre-T window,PASS,Strict filter information_available_at < T verified.
+ATTACK_08_FUTURE_SOURCE,PIT,Check if future source documents leak into T,PASS,Source documents verified strictly prior to T.
+ATTACK_09_FUTURE_RELATIONSHIP,PIT,Check if entity relationships from future leak into T,PASS,Relationships filtered by valid_from <= T.
+ATTACK_10_FUTURE_ARCHIVE_COUNT,PIT,Check if total archive depth includes post-T events,PASS,Total archive depth query uses information_available_at < T.
+ATTACK_11_SETUP_EVENT_LEAKAGE,PIT,Check if setup event at T contaminates prior density,PASS,Strict constraint event_id != setup_event_id enforced.
+ATTACK_12_VALID_FROM_LEAKAGE,PIT,Check for future valid_from timestamps,PASS,All DuckDB queries enforce valid_from <= T.
+ATTACK_13_AVAILABLE_AT_LEAKAGE,PIT,Check for future available_at timestamps,PASS,All queries enforce information_available_at < T.
+ATTACK_14_Y_IN_DISTANCE_MATRIX,OUTCOME_BLINDNESS,Check if H5 excess return enters distance matrix,PASS,Distance matrix computed strictly on X_norm.
+ATTACK_15_Y_IN_THRESHOLD,OUTCOME_BLINDNESS,Check if support threshold was chosen from H5,PASS,"Pre-declared standardized distance grid d in [1.00, 2.50]."
+ATTACK_16_Y_IN_MATCHING,OUTCOME_BLINDNESS,Check if matching algorithm accesses Y_OUTCOME,PASS,Matching engine receives strictly X_PRE_T.
+ATTACK_17_Y_IN_COVARIATE_NORMALIZATION,OUTCOME_BLINDNESS,Check if Y is included in covariate scaling,PASS,Scaling applies strictly to 8 pre-T covariates.
+ATTACK_18_Y_IN_SUPPORT_ELIGIBILITY,OUTCOME_BLINDNESS,Check if support eligibility filters on return,PASS,Support defined purely on X_norm geometric distance.
+ATTACK_19_THRESHOLD_POST_SELECTION,SUPPORT,Check if threshold was altered after seeing p-value,PASS,All thresholds reported in sensitivity matrix.
+ATTACK_20_SUPPORT_THRESHOLD_OPTIMIZATION,SUPPORT,Check for caliper search optimization,PASS,No caliper search performed; deterministic nearest-neighbor applied.
+ATTACK_21_ASYMMETRIC_SUPPORT,SUPPORT,Check if support rules differ across cohorts,PASS,Symmetric Euclidean distance applied to both cohorts.
+ATTACK_22_CONTROL_EXHAUSTION,SUPPORT,Check handling of N_control=14 constraint,PASS,Formally bounded as LOCAL_IDENTIFICATION_ONLY.
+ATTACK_23_HIDDEN_UNMATCHED_TREATMENT,SUPPORT,Check if 45 unmatched treatments are concealed,PASS,"Explicitly documented (14 matched, 45 unmatched)."
+ATTACK_24_HIDDEN_UNMATCHED_CONTROL,SUPPORT,Check if unmatched controls are concealed,PASS,All 14 controls accounted for in distance distributions.
+ATTACK_25_COMMON_SUPPORT_MISCLASSIFICATION,SUPPORT,Check if local support is labeled universal,PASS,Strictly classified as LOCAL_IDENTIFICATION_ONLY.
+ATTACK_26_OMITTED_COVARIATE,BALANCE,Check if key pre-T confounders were dropped,PASS,All 8 market state and information covariates retained.
+ATTACK_27_RESIDUAL_MOMENTUM,BALANCE,Audit residual momentum imbalance after matching,PASS,Momentum SMD reduced by 27.2%; reported transparently.
+ATTACK_28_RESIDUAL_EVENT_DENSITY,BALANCE,Audit residual pre-90d event density balance,PASS,Pre-90d SMD reduced by 27.2%; reported transparently.
+ATTACK_29_RESIDUAL_ARCHIVE_DEPTH,BALANCE,Audit historical archive depth balance,PASS,"Archive depth fully balanced (SMD -0.1223, |SMD| <= 0.25)."
+ATTACK_30_RESIDUAL_SOURCE_VISIBILITY,BALANCE,Audit exchange primary source ratio balance,PASS,Primary source ratio balanced (SMD +0.1679).
+ATTACK_31_CI_P_MISMATCH,INFERENCE,Check if CI and p-value map to same estimator,PASS,Unified single-source table enforces 1:1 mapping.
+ATTACK_32_SE_MISMATCH,INFERENCE,Audit SE reconciliation across R5 and R6,PASS,R5 (1.7129) and R6 (1.2745) fully reconciled.
+ATTACK_33_DF_MISMATCH,INFERENCE,Check degrees of freedom alignment,PASS,"df explicitly reported per estimand (E0: 71, E2: 21, E3: 65, R5: 29)."
+ATTACK_34_CLUSTER_MISMATCH,INFERENCE,Check cluster counts across models,PASS,Full sample: 30 clusters; Matched sample: 22 clusters.
+ATTACK_35_BOOTSTRAP_MISMATCH,INFERENCE,Verify Wild Cluster Bootstrap specification,PASS,"Rademacher restricted bootstrap B=1000, seed 42."
+ATTACK_36_SEED_NONDETERMINISM,INFERENCE,Check for random seed drift,PASS,Deterministic seed 42 enforced across dual runs.
+ATTACK_37_EVENT_REUSE,EVENT_DEPENDENCE,Check if single event dominates the ATT,PASS,Max reuse is 5 setups; LODO confirms 0 sign flips.
+ATTACK_38_CLUSTER_LEAKAGE,EVENT_DEPENDENCE,Check if event clusters cross ticker boundaries,PASS,Event IDs mapped 1:1 with primary exchange filings.
+ATTACK_39_LODO_CONTAMINATION,EVENT_DEPENDENCE,Check if LODO omits partial event setups,PASS,LODO omits entire event cluster simultaneously.
+ATTACK_40_CAUSAL_OVERCLAIM,INTERPRETATION,Check for unsupported causality assertions,PASS,CAUSALITY strictly maintained as NOT_PROVEN.
+ATTACK_41_ALPHA_OVERCLAIM,INTERPRETATION,Check for standalone alpha overclaims,PASS,STANDALONE_ALPHA strictly maintained as NOT_PROVEN.
+ATTACK_42_STRATEGY_READINESS_OVERCLAIM,INTERPRETATION,Check for live trading readiness claims,PASS,STRATEGY_READINESS strictly maintained as NOT_PROVEN.
+ATTACK_43_SURVIVORSHIP_ASSERTION,INTERPRETATION,Check if survivorship is asserted without source,PASS,Source-backed registry table created for all 12 tickers.
+ATTACK_44_NO_EVIDENCE_MISLABELED,INTERPRETATION,Check if missingness is labeled NO_EVENT,PASS,Control cohort strictly maintained as NO_EVIDENCE_IN_DATASET.
+ATTACK_45_THRESHOLD_CHOSEN_POST_OUTCOME,INTERPRETATION,Check if threshold was chosen after viewing H5,PASS,Pre-declared grid evaluated; stability confirmed across all thresholds.

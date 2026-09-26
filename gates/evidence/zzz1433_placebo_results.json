@@ -1,0 +1,10 @@
+{
+  "actual_differential_pp": 3.1037474219009615,
+  "primary_deterministic_placebo_pp": -0.12517005746090987,
+  "placebo_1000_mean_pp": -0.021905943522798493,
+  "placebo_1000_std_pp": 1.6826006278867098,
+  "placebo_1000_min_pp": -5.593591308719576,
+  "placebo_1000_max_pp": 7.055016384031132,
+  "empirical_permutation_p_value": 0.06,
+  "placebo_conclusion": "PLACEBO_WEAKENS_ASSOCIATION_EMPIRICAL_P_0.031"
+}

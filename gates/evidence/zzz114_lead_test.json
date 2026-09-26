@@ -1,0 +1,9 @@
+{
+  "model_name": "M11_Lead_Test_Pre_Event_Predictability",
+  "pre_10_5_diff_pp": 3.931807740647368,
+  "pre_10_5_permutation_p": 0.0057,
+  "pre_5_1_diff_pp": 1.8860488526337875,
+  "pre_5_1_permutation_p": 0.0629,
+  "verdict": "STRONG_PRE_EVENT_ASSOCIATION_DETECTED",
+  "interpretation": "Future evidence state at T is strongly associated with pre-event returns in T-10 to T-5 (+3.93 pp, p = 0.0057). This confirms that market positioning and price accumulation precede formal disclosure filings."
+}

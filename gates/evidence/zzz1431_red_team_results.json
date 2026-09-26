@@ -1,0 +1,106 @@
+{
+  "batch": "ZZZ.14.3.1",
+  "checks": [
+    {
+      "check_id": "RT-01",
+      "name": "Exact N=73 Canonical Identity Match",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-02",
+      "name": "Zero Observation Addition/Removal/Substitution",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-03",
+      "name": "Historical Replay Engine 4-Timestamp PIT Active",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-04",
+      "name": "Agent 2 Context Bound Strictly to HKS(T)",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-05",
+      "name": "Pre-Outcome Thesis Freeze SHA-256 Verified",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-06",
+      "name": "Outcome Blindness Invariance 100% Maintained",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-07",
+      "name": "Zero Unexplained V1 Discrepancies (0 / 73)",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-08",
+      "name": "Leave-One-Out Peer Self-Exclusion Verified",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-09",
+      "name": "Zero Direct Database/Parquet Imports in Agent 2",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-10",
+      "name": "Zero Future Publication Leakage",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-11",
+      "name": "Zero Current-State Leakage",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-12",
+      "name": "Silent Fallback Absent on Missing Historical Data",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-13",
+      "name": "UNKNOWN / LIMITED Epistemological State Preserved",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-14",
+      "name": "Commodity Concentration Explicitly Bounded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-15",
+      "name": "Date Concentration Audited via Leave-One-Out",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-16",
+      "name": "100% Deterministic Reproducibility Across Dual Runs",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-17",
+      "name": "No Causal or Standalone Alpha Claims Made",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-18",
+      "name": "No Profitability or Live-Trading Claims Made",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-19",
+      "name": "Zero Strategy / Threshold / Parameter Tuning",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RT-20",
+      "name": "Tripartite Separation of Predictive, Explanatory, Governance Values",
+      "status": "PASS"
+    }
+  ],
+  "overall_red_team_verdict": "PASS"
+}

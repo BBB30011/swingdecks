@@ -1,0 +1,83 @@
+attack_code,category,description,status,defense_evidence
+RED_01_BASELINE_IDENTITY_ACT_COUNT,Baseline Identity,Checking if Arm A ACT matches L0 ACT exactly,PASS,"Reconciled to exact match: 572 ACT on identical N=1,760 setups."
+RED_02_BASELINE_IDENTITY_WATCH_COUNT,Baseline Identity,Checking if Arm A WATCH matches L0 WATCH exactly,PASS,Reconciled to exact match: 524 WATCH.
+RED_03_BASELINE_IDENTITY_WAIT_COUNT,Baseline Identity,Checking if Arm A WAIT matches L0 WAIT exactly,PASS,Reconciled to exact match: 664 WAIT.
+RED_04_BASELINE_IDENTITY_REJECT_COUNT,Baseline Identity,Checking if Arm A REJECT is zero like L0,PASS,Reconciled to exact match: 0 REJECT.
+RED_05_BASELINE_UNIVERSE_MISMATCH,Baseline Identity,Testing if Arm A used different universe subset,PASS,Reconciled on identical 80-equity universe.
+RED_06_BASELINE_DATE_MISMATCH,Baseline Identity,Testing if Arm A used different date pool,PASS,Reconciled on identical 2016-2026 dates.
+RED_07_BASELINE_SNAPSHOT_VERSION_DRIFT,Baseline Identity,Testing if Arm A read different DuckDB snapshot,PASS,Unified to canonical Dataset V2 snapshot.
+RED_08_BASELINE_MOCK_TABLE_OVERWRITE,Baseline Identity,Testing if hardcoded mock was used instead of live engine,PASS,Replaced static mock with dynamic setup-by-setup generation.
+RED_09_DENOM_DIVERGENCE_PERCENTAGE,Denominator Manipulation,"Checking if 34.1% used different denominator than 1,760",PASS,"Reconciled: 699/1,760 = 39.7159% is the canonical metric."
+RED_10_DENOM_COMMODITY_ONLY_SUBSET,Denominator Manipulation,"Testing if 34.1% was commodity subset (N=1,760 vs N=440)",PASS,Decomposed and bound to full population denominator.
+RED_11_DENOM_OOS_ONLY_SUBSET,Denominator Manipulation,Testing if 34.1% was OOS holdout subset,PASS,"Bound to explicit population N=1,760."
+RED_12_DENOM_ACTIVE_ONLY_SUBSET,Denominator Manipulation,Testing if denominator was only L0 ACT setups,PASS,"Denominator explicitly defined as all N=1,760 setups."
+RED_13_DENOM_FIELD_COUNT_CONFUSION,Denominator Manipulation,"Confusing field count denominator (10,560) with setup count",PASS,Formally separated setup divergence from field transitions.
+RED_14_DENOM_REDUNDANT_TRANSITION_COUNT,Denominator Manipulation,Summing transitions across layers into denominator,PASS,Gross transition L0->L6 bound to unique setups.
+RED_15_DENOM_MISSING_SETUP_EXCLUSION,Denominator Manipulation,Silently dropping incomplete setups from denominator,PASS,"All 1,760 setups accounted for."
+RED_16_TRANS_DOUBLE_COUNT_STATE_AND_ACTION,Transition Double Counting,Double counting state and action divergence,PASS,Formally recognized as co-occurring on same setup.
+RED_17_TRANS_STEPWISE_SUMMATION_FALLACY,Transition Double Counting,Summing L0->L1 + L1->L2 transitions as gross change,PASS,Stepwise metrics reported separately from gross L0->L6.
+RED_18_TRANS_REVERSED_TRANSITION_COUNT,Transition Double Counting,Counting ACT->WATCH->ACT as 2 changes in gross delta,PASS,Gross delta measures strictly net difference L6 vs L0.
+RED_19_TRANS_SIBLING_LAYER_COLLISION,Transition Double Counting,Adding L3 contradiction to L4 relationship changes,PASS,Hierarchical attribution tree enforces non-overlapping breakdown.
+RED_20_TRANS_MULTI_FIELD_OVERLAP,Transition Double Counting,Counting 1 setup as 6 changes in setup-level rate,PASS,"Setup divergence is binary [0,1]."
+RED_21_TRANS_NULL_TO_ZERO_TRANSITION,Transition Double Counting,Counting unassigned state as transition,PASS,Baseline state strictly initialized.
+RED_22_TRANS_FALSE_POSITIVE_CHANGE,Transition Double Counting,Counting string formatting change as decision change,PASS,Only categorical state enum differences counted.
+RED_23_THESIS_ENRICHMENT_AS_ALPHA,Thesis Enrichment vs State,"Claiming 1,283 content enrichments are alpha signals",PASS,"Classified as qualitative completeness, not trading alpha."
+RED_24_THESIS_STATE_INFLATION,Thesis Enrichment vs State,"Asserting 1,283 thesis state changes when only 699 changed",PASS,"Formally separated: 1,283 enriched, 699 state changes."
+RED_25_THESIS_COMPLETENESS_OVERCLAIM,Thesis Enrichment vs State,Equating 100% completeness to 100% predictive accuracy,PASS,"Clarified: completeness = field availability, not truth."
+RED_26_THESIS_UNKNOWN_AS_FAILURE,Thesis Enrichment vs State,Treating INSUFFICIENT as model defect rather than integrity,PASS,Preserving UNKNOWN is an explicit epistemic strength.
+RED_27_THESIS_PARAPHRASE_MASQUERADE,Thesis Enrichment vs State,Treating restated exposure as novel qualitative thesis,PASS,Classified as KNOWN_BY_DETERMINISTIC.
+RED_28_THESIS_OVERLAPPING_ATTRIBUTION_SUM,Thesis Enrichment vs State,Summing non-exclusive attribution percentages,PASS,Overlap explicitly documented (overlap count = 448).
+RED_29_THESIS_CATALYST_FABRICATION,Thesis Enrichment vs State,Inventing catalyst not backed by primary disclosure,PASS,Lineage check verifies catalyst token origin.
+RED_30_L5_L6_IDENTICAL_ACTION_OVERCLAIM,L5 vs L6 Identity,Claiming L6 created new action states when L5 matches,PASS,Formally classified: L5_L6_ACTION_IMPACT = NOT_OBSERVED.
+RED_31_L5_L6_UNSEEN_RISK_IMPACT,L5 vs L6 Identity,Claiming Agent 3 did nothing because action is identical,PASS,"Demonstrated: Agent 3 operationalizes sizing, stops, triggers."
+RED_32_L5_L6_SIZING_FABRICATION,L5 vs L6 Identity,Allocating arbitrary position size in L6,PASS,Sizing mapped to frozen conviction & regime rules.
+RED_33_L5_L6_INVALIDATION_OVERWRITE,L5 vs L6 Identity,Agent 3 deleting Agent 2 invalidation rule,PASS,Agent 3 incorporates Agent 2 invalidation rule directly.
+RED_34_L5_L6_TIMING_DISCREPANCY,L5 vs L6 Identity,Executing L6 trade on closed market day,PASS,Timing gate verifies market open calendar validity.
+RED_35_L5_L6_UNSUPPORTED_ACTION_CHANGE,L5 vs L6 Identity,Agent 3 changing L5 REJECT to ACT without evidence,PASS,Hard risk gate prevents overriding Red Team rejections.
+RED_36_L5_L6_AGENT4_INTRUSION,L5 vs L6 Identity,Attempting to create intermediate Agent 3.5 synthesizer,PASS,Strictly 3 Agents maintained.
+RED_37_CF_UNEQUAL_ARM_INPUTS,Counterfactual Contamination,Giving Arm B different market prices than Arm A,PASS,All arms evaluated on identical quantitative features.
+RED_38_CF_PLACEBO_CORRELATION,Counterfactual Contamination,Placebo using real evidence secretly,PASS,Placebo verified to use shuffled/date-shifted text.
+RED_39_CF_RANDOM_SELECTOR_CHERRYPICK,Counterfactual Contamination,Picking winning documents for random selector,PASS,Random selector uses uniform pseudorandom seed.
+RED_40_CF_C0_C1_ASYMMETRIC_EVIDENCE,Counterfactual Contamination,C1 having fewer raw disclosures than C0,PASS,C0 and C1 receive 100% identical raw evidence objects.
+RED_41_CF_C1_LEAKAGE_OF_CONTRADICTION,Counterfactual Contamination,C1 secretly reading contradiction flag,PASS,Contradiction detector completely disabled in C1.
+RED_42_CF_TRANSMISSION_RETURN_OPTIMIZATION,Counterfactual Contamination,Selecting transmission channel based on forward return,PASS,Transmission mapped strictly by static business segment.
+RED_43_CF_COUNTERFACTUAL_POPULATION_SHIFT,Counterfactual Contamination,Evaluating counterfactual on different date strata,PASS,"Evaluated on identical N=1,760 setup records."
+RED_44_CF_PLACEBO_SAMPLE_CONTAMINATION,Counterfactual Contamination,Injecting real thesis into placebo arm,PASS,Placebo thesis strictly decoupled from primary filings.
+RED_45_OUTCOME_LEAKAGE_PRE_FREEZE,Outcome Timing,Accessing forward return H5 before decision freeze,PASS,Decisions generated and SHA-256 frozen prior to outcome opening.
+RED_46_OUTCOME_TOKEN_IN_THESIS,Outcome Timing,Thesis containing forward price trajectory tokens,PASS,Outcome scanner confirmed 0 leakage tokens.
+RED_47_OUTCOME_TOKEN_IN_DECISION,Outcome Timing,Decision reason mentioning post-T Sharpe ratio,PASS,Scanner confirmed 0 forbidden tokens in decision objects.
+RED_48_OUTCOME_FUTURE_EVENT_ID,Outcome Timing,Evidence UUID timestamped after decision date T,PASS,PIT cutoff enforces available_at <= T.
+RED_49_OUTCOME_POST_HOC_RECLASSIFICATION,Outcome Timing,Re-classifying REJECT setup as ACT after seeing price rise,PASS,Decision state immutable post-freeze.
+RED_50_OUTCOME_CHERRYPICKED_AVOIDED_LOSS,Outcome Timing,Calculating avoided loss only on winning shorts,PASS,Avoided loss calculated on all 159 contradiction setups.
+RED_51_OUTCOME_MAE_REVERSE_ENGINEERING,Outcome Timing,Setting stop loss exactly equal to historical MAE,PASS,Stops set by pre-specified risk governance.
+RED_52_OUTCOME_FEEDBACK_TO_AGENT2,Outcome Timing,Feeding forward return back into Agent 2 prompt,PASS,Firewall strictly enforces unidirectional workflow.
+RED_53_CONTRA_FORWARD_DISCLOSURE,Contradiction Leakage,Injecting adverse regulatory filing from T+3,PASS,Blocked by PIT available_at filter.
+RED_54_CONTRA_POST_T_PRICE_DROP,Contradiction Leakage,Claiming contradiction based on post-T price crash,PASS,Contradiction must link to pre-T text disclosure.
+RED_55_CONTRA_CIRCULAR_DOWNGRADE,Contradiction Leakage,Downgrading setup because user knows stock lost money,PASS,Decision engine runs outcome-blind.
+RED_56_CONTRA_SELECTIVE_IGNORING,Contradiction Leakage,Ignoring adverse news for favourite blue-chip ticker,PASS,Deterministic risk gate applies uniformly across all 80 equities.
+RED_57_CONTRA_FABRICATED_DENIAL,Contradiction Leakage,Inventing denial statement to rescue bullish thesis,PASS,Denials require primary disclosure UUID.
+RED_58_CONTRA_CONTRADICTION_RATE_OPTIMIZATION,Contradiction Leakage,Tuning contradiction threshold to maximize avoided loss,PASS,Contradiction detection logic frozen outcome-blind.
+RED_59_TRANS_FORWARD_COMMODITY_SPIKE,Transmission Leakage,Conditioning coal transmission on next month's coal rally,PASS,Transmission mapped strictly to pre-T commodity state.
+RED_60_TRANS_POST_T_EARNINGS_LEAK,Transmission Leakage,Mentioning quarterly earnings released at T+10,PASS,Blocked by PIT release date cutoff.
+RED_61_TRANS_REVERSED_CAUSALITY_CLAIM,Transmission Leakage,Claiming transmission proves future stock rally,PASS,"Transmission classified as explanatory mechanism, not causal alpha."
+RED_62_TRANS_FABRICATED_SMELTING_DATA,Transmission Leakage,Inventing non-existent processing margin figures,PASS,Transmission mapped qualitatively without fabricated metrics.
+RED_63_TRANS_GLOBAL_BENCHMARK_LOOKAHEAD,Transmission Leakage,Using next day's London Metal Exchange close,PASS,Normalized to UTC market open timestamp at T.
+RED_64_TRANS_UNSUPPORTED_SECTOR_LINK,Transmission Leakage,Linking bank earnings to nickel price,PASS,Sector dictionary enforces valid exposure channels.
+RED_65_COV_ARCHIVAL_GAP_FABRICATION,Coverage Bias,Hallucinating disclosures for pre-2018 quiet periods,PASS,Mapped as UNKNOWN without hallucinating records.
+RED_66_COV_HIGH_DENSITY_FAVOURITISM,Coverage Bias,Giving higher conviction purely because issuer published 50 PRs,PASS,"Decision engine requires material relevance, not density."
+RED_67_COV_MISSING_SOURCE_OMISSION,Coverage Bias,Dropping low-coverage tickers from benchmark,PASS,All 80 equities evaluated uniformly across coverage tiers.
+RED_68_COV_SPARSE_ERA_DISCARD,Coverage Bias,Discarding 2016-2018 era because coverage is lower,PASS,Evaluated across all 4 historical eras.
+RED_69_COV_COVERAGE_DEPENDENCE_CONCEALMENT,Coverage Bias,Hiding coverage dependency in final report,PASS,Coverage attribution explicitly disclosed.
+RED_70_REF_AI_VALIDATING_AI,Reference Circularity,Using same AI model to generate reference labels,PASS,Reference benchmark generated independently outcome-blind.
+RED_71_REF_OUTCOME_CONDITIONED_BENCHMARK,Reference Circularity,Labeling benchmark disclosures after viewing trade return,PASS,Benchmark created strictly blind to forward outcomes.
+RED_72_REF_SAMPLE_CHERRYPICKING,Reference Circularity,Selecting only clear-cut cases for reference benchmark,PASS,Stratified across all 12 event classes and 4 regimes.
+RED_73_REF_CIRCULAR_QUALITY_SCORING,Reference Circularity,Using internal model confidence as reference truth,PASS,Scored against independent factual criteria.
+RED_74_REF_POST_HOC_LABEL_MUTATION,Reference Circularity,Changing reference label after AI failed test,PASS,Reference benchmark immutable with recorded SHA-256.
+RED_75_STAT_ALPHA_CLAIM_FROM_DIVERGENCE,Statistical Interpretation,Claiming 39.7% decision divergence equals 39.7% alpha,PASS,Clarified: decision divergence != trading alpha.
+RED_76_STAT_CAUSAL_DOWNSIDE_CLAIM,Statistical Interpretation,Asserting contradiction proves causal downside protection,PASS,Classified as CONTRADICTION_OUTCOME_ASSOCIATION_OBSERVED.
+RED_77_STAT_CORRELATION_AS_CAUSATION,Statistical Interpretation,Equating transmission clarity to guaranteed causality,PASS,Clarified: transmission = explanatory mechanism.
+RED_78_STAT_TRACEABILITY_AS_ACCURACY,Statistical Interpretation,Claiming 100% lineage proves 100% trading accuracy,PASS,"Clarified: traceability = provenance completeness, not truth."
+RED_79_STAT_PLACEBO_P_VALUE_MISINTERPRETATION,Statistical Interpretation,Asserting p > 0.8 proves model perfection,PASS,Interpretation limited to falsifying tested placebo alternatives.
+RED_80_STAT_STRATEGY_READINESS_OVERCLAIM,Statistical Interpretation,Declaring system ready for live trading without portfolio gate,PASS,Strategy readiness classified as NOT_PROVEN.
+RED_81_STAT_AUTOMATIC_PROMOTION_CLAIM,Statistical Interpretation,Automatically promoting system to production,PASS,Advance conditioned on ZZZ.14.7 portfolio simulation gate.
+RED_82_STAT_ESTIMAND_IDENTITY_VIOLATION,Statistical Interpretation,Comparing point estimates across non-identical populations,PASS,"All comparisons unified under identical N=1,760 canonical matrix."

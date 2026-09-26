@@ -1,0 +1,66 @@
+{
+  "gate_id": "ZZZ.14.8",
+  "timestamp": "2026-09-17T16:13:36.580174",
+  "artifacts": {
+    "zzz14_8_canonical_setup_decision_matrix.csv": {
+      "path": "reports/zzz14_8_canonical_setup_decision_matrix.csv",
+      "sha256": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39",
+      "size_bytes": 1284728
+    },
+    "zzz14_8_decision_objects.json": {
+      "path": "reports/zzz14_8_decision_objects.json",
+      "sha256": "d939d183ee7812fdf0eac8cafe97697f5f12974b014a28905a7cca8cd7b01558",
+      "size_bytes": 6255984
+    },
+    "zzz14_8_information_attribution.csv": {
+      "path": "reports/zzz14_8_information_attribution.csv",
+      "sha256": "628af8e7060cf863dc645a8c15fd9ba5d94f8aee2eea4656c05c796af1d5ed25",
+      "size_bytes": 300326
+    },
+    "zzz14_8_counterfactual_matrix.csv": {
+      "path": "reports/zzz14_8_counterfactual_matrix.csv",
+      "sha256": "f5007623b4cca059d6c27f2fcad4a373828eb70dd69e38f7d5fdb306a4d35b14",
+      "size_bytes": 430301
+    },
+    "zzz14_8_placebo_results.csv": {
+      "path": "reports/zzz14_8_placebo_results.csv",
+      "sha256": "f28078e037723bee5794e01494d5fcbb5d3c483123c275f38957f682c813baf4",
+      "size_bytes": 358
+    },
+    "zzz14_8_temporal_results.csv": {
+      "path": "reports/zzz14_8_temporal_results.csv",
+      "sha256": "b14d117ddf99240652473282bcef98033cb5b9e42c919ff9c4989cc43cfd524a",
+      "size_bytes": 204
+    },
+    "zzz14_8_semantic_benchmark.csv": {
+      "path": "reports/zzz14_8_semantic_benchmark.csv",
+      "sha256": "1ac7403e97cc9c73eb2b6e5ef27c9140fb80d04dfc29e760e699693e974482c6",
+      "size_bytes": 52153
+    },
+    "zzz14_8_concentration_audit.csv": {
+      "path": "reports/zzz14_8_concentration_audit.csv",
+      "sha256": "56b49d739f44acf36b17ae151aa40b2ec05ac188c861848ae6a5f607fec6b196",
+      "size_bytes": 237
+    },
+    "zzz14_8_inference.json": {
+      "path": "reports/zzz14_8_inference.json",
+      "sha256": "4c26f63211b15a612c866fcc62702e00ba4204e8b944714784812fd7d504a2d5",
+      "size_bytes": 277
+    },
+    "zzz14_8_red_team.csv": {
+      "path": "reports/zzz14_8_red_team.csv",
+      "sha256": "f59e379e7bff6528fab13bcc5ab0be58de81242865fec775dd3d25b55a831161",
+      "size_bytes": 19533
+    },
+    "zzz14_8_canonical_result.json": {
+      "path": "reports/zzz14_8_canonical_result.json",
+      "sha256": "80f6303f8a0749e34bad60b530710706fd8854dfccc28503afc31c8fdddd575e",
+      "size_bytes": 9701
+    },
+    "zzz14_8_validation.md": {
+      "path": "reports/zzz14_8_validation.md",
+      "sha256": "191f03637204f8152e36fa75623cdb2c520860ba720de9ebfe3ea705a3307582",
+      "size_bytes": 9897
+    }
+  }
+}

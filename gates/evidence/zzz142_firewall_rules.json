@@ -1,0 +1,10 @@
+{
+  "period_firewalls": [
+    "2016",
+    "2017"
+  ],
+  "domain_firewalls": [
+    "OWNERSHIP",
+    "NEWS"
+  ]
+}

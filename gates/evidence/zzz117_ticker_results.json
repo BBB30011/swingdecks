@@ -1,0 +1,81 @@
+{
+  "within_ticker_breakdowns": {
+    "ADRO": {
+      "ticker": "ADRO",
+      "evidence_N": 4,
+      "unobserved_N": 4,
+      "c5_differential_pp": 0.44993287852478914,
+      "status": "ESTIMABLE"
+    },
+    "ANTM": {
+      "ticker": "ANTM",
+      "evidence_N": 5,
+      "unobserved_N": 0,
+      "c5_differential_pp": 0.0,
+      "status": "NOT_ESTIMABLE_SINGLE_ARM"
+    },
+    "ASII": {
+      "ticker": "ASII",
+      "evidence_N": 2,
+      "unobserved_N": 0,
+      "c5_differential_pp": 0.0,
+      "status": "NOT_ESTIMABLE_SINGLE_ARM"
+    },
+    "BBCA": {
+      "ticker": "BBCA",
+      "evidence_N": 2,
+      "unobserved_N": 0,
+      "c5_differential_pp": 0.0,
+      "status": "NOT_ESTIMABLE_SINGLE_ARM"
+    },
+    "BBNI": {
+      "ticker": "BBNI",
+      "evidence_N": 2,
+      "unobserved_N": 2,
+      "c5_differential_pp": 2.3830605802231695,
+      "status": "ESTIMABLE"
+    },
+    "BBRI": {
+      "ticker": "BBRI",
+      "evidence_N": 2,
+      "unobserved_N": 2,
+      "c5_differential_pp": 1.542011120777868,
+      "status": "ESTIMABLE"
+    },
+    "BMRI": {
+      "ticker": "BMRI",
+      "evidence_N": 1,
+      "unobserved_N": 1,
+      "c5_differential_pp": 3.3915074653941057,
+      "status": "ESTIMABLE"
+    },
+    "INCO": {
+      "ticker": "INCO",
+      "evidence_N": 8,
+      "unobserved_N": 0,
+      "c5_differential_pp": 0.0,
+      "status": "NOT_ESTIMABLE_SINGLE_ARM"
+    },
+    "ITMG": {
+      "ticker": "ITMG",
+      "evidence_N": 6,
+      "unobserved_N": 4,
+      "c5_differential_pp": 8.500732698219567,
+      "status": "ESTIMABLE"
+    },
+    "PTBA": {
+      "ticker": "PTBA",
+      "evidence_N": 7,
+      "unobserved_N": 0,
+      "c5_differential_pp": 0.0,
+      "status": "NOT_ESTIMABLE_SINGLE_ARM"
+    },
+    "UNTR": {
+      "ticker": "UNTR",
+      "evidence_N": 3,
+      "unobserved_N": 1,
+      "c5_differential_pp": 4.789753398578659,
+      "status": "ESTIMABLE"
+    }
+  }
+}

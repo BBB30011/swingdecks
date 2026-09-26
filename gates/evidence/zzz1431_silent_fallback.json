@@ -1,0 +1,29 @@
+{
+  "silent_fallback_absent": true,
+  "probes": [
+    {
+      "test_id": "LKG-01",
+      "name": "Future Publication Injection",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "test_id": "LKG-02",
+      "name": "Current State Injection",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "test_id": "LKG-03",
+      "name": "Outcome H5 Injection",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "test_id": "FBK-01",
+      "name": "Silent Fallback on Missing Entity",
+      "blocked": true,
+      "status": "PASS"
+    }
+  ]
+}

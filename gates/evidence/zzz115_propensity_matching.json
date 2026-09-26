@@ -1,0 +1,10 @@
+{
+  "model_name": "M5_Pre_Trend_Matched_Control",
+  "N_pairs": 59,
+  "evidence_mean_h5": 0.006528897140535885,
+  "matched_control_mean_h5": -0.01564920697217668,
+  "differential_pp": 2.217810411271256,
+  "pre_trend_smd": 0.36618581299344094,
+  "permutation_p": 0.0063,
+  "interpretation": "Comparing pre-trend matched pairs (SMD = 0.366), Evidence setups outperform by +2.22 pp (p = 0.0063)."
+}

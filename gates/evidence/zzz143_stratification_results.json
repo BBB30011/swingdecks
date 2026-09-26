@@ -1,0 +1,108 @@
+{
+  "stratifications": [
+    {
+      "stratum": "Commodity (All)",
+      "N": 48,
+      "h5_peer_excess_mean_pct": -0.0459,
+      "h5_peer_excess_median_pct": -0.2322,
+      "raw_h5_mean_pct": -0.6242,
+      "se_pct": 0.705,
+      "ci_95": [
+        -1.4277,
+        1.3358
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Non-Commodity (All)",
+      "N": 48,
+      "h5_peer_excess_mean_pct": 0.172,
+      "h5_peer_excess_median_pct": -0.318,
+      "raw_h5_mean_pct": 1.1603,
+      "se_pct": 0.4399,
+      "ci_95": [
+        -0.6903,
+        1.0343
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Pre-2019 (2016-2018)",
+      "N": 36,
+      "h5_peer_excess_mean_pct": -0.0105,
+      "h5_peer_excess_median_pct": -0.2754,
+      "raw_h5_mean_pct": -0.3147,
+      "se_pct": 0.703,
+      "ci_95": [
+        -1.3884,
+        1.3675
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Post-2019 (2019-2026)",
+      "N": 60,
+      "h5_peer_excess_mean_pct": 0.1071,
+      "h5_peer_excess_median_pct": -0.2422,
+      "raw_h5_mean_pct": 0.6177,
+      "se_pct": 0.5142,
+      "ci_95": [
+        -0.9007,
+        1.1149
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "High Evidence (Event Count > 0)",
+      "N": 96,
+      "h5_peer_excess_mean_pct": 0.063,
+      "h5_peer_excess_median_pct": -0.2754,
+      "raw_h5_mean_pct": 0.2681,
+      "se_pct": 0.4135,
+      "ci_95": [
+        -0.7473,
+        0.8734
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "Low Evidence (Event Count == 0)",
+      "N": 0,
+      "h5_peer_excess_mean_pct": NaN,
+      "h5_peer_excess_median_pct": NaN,
+      "raw_h5_mean_pct": NaN,
+      "se_pct": NaN,
+      "ci_95": [
+        NaN,
+        NaN
+      ],
+      "status": "NOT_ESTIMABLE"
+    },
+    {
+      "stratum": "READY Only",
+      "N": 96,
+      "h5_peer_excess_mean_pct": 0.063,
+      "h5_peer_excess_median_pct": -0.2754,
+      "raw_h5_mean_pct": 0.2681,
+      "se_pct": 0.4135,
+      "ci_95": [
+        -0.7473,
+        0.8734
+      ],
+      "status": "ESTIMATED"
+    },
+    {
+      "stratum": "READY + CONDITIONAL",
+      "N": 96,
+      "h5_peer_excess_mean_pct": 0.063,
+      "h5_peer_excess_median_pct": -0.2754,
+      "raw_h5_mean_pct": 0.2681,
+      "se_pct": 0.4135,
+      "ci_95": [
+        -0.7473,
+        0.8734
+      ],
+      "status": "ESTIMATED"
+    }
+  ]
+}

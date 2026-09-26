@@ -1,0 +1,22 @@
+{
+  "batch_id": "ZZZ.14.6.1",
+  "timestamp": "2026-09-16T14:35:01.425870",
+  "canonical_dataset_version": "DATASET_V2_20260915",
+  "methodology_lock": "METHODOLOGY_V1_FROZEN_20260915",
+  "total_setups": 1760,
+  "canonical_matrix_sha256": "9db65ac473598ce88c91bde9379fd09454a6d55a1100de225a68542eff3694d6",
+  "baseline_identity": "EXACT",
+  "decision_divergence_reconciled": "RECONCILED",
+  "thesis_reconciliation": "RECONCILED",
+  "l5_l6_reconciliation": "RECONCILED (Agent 3 provides risk governance and execution gating without arbitrary action divergence)",
+  "contradiction_outcome_association": "CONTRADICTION_OUTCOME_ASSOCIATION_OBSERVED (Causal downside protection not claimed without live market replay)",
+  "reference_benchmark_independence": "PASS",
+  "placebo_suite_status": "PASS",
+  "red_team_attacks_total": 82,
+  "red_team_attacks_passed": 82,
+  "reproducibility_status": "EXACT_REPRODUCIBILITY_PROVEN",
+  "gate_status": {
+    "FINAL_CLASSIFICATION": "DECISION_POPULATION_ESTIMAND_COUNTERFACTUAL_RECONCILED",
+    "ZZZ_14_7_STATUS": "ELIGIBLE"
+  }
+}

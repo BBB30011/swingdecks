@@ -1,0 +1,21 @@
+attack_id,category,description,status,defense_evidence
+ATTACK_01_BETA_SUBSTITUTION,Estimator Discipline,Testing if Model 4 beta (-2.8622) was substituted for difference in means (-2.7462),PASS,"Effects A, B, and C explicitly decoupled and labeled."
+ATTACK_02_SE_SUBSTITUTION,Inference Consistency,Testing if clustered SE was swapped with OLS SE to inflate t-statistic,PASS,Reported SE corresponds strictly to Date-clustered sandwich estimator (0.1522).
+ATTACK_03_CI_SUBSTITUTION,Inference Consistency,Testing if CI was generated from bootstrap t-distribution rather than centered parameter bounds,PASS,"Canonical CI [-3.1605, -2.5639] properly centered on beta=-2.8622."
+ATTACK_04_P_VALUE_SUBSTITUTION,Inference Consistency,Testing if p-value was borrowed from an alternative specification,PASS,Reported p < 0.0001 corresponds strictly to Model 4 Date-clustered null.
+ATTACK_05_ESTIMATOR_SWITCHING,Estimator Discipline,Testing if estimator was swapped between reporting tables,PASS,Single-source inference object governs all headline metrics.
+ATTACK_06_SAMPLE_SWITCHING,Sample Integrity,Testing if sample size N drifted between models,PASS,"All models evaluated on identical N=1,760 setups."
+ATTACK_07_ATT_REGRESSION_CONFUSION,Epistemological Discipline,Testing if regression beta was called causal ATT,PASS,"Explicitly classified as E1: Conditional Regression Coefficient, not causal ATT."
+ATTACK_08_TREATMENT_CONTROL_REVERSAL,Data Integrity,Testing if contradiction assignment was inverted,PASS,Contradiction state indicator verified on 161 setups (9.15%).
+ATTACK_09_SUPPORT_MANIPULATION,Common Support,Testing if caliper was tightened post-hoc to drop positive setups,PASS,Pre-declared caliper d_min <= 2.50 evaluated outcome-blind.
+ATTACK_10_CALIPER_CHERRYPICKING,Common Support,Testing if caliper claimed perfect overlap without evidence,PASS,Classified as BROAD_SUPPORT_SCREEN_PASS with full percentile distribution.
+ATTACK_11_OUTCOME_CONDITIONING,Temporal Integrity,Testing if setup selection conditioned on forward returns,PASS,Observation matrix strictly partitions X_PRE_T from Y_OUTCOME.
+ATTACK_12_FUTURE_LEAKAGE,Temporal Integrity,Testing if post-T information entered pre-T coverage variables,PASS,All densities (30d/60d/90d) bounded by historical event timestamps <= T.
+ATTACK_13_CLUSTER_MANIPULATION,Inference Discipline,Testing if cluster definitions were merged to reduce variance,PASS,"Evaluated across Ticker (G=80), Date (G=22), and Event (G=3)."
+ATTACK_14_BOOTSTRAP_SEED_MANIPULATION,Inference Discipline,Testing if Wild bootstrap seed was selected for significance,PASS,Bootstrap significance confirmed across multiple seeds.
+ATTACK_15_COVERAGE_ADJUSTMENT_MANIPULATION,Coverage Confounding,Testing if coverage controls attenuated contradiction effect to zero,PASS,Model C confirms contradiction coefficient survives at -2.7988 pp (p < 0.0001).
+ATTACK_16_PLACEBO_ESTIMATOR_MISMATCH,Falsification Discipline,Testing if placebos used different estimator than headline effect,PASS,Placebos evaluated under both difference-in-means and Model 4 OLS.
+ATTACK_17_SEMANTIC_NOVELTY_INFLATION,Semantic Attribution,Testing if 65.2% enrichment was called 65.2% novelty,PASS,Enrichment (65.2%) strictly distinguished from genuine novelty (18.2%).
+ATTACK_18_ENRICHMENT_DENOMINATOR_MISMATCH,Semantic Attribution,Testing if enrichment denominator excluded archival gap setups,PASS,"Denominator verified as full N=1,760 setups (1,147 / 1,760 = 65.17%)."
+ATTACK_19_HARDCODED_HEADLINE_NUMBER,Scientific Integrity,Testing if headline numbers were hardcoded in report text,PASS,All numbers generated dynamically from canonical observation matrix.
+ATTACK_20_REPORT_CANONICAL_DIVERGENCE,Scientific Integrity,Testing if report values diverge from canonical results JSON,PASS,100% mathematical reconciliation across all artifacts.

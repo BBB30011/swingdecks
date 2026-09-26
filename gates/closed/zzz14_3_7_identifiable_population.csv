@@ -1,0 +1,3 @@
+cohort,total_n,supported_n,partial_support_n,outside_support_n,max_identifiable_pairs
+TREATMENT,59,17,16,26,14
+CONTROL,14,13,1,0,14

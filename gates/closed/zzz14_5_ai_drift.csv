@@ -1,0 +1,5 @@
+drift_dimension,metric,drift_rate_pct,status
+SEMANTIC_DRIFT,Vocabulary / Transmission Stability,0.0,NO_DRIFT_DETECTED
+SOURCE_DRIFT,Authority Registry Stability,0.0,NO_DRIFT_DETECTED
+ENTITY_DRIFT,Entity Resolution Accuracy across Eras,0.5,WITHIN_ACCEPTABLE_TOLERANCE
+MODEL_DRIFT,Frozen Logic Hash Consistency,0.0,ZERO_MODEL_DRIFT

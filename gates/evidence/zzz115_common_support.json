@@ -1,0 +1,21 @@
+{
+  "evidence_propensity_min_max": [
+    0.682005458847726,
+    0.99
+  ],
+  "unobserved_propensity_min_max": [
+    0.6844477287545239,
+    0.8403509920636254
+  ],
+  "evidence_pre_total_min_max": [
+    -0.02017729961079362,
+    0.39364589046818954
+  ],
+  "unobserved_pre_total_min_max": [
+    -0.0034402785919798173,
+    0.11836683303911577
+  ],
+  "smd_pre_trend": 0.7198623713511804,
+  "smd_propensity": 0.7831605182669465,
+  "has_common_support": true
+}

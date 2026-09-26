@@ -1,0 +1,110 @@
+{
+  "batch_id": "BATCH-ZZZ.11.2",
+  "leave_one_out_audit": {
+    "full_sample_effect_pp": 3.1,
+    "min_effect_pp": 1.8741007201039495,
+    "max_effect_pp": 3.5292419332224885,
+    "median_effect_pp": 3.1790771021067554,
+    "positive_count": 12,
+    "statistically_significant_count": 8,
+    "non_significant_count": 4,
+    "detailed_loo": {
+      "ADRO": {
+        "dropped_ticker": "ADRO",
+        "remaining_N": 62,
+        "diff_excess_H5_pp": 2.82164262240563,
+        "permutation_p": 0.0691,
+        "is_positive": true,
+        "is_statistically_significant": false
+      },
+      "ANTM": {
+        "dropped_ticker": "ANTM",
+        "remaining_N": 66,
+        "diff_excess_H5_pp": 3.40313293853767,
+        "permutation_p": 0.0154,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "ASII": {
+        "dropped_ticker": "ASII",
+        "remaining_N": 69,
+        "diff_excess_H5_pp": 3.2669599121960733,
+        "permutation_p": 0.0319,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "BBCA": {
+        "dropped_ticker": "BBCA",
+        "remaining_N": 71,
+        "diff_excess_H5_pp": 3.134244016975698,
+        "permutation_p": 0.0375,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "BBNI": {
+        "dropped_ticker": "BBNI",
+        "remaining_N": 69,
+        "diff_excess_H5_pp": 3.5292419332224885,
+        "permutation_p": 0.0311,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "BBRI": {
+        "dropped_ticker": "BBRI",
+        "remaining_N": 69,
+        "diff_excess_H5_pp": 3.4878640647147505,
+        "permutation_p": 0.0317,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "BMRI": {
+        "dropped_ticker": "BMRI",
+        "remaining_N": 71,
+        "diff_excess_H5_pp": 3.4293655045320177,
+        "permutation_p": 0.028,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "INCO": {
+        "dropped_ticker": "INCO",
+        "remaining_N": 63,
+        "diff_excess_H5_pp": 2.7250246168910586,
+        "permutation_p": 0.0564,
+        "is_positive": true,
+        "is_statistically_significant": false
+      },
+      "ITMG": {
+        "dropped_ticker": "ITMG",
+        "remaining_N": 60,
+        "diff_excess_H5_pp": 1.8741007201039495,
+        "permutation_p": 0.1662,
+        "is_positive": true,
+        "is_statistically_significant": false
+      },
+      "PTBA": {
+        "dropped_ticker": "PTBA",
+        "remaining_N": 63,
+        "diff_excess_H5_pp": 3.2239101872378133,
+        "permutation_p": 0.0314,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "TLKM": {
+        "dropped_ticker": "TLKM",
+        "remaining_N": 73,
+        "diff_excess_H5_pp": 3.103747421900961,
+        "permutation_p": 0.033,
+        "is_positive": true,
+        "is_statistically_significant": true
+      },
+      "UNTR": {
+        "dropped_ticker": "UNTR",
+        "remaining_N": 67,
+        "diff_excess_H5_pp": 2.970224652805342,
+        "permutation_p": 0.0597,
+        "is_positive": true,
+        "is_statistically_significant": false
+      }
+    }
+  }
+}

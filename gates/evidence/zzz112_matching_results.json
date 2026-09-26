@@ -1,0 +1,114 @@
+{
+  "batch_id": "BATCH-ZZZ.11.2",
+  "matching_results": {
+    "total_matched_pairs": 59,
+    "matching_hierarchy": "1. Same Decision Date -> 2. Same Exposure Group -> 3. Comparable Quant State",
+    "matches_summary": [
+      {
+        "target_ticker": "INCO",
+        "decision_date": "2025-09-22T00:00:00+0700",
+        "exposure_group": "NICKEL_MINER",
+        "target_excess_H5": 0.14742470100398664,
+        "matched_peers_count": 0,
+        "matched_peer_tickers": [],
+        "matching_level": "SAME_DATE_SAME_EXPOSURE"
+      },
+      {
+        "target_ticker": "INCO",
+        "decision_date": "2025-09-29T00:00:00+0700",
+        "exposure_group": "NICKEL_MINER",
+        "target_excess_H5": 0.004315476190476231,
+        "matched_peers_count": 0,
+        "matched_peer_tickers": [],
+        "matching_level": "SAME_DATE_SAME_EXPOSURE"
+      },
+      {
+        "target_ticker": "INCO",
+        "decision_date": "2025-09-30T00:00:00+0700",
+        "exposure_group": "NICKEL_MINER",
+        "target_excess_H5": -0.027761795166858394,
+        "matched_peers_count": 0,
+        "matched_peer_tickers": [],
+        "matching_level": "SAME_DATE_SAME_EXPOSURE"
+      },
+      {
+        "target_ticker": "INCO",
+        "decision_date": "2025-10-08T00:00:00+0700",
+        "exposure_group": "NICKEL_MINER",
+        "target_excess_H5": -0.021021021021021102,
+        "matched_peers_count": 0,
+        "matched_peer_tickers": [],
+        "matching_level": "SAME_DATE_SAME_EXPOSURE"
+      },
+      {
+        "target_ticker": "ASII",
+        "decision_date": "2025-10-23T00:00:00+0700",
+        "exposure_group": "CONTRACTOR_AUTO",
+        "target_excess_H5": -0.03263041306519554,
+        "matched_peers_count": 0,
+        "matched_peer_tickers": [],
+        "matching_level": "SAME_DATE_SAME_EXPOSURE"
+      }
+    ]
+  },
+  "date_robustness": {
+    "full_sample": {
+      "label": "Full Sample",
+      "total_N": 73,
+      "evidence_present_N": 59,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.006528897140535885,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.03103747421900961,
+      "permutation_p": 0.033
+    },
+    "exclude_top1_date": {
+      "label": "Exclude Top 1 Date",
+      "total_N": 72,
+      "evidence_present_N": 58,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.00587851247520946,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.03038708955368319,
+      "permutation_p": 0.0388
+    },
+    "exclude_top3_dates": {
+      "label": "Exclude Top 3 Dates",
+      "total_N": 69,
+      "evidence_present_N": 55,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.0046345157232639475,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.029143092801737675,
+      "permutation_p": 0.047
+    },
+    "exclude_top5_dates": {
+      "label": "Exclude Top 5 Dates",
+      "total_N": 66,
+      "evidence_present_N": 52,
+      "unobserved_N": 14,
+      "evidence_present_mean_excess_h5": 0.0022691268345077756,
+      "unobserved_mean_excess_h5": -0.024508577078473728,
+      "diff_excess_h5": 0.026777703912981503,
+      "permutation_p": 0.0344
+    },
+    "exclude_top10_dates": {
+      "label": "Exclude Top 10 Dates",
+      "total_N": 58,
+      "evidence_present_N": 46,
+      "unobserved_N": 12,
+      "evidence_present_mean_excess_h5": -0.007023127840549284,
+      "unobserved_mean_excess_h5": -0.017189097456716616,
+      "diff_excess_h5": 0.010165969616167333,
+      "permutation_p": 0.212
+    }
+  },
+  "replication_baseline": {
+    "full_sample_diff_excess_h5": 0.03103747421900961,
+    "full_sample_p_val": 0.03,
+    "commodity_only_diff_excess_h5": 0.046757176823625,
+    "commodity_only_p_val": 0.0184,
+    "primary_only_mean_excess_h5": 0.003367806227280407,
+    "is_replication_exact": true
+  }
+}

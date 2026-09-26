@@ -1,0 +1,39 @@
+backtest:
+  enabled: true
+  initial_capital: 100000000
+  holding_period_bars: 5
+  lot_size: 100
+  entry:
+    mode: "NEXT_BAR_OPEN"
+  exit:
+    mode: "FIXED_HOLD"
+  costs:
+    commission_rate: 0.001
+    slippage_rate: 0.0005
+  position:
+    max_positions: 5
+    risk_per_trade: 0.005
+    minimum_bars: 200
+
+validation:
+  enabled: true
+  method: WALK_FORWARD
+  split:
+    method: "DATE"
+    train_start: null
+    train_end: null
+    validation_start: null
+    validation_end: null
+    oos_start: null
+    oos_end: null
+    train:
+      start: "2020-01-01"
+      end: "2023-12-31"
+    validation:
+      start: "2024-01-01"
+      end: "2024-12-31"
+    test:
+      start: "2025-01-01"
+      end: "2025-12-31"
+  walk_forward:
+    enabled: false

@@ -1,0 +1,35 @@
+{
+  "batch_id": "BATCH-ZZZ.11.7",
+  "snapshot_id": "SNAPSHOT_ZZZ117_687970d0e904",
+  "created_at": "2026-09-15T07:52:13.359363+00:00",
+  "research_dataset_version": "V1.0_CANONICAL_73",
+  "research_code_version": "ZZZ.11.7_PURIFICATION_RELEASE",
+  "research_config_version": "FROZEN_LAYER_E_PILOT_CONFIG",
+  "research_schema_version": "DUCKDB_INTELLIGENCE_SCHEMA_V3",
+  "research_sample_hash": "687970d0e904f8f73b570c3ae7069fedd0c2abb71b44586865539b2c0ca64491",
+  "source_manifest_hash": "27caefb82466db8fccbf554a4e0ba292da8b1a2ac2954844182384bcc1ffc5a6",
+  "file_manifest_hash": "e38583087a26307227cb3d40d4487198f5f7b8924c600ae24f757d7c2eec5b9a",
+  "row_count": 73,
+  "evidence_count": 59,
+  "unobserved_count": 14,
+  "ticker_set": [
+    "ADRO",
+    "ANTM",
+    "ASII",
+    "BBCA",
+    "BBNI",
+    "BBRI",
+    "BMRI",
+    "INCO",
+    "ITMG",
+    "PTBA",
+    "TLKM",
+    "UNTR"
+  ],
+  "date_range": [
+    "2025-09-09",
+    "2026-09-03"
+  ],
+  "firewall_status": "DATASET_FROZEN_IMMUTABLE",
+  "historical_reproducibility": "VERIFIED_IDENTICAL_TO_ZZZ116"
+}

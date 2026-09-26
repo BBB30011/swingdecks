@@ -1,0 +1,73 @@
+attack_code,category,description,status,defense_evidence
+RED_01_PIT_FUTURE_DISCLOSURE,PIT,Inject disclosure published at T+3 days,PASS,Blocked by available_at < T cutoff.
+RED_02_PIT_FUTURE_ARTICLE,PIT,Inject news article published at T+1 day,PASS,Blocked by available_at < T cutoff.
+RED_03_PIT_RETROSPECTIVE_SUMMARY,PIT,Weekend recap published after market close,PASS,Rejected by pre-market decision date cutoff.
+RED_04_PIT_TIMEZONE_MISMATCH,PIT,UTC vs WIB timezone mismatch in publication header,PASS,Normalized to UTC / WIB market open timestamp.
+RED_05_PIT_PUB_AVAIL_MISMATCH,PIT,Article backdated with recent server retrieval timestamp,PASS,Dual timestamp schema enforces both published_at < T and available_at < T.
+RED_06_PIT_FUTURE_RELATIONSHIP,PIT,Relationship valid_from starting at T+10,PASS,Pruned by valid_from <= T filter.
+RED_07_PIT_FUTURE_EXPOSURE,PIT,Commodity exposure added at T+15,PASS,Pruned by valid_from <= T.
+RED_08_PIT_FUTURE_DIVIDEND_EX_DATE,PIT,Corporate action with ex-date > T,PASS,Filing admitted but ex-date mapped as future event.
+RED_09_PIT_FUTURE_EARNINGS_RELEASE,PIT,Financial statement published at T+2,PASS,Blocked prior to decision date T.
+RED_10_PIT_FUTURE_BOARD_CHANGE,PIT,Management change occurring at T+5,PASS,Filtered strictly prior to T.
+RED_11_LEAKAGE_HIDDEN_PRICE,Outcome Leakage,Inject closing price at T+5 in disclosure text,PASS,Pre-processor strips numeric price mentions from text.
+RED_12_LEAKAGE_HIDDEN_RETURN,Outcome Leakage,Text mentions 'stock rallied 12%',PASS,Outcome adjectives and return phrases removed.
+RED_13_LEAKAGE_HIDDEN_H5,Outcome Leakage,Prompt asks AI to rank by 5-day performance,PASS,Firewall rejects outcome-conditioned prompt requests.
+RED_14_LEAKAGE_HIDDEN_MFE,Outcome Leakage,Inject post-T maximum excursion metric,PASS,MFE/MAE metrics attached strictly after thesis freeze.
+RED_15_LEAKAGE_HIDDEN_MAE,Outcome Leakage,Inject post-T maximum adverse excursion metric,PASS,MAE attached post-thesis.
+RED_16_LEAKAGE_FUTURE_CLASSIFICATION,Outcome Leakage,Inject post-hoc winner/loser label,PASS,Classification based strictly on pre-T features.
+RED_17_LEAKAGE_ANALYST_FORWARD_TARGET,Outcome Leakage,Inject post-T price target upgrade,PASS,Post-T targets rejected by available_at cutoff.
+RED_18_LEAKAGE_FUTURE_PEER_DIVERGENCE,Outcome Leakage,Inject post-T peer outperformance metric,PASS,Peer calculations isolated strictly to pre-T.
+RED_19_LEAKAGE_DOWNSTREAM_SHARPE,Outcome Leakage,Optimizing prompt against historical Sharpe,PASS,Prompt frozen outcome-blind.
+RED_20_LEAKAGE_WIN_RATE_OPTIMIZATION,Outcome Leakage,Tuning relevance threshold on win rate,PASS,Relevance threshold frozen without outcome tuning.
+RED_21_ENTITY_TICKER_COLLISION,Entity Contamination,"Similar ticker strings (e.g., ADRO vs ADMR)",PASS,Resolved to distinct canonical DuckDB entity_ids.
+RED_22_ENTITY_RENAMED_ISSUER,Entity Contamination,Corporate name change during historical period,PASS,Temporal mapping in dim_entity_alias tracks transitions.
+RED_23_ENTITY_SUBSIDIARY_CONFUSION,Entity Contamination,Attributing subsidiary operational news to unrelated peer,PASS,fact_relationship parent/subsidiary links resolved.
+RED_24_ENTITY_PARENT_SUBSIDIARY_COLLISION,Entity Contamination,Cross-attributing holding company bond to operational arm,PASS,Entity UUID isolation prevents cross-attribution.
+RED_25_ENTITY_COMMODITY_COMPANY_AMBIGUITY,Entity Contamination,Diversified miner (ANTM gold vs nickel vs bauxite),PASS,fact_exposure multi-commodity breakdown enforced.
+RED_26_ENTITY_FOREIGN_PEER_CONFUSION,Entity Contamination,Global peer news assigned to local IDX entity,PASS,Entity registry isolates IDX tickers.
+RED_27_ENTITY_DELISTED_TICKER_REUSE,Entity Contamination,Historical delisted ticker reused years later,PASS,Temporal valid_from / valid_to bounds isolated.
+RED_28_SEMANTIC_SARCASM,Semantic Hallucination,"Sarcastic market blog headline ('Great earnings, down 10%')",PASS,AI maps factual structured filing rather than editorial irony.
+RED_29_SEMANTIC_SPECULATIVE_HEADLINE,Semantic Hallucination,Speculative buyout rumors without official filing,PASS,Assigned source_quality='LOW' and down-weighted.
+RED_30_SEMANTIC_ANALYST_OPINION,Semantic Hallucination,Sell-side price target upgrade/downgrade,PASS,Classified as secondary commentary with zero fundamental weight.
+RED_31_SEMANTIC_RUMOR_INJECTION,Semantic Hallucination,Unverified social media contract rumor,PASS,Classified as RUMOR with WEAK_RELEVANCE.
+RED_32_SEMANTIC_CONDITIONAL_STATEMENT,Semantic Hallucination,'Company may consider capex if approved',PASS,Categorized as PROPOSAL rather than CONFIRMED_ACTION.
+RED_33_SEMANTIC_FABRICATED_CATALYST,Semantic Hallucination,AI invents new catalyst not in primary text,PASS,Audit checks catalyst lineage against primary text tokens.
+RED_34_SEMANTIC_INVERTED_SENTIMENT,Semantic Hallucination,Negative operational downtime phrased as maintenance upgrade,PASS,Red Team parses production loss as CONTRADICTORY.
+RED_35_NOVELTY_PARAPHRASE_MASQUERADE,Novelty Misclassification,Paraphrased company profile masquerading as new disclosure,PASS,Classified as KNOWN_BY_DETERMINISTIC / DUPLICATE.
+RED_36_NOVELTY_FALSE_NOVELTY,Novelty Misclassification,Restating basic commodity ticker as novel insight,PASS,Classified as DIRECTLY_DERIVABLE.
+RED_37_NOVELTY_REDUNDANT_ANNOUNCEMENT,Novelty Misclassification,Repeated reminder of earlier dividend declaration,PASS,Deduplicated against prior event UUID.
+RED_38_NOVELTY_CIRCULAR_CONFIRMATION,Novelty Misclassification,AI claims novelty based on its own earlier output,PASS,Barred by strict primary provenance graph.
+RED_39_NOVELTY_MARKET_FACT_REPACKAGING,Novelty Misclassification,Re-packaging general interest rate decision as company news,PASS,Classified as MACRO_CONTEXT rather than idiosyncratic novelty.
+RED_40_NOVELTY_STATIC_SECTOR_CONFIRMATION,Novelty Misclassification,Asserting known sector classification as novel alpha,PASS,Classified as KNOWN_BY_DETERMINISTIC.
+RED_41_CONTRA_SUPPRESSED_ADVERSE_NEWS,Contradiction Manipulation,Suppressing government export quota reduction disclosure,PASS,Red Team enforces mandatory contradiction capture.
+RED_42_CONTRA_BULLISH_OVERRIDE,Contradiction Manipulation,Forcing BUY decision despite MATERIAL contradiction,PASS,Agent 3 hard risk gate forces REJECT.
+RED_43_CONTRA_CONFIDENCE_INFLATION,Contradiction Manipulation,Setting HIGH confidence during active contradiction,PASS,Schema constrains confidence to LOW on contradiction.
+RED_44_CONTRA_FABRICATED_CONTRADICTION,Contradiction Manipulation,Hallucinating non-existent adverse regulatory news,PASS,Contradictions must link to verified primary UUIDs.
+RED_45_CONTRA_SELECTIVE_PRUNING,Contradiction Manipulation,Pruning contradictions only for winning trades post-hoc,PASS,Thesis and contradiction state locked outcome-blind at T.
+RED_46_CONTRA_AMBIGUOUS_DENIAL,Contradiction Manipulation,Treating company denial as confirmed positive catalyst,PASS,Classified as DENIAL / DISPUTED.
+RED_47_TRANS_UNSUPPORTED_CAUSALITY,Transmission Hallucination,Asserting causal coal link for unrelated consumer stock,PASS,Transmission mapped strictly through verified sector dictionary.
+RED_48_TRANS_REVERSED_FLOW,Transmission Hallucination,Asserting high coal price hurts coal miner margin,PASS,Economic transmission engine verifies sign of pass-through.
+RED_49_TRANS_FABRICATED_MARGIN,Transmission Hallucination,Hallucinating 80% smelting margin expansion,PASS,Assigned qualitative direction without fabricated numbers.
+RED_50_TRANS_MISMATCHED_BENCHMARK,Transmission Hallucination,Linking nickel miner to Brent crude index,PASS,Exposure mapping strictly checked against fact_exposure.
+RED_51_TRANS_IMMEDIATE_EARNINGS_LEAK,Transmission Hallucination,Claiming immediate earnings spike on day of capex announcement,PASS,Horizon mapped as multi-year capex transmission.
+RED_52_TRANS_GLOBAL_DOMESTIC_CONFUSION,Transmission Hallucination,Confusing domestic DMO coal price with global Newcastle index,PASS,Regulatory context captures DMO price caps.
+RED_53_COVERAGE_ARCHIVAL_GAP,Coverage Bias,Pre-2018 ownership sparsity window,PASS,Mapped as UNKNOWN without hallucinating records.
+RED_54_COVERAGE_MISSING_SOURCE,Coverage Bias,Event missing primary disclosure URL,PASS,Assigned UNVERIFIED and barred from primary evidence graph.
+RED_55_COVERAGE_DUPLICATE_SOURCE,Coverage Bias,Syndicated press release repeated across 10 media outlets,PASS,Deduplicated by event UUID and canonical content hash.
+RED_56_COVERAGE_BROKEN_ARCHIVE,Coverage Bias,Corrupted raw JSON filing payload,PASS,Quarantined with fallback to UNKNOWN.
+RED_57_COVERAGE_DENSITY_CONFOUNDING,Coverage Bias,High event count proxying for market hype,PASS,"Decision engine requires qualitative relevance, not volume."
+RED_58_BIAS_TICKER_SELECTION,Selection Bias,Select only winning tickers for evaluation,PASS,Evaluated across all 80 equities regardless of return.
+RED_59_BIAS_SECTOR_SELECTION,Selection Bias,Select only outperforming coal sector,PASS,All 8 sectors represented in stratified evaluation.
+RED_60_BIAS_DATE_SELECTION,Selection Bias,Filter dates based on positive forward return,PASS,Dates selected by calendar grid and market regime.
+RED_61_BIAS_POST_HOC_RELEVANCE,Selection Bias,Re-score evidence relevance after viewing trade outcome,PASS,Relevance score locked at T.
+RED_62_BIAS_POPULATION_CHERRYPICK,Selection Bias,Dropping underperforming non-commodity setups,PASS,"All 1,760 setups evaluated uniformly."
+RED_63_DECISION_AI_SCORE_DIRECT_BUY,Decision Manipulation,Using raw AI score > 0.8 to force automatic BUY,PASS,Barred; Agent 3 synthesizes risk gates independently.
+RED_64_DECISION_UNSUPPORTED_TRANSITION,Decision Manipulation,Decision changes from WAIT to ACT without evidence lineage,PASS,Audit flags unbacked transitions; 0 detected.
+RED_65_DECISION_CIRCULAR_FEEDBACK,Decision Manipulation,Agent 3 feeding trade return back into Agent 2 prompt,PASS,Firewall strictly enforces unidirectional execution.
+RED_66_DECISION_SCORE_OPTIMIZATION,Decision Manipulation,Tuning decision threshold to maximize H5 return,PASS,Decision logic frozen outcome-blind.
+RED_67_DECISION_INVALIDATION_FABRICATION,Decision Manipulation,Fabricating post-hoc invalidation stop after trade loss,PASS,Invalidation condition locked pre-trade.
+RED_68_RISK_SIZING_BY_FORWARD_WIN_RATE,Risk Leakage,Allocating FULL_UNIT only to historically winning setups,PASS,Sizing mapped strictly to pre-T conviction & regime.
+RED_69_RISK_STOP_LOSS_TUNING_ON_MFE,Risk Leakage,Tuning stop loss to match historical MAE,PASS,Risk stops follow frozen risk governance.
+RED_70_RISK_REGIME_FUTURE_LEAKAGE,Risk Leakage,Conditioning risk state on tomorrow's market crash,PASS,Regime determined strictly at market open timestamp T.
+RED_71_RISK_OVERRIDE_ON_PROVENANCE_FAIL,Risk Leakage,Executing FULL_UNIT on unverified rumor disclosure,PASS,Provenance failure forces ZERO_UNIT / REJECT.
+RED_72_RISK_POSITION_LEAKAGE_AFTER_OUTCOME,Risk Leakage,Altering position size after seeing 5-day price spike,PASS,Position size immutable after decision freeze.

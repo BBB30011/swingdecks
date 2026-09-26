@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "ticker": "ANTM",
+  "decision_datetime": "2018-05-15 15:00:00",
+  "records_replayed": 3,
+  "zero_future_leaks": true,
+  "zero_current_state_leaks": true,
+  "deterministic": true
+}

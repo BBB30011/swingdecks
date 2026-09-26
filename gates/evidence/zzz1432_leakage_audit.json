@@ -1,0 +1,95 @@
+{
+  "all_adversarial_probes_passed": true,
+  "probes": [
+    {
+      "probe_id": "ADV-A",
+      "name": "Inject Future Publication",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-B",
+      "name": "Inject Future Ownership",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-C",
+      "name": "Inject Current-State Entity",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-D",
+      "name": "Inject Future Corporate Action",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-E",
+      "name": "Inject H5 Return Field",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-F",
+      "name": "Inject MFE/MAE Path Metrics",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-G",
+      "name": "Inject Generic Forward Return",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-H",
+      "name": "Inject Current/Post-T News",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-I",
+      "name": "Attempt Agent 2 Filesystem Access",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-J",
+      "name": "Attempt Agent 2 Direct SQL Access",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-K",
+      "name": "Attempt Agent 2 Network Access",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-L",
+      "name": "Silent Fallback on Missing Entity",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-M",
+      "name": "Post-Freeze Thesis Tampering Detection",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-N",
+      "name": "Post-Freeze HKS Tampering Detection",
+      "blocked": true,
+      "status": "PASS"
+    },
+    {
+      "probe_id": "ADV-O",
+      "name": "Peer Self-Exclusion Invariant",
+      "blocked": true,
+      "status": "PASS"
+    }
+  ]
+}

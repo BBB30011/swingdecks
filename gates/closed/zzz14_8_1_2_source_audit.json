@@ -1,0 +1,78 @@
+{
+  "audit_timestamp": "2026-09-17T09:13:40.116281+00:00",
+  "methodology": "METHODOLOGY_V1_FROZEN_20260915",
+  "dataset": "DATASET_V2_20260915",
+  "population_N": 1760,
+  "architecture": "EXACTLY_3_AGENTS",
+  "source_artifacts": {
+    "reports/zzz14_8_canonical_setup_decision_matrix.csv": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39",
+    "reports/zzz14_8_1_1_canonical_decision_population.csv": "75ddbe4c491b144ece6cc2bae76492d851ccd5c95c0bdbfbe9a56bdc8999dfda",
+    "reports/zzz1471_canonical_observation_matrix.csv": "e4e2ab967de4731f55821b1db0791b53a27cff4c5a50bd047c4c7615a375f004"
+  },
+  "outcome_definitions": {
+    "H1": "1-day forward return relative to peer basket (pp)",
+    "H3": "3-day forward return relative to peer basket (pp)",
+    "H5": "5-day forward return relative to peer basket (H5_PEER_EXCESS, pp)",
+    "H10": "10-day forward return relative to peer basket (H10_PEER_EXCESS, pp)",
+    "H20": "20-day forward return relative to peer basket (H20_PEER_EXCESS, pp)",
+    "MAE": "Maximum adverse excursion over 5-day evaluation window (pp)",
+    "MFE": "Maximum favorable excursion over 5-day evaluation window (pp)"
+  },
+  "formula_audit": {
+    "H5_PEER_EXCESS": "Raw equity return minus contemporaneous market-cap-weighted peer basket return (identical across ZZZ.14.7, ZZZ.14.8, ZZZ.14.8.1, ZZZ.14.8.1.1, ZZZ.14.8.1.2)",
+    "status": "PASS_IDENTICAL_FORMULA"
+  },
+  "join_audit": {
+    "join_key": "setup_id",
+    "join_cardinality": "1_TO_1",
+    "duplicate_keys": 0,
+    "missing_keys": 0,
+    "status": "PASS"
+  },
+  "pit_isolation_audit": {
+    "decision_freezing": "COMPLETED_BEFORE_OUTCOME_JOIN",
+    "outcome_leakage_detected": false,
+    "status": "PASS"
+  },
+  "discrepancy_resolutions": {
+    "ACT_TO_REJECT": {
+      "transition": "ACT -> REJECT",
+      "canonical_N": 40,
+      "canonical_raw_mean_H5": -1.9705,
+      "canonical_display_mean_H5": "-1.9705",
+      "canonical_median_H5": -1.49,
+      "canonical_negative_count": 35,
+      "canonical_positive_count": 5,
+      "canonical_negative_rate_pct": "87.50%",
+      "disputed_values": {
+        "canonical_transition_matrix": -1.9705,
+        "disputed_narrative_text": -2.1742
+      },
+      "resolution": "CANONICAL_SETUP_DATA_WINS",
+      "provenance": "The figure -2.1742 pp in earlier chat text was an unverified manual narrative approximation. The canonical setup-level ledger across all N=40 setups computes exact mean H5 = -1.970500 pp. Formally superseded by canonical aggregation.",
+      "status": "SUPERSEDED_BY_CANONICAL_AGGREGATION"
+    },
+    "WATCH_TO_ACT": {
+      "transition": "WATCH -> ACT",
+      "canonical_N": 354,
+      "canonical_raw_mean_H5": 0.977457627118644,
+      "canonical_display_mean_H5": "+0.9775",
+      "canonical_median_H5": 0.91,
+      "canonical_negative_count": 127,
+      "canonical_positive_count": 227,
+      "canonical_negative_rate_pct": "35.88%",
+      "disputed_values": {
+        "canonical_transition_matrix": 0.9775,
+        "disputed_narrative_text": 1.2984
+      },
+      "resolution": "CANONICAL_SETUP_DATA_WINS",
+      "provenance": "The figure +1.2984 pp in earlier chat text was an unverified manual narrative approximation. The canonical setup-level ledger across all N=354 setups computes exact mean H5 = +0.977458 pp (+0.9775 pp display). Formally superseded by canonical aggregation.",
+      "status": "SUPERSEDED_BY_CANONICAL_AGGREGATION"
+    }
+  },
+  "report_generation_integrity": {
+    "narrative_manual_statistic_risk": "MITIGATED",
+    "report_statistic_source": "CANONICAL_OBJECT",
+    "enforcement_rule": "All Markdown and JSON reports must be rendered as deterministic programmatic direct outputs of the canonical validation object."
+  }
+}

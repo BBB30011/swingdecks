@@ -1,0 +1,20 @@
+{
+  "batch_id": "BATCH-ZZZ.11.7",
+  "snapshot_id": "SNAPSHOT_ZZZ117_687970d0e904",
+  "sample_N": 73,
+  "evidence_N": 59,
+  "unobserved_N": 14,
+  "c0_canonical_differential_pp": 3.103747421900961,
+  "c5_purified_differential_pp": 2.9778542034367765,
+  "attenuation_percentage": 4.05616828147306,
+  "c5_date_weighted_differential_pp": 2.6838208860207415,
+  "c5_ticker_weighted_differential_pp": 1.7210741597018038,
+  "clean_controls_differential_pp": 2.78,
+  "governance_ruling": {
+    "counterfactual_status": "COUNTERFACTUAL_PURIFIED_WITH_LIMITATIONS",
+    "association_status": "ROBUST_WITHIN_COMMODITY_REGIMES",
+    "identification_status": "LEVEL_2 (Observed Relative Performance with Moderate Confounding)",
+    "causal_status": "NOT_ESTABLISHED",
+    "alpha_status": "NOT_ESTABLISHED"
+  }
+}

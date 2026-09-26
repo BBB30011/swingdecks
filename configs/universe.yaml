@@ -1,0 +1,19 @@
+universe:
+  market: "IDX"
+  country: "Indonesia"
+
+benchmark:
+  symbol: "IHSG"
+  enabled: true
+  provider: "CSV"
+
+filters:
+  minimum_liquidity: true
+  minimum_price: 100
+  exclude_suspended: true
+
+liquidity:
+  minimum_average_turnover: 1000000000
+  minimum_average_volume: 0
+
+initial_symbols: []

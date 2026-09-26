@@ -1,0 +1,25 @@
+{
+  "total_setups": 73,
+  "evidence_present_count": 59,
+  "unobserved_count": 14,
+  "coverage_rate": 0.8082191780821918,
+  "commodity_coverage": 0.8431372549019608,
+  "non_commodity_coverage": 0.7272727272727273,
+  "by_ticker": {
+    "ADRO": 0.6363636363636364,
+    "ANTM": 1.0,
+    "ASII": 1.0,
+    "BBCA": 1.0,
+    "BBNI": 0.5,
+    "BBRI": 0.5,
+    "BMRI": 0.5,
+    "INCO": 1.0,
+    "ITMG": 0.6923076923076923,
+    "PTBA": 1.0,
+    "UNTR": 0.8333333333333334
+  },
+  "by_year": {
+    "2025": 0.9411764705882353,
+    "2026": 0.7678571428571429
+  }
+}

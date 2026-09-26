@@ -1,0 +1,770 @@
+{
+  "ADRO_2016-06-15": {
+    "ticker": "ADRO",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "410a04b1aa31c0472a58a08f4d6cd329707cdcbb3057462847f55df68788b0b4",
+    "thesis_freeze_hash": "bfdf571914e809a66565f40a7f9e69c3c0cdd8ced6d2cf0baafcb4cfc617f11d",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.279355"
+  },
+  "ANTM_2016-06-15": {
+    "ticker": "ANTM",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "24e2401edaa45b0668f1990d8e8d8b45b2b261976e065aa78dea870c8022f160",
+    "thesis_freeze_hash": "ce5d5215c1dfba3df4ee1f5271fa56deafadfd664a5e1429522b4e57a0b8339f",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.349314"
+  },
+  "ASII_2016-06-15": {
+    "ticker": "ASII",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "6929bcea7f75ca92b71aaed21c2f98bed2658db099a9c2d8eb295977d48f7905",
+    "thesis_freeze_hash": "4dac96817cb1fd2183587bd45af62491575edca1366013e666f022e000bb6bf1",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.419909"
+  },
+  "BBCA_2016-06-15": {
+    "ticker": "BBCA",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "1c26cd0020e0c78946b986dbb8b1efdd45b12f0c0cc52bf1a24078d487618dcc",
+    "thesis_freeze_hash": "3534ad95a5f4389d9bd08af3899a3245c530a12518d38e531970f9bb1acb6a50",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.488428"
+  },
+  "BBNI_2016-06-15": {
+    "ticker": "BBNI",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "ce4a70c980dcb722c38c0c4a6cff489ba52bc8c75d34595ff5811f9c2ce9420c",
+    "thesis_freeze_hash": "2d757438a0fbe1f46620dbf2d80dbc21c3768b271087c056c6cd74e8619c71ee",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.558286"
+  },
+  "BBRI_2016-06-15": {
+    "ticker": "BBRI",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "fb3bb7bdc65825bf19a9cc3a326168b74c8c83ee9c29d9604406686f1f84174f",
+    "thesis_freeze_hash": "7f3f42ac7f38957e2e897c0d1e21320580885e1c2cf0974dd7f5660042540245",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.627312"
+  },
+  "BMRI_2016-06-15": {
+    "ticker": "BMRI",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "511f1cb3c06e2fd877c1264655fada8273fb92d563ede745b13495d83f454828",
+    "thesis_freeze_hash": "205e267cdabbf5d801f0b4a2958545d0d8135466ef67d68af2c7e6fac909a533",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.694921"
+  },
+  "INCO_2016-06-15": {
+    "ticker": "INCO",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "c475f39bf057e2011a8b2096262518b57ba46f5953a1dd0eff43e79c1aa8cfc7",
+    "thesis_freeze_hash": "6e99a9cc6d8c997d9009b2aeb2bad1fdb8c10e8fd724a717ef8b50be1154861d",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.762884"
+  },
+  "ITMG_2016-06-15": {
+    "ticker": "ITMG",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "fe8982a3f2f093acd121056dae048b0cbbb27251b2813573c49d4b967bd55805",
+    "thesis_freeze_hash": "b19106b7d894ba994ac09a68fcd185282d411dd69f4a7e1f453f60ee6446421f",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.828391"
+  },
+  "PTBA_2016-06-15": {
+    "ticker": "PTBA",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "7dde519ef1febc3209d2f6d31ec9d55db3c952251bdce29416aa908ec114ac1d",
+    "thesis_freeze_hash": "acce53b4dee54de7ba5270f66ea0a44a70f95248d0abed8547b75ebd46f6ae7e",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.897099"
+  },
+  "TLKM_2016-06-15": {
+    "ticker": "TLKM",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "55113d9667cc17fcb19c74a2426313d56095a906cdb541be3d714163430e03ef",
+    "thesis_freeze_hash": "8ac3e49f31c01f1184350dff50862f20ad5df846cf4bb32b43c6336e34da12dd",
+    "frozen_at_timestamp": "2026-09-16T13:27:22.963118"
+  },
+  "UNTR_2016-06-15": {
+    "ticker": "UNTR",
+    "decision_date": "2016-06-15",
+    "period_tag": "PRE_2018_EARLY",
+    "hks_hash": "e2c64d55faa915b4b88ac65802ce6f0867e9613d366388d5a441d4b157f31f22",
+    "thesis_freeze_hash": "07314774d5ef37c66e3edee42fbcca5d13138ce42f9b6762be9f62d41be5459f",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.035112"
+  },
+  "ADRO_2017-09-20": {
+    "ticker": "ADRO",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "bf84d1b699559d2b8560efb6798819fd5c7723862555bccc3eb46387f7af0b17",
+    "thesis_freeze_hash": "43e3da683c973a7bba78bd9bf210248c9513d13ebcca1a497901d92ade40c1d5",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.101834"
+  },
+  "ANTM_2017-09-20": {
+    "ticker": "ANTM",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "7894f0118b5bb4d4ac275efb4549094dc3f16d8e02fb21f0d3317b7d08c8ee54",
+    "thesis_freeze_hash": "afe3c85d0aadd93bae7c4af21084620236cdafc186d1cb035a8650ac345b141b",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.168726"
+  },
+  "ASII_2017-09-20": {
+    "ticker": "ASII",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "cd37b0f45cae9b27c991386ca170f2029c0d8640f944eecbdab25ebd3a25f1c3",
+    "thesis_freeze_hash": "37c3d4ed40567e38eed86436cc70474db869c8d54f6769a4209f9939ffd5c13e",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.244301"
+  },
+  "BBCA_2017-09-20": {
+    "ticker": "BBCA",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "992606814a8e6eb40cc1bbb7a0930989c09be491ec7f786cdd462e01c390b588",
+    "thesis_freeze_hash": "5432ce0450b6904ac0941d4e35e25252619caf540041e5f6cb255fca9c141aa1",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.319405"
+  },
+  "BBNI_2017-09-20": {
+    "ticker": "BBNI",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "f35a71121566e0eb467007b9a10afa24fe1a8949987685f8a1ad28ccdeea5a6a",
+    "thesis_freeze_hash": "958a491e7a8e3f6e0e05fb7feae170aee8357689e1f0777f2597075bd2a14d0f",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.387619"
+  },
+  "BBRI_2017-09-20": {
+    "ticker": "BBRI",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "2c379ab7a0059331af8324dbf504064f2ea3388c904bfdc4b616dc5082d42e71",
+    "thesis_freeze_hash": "bd7c21d18a89087da57f6fda6d9975fd73be3f3d597eb665d926020a657d3954",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.457034"
+  },
+  "BMRI_2017-09-20": {
+    "ticker": "BMRI",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "f92985dc131fbc4b7af45d161ed0d7a54d1b04ad93e6a875acdd243bc7a58c7e",
+    "thesis_freeze_hash": "4c76576ea5b8b2d460e3759a306e1b8d0b9539247d34990b416b2df388f54e56",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.532844"
+  },
+  "INCO_2017-09-20": {
+    "ticker": "INCO",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "7afa4fe819b9d94a93a18a36973b305487b5037d2c460b777ddcbd1c56162bfa",
+    "thesis_freeze_hash": "bc0a7e841d0b053dc65e6297a44aa923ef17d2ce925b34730644049a5cf15007",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.601138"
+  },
+  "ITMG_2017-09-20": {
+    "ticker": "ITMG",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "0e74fc693aa8576b2ccef3375116732db8c5e8b12191aa1a8697aa6994e85cf3",
+    "thesis_freeze_hash": "d3b054e6f270e4b647c9bf13b545d1a133f3fddf588bf7c623da9c91df48b09f",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.663502"
+  },
+  "PTBA_2017-09-20": {
+    "ticker": "PTBA",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "e9f278bc6909733b15f03ab3d48abaa1f0dfcdc3f7e8fa25168ef1efd65f1627",
+    "thesis_freeze_hash": "f3bc7e57ead8b8851e74b71b425efe2bc24edf8a2dc6119b8250acaf834cb978",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.731158"
+  },
+  "TLKM_2017-09-20": {
+    "ticker": "TLKM",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "013afa579d75219cd59047ec83ad8b042cbbf488eed352ceb38fa92608ec02b9",
+    "thesis_freeze_hash": "49256271be8b4e0bb9cd46e1c4a8e2e4f50760a06730b5d58c0879595a0f1a2a",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.797917"
+  },
+  "UNTR_2017-09-20": {
+    "ticker": "UNTR",
+    "decision_date": "2017-09-20",
+    "period_tag": "PRE_2018_LATE",
+    "hks_hash": "5e581c407dd514eeaa3b25f07ac8ca8e519062b91abb96baea3cd33946475bb8",
+    "thesis_freeze_hash": "11ae5a4a8f40f368529f8a84969b0a7c4eb5123890078c54e00fe98fc48f8ca7",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.866759"
+  },
+  "ADRO_2018-05-15": {
+    "ticker": "ADRO",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "3936eb44fc36bbfe53e97f9d1e30a5b1e180250b3110239f8e12d3fcf05de19c",
+    "thesis_freeze_hash": "6fe01f2ad8bc01e8dc3ff40644b5c5090e9ba6ca326d88ceed6b2b1cbb909212",
+    "frozen_at_timestamp": "2026-09-16T13:27:23.933008"
+  },
+  "ANTM_2018-05-15": {
+    "ticker": "ANTM",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "9874c29cc3f9318d23805e7eda0fa774360a60a5a80f1980a2577165ec261690",
+    "thesis_freeze_hash": "fd30563d33aad47e99aac4a47e1603fad08219190e765ae99ca6f7b22374e1e2",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.002526"
+  },
+  "ASII_2018-05-15": {
+    "ticker": "ASII",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "a45dfe68f8deb91c732c8dfe77a740b8bd725c3180f6c703225098376a39f162",
+    "thesis_freeze_hash": "d195b843630d2cff71b8d2ef7f6012f6fcd878bb787f8d5cb851984b4055a419",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.075297"
+  },
+  "BBCA_2018-05-15": {
+    "ticker": "BBCA",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "639e27b0013f43e4f3d48b2874d5fd5160f40b3951f61c18d5bbce5a028f9ea3",
+    "thesis_freeze_hash": "08b2703e86a00558b254c9f5fa460f83fe5fbfc42b02030724204323afdc0112",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.147884"
+  },
+  "BBNI_2018-05-15": {
+    "ticker": "BBNI",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "6ad45b1ab1af4327897564e92dad71a87bbd47d11c57b1eba00571fbf1ba1751",
+    "thesis_freeze_hash": "3b6da00dc9b37fb2abef2d9acb4678ddcfe68ff72038604d7bbdcbbd89dd7f93",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.215453"
+  },
+  "BBRI_2018-05-15": {
+    "ticker": "BBRI",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "9af2f13b0dee0ef9c26367550a2e6b573179e2c9e2aa8ef34bb59be27f94a901",
+    "thesis_freeze_hash": "02f63034bcb486945db108407e7c05b9e1a03fd81888b6b56e4bde05761d62da",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.285975"
+  },
+  "BMRI_2018-05-15": {
+    "ticker": "BMRI",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "465da389a2a8327de5a1277f561751db18bcb0cd11ecb60424a0158e73f1ef04",
+    "thesis_freeze_hash": "44341e517755a33afaabe82a774325331de491d162df75700e33d67217d23859",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.356383"
+  },
+  "INCO_2018-05-15": {
+    "ticker": "INCO",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "b0bdcc9ff0e28825360502733bcb422446fc9826931a4f83d67225e659f926a5",
+    "thesis_freeze_hash": "2f4f091d65eff285e58ef83c171837630ae7cf30d58324be302e24b9dc63613c",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.426181"
+  },
+  "ITMG_2018-05-15": {
+    "ticker": "ITMG",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "1238a41b6a5face9eec00758a74785669d842920f861e9319ad0e606219a5147",
+    "thesis_freeze_hash": "5b8d62825d3db4680b536a4e2160062f7f2bab5e9fd9d917f6ffdb8341bc6b71",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.493123"
+  },
+  "PTBA_2018-05-15": {
+    "ticker": "PTBA",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "cb00797660af1200183410d4741dfffd9053c8bc572262cc1cac4f26022b0f7e",
+    "thesis_freeze_hash": "65db51f68ec4de06bb677e12b539ad3d966e04610541105614469c5d116e28bb",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.559117"
+  },
+  "TLKM_2018-05-15": {
+    "ticker": "TLKM",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "cc6e459c89a398271ab38d0b2b2539c3a169e0754a1c11cbebe4ec07f96cea24",
+    "thesis_freeze_hash": "7920c0825f317c833ffaf2579ec8c50911ca4c5ae5bfe502fabd5951b49407be",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.627630"
+  },
+  "UNTR_2018-05-15": {
+    "ticker": "UNTR",
+    "decision_date": "2018-05-15",
+    "period_tag": "POST_2018_MINING_EXP",
+    "hks_hash": "91e630d5c7d4de33c406f40d4b956a0348d226637e501df3640dd424129eda55",
+    "thesis_freeze_hash": "00f9df24a33297445190f6fd5f8fdba2fefd95a0d351aaa8ddbfa5eaede1df4d",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.699677"
+  },
+  "ADRO_2019-10-25": {
+    "ticker": "ADRO",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "b889db7f7a56322101c53a90e8b2627aba735a363067bc546f63eee458807430",
+    "thesis_freeze_hash": "56b1cf424bc1d6e38324b8cffdf930a31bba982c283b65f20cc47e86a38711f1",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.766802"
+  },
+  "ANTM_2019-10-25": {
+    "ticker": "ANTM",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "851f6c5dd4aebfe25889452a62e5c7a70a43ed7f25ecc9d65589bd468398db2b",
+    "thesis_freeze_hash": "b21e7bdf33fc71dd3dcce50cc1c31c37207b6427ac280eb43b91d106227b40f7",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.835314"
+  },
+  "ASII_2019-10-25": {
+    "ticker": "ASII",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "6695bca0d686e97cc7275c73ea9e6af0fb3572625ce14a9d46ad64bf29975708",
+    "thesis_freeze_hash": "c1f0e86198bdbc7994b1344a3f04aed98b16105c0dfec5559e2a0f9a8d914e4b",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.907847"
+  },
+  "BBCA_2019-10-25": {
+    "ticker": "BBCA",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "165e5d2c37d2d72c3d61acb254c63e3aa82bfff8f1f10dd8d3847050ff662cf5",
+    "thesis_freeze_hash": "0474c6d308a4ebd60f8e38070438e8a17e1b82ccbaef5c2a60e3647b039b80fc",
+    "frozen_at_timestamp": "2026-09-16T13:27:24.976673"
+  },
+  "BBNI_2019-10-25": {
+    "ticker": "BBNI",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "a688436a857cba0fc69f6446e8c715ff604472fa416e6e171bd4d568b4213c3e",
+    "thesis_freeze_hash": "6f6d527fa671736151e316f38f942881e791573d5f141300cfa9d2df6a634acb",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.044268"
+  },
+  "BBRI_2019-10-25": {
+    "ticker": "BBRI",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "97209feca37a4d3d45644b0f36ea210c8127de375a5314f80d6700f8d122fe86",
+    "thesis_freeze_hash": "70bdc11b6aca2ec8a63986b39478addd00580d0febe784b8e6c37f6db3d88858",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.113966"
+  },
+  "BMRI_2019-10-25": {
+    "ticker": "BMRI",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "1e2a590268a1fcef6fb44e41dd28f09f4af1d57de2c0f8574fbd0103aea4ceab",
+    "thesis_freeze_hash": "4853b34de5f5e35d442ee50595d51b7c896fc78c16b21ba009ae727aaca7d43a",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.181363"
+  },
+  "INCO_2019-10-25": {
+    "ticker": "INCO",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "05ecf856b0bbfb6e03f0b6d9c9f03181af059d2868e016eb9e42f000f38b2e4e",
+    "thesis_freeze_hash": "5a118b9629c65cefd97126ebdac1576a709c4e74727e599aa4d37c46a905a565",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.246787"
+  },
+  "ITMG_2019-10-25": {
+    "ticker": "ITMG",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "aab821ad561ac50171ad071e7f3b98bd2744883153174c149a38ecc109c29b35",
+    "thesis_freeze_hash": "16fe7b416ec5cb039a8b88f710257d65503ba72496f2848e45a7fa4d05fcc506",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.314762"
+  },
+  "PTBA_2019-10-25": {
+    "ticker": "PTBA",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "2e505d98657e28ba01040ca8ec16894b10fd79a0dac6447842002d4c12ef7d2e",
+    "thesis_freeze_hash": "67d2a6318c15627291cf430b30a2cbc7a8b26a879300f1245a6bc896f7d0beab",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.384117"
+  },
+  "TLKM_2019-10-25": {
+    "ticker": "TLKM",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "ee80123196cf3314347788fe58dcded9c5b02a948459c9d4d694980c0fc713a9",
+    "thesis_freeze_hash": "39423907c7105cac60636fb4a51082349c89cfc4c9c720a6f6281817fec3ef13",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.451899"
+  },
+  "UNTR_2019-10-25": {
+    "ticker": "UNTR",
+    "decision_date": "2019-10-25",
+    "period_tag": "ELECTION_POLITICAL_CYCLE",
+    "hks_hash": "117ac9fcca639f123ff29a4063105a52ca653147a9dce86b6ebd44c7c816298f",
+    "thesis_freeze_hash": "c7e6c5b8532c993aad37ce64b1dc4cb8a665c4d3a6dd36b59dfa6003705da927",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.522887"
+  },
+  "ADRO_2021-08-10": {
+    "ticker": "ADRO",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "765adc58a8379ec0e301cfae6aeb9467b7ee8e9fccd96c78cdd7433e6b1b2177",
+    "thesis_freeze_hash": "f55928ce48bb0e80a81ff3da48fe6bc3a77549bf3c6209b20dff691f54950611",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.593051"
+  },
+  "ANTM_2021-08-10": {
+    "ticker": "ANTM",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "402720c80b3c13620f8823eb6f78a546cde17b7306ada03e5cfe4b9483e4b75b",
+    "thesis_freeze_hash": "e7953d9f7fc95f0f716527639c860786000ba9a0c15e083873f0e98d6bee7a46",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.666562"
+  },
+  "ASII_2021-08-10": {
+    "ticker": "ASII",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "05b5375b8eebc12ad595b48840e0fc09e6119df8dc0ebe4b5f19b6c3353787d1",
+    "thesis_freeze_hash": "cd35fd3a6a027822bec8648fcaafbd8aa32e122e0ea2a44a1d54467dc42a2d1c",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.739124"
+  },
+  "BBCA_2021-08-10": {
+    "ticker": "BBCA",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "c7cb091e8322250199eaa086575eb4747293b21017bdbca72cbbc68e434e473c",
+    "thesis_freeze_hash": "5a0abe5daf51b8cda07f58a9413f2074ecd528da55cb021f9b6e9df0d92107ce",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.806530"
+  },
+  "BBNI_2021-08-10": {
+    "ticker": "BBNI",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "9481f8c7ce9a37fcb51663cf0b10546fccdbf9d1526a705acbe0ea06255ba1be",
+    "thesis_freeze_hash": "00af1eed4914619311a8eed64ff45fdd90a5f2f7016fa0f9e1d68a42e41772ce",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.877346"
+  },
+  "BBRI_2021-08-10": {
+    "ticker": "BBRI",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "721b6f390833a408f09b4d5b50bde1f923761a57c6f063e41e8a4172da3b60e1",
+    "thesis_freeze_hash": "4fa42a20f7969faf5a90bf58922a518f36aede90003a14be44a82cb19494a8a5",
+    "frozen_at_timestamp": "2026-09-16T13:27:25.944833"
+  },
+  "BMRI_2021-08-10": {
+    "ticker": "BMRI",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "19d19fd04c30d435d63ae2867f154c075c399f190fee15326a2f40aa8e316fc6",
+    "thesis_freeze_hash": "443182a7d61cd3613cd6f7e10f4d7b218637e0a9bd45a83c7b672a7d92331355",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.013920"
+  },
+  "INCO_2021-08-10": {
+    "ticker": "INCO",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "fcccc2f2e5889ce6fc2b1506ac2ae2e5f27999791333589b6e9442e8b86f3b95",
+    "thesis_freeze_hash": "a8e494f00487504566e076ff03c8c4493457996ea61a6870bde3b4432d3848a8",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.082435"
+  },
+  "ITMG_2021-08-10": {
+    "ticker": "ITMG",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "b87cf73a7703c4181e1c1fad7327091625fda2b4e9cdd8007f8a9d234ae2586d",
+    "thesis_freeze_hash": "4b5e9113be549cb23cff588f7e77f0314c3beffc87aaee46124db9e07c3aebaa",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.148432"
+  },
+  "PTBA_2021-08-10": {
+    "ticker": "PTBA",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "7db2191c5709366c6695421babba6fe450714d782d96d44b2bbc4546c45c46a8",
+    "thesis_freeze_hash": "f0c090a8e725f9a297f13a9423ea400c7b23c53543eee80f53eeb12f7c836d1f",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.222160"
+  },
+  "TLKM_2021-08-10": {
+    "ticker": "TLKM",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "8e35b6266c4584e6772a83e4ee3796aa1a20af5efda01dc0c75de84dbacad8c4",
+    "thesis_freeze_hash": "28ffccc39f6dd0f99ec09c299b7f107ff6ffa3aec3c37348af4cd4fec4300473",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.289524"
+  },
+  "UNTR_2021-08-10": {
+    "ticker": "UNTR",
+    "decision_date": "2021-08-10",
+    "period_tag": "COMMODITY_SUPERCYCLE_EARLY",
+    "hks_hash": "8b4248cb4c3deaf7bb020ec9843645f3fd48d93c907a8e39446e9def4d33a90b",
+    "thesis_freeze_hash": "eb323ac6ab88caa2a29f1f3b08535474cd5495aada2e05058761021149180d3a",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.365960"
+  },
+  "ADRO_2024-02-15": {
+    "ticker": "ADRO",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "c3264dcfa1e9ccb597966eca41168a450c3dcf38ca7565cf5092355300faf320",
+    "thesis_freeze_hash": "eb3525553505c8d58f37ecae083c85a8b12e0b32692e5d023ab88cbdfc6e054a",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.432470"
+  },
+  "ANTM_2024-02-15": {
+    "ticker": "ANTM",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "dfa4a131cc2eb2533cb166851aafd6c868514656f38d1b635ca9a1052164a7b2",
+    "thesis_freeze_hash": "b7db8390bf9ba0bc37fc32b8c308081baf0a0985df1001980bdfdae1912133e7",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.502070"
+  },
+  "ASII_2024-02-15": {
+    "ticker": "ASII",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "c47044ed7f769354c321aeb4ca3e204add7dbea2612c3929b40479f99f9ad24d",
+    "thesis_freeze_hash": "3dfb6b1957cfb0a647a5a7ae2d49ab9f5b276a75903030e809fb2f4332a17e51",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.579274"
+  },
+  "BBCA_2024-02-15": {
+    "ticker": "BBCA",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "55e911033c0b182ef7eee5d275e3aae9477614a43ca856a0d5badedb8292b5d2",
+    "thesis_freeze_hash": "b42f93be35788d7905406e887f40c2257ba24db64a5f0ceebf1a2da32be5b54e",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.648464"
+  },
+  "BBNI_2024-02-15": {
+    "ticker": "BBNI",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "8d9878d9536569d85772011f5f697f7a03bcd99c55bbc54cb326f5f9691f117d",
+    "thesis_freeze_hash": "4a17cabc04520c6e7ca5514d5f7962492d4ae0d00578f944f455f651e431822a",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.716623"
+  },
+  "BBRI_2024-02-15": {
+    "ticker": "BBRI",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "a2c308c414f1ecf2c0b26fc472e925b6b9579ce5c851cc8e684813c83746bc98",
+    "thesis_freeze_hash": "1be37df5f3e10f64b3ee82bd7a3df97d484056e87ed26948b76f8a12b8ef4bfd",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.789644"
+  },
+  "BMRI_2024-02-15": {
+    "ticker": "BMRI",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "0dfc0c7ecaf978c86c24358c5b571cd975f4fb446f5c5bfcb5582410577c4e5b",
+    "thesis_freeze_hash": "4edfcb056b03ebc9770c67b7c419f2cec01ad37085186a122dd436e1904763c4",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.856653"
+  },
+  "INCO_2024-02-15": {
+    "ticker": "INCO",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "0e3839c5bb2e1bc6197e334729b96626c962c6baae2bd900000371a2cedf12aa",
+    "thesis_freeze_hash": "4ef6dc9b852dc1f9c15dd6c8f5538f29d7a654dfde1ab99c6e3c70d716d45363",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.928434"
+  },
+  "ITMG_2024-02-15": {
+    "ticker": "ITMG",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "34d877bb47604c2bce009bef8f94e41fa4e80f1c5738ac130c3148b18eb7a0bc",
+    "thesis_freeze_hash": "0daf149cfd8fc1d6a8ebd21a7164c634bbb1f86a64a8a86eac52f1d1c1c9ed3e",
+    "frozen_at_timestamp": "2026-09-16T13:27:26.997957"
+  },
+  "PTBA_2024-02-15": {
+    "ticker": "PTBA",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "0948b6d88b97c2142d777b582e897dc2d6fdd02c0d450df999f5b8a25fa5bcf3",
+    "thesis_freeze_hash": "5bd7d1cc2c70b93fa671636be5e8884fede89ad2c1a2d260b1166138de74fea5",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.064724"
+  },
+  "TLKM_2024-02-15": {
+    "ticker": "TLKM",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "a13afe24def416fc3eaa293ed438bb21b5ba8c01b7c6282ab352914d533da96d",
+    "thesis_freeze_hash": "5a282ec2336d32ac78699e0970c3be35ca41cb3a222fc4299f95d283852790bb",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.136007"
+  },
+  "UNTR_2024-02-15": {
+    "ticker": "UNTR",
+    "decision_date": "2024-02-15",
+    "period_tag": "PRESIDENTIAL_ELECTION_2024",
+    "hks_hash": "de0bf9d48bcdb7b4b365e12363ffbdd7177021c584546d1bbbfb90f45f5bdf48",
+    "thesis_freeze_hash": "9bab4583345056d6a04cfdd0a56d436fe4fae8c1da26030d7628f5ea1bbd7e30",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.209174"
+  },
+  "ADRO_2025-09-09": {
+    "ticker": "ADRO",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "fb6c966184723dabd74afea212136d45b00833997b95f3a9c0b57a64d5de8acb",
+    "thesis_freeze_hash": "2edacaaf1e1ca441dfa4eb0c9381e95649823f4f3bfaa2df0e08206cb79f58e6",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.281023"
+  },
+  "ANTM_2025-09-09": {
+    "ticker": "ANTM",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "416f57031aa659515ed4a50e01380eb1ed13697d9ce7ac0b755c1c65e7db39c7",
+    "thesis_freeze_hash": "0897df5cfbda829717084e9adf0f89c9819218d4ee2f605505d23a49e92e7e1b",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.349603"
+  },
+  "ASII_2025-09-09": {
+    "ticker": "ASII",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "4ad3841f73b1b334bed2ccd609f773c942410db3b1a8b2859200a00c5c8e0b3a",
+    "thesis_freeze_hash": "2bf3e09c27eecd8d55f44a9a660d3faef43c9bfd8742fd6c1b6238dafc78b675",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.424341"
+  },
+  "BBCA_2025-09-09": {
+    "ticker": "BBCA",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "9bc3d700a89cb5335612484b988f9c007c654b123ed7f2d3a69bd02dc9472475",
+    "thesis_freeze_hash": "c6d22cd3a7c37876f03cd5ae8194588ffec66d08ed4fee00f09b95104af04b1d",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.497529"
+  },
+  "BBNI_2025-09-09": {
+    "ticker": "BBNI",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "63ccacd3878aa3c373a6fcb8236359213fb33385f3e791d629f165f745c6c6eb",
+    "thesis_freeze_hash": "14984ec21b673a6ea39553cce1507e31cdc8bc3c5463c5ea29cca69df8e54919",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.572731"
+  },
+  "BBRI_2025-09-09": {
+    "ticker": "BBRI",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "c04725f1b95b79a2d08e5e0c921852e3478f96de3fd89fc0d36a9cafee5b8701",
+    "thesis_freeze_hash": "3602e64888af568aefdc4defbe546a5e384e7ba7ba096a337e304186a327103f",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.660763"
+  },
+  "BMRI_2025-09-09": {
+    "ticker": "BMRI",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "d5199a219366c53374f96d4a04989a598231ec0996aa5dbdecaa67b4baf695e8",
+    "thesis_freeze_hash": "02fbff4a5b5a5497f1d699c1f26ee41cef7181b77778ee752f2f2e8ca650373d",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.761503"
+  },
+  "INCO_2025-09-09": {
+    "ticker": "INCO",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "fd0f5abfdf87ae4e711d0f3abe65c0ae9ba1ca6ca9d653a9fac7d991ed95c20a",
+    "thesis_freeze_hash": "8211958d1b970061f59e10f4ecbbce823d381d9899c706f95bdad36bced3a363",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.876540"
+  },
+  "ITMG_2025-09-09": {
+    "ticker": "ITMG",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "c88a72ce9358e200240a9d3d63f40c6b892bb73f09d12d83ce1de5bd80f23c00",
+    "thesis_freeze_hash": "474a3b80330a67ae7f931787d8f270fa0ecf883e28704e662febb92d8b7ffcce",
+    "frozen_at_timestamp": "2026-09-16T13:27:27.983733"
+  },
+  "PTBA_2025-09-09": {
+    "ticker": "PTBA",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "f11b10d6fb4588c4a1e87c33fab26a5cab915be6a50f4516f4f42909ac04ae4b",
+    "thesis_freeze_hash": "d927fd888190c4a161ba42430d599572c92181562f3460318b3ee14b835d9b5e",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.090525"
+  },
+  "TLKM_2025-09-09": {
+    "ticker": "TLKM",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "251fae035d4c1115b70871b6ac63d08a86246c7ff74e52103264447b23dde828",
+    "thesis_freeze_hash": "407329e696db439c2238f6e978534dd9c10609cc4d91b32cf66b53ec9e30c911",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.188804"
+  },
+  "UNTR_2025-09-09": {
+    "ticker": "UNTR",
+    "decision_date": "2025-09-09",
+    "period_tag": "CANONICAL_LAYER_E_1",
+    "hks_hash": "353877c646ad730f1b90c2536fa029e60005c73beff14360a1b9d37ffd21cff7",
+    "thesis_freeze_hash": "fad65c179eeaad702f24b707169d3d319ac175f36f9a88239009ea9f8d6364a5",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.309423"
+  },
+  "ADRO_2026-08-27": {
+    "ticker": "ADRO",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "05c8f562255d404e98ccf39dacdd84a57b33fe8deb42647922d4b3b78f384729",
+    "thesis_freeze_hash": "e245822d591f9a5bc5a52274d4271f1fcb78cfb21e550085e89cf5ea31a165c8",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.433020"
+  },
+  "ANTM_2026-08-27": {
+    "ticker": "ANTM",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "2d050e98d51128049f9fdfa19e577901f7d6febfc5dc718dead15b35feb76eeb",
+    "thesis_freeze_hash": "ced077349a6e2f30ecb1d532f3b2b64826f99d419542ef2ba320a1ebf71c59a7",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.548162"
+  },
+  "ASII_2026-08-27": {
+    "ticker": "ASII",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "da76754d2a6267703adba5d42fb32c0089287b7b46c1ff3f4a6938d288178e2b",
+    "thesis_freeze_hash": "56f0cce9438780d3de43cbc00cea2ac88ae0ff8e053ed587b10373156e2f2989",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.676196"
+  },
+  "BBCA_2026-08-27": {
+    "ticker": "BBCA",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "b3412b8a951cd67ce4af791d314082bf53e5dbc3e60bb7a2222352c9628c54ad",
+    "thesis_freeze_hash": "c2bc16aa5249d39e0affe97b906134361b3ccc4226439ad97473389d9735a56f",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.800651"
+  },
+  "BBNI_2026-08-27": {
+    "ticker": "BBNI",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "fe0a333309961bc80c34574ef3fc4902772a4ee8359562ef2c2549123dbbcf1b",
+    "thesis_freeze_hash": "f604dea41222492719aa4501e8bcd2143bf69395441b94a67f2520d2e8ce1d2b",
+    "frozen_at_timestamp": "2026-09-16T13:27:28.918170"
+  },
+  "BBRI_2026-08-27": {
+    "ticker": "BBRI",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "0dd6f7feac1b0bad79dc2b4d3bbc2fdaaa0e63334c4d630bb13009db59160ce8",
+    "thesis_freeze_hash": "7e809df54ed3b2d8eff1c7d940ba4907fcc9389664ff8b71af71fd84b6d46d34",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.039690"
+  },
+  "BMRI_2026-08-27": {
+    "ticker": "BMRI",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "09a06c9290bd07b921b3068dd1cd5ae704f462d5dd08bfffbddb6171aa7f92ba",
+    "thesis_freeze_hash": "ba33c7ce5ee1708343c13ea1e4a7dac2809a8cb3f1b75c704652e16bb159a32c",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.137209"
+  },
+  "INCO_2026-08-27": {
+    "ticker": "INCO",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "95ed8ae6b69ddb94ac75c0549bbdee3c6da38e3d4f10ca019badcf76ae52f094",
+    "thesis_freeze_hash": "f66ab9fc9befbc7b3ad2dc02bd58cbc7ecf795c1c30372ffe2f1e785337693ee",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.223953"
+  },
+  "ITMG_2026-08-27": {
+    "ticker": "ITMG",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "25f755eed92dd470d0bdb2be9ad80ac4b1314930360fae5f91690af01f946a25",
+    "thesis_freeze_hash": "774deca3f1513cda2b8dae39126a694bc05f707894f9ab54df8751e50df44086",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.322887"
+  },
+  "PTBA_2026-08-27": {
+    "ticker": "PTBA",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "daba2a9565b23884cd86e2438e7db7dab56f5e04d4c5dcd81efde2dec7c3fac2",
+    "thesis_freeze_hash": "7e62767784e63e88e8b6e1161f07db9b9e3cf00963a8e015c7dfc45724a532e1",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.448341"
+  },
+  "TLKM_2026-08-27": {
+    "ticker": "TLKM",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "eeddd0e43fc22bf0bdf9c145e8e42c95dbaf0929d1e6b649282da05afeeffb70",
+    "thesis_freeze_hash": "a781c2c6f40a1bf27224e7d3de63d8966250f17d1a7f9a97177ec38069df24ec",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.569110"
+  },
+  "UNTR_2026-08-27": {
+    "ticker": "UNTR",
+    "decision_date": "2026-08-27",
+    "period_tag": "CANONICAL_LAYER_E_2",
+    "hks_hash": "7ecfaae0eb7c9d296c06228f4bbb6fed6ece7f795ce125080a96469ca366272c",
+    "thesis_freeze_hash": "763ac51eaa41febffd28e5f3da967e156a977febd36609f802171b33140c0c04",
+    "frozen_at_timestamp": "2026-09-16T13:27:29.695423"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "batch_id": "BATCH-ZZZ.12",
+  "methodology_version": "METHODOLOGY_V1_FROZEN_20260915",
+  "dataset_version": "DATASET_V1_CANONICAL_FROZEN",
+  "snapshot_id": "SNAPSHOT_ZZZ117_687970d0e904",
+  "sample_hash": "SAMPLE_ZZZ117_HASH_f03310068fd3",
+  "canonical_universe": [
+    "ADRO",
+    "ANTM",
+    "ASII",
+    "BBCA",
+    "BBNI",
+    "BBRI",
+    "BMRI",
+    "INCO",
+    "ITMG",
+    "PTBA",
+    "TLKM",
+    "UNTR"
+  ],
+  "universe_size": 12,
+  "sample_n": 73,
+  "evidence_n": 59,
+  "unobserved_n": 14,
+  "primary_endpoint": "H5_PEER_EXCESS_DIFFERENTIAL",
+  "secondary_endpoints": [
+    "H1_RETURN",
+    "H3_RETURN",
+    "H5_RETURN",
+    "H10_RETURN",
+    "H20_RETURN",
+    "MFE",
+    "MAE"
+  ],
+  "primary_research_question": "Does company-specific historical information provide incremental discriminatory information about subsequent relative performance after accounting for market, peer, exposure, time, and known confounding structures?",
+  "unit_of_analysis": "company x decision_date",
+  "evidence_states": [
+    "EVIDENCE_PRESENT",
+    "EVIDENCE_CONTRADICTORY",
+    "EVIDENCE_PIT_UNCERTAIN",
+    "ENTITY_UNRESOLVED",
+    "NO_EVIDENCE_IN_DATASET",
+    "VERIFIED_NO_EVENT"
+  ],
+  "causality_hierarchy": [
+    "OBSERVED",
+    "CORRELATED",
+    "ECONOMICALLY_PLAUSIBLE",
+    "HYPOTHESIZED",
+    "EXPERIMENTALLY_TESTED",
+    "VALIDATED"
+  ],
+  "attribution_taxonomy": [
+    "MARKET_COMPONENT",
+    "SECTOR_COMPONENT",
+    "FACTOR_COMPONENT",
+    "MACRO_COMPONENT",
+    "COMMODITY_COMPONENT",
+    "FLOW_COMPONENT",
+    "NEWS_COMPONENT",
+    "OWNERSHIP_COMPONENT",
+    "RELATIONSHIP_COMPONENT",
+    "COMPANY_SPECIFIC_COMPONENT",
+    "UNKNOWN_COMPONENT"
+  ],
+  "counterfactual_hierarchy": [
+    "C0_Canonical",
+    "C1_Leave_One_Out",
+    "C2_Evidence_Excluded",
+    "C3_Event_Purified",
+    "C4_Date_Purified",
+    "C5_Fully_Purified"
+  ],
+  "exposure_groups": {
+    "COAL_PRODUCER": [
+      "ADRO",
+      "PTBA",
+      "ITMG"
+    ],
+    "NICKEL_MINING": [
+      "ANTM",
+      "INCO"
+    ],
+    "HEAVY_EQUIPMENT": [
+      "UNTR",
+      "ASII"
+    ],
+    "BANKING_TIER1": [
+      "BBCA",
+      "BBRI",
+      "BMRI",
+      "BBNI"
+    ],
+    "TELECOMMUNICATION": [
+      "TLKM"
+    ]
+  },
+  "governance_invariants": {
+    "max_agents": 3,
+    "agent_4_allowed": false,
+    "self_inclusion_allowed": false,
+    "lookahead_allowed": false,
+    "missing_equals_no_event": false,
+    "strategy_optimization_in_expansion": false,
+    "replication_first_mandate": true
+  },
+  "canonical_benchmarks": {
+    "c0_h5_differential_pp": 3.103747421900961,
+    "c5_h5_differential_pp": 2.9778542034367765,
+    "attenuation_pct": 4.05616828147306,
+    "clean_controls_diff_pp": 2.78,
+    "identification_level": "LEVEL_2",
+    "causal_status": "NOT_ESTABLISHED",
+    "alpha_status": "NOT_ESTABLISHED"
+  }
+}

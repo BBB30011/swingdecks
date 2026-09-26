@@ -1,0 +1,4266 @@
+{
+  "A0_quant": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "353877c646ad730f1b90c2536fa029e60005c73beff14360a1b9d37ffd21cff7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "14217a3e764910d64559fbb3757d40d733dec15806573619838fba47780c13e9"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "363e9204e34e69f39f8b4efac1c512aaae01bf2618ce1e0e00fe43ae11ad347b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "3dfe6a4666d834974509224602c37be2ee2e45a14d03ff6f86f56c7e51fdd394"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "179dc2fd88d656ea0f58d0880c85ed6688c3cd1c3cd85d60b50b2826ce4417a9"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "a8567f417387de7b0037cc72f10ada07e83719b9036d681ca1bbc7d48c9cef5d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "457bfc3164cb53dd003d40d953051ce453ea47cf7970c4859664bc753312529b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "a88a93c32a7a04a6a33982f5f487c584a72ade58826b7a78d9a9a3c3eb39b4ce"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "ec621a1d4587edaaab4f4318a3503214da1b49d59c7f8507cf1e495db24193ae"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "4711c5ddfe0f3a56f479cb8d408e9fa3989345ac918f96b81b10ce2e113f15a7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_011_PTBA_2025-10-30",
+      "ticker": "PTBA",
+      "decision_date": "2025-10-30",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "d6cda5ec96cd4f57059b70116c252309bdba9e324425ba12f644217d37362b90"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_012_ASII_2025-10-31",
+      "ticker": "ASII",
+      "decision_date": "2025-10-31",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "5947c6a5d7a999c38410fb8ff4029ee03a52e88792108ae14af47ddddaef6fa2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+      "ticker": "UNTR",
+      "decision_date": "2025-10-31",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "b106bf6d0fcbe245a895235343b0cf195981117b5c8eb649d29ae7970ead9f85"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+      "ticker": "UNTR",
+      "decision_date": "2025-11-03",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "234e929e641b59e583a07e585f28f0dc3ea7498e65dede985b53273daebd07bc"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_015_ASII_2025-12-02",
+      "ticker": "ASII",
+      "decision_date": "2025-12-02",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "90ccf2dd43c771a4d212429b5dab02b3f9502e8da8d361bc65db335f23140668"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+      "ticker": "UNTR",
+      "decision_date": "2025-12-02",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "4720bb9c3c214820d7d8b6bfc74bc13834990029654170ebc41a8a960fe14474"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+      "ticker": "BBNI",
+      "decision_date": "2025-12-18",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "565d52ebc65423f9c4c2b1c51392a47829a2d2fc6f57e9e1cfc5c7d4f1b74aa7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_018_ANTM_2026-01-05",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-05",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "8c6ab15f7f7f619905245f0e8ab4fc8d1a6b03097792f126507838b9f6d36042"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_019_INCO_2026-01-05",
+      "ticker": "INCO",
+      "decision_date": "2026-01-05",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "c1418acd357fd70a6ff8ec0edc0ac93ad06a8a57bac65f4ef6b0cf3a902f7ad2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_020_INCO_2026-01-06",
+      "ticker": "INCO",
+      "decision_date": "2026-01-06",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "374eb5b669266509797affd25e249ea126097b21ba3ba3a007024c4cc3d0d05f"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_021_ANTM_2026-01-07",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-07",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "5054c5ef82ec1ed90f881c832e67a3bab3630dfa19e7361008b29eb1900bcdf7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_022_INCO_2026-01-07",
+      "ticker": "INCO",
+      "decision_date": "2026-01-07",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "62c3a8b625e58e59a7a3c97d7edeabece401d996b54d60aa84d474bf398c6a8c"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_023_PTBA_2026-01-07",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-07",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "c6a0aa05634cfba7456d3f0fb9f5bdc44bcc9432e43f4e8c363fbd6a57f91b74"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_024_ANTM_2026-01-09",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-09",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "a180459304e51555027be3d54413bd750218be6f5cdb293f26217c9d36bf21d0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_025_PTBA_2026-01-13",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-13",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "b0aea9c019a69b2a21210285fbac6bb34e610ba41ea7b5681ab643c147a1d84a"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+      "ticker": "BBNI",
+      "decision_date": "2026-01-15",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "86459977fb026ffe072a323e37305ee4fc7289a271d2842f0bfbbf7a8788eeb1"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-15",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "17ead56440b46d9d558b7753142eb1e805e3a534ff0bc2a7d30b27e3c8f1847a"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+      "ticker": "BMRI",
+      "decision_date": "2026-01-15",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "fd7d2d6c8a5ceb4ce9103c829aadc0da70e5108aa5ce933de54d732798679d65"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_029_ANTM_2026-01-21",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-21",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "6145c4d672f72563983c754b06f187c53a08458886f72b0768513d8bdc73609e"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-22",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "1f41032f772b91063a147276e302b4dfd8aca603e2f26f229a04f8880622d99e"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-22",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "1b8fd1e1b050692060b355daf6df7ca181ae8739438b60a0261a93f7963247f4"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_032_PTBA_2026-01-22",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-22",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "ec2bca13084a8f119dce2061aba6247125547f8150d69d872ad11d2c604ba164"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-27",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "4e2e94b4b70c4ca0f23ba5dbcde4a4139129e5fac6d09ddbc33942718524cdc3"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-28",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "62527a77d9cfbed4133cbe717b281bb9be42ae9bb00c01e76bdcd1d8aad514ca"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_035_ANTM_2026-01-28",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-28",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "b81ee7c18f73938d1924140500c25cc31bc02bb59f60fcf30ff13d79943f2eb0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_036_ANTM_2026-01-29",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-29",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "014ac7ed1e3d31d6ed0d4cebec636959f6ae465010964ff7621d2bf38fa63c1d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-30",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "91e7fcea63e4662a57028cded2fa72254a841c75450a6e9db1a1501c8df42f00"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_038_PTBA_2026-02-19",
+      "ticker": "PTBA",
+      "decision_date": "2026-02-19",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "a4168f9e24b85334aa7c7edf925cc7974c48532a93818cff749d0012dc3c7568"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-02",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "8bdcf9cd81ee1df67a8ae4a5c4f6e6e8fbaeb10c86242682f12976becd3388d7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-02",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "6753355539058c9177caa57e47f113acf549d74c4566aa948bd46cb97abb9756"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-03",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "d33f025449351263f353f9a037b06abfff867440c050564e0c4c7983ba06f00c"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_042_PTBA_2026-03-03",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-03",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "e3ae65072968b5ab7f69aaeb77b6b1f27dfea2ea25f2da2ffb5dc53c7c9118fb"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-05",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "f2c876e4aa713cc79b9e359ed7d50c28bca5cd27a3eb9efcc3f350157d3e2b93"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_044_PTBA_2026-03-05",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-05",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "89ef76ed530911917025b61320d037ccdb6d42fe429088bbab841b3b38abb4a0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-12",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "3a567174ad2178f8bb1e1f3a2fcf2ced375220862e9311d874ccea01f0d7e906"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-25",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "c0d4836b25532a2409ba7fd4adef9fb34de66292c2d08cdfd9e3e279cdd73b1b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-25",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "593edecfa66c72ffa5b5a08d3cbd8da5dc0f00a0af928b06375f9e2e6f251389"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_048_PTBA_2026-03-25",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-25",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "9ff2d6217293b3ad06d5927f7c90f63f1d150b805d52b63c44888883d554708b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+      "ticker": "UNTR",
+      "decision_date": "2026-03-31",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "3d526384e2735fb54f8aef160d53b0bf2d8d899cc716fa5f949900828f1a4664"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+      "ticker": "UNTR",
+      "decision_date": "2026-04-10",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "7fd9ddc0402e0b4886daa6688ee8f155b4c74a3e928d8105ef7ff23cfeb2e834"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_051_INCO_2026-04-14",
+      "ticker": "INCO",
+      "decision_date": "2026-04-14",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "a311fdbc304f91d277141cbae88e2c6e8e7faf303ca827244a5f5654eec8475d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_052_INCO_2026-04-27",
+      "ticker": "INCO",
+      "decision_date": "2026-04-27",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "3f58a721a2c186fb8ded4e1ad776c7b51835df06253399886cbbcfb6fb4099ad"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-13",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "dc3e6c7b56b60f166076c81aa224a4cfa6d270d606f1e681fdaceacf11e9a30b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_054_BBCA_2026-07-17",
+      "ticker": "BBCA",
+      "decision_date": "2026-07-17",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "f7af56ebb9fb798257001cfb329f9bf586df777b6d29b4bc154dab492d257529"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-20",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "7feb62b25154c9e3ff6948d6e77be55b5d219ab6aeeae05c1d9012ea55288df4"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-20",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "79542579890b06b9ee7d728d0472da0f1f0c4dda9b20b8831227f9455452c20a"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_057_INCO_2026-07-24",
+      "ticker": "INCO",
+      "decision_date": "2026-07-24",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "9169410c11effe6f80bdebd28d209115f9a726b5470840da12e745944ec35c63"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "2b81ca79e60186171873cd1cdf22f23fe1b13bd86ec2d37fc7cdabbb5ddafe93"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "5a388e10c475da0fdfdaeca8b4d83999732f44fb1b47af2217a4500cc1855701"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_060_ANTM_2026-08-20",
+      "ticker": "ANTM",
+      "decision_date": "2026-08-20",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "f217197a15d1edbe8550d279cdc05b994b9e07b7519384a422fb569d70d7a95b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "fe15bf5d6300a73234133a4805d1dc34598b79387ddfafe3f816ebd34e6db84f"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "23171c9022d14f572864179f5eea8e9b4fd22f9638da1115e6db08c772529c81"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "6e6eff7031d40b9ae37cfc15da36e665382099fa364609e58a3bb2b970863406"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_064_PTBA_2026-08-24",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-24",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "f4b9df474cdb305b77a6e75828d9afd0a9b7c776ff7224fe716997be4b9771fd"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "ee3b58f3321387b1668244e89c3ae87a441e6f3ffa2f0c6987308847ac9b368d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "e49de52fcae1db75f3011aa42c9d8d3cbe745cafc9edd4a81d33faa57e99ad98"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "05c8f562255d404e98ccf39dacdd84a57b33fe8deb42647922d4b3b78f384729"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "25f755eed92dd470d0bdb2be9ad80ac4b1314930360fae5f91690af01f946a25"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_069_PTBA_2026-08-27",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-27",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "daba2a9565b23884cd86e2438e7db7dab56f5e04d4c5dcd81efde2dec7c3fac2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "82541809211acba8efaa37d9c51173cb00bdee0256323e1f411c5bfa1c8ea6a0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "81ec95680db991c784b7b0ec00f9f2def31773aea616aead5586bae007724ef2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "47ed60b36b2289f2ccd7844c5ac0fe54477b2cdafd6f2f36cdee133223aca3dd"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03",
+      "coverage_market": "READY",
+      "technical_setup": "LAYER_E_BREAKOUT",
+      "hks_hash": "18ead75b378bbc2dda7662dc8ebf1e6d4ff31e683dfc8c439c4d9934feeab040"
+    }
+  ],
+  "A1_peer": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "peer_group": [
+        "ASII"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "peer_group": [
+        "UNTR"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "peer_group": [
+        "UNTR"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "peer_group": [
+        "BBRI",
+        "BMRI",
+        "BBNI"
+      ],
+      "peer_count": 3,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_011_PTBA_2025-10-30",
+      "ticker": "PTBA",
+      "decision_date": "2025-10-30",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_012_ASII_2025-10-31",
+      "ticker": "ASII",
+      "decision_date": "2025-10-31",
+      "peer_group": [
+        "UNTR"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+      "ticker": "UNTR",
+      "decision_date": "2025-10-31",
+      "peer_group": [
+        "ASII"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+      "ticker": "UNTR",
+      "decision_date": "2025-11-03",
+      "peer_group": [
+        "ASII"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_015_ASII_2025-12-02",
+      "ticker": "ASII",
+      "decision_date": "2025-12-02",
+      "peer_group": [
+        "UNTR"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+      "ticker": "UNTR",
+      "decision_date": "2025-12-02",
+      "peer_group": [
+        "ASII"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+      "ticker": "BBNI",
+      "decision_date": "2025-12-18",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_018_ANTM_2026-01-05",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-05",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_019_INCO_2026-01-05",
+      "ticker": "INCO",
+      "decision_date": "2026-01-05",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_020_INCO_2026-01-06",
+      "ticker": "INCO",
+      "decision_date": "2026-01-06",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_021_ANTM_2026-01-07",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-07",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_022_INCO_2026-01-07",
+      "ticker": "INCO",
+      "decision_date": "2026-01-07",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_023_PTBA_2026-01-07",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-07",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_024_ANTM_2026-01-09",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-09",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_025_PTBA_2026-01-13",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-13",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+      "ticker": "BBNI",
+      "decision_date": "2026-01-15",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-15",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+      "ticker": "BMRI",
+      "decision_date": "2026-01-15",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_029_ANTM_2026-01-21",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-21",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-22",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-22",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_032_PTBA_2026-01-22",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-22",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-27",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-28",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_035_ANTM_2026-01-28",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-28",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_036_ANTM_2026-01-29",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-29",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-30",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_038_PTBA_2026-02-19",
+      "ticker": "PTBA",
+      "decision_date": "2026-02-19",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-02",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-02",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-03",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_042_PTBA_2026-03-03",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-03",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-05",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_044_PTBA_2026-03-05",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-05",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-12",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-25",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-25",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_048_PTBA_2026-03-25",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-25",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+      "ticker": "UNTR",
+      "decision_date": "2026-03-31",
+      "peer_group": [
+        "ASII"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+      "ticker": "UNTR",
+      "decision_date": "2026-04-10",
+      "peer_group": [
+        "ASII"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_051_INCO_2026-04-14",
+      "ticker": "INCO",
+      "decision_date": "2026-04-14",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_052_INCO_2026-04-27",
+      "ticker": "INCO",
+      "decision_date": "2026-04-27",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-13",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_054_BBCA_2026-07-17",
+      "ticker": "BBCA",
+      "decision_date": "2026-07-17",
+      "peer_group": [
+        "BBRI",
+        "BMRI",
+        "BBNI"
+      ],
+      "peer_count": 3,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-20",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-20",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_057_INCO_2026-07-24",
+      "ticker": "INCO",
+      "decision_date": "2026-07-24",
+      "peer_group": [
+        "ANTM"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_060_ANTM_2026-08-20",
+      "ticker": "ANTM",
+      "decision_date": "2026-08-20",
+      "peer_group": [
+        "INCO"
+      ],
+      "peer_count": 1,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_064_PTBA_2026-08-24",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-24",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_069_PTBA_2026-08-27",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-27",
+      "peer_group": [
+        "ADRO",
+        "ITMG"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31",
+      "peer_group": [
+        "ADRO",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03",
+      "peer_group": [
+        "ITMG",
+        "PTBA"
+      ],
+      "peer_count": 2,
+      "target_not_in_own_peer_group": true
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03",
+      "peer_group": [],
+      "peer_count": 0,
+      "target_not_in_own_peer_group": true
+    }
+  ],
+  "A2_exposure": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_011_PTBA_2025-10-30",
+      "ticker": "PTBA",
+      "decision_date": "2025-10-30",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_012_ASII_2025-10-31",
+      "ticker": "ASII",
+      "decision_date": "2025-10-31",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+      "ticker": "UNTR",
+      "decision_date": "2025-10-31",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+      "ticker": "UNTR",
+      "decision_date": "2025-11-03",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_015_ASII_2025-12-02",
+      "ticker": "ASII",
+      "decision_date": "2025-12-02",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+      "ticker": "UNTR",
+      "decision_date": "2025-12-02",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+      "ticker": "BBNI",
+      "decision_date": "2025-12-18",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_018_ANTM_2026-01-05",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-05",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_019_INCO_2026-01-05",
+      "ticker": "INCO",
+      "decision_date": "2026-01-05",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_020_INCO_2026-01-06",
+      "ticker": "INCO",
+      "decision_date": "2026-01-06",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_021_ANTM_2026-01-07",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-07",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_022_INCO_2026-01-07",
+      "ticker": "INCO",
+      "decision_date": "2026-01-07",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_023_PTBA_2026-01-07",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-07",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_024_ANTM_2026-01-09",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-09",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_025_PTBA_2026-01-13",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-13",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+      "ticker": "BBNI",
+      "decision_date": "2026-01-15",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-15",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+      "ticker": "BMRI",
+      "decision_date": "2026-01-15",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_029_ANTM_2026-01-21",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-21",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-22",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-22",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_032_PTBA_2026-01-22",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-22",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-27",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-28",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_035_ANTM_2026-01-28",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-28",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_036_ANTM_2026-01-29",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-29",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-30",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_038_PTBA_2026-02-19",
+      "ticker": "PTBA",
+      "decision_date": "2026-02-19",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-02",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-02",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-03",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_042_PTBA_2026-03-03",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-03",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-05",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_044_PTBA_2026-03-05",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-05",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-12",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-25",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-25",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_048_PTBA_2026-03-25",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-25",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+      "ticker": "UNTR",
+      "decision_date": "2026-03-31",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+      "ticker": "UNTR",
+      "decision_date": "2026-04-10",
+      "exposure_group": "HEAVY_EQUIPMENT",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_051_INCO_2026-04-14",
+      "ticker": "INCO",
+      "decision_date": "2026-04-14",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_052_INCO_2026-04-27",
+      "ticker": "INCO",
+      "decision_date": "2026-04-27",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-13",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_054_BBCA_2026-07-17",
+      "ticker": "BBCA",
+      "decision_date": "2026-07-17",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-20",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-20",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_057_INCO_2026-07-24",
+      "ticker": "INCO",
+      "decision_date": "2026-07-24",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_060_ANTM_2026-08-20",
+      "ticker": "ANTM",
+      "decision_date": "2026-08-20",
+      "exposure_group": "NICKEL_MINING",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_064_PTBA_2026-08-24",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-24",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_069_PTBA_2026-08-27",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-27",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03",
+      "exposure_group": "COAL_PRODUCER",
+      "is_commodity": true,
+      "commodity_classification": "COMMODITY_PRODUCER"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03",
+      "exposure_group": "BANKING_TIER1",
+      "is_commodity": false,
+      "commodity_classification": "NON_COMMODITY"
+    }
+  ],
+  "A3_evidence": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 41,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "353877c646ad730f1b90c2536fa029e60005c73beff14360a1b9d37ffd21cff7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 21,
+      "event_type": "GENERAL_DISCLOSURE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "14217a3e764910d64559fbb3757d40d733dec15806573619838fba47780c13e9"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 21,
+      "event_type": "GENERAL_DISCLOSURE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "363e9204e34e69f39f8b4efac1c512aaae01bf2618ce1e0e00fe43ae11ad347b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 21,
+      "event_type": "GENERAL_DISCLOSURE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "3dfe6a4666d834974509224602c37be2ee2e45a14d03ff6f86f56c7e51fdd394"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 21,
+      "event_type": "GENERAL_DISCLOSURE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "179dc2fd88d656ea0f58d0880c85ed6688c3cd1c3cd85d60b50b2826ce4417a9"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 46,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "a8567f417387de7b0037cc72f10ada07e83719b9036d681ca1bbc7d48c9cef5d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 46,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "457bfc3164cb53dd003d40d953051ce453ea47cf7970c4859664bc753312529b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 46,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "a88a93c32a7a04a6a33982f5f487c584a72ade58826b7a78d9a9a3c3eb39b4ce"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 34,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "ec621a1d4587edaaab4f4318a3503214da1b49d59c7f8507cf1e495db24193ae"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 37,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "4711c5ddfe0f3a56f479cb8d408e9fa3989345ac918f96b81b10ce2e113f15a7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_011_PTBA_2025-10-30",
+      "ticker": "PTBA",
+      "decision_date": "2025-10-30",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 29,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "d6cda5ec96cd4f57059b70116c252309bdba9e324425ba12f644217d37362b90"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_012_ASII_2025-10-31",
+      "ticker": "ASII",
+      "decision_date": "2025-10-31",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 47,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "5947c6a5d7a999c38410fb8ff4029ee03a52e88792108ae14af47ddddaef6fa2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+      "ticker": "UNTR",
+      "decision_date": "2025-10-31",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 45,
+      "event_type": "DISCLOSURE_CONTRACT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "b106bf6d0fcbe245a895235343b0cf195981117b5c8eb649d29ae7970ead9f85"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+      "ticker": "UNTR",
+      "decision_date": "2025-11-03",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 45,
+      "event_type": "DISCLOSURE_CONTRACT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "234e929e641b59e583a07e585f28f0dc3ea7498e65dede985b53273daebd07bc"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_015_ASII_2025-12-02",
+      "ticker": "ASII",
+      "decision_date": "2025-12-02",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 47,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "90ccf2dd43c771a4d212429b5dab02b3f9502e8da8d361bc65db335f23140668"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+      "ticker": "UNTR",
+      "decision_date": "2025-12-02",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 45,
+      "event_type": "DISCLOSURE_CONTRACT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "4720bb9c3c214820d7d8b6bfc74bc13834990029654170ebc41a8a960fe14474"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+      "ticker": "BBNI",
+      "decision_date": "2025-12-18",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 25,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "565d52ebc65423f9c4c2b1c51392a47829a2d2fc6f57e9e1cfc5c7d4f1b74aa7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_018_ANTM_2026-01-05",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-05",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 19,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "8c6ab15f7f7f619905245f0e8ab4fc8d1a6b03097792f126507838b9f6d36042"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_019_INCO_2026-01-05",
+      "ticker": "INCO",
+      "decision_date": "2026-01-05",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 22,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "c1418acd357fd70a6ff8ec0edc0ac93ad06a8a57bac65f4ef6b0cf3a902f7ad2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_020_INCO_2026-01-06",
+      "ticker": "INCO",
+      "decision_date": "2026-01-06",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 23,
+      "event_type": "REGULATORY_GOVERNMENT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "374eb5b669266509797affd25e249ea126097b21ba3ba3a007024c4cc3d0d05f"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_021_ANTM_2026-01-07",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-07",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 21,
+      "event_type": "DISCLOSURE_OPERATIONAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "5054c5ef82ec1ed90f881c832e67a3bab3630dfa19e7361008b29eb1900bcdf7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_022_INCO_2026-01-07",
+      "ticker": "INCO",
+      "decision_date": "2026-01-07",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 23,
+      "event_type": "REGULATORY_GOVERNMENT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "62c3a8b625e58e59a7a3c97d7edeabece401d996b54d60aa84d474bf398c6a8c"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_023_PTBA_2026-01-07",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-07",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 29,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "c6a0aa05634cfba7456d3f0fb9f5bdc44bcc9432e43f4e8c363fbd6a57f91b74"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_024_ANTM_2026-01-09",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-09",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 22,
+      "event_type": "DISCLOSURE_GUIDANCE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "a180459304e51555027be3d54413bd750218be6f5cdb293f26217c9d36bf21d0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_025_PTBA_2026-01-13",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-13",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 29,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "b0aea9c019a69b2a21210285fbac6bb34e610ba41ea7b5681ab643c147a1d84a"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+      "ticker": "BBNI",
+      "decision_date": "2026-01-15",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 25,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "86459977fb026ffe072a323e37305ee4fc7289a271d2842f0bfbbf7a8788eeb1"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-15",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 31,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "17ead56440b46d9d558b7753142eb1e805e3a534ff0bc2a7d30b27e3c8f1847a"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+      "ticker": "BMRI",
+      "decision_date": "2026-01-15",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 30,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "fd7d2d6c8a5ceb4ce9103c829aadc0da70e5108aa5ce933de54d732798679d65"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_029_ANTM_2026-01-21",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-21",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 22,
+      "event_type": "DISCLOSURE_GUIDANCE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "6145c4d672f72563983c754b06f187c53a08458886f72b0768513d8bdc73609e"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-22",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 38,
+      "event_type": "REGULATORY_GOVERNMENT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "1f41032f772b91063a147276e302b4dfd8aca603e2f26f229a04f8880622d99e"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-22",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 39,
+      "event_type": "DISCLOSURE_OPERATIONAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "1b8fd1e1b050692060b355daf6df7ca181ae8739438b60a0261a93f7963247f4"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_032_PTBA_2026-01-22",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-22",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 31,
+      "event_type": "REGULATORY_GOVERNMENT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "ec2bca13084a8f119dce2061aba6247125547f8150d69d872ad11d2c604ba164"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-27",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 39,
+      "event_type": "DISCLOSURE_OPERATIONAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "4e2e94b4b70c4ca0f23ba5dbcde4a4139129e5fac6d09ddbc33942718524cdc3"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-28",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 38,
+      "event_type": "REGULATORY_GOVERNMENT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "62527a77d9cfbed4133cbe717b281bb9be42ae9bb00c01e76bdcd1d8aad514ca"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_035_ANTM_2026-01-28",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-28",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 22,
+      "event_type": "DISCLOSURE_GUIDANCE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "b81ee7c18f73938d1924140500c25cc31bc02bb59f60fcf30ff13d79943f2eb0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_036_ANTM_2026-01-29",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-29",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 22,
+      "event_type": "DISCLOSURE_GUIDANCE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "014ac7ed1e3d31d6ed0d4cebec636959f6ae465010964ff7621d2bf38fa63c1d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-30",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 31,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "91e7fcea63e4662a57028cded2fa72254a841c75450a6e9db1a1501c8df42f00"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_038_PTBA_2026-02-19",
+      "ticker": "PTBA",
+      "decision_date": "2026-02-19",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 31,
+      "event_type": "REGULATORY_GOVERNMENT",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "a4168f9e24b85334aa7c7edf925cc7974c48532a93818cff749d0012dc3c7568"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-02",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 39,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "8bdcf9cd81ee1df67a8ae4a5c4f6e6e8fbaeb10c86242682f12976becd3388d7"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-02",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "6753355539058c9177caa57e47f113acf549d74c4566aa948bd46cb97abb9756"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-03",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "d33f025449351263f353f9a037b06abfff867440c050564e0c4c7983ba06f00c"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_042_PTBA_2026-03-03",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-03",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 32,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "e3ae65072968b5ab7f69aaeb77b6b1f27dfea2ea25f2da2ffb5dc53c7c9118fb"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-05",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "f2c876e4aa713cc79b9e359ed7d50c28bca5cd27a3eb9efcc3f350157d3e2b93"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_044_PTBA_2026-03-05",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-05",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 32,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "89ef76ed530911917025b61320d037ccdb6d42fe429088bbab841b3b38abb4a0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-12",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "3a567174ad2178f8bb1e1f3a2fcf2ced375220862e9311d874ccea01f0d7e906"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-25",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 39,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "c0d4836b25532a2409ba7fd4adef9fb34de66292c2d08cdfd9e3e279cdd73b1b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-25",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "593edecfa66c72ffa5b5a08d3cbd8da5dc0f00a0af928b06375f9e2e6f251389"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_048_PTBA_2026-03-25",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-25",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 32,
+      "event_type": "DISCLOSURE_FINANCIAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "9ff2d6217293b3ad06d5927f7c90f63f1d150b805d52b63c44888883d554708b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+      "ticker": "UNTR",
+      "decision_date": "2026-03-31",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 46,
+      "event_type": "DISCLOSURE_OPERATIONAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "3d526384e2735fb54f8aef160d53b0bf2d8d899cc716fa5f949900828f1a4664"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+      "ticker": "UNTR",
+      "decision_date": "2026-04-10",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 46,
+      "event_type": "DISCLOSURE_OPERATIONAL",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "7fd9ddc0402e0b4886daa6688ee8f155b4c74a3e928d8105ef7ff23cfeb2e834"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_051_INCO_2026-04-14",
+      "ticker": "INCO",
+      "decision_date": "2026-04-14",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 24,
+      "event_type": "GENERAL_DISCLOSURE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "a311fdbc304f91d277141cbae88e2c6e8e7faf303ca827244a5f5654eec8475d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_052_INCO_2026-04-27",
+      "ticker": "INCO",
+      "decision_date": "2026-04-27",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 24,
+      "event_type": "GENERAL_DISCLOSURE",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "3f58a721a2c186fb8ded4e1ad776c7b51835df06253399886cbbcfb6fb4099ad"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-13",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "dc3e6c7b56b60f166076c81aa224a4cfa6d270d606f1e681fdaceacf11e9a30b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_054_BBCA_2026-07-17",
+      "ticker": "BBCA",
+      "decision_date": "2026-07-17",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 49,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "f7af56ebb9fb798257001cfb329f9bf586df777b6d29b4bc154dab492d257529"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-20",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 40,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "7feb62b25154c9e3ff6948d6e77be55b5d219ab6aeeae05c1d9012ea55288df4"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-20",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 41,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "79542579890b06b9ee7d728d0472da0f1f0c4dda9b20b8831227f9455452c20a"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_057_INCO_2026-07-24",
+      "ticker": "INCO",
+      "decision_date": "2026-07-24",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 25,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "9169410c11effe6f80bdebd28d209115f9a726b5470840da12e745944ec35c63"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 41,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "2b81ca79e60186171873cd1cdf22f23fe1b13bd86ec2d37fc7cdabbb5ddafe93"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 26,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "5a388e10c475da0fdfdaeca8b4d83999732f44fb1b47af2217a4500cc1855701"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_060_ANTM_2026-08-20",
+      "ticker": "ANTM",
+      "decision_date": "2026-08-20",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 23,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "f217197a15d1edbe8550d279cdc05b994b9e07b7519384a422fb569d70d7a95b"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 26,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "fe15bf5d6300a73234133a4805d1dc34598b79387ddfafe3f816ebd34e6db84f"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 32,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "23171c9022d14f572864179f5eea8e9b4fd22f9638da1115e6db08c772529c81"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 40,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "6e6eff7031d40b9ae37cfc15da36e665382099fa364609e58a3bb2b970863406"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_064_PTBA_2026-08-24",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-24",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 33,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "f4b9df474cdb305b77a6e75828d9afd0a9b7c776ff7224fe716997be4b9771fd"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 40,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "ee3b58f3321387b1668244e89c3ae87a441e6f3ffa2f0c6987308847ac9b368d"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 41,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "e49de52fcae1db75f3011aa42c9d8d3cbe745cafc9edd4a81d33faa57e99ad98"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 40,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "05c8f562255d404e98ccf39dacdd84a57b33fe8deb42647922d4b3b78f384729"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 41,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "25f755eed92dd470d0bdb2be9ad80ac4b1314930360fae5f91690af01f946a25"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_069_PTBA_2026-08-27",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-27",
+      "evidence_status": "EVIDENCE_PRESENT",
+      "evidence_count": 33,
+      "event_type": "CORPORATE_ACTION",
+      "source_id": "DATASET_V2",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "daba2a9565b23884cd86e2438e7db7dab56f5e04d4c5dcd81efde2dec7c3fac2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 41,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "82541809211acba8efaa37d9c51173cb00bdee0256323e1f411c5bfa1c8ea6a0"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 31,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "81ec95680db991c784b7b0ec00f9f2def31773aea616aead5586bae007724ef2"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 40,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "47ed60b36b2289f2ccd7844c5ac0fe54477b2cdafd6f2f36cdee133223aca3dd"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03",
+      "evidence_status": "NO_EVIDENCE_IN_DATASET",
+      "evidence_count": 32,
+      "event_type": "NO_EVENT_RECORDED",
+      "source_id": "NOT_AVAILABLE",
+      "pit_status": "PIT_VALID",
+      "hks_hash": "18ead75b378bbc2dda7662dc8ebf1e6d4ff31e683dfc8c439c4d9934feeab040"
+    }
+  ],
+  "A4_agent2": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for UNTR.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure GENERAL_DISCLOSURE observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure GENERAL_DISCLOSURE observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure GENERAL_DISCLOSURE observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure GENERAL_DISCLOSURE observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ASII.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ASII.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for BBCA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_011_PTBA_2025-10-30",
+      "ticker": "PTBA",
+      "decision_date": "2025-10-30",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_012_ASII_2025-10-31",
+      "ticker": "ASII",
+      "decision_date": "2025-10-31",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ASII.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+      "ticker": "UNTR",
+      "decision_date": "2025-10-31",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_CONTRACT observed for UNTR.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+      "ticker": "UNTR",
+      "decision_date": "2025-11-03",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_CONTRACT observed for UNTR.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_015_ASII_2025-12-02",
+      "ticker": "ASII",
+      "decision_date": "2025-12-02",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ASII.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+      "ticker": "UNTR",
+      "decision_date": "2025-12-02",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_CONTRACT observed for UNTR.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+      "ticker": "BBNI",
+      "decision_date": "2025-12-18",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for BBNI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_018_ANTM_2026-01-05",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-05",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_019_INCO_2026-01-05",
+      "ticker": "INCO",
+      "decision_date": "2026-01-05",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_020_INCO_2026-01-06",
+      "ticker": "INCO",
+      "decision_date": "2026-01-06",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure REGULATORY_GOVERNMENT observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_021_ANTM_2026-01-07",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-07",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_OPERATIONAL observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_022_INCO_2026-01-07",
+      "ticker": "INCO",
+      "decision_date": "2026-01-07",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure REGULATORY_GOVERNMENT observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_023_PTBA_2026-01-07",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-07",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_024_ANTM_2026-01-09",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-09",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_GUIDANCE observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_025_PTBA_2026-01-13",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-13",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+      "ticker": "BBNI",
+      "decision_date": "2026-01-15",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for BBNI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-15",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBRI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+      "ticker": "BMRI",
+      "decision_date": "2026-01-15",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BMRI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_029_ANTM_2026-01-21",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-21",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_GUIDANCE observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-22",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure REGULATORY_GOVERNMENT observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-22",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_OPERATIONAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_032_PTBA_2026-01-22",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-22",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure REGULATORY_GOVERNMENT observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-27",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_OPERATIONAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-28",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure REGULATORY_GOVERNMENT observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_035_ANTM_2026-01-28",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-28",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_GUIDANCE observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_036_ANTM_2026-01-29",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-29",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_GUIDANCE observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-30",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBRI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_038_PTBA_2026-02-19",
+      "ticker": "PTBA",
+      "decision_date": "2026-02-19",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure REGULATORY_GOVERNMENT observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-02",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-02",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-03",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_042_PTBA_2026-03-03",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-03",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-05",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_044_PTBA_2026-03-05",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-05",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-12",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-25",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-25",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_048_PTBA_2026-03-25",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-25",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_FINANCIAL observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+      "ticker": "UNTR",
+      "decision_date": "2026-03-31",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_OPERATIONAL observed for UNTR.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+      "ticker": "UNTR",
+      "decision_date": "2026-04-10",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure DISCLOSURE_OPERATIONAL observed for UNTR.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_051_INCO_2026-04-14",
+      "ticker": "INCO",
+      "decision_date": "2026-04-14",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure GENERAL_DISCLOSURE observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_052_INCO_2026-04-27",
+      "ticker": "INCO",
+      "decision_date": "2026-04-27",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure GENERAL_DISCLOSURE observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-13",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_054_BBCA_2026-07-17",
+      "ticker": "BBCA",
+      "decision_date": "2026-07-17",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBCA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-20",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-20",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_057_INCO_2026-07-24",
+      "ticker": "INCO",
+      "decision_date": "2026-07-24",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for INCO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBNI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_060_ANTM_2026-08-20",
+      "ticker": "ANTM",
+      "decision_date": "2026-08-20",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ANTM.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBNI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBRI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_064_PTBA_2026-08-24",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-24",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_069_PTBA_2026-08-27",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-27",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for PTBA.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ITMG.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BMRI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for ADRO.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03",
+      "information_state": "FACT",
+      "information_delta": "NEW",
+      "differential_status": "COMPANY_SPECIFIC_CANDIDATE",
+      "thesis": "PIT Disclosure CORPORATE_ACTION observed for BBRI.",
+      "confidence": "MEDIUM",
+      "research_status": "OBSERVATION"
+    }
+  ],
+  "A5_redteam": [
+    {
+      "setup_id": "SETUP_ZZZ112_001_UNTR_2025-09-09",
+      "ticker": "UNTR",
+      "decision_date": "2025-09-09",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_002_INCO_2025-09-22",
+      "ticker": "INCO",
+      "decision_date": "2025-09-22",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_003_INCO_2025-09-29",
+      "ticker": "INCO",
+      "decision_date": "2025-09-29",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_004_INCO_2025-09-30",
+      "ticker": "INCO",
+      "decision_date": "2025-09-30",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_005_INCO_2025-10-08",
+      "ticker": "INCO",
+      "decision_date": "2025-10-08",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_006_ASII_2025-10-23",
+      "ticker": "ASII",
+      "decision_date": "2025-10-23",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_007_ASII_2025-10-27",
+      "ticker": "ASII",
+      "decision_date": "2025-10-27",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_008_BBCA_2025-10-29",
+      "ticker": "BBCA",
+      "decision_date": "2025-10-29",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_009_ADRO_2025-10-30",
+      "ticker": "ADRO",
+      "decision_date": "2025-10-30",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_010_ITMG_2025-10-30",
+      "ticker": "ITMG",
+      "decision_date": "2025-10-30",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_011_PTBA_2025-10-30",
+      "ticker": "PTBA",
+      "decision_date": "2025-10-30",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_012_ASII_2025-10-31",
+      "ticker": "ASII",
+      "decision_date": "2025-10-31",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_013_UNTR_2025-10-31",
+      "ticker": "UNTR",
+      "decision_date": "2025-10-31",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_014_UNTR_2025-11-03",
+      "ticker": "UNTR",
+      "decision_date": "2025-11-03",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_015_ASII_2025-12-02",
+      "ticker": "ASII",
+      "decision_date": "2025-12-02",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_016_UNTR_2025-12-02",
+      "ticker": "UNTR",
+      "decision_date": "2025-12-02",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_017_BBNI_2025-12-18",
+      "ticker": "BBNI",
+      "decision_date": "2025-12-18",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_018_ANTM_2026-01-05",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-05",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_019_INCO_2026-01-05",
+      "ticker": "INCO",
+      "decision_date": "2026-01-05",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_020_INCO_2026-01-06",
+      "ticker": "INCO",
+      "decision_date": "2026-01-06",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_021_ANTM_2026-01-07",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-07",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_022_INCO_2026-01-07",
+      "ticker": "INCO",
+      "decision_date": "2026-01-07",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_023_PTBA_2026-01-07",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-07",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_024_ANTM_2026-01-09",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-09",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_025_PTBA_2026-01-13",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-13",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_026_BBNI_2026-01-15",
+      "ticker": "BBNI",
+      "decision_date": "2026-01-15",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_027_BBRI_2026-01-15",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-15",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_028_BMRI_2026-01-15",
+      "ticker": "BMRI",
+      "decision_date": "2026-01-15",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_029_ANTM_2026-01-21",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-21",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_030_ADRO_2026-01-22",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-22",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_031_ITMG_2026-01-22",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-22",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_032_PTBA_2026-01-22",
+      "ticker": "PTBA",
+      "decision_date": "2026-01-22",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_033_ITMG_2026-01-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-01-27",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_034_ADRO_2026-01-28",
+      "ticker": "ADRO",
+      "decision_date": "2026-01-28",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_035_ANTM_2026-01-28",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-28",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_036_ANTM_2026-01-29",
+      "ticker": "ANTM",
+      "decision_date": "2026-01-29",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_037_BBRI_2026-01-30",
+      "ticker": "BBRI",
+      "decision_date": "2026-01-30",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_038_PTBA_2026-02-19",
+      "ticker": "PTBA",
+      "decision_date": "2026-02-19",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_039_ADRO_2026-03-02",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-02",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_040_ITMG_2026-03-02",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-02",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_041_ITMG_2026-03-03",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-03",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_042_PTBA_2026-03-03",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-03",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_043_ITMG_2026-03-05",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-05",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_044_PTBA_2026-03-05",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-05",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_045_ITMG_2026-03-12",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-12",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_046_ADRO_2026-03-25",
+      "ticker": "ADRO",
+      "decision_date": "2026-03-25",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_047_ITMG_2026-03-25",
+      "ticker": "ITMG",
+      "decision_date": "2026-03-25",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_048_PTBA_2026-03-25",
+      "ticker": "PTBA",
+      "decision_date": "2026-03-25",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_049_UNTR_2026-03-31",
+      "ticker": "UNTR",
+      "decision_date": "2026-03-31",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_050_UNTR_2026-04-10",
+      "ticker": "UNTR",
+      "decision_date": "2026-04-10",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_051_INCO_2026-04-14",
+      "ticker": "INCO",
+      "decision_date": "2026-04-14",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_052_INCO_2026-04-27",
+      "ticker": "INCO",
+      "decision_date": "2026-04-27",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_053_ADRO_2026-07-13",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-13",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_054_BBCA_2026-07-17",
+      "ticker": "BBCA",
+      "decision_date": "2026-07-17",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_055_ADRO_2026-07-20",
+      "ticker": "ADRO",
+      "decision_date": "2026-07-20",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_056_ITMG_2026-07-20",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-20",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_057_INCO_2026-07-24",
+      "ticker": "INCO",
+      "decision_date": "2026-07-24",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_058_ITMG_2026-07-30",
+      "ticker": "ITMG",
+      "decision_date": "2026-07-30",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_059_BBNI_2026-08-04",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-04",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_060_ANTM_2026-08-20",
+      "ticker": "ANTM",
+      "decision_date": "2026-08-20",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_061_BBNI_2026-08-21",
+      "ticker": "BBNI",
+      "decision_date": "2026-08-21",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_062_BBRI_2026-08-21",
+      "ticker": "BBRI",
+      "decision_date": "2026-08-21",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_063_ADRO_2026-08-24",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-24",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_064_PTBA_2026-08-24",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-24",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_065_ADRO_2026-08-26",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-26",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_066_ITMG_2026-08-26",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-26",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_067_ADRO_2026-08-27",
+      "ticker": "ADRO",
+      "decision_date": "2026-08-27",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_068_ITMG_2026-08-27",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-27",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_069_PTBA_2026-08-27",
+      "ticker": "PTBA",
+      "decision_date": "2026-08-27",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_070_ITMG_2026-08-31",
+      "ticker": "ITMG",
+      "decision_date": "2026-08-31",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_071_BMRI_2026-09-01",
+      "ticker": "BMRI",
+      "decision_date": "2026-09-01",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_072_ADRO_2026-09-03",
+      "ticker": "ADRO",
+      "decision_date": "2026-09-03",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    },
+    {
+      "setup_id": "SETUP_ZZZ112_073_BBRI_2026-09-03",
+      "ticker": "BBRI",
+      "decision_date": "2026-09-03",
+      "contradicting_evidence_count": 0,
+      "alternative_explanations_count": 1,
+      "invalidation_conditions_count": 1,
+      "red_team_verdict": "PASS",
+      "governance_status": "VALIDATED"
+    }
+  ]
+}

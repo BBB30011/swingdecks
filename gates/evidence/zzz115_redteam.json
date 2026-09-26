@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "01_sample_contamination": "PASS (Exact 12-ticker pilot universe verified; 0 external tickers)",
+    "02_ticker_drift": "PASS (Canonical sample lock strictly maintained)",
+    "03_permutation_metadata": "PASS (Reconciled: N=10,000, seed=42, canonical p=0.0330)",
+    "04_endpoint_drift": "PASS (H5 peer excess strictly preserved as single primary endpoint)",
+    "05_joint_model_specification": "PASS (Evaluated M0 to J4 hierarchically without cherry-picking)",
+    "06_multicollinearity": "PASS (VIF < 3.5, Condition Number = 3.65; sector nesting properly aliased)",
+    "07_common_support": "PASS (Evaluated and bounded via standardized mean difference diagnostics)",
+    "08_selection_bias": "PASS (Propensity model estimated strictly from pre-T variables)",
+    "09_missingness": "PASS (NO_EVIDENCE_IN_DATASET preserved as unobserved; SECTOR_ASSOCIATED_MISSINGNESS confirmed)",
+    "10_source_availability": "PASS (Uniform scraping/API availability confirmed; no artificial negative control fabricated)",
+    "11_event_novelty": "PASS (Outcome-blind novelty mapping: 100% confirmation / partial novelty)",
+    "12_publication_timing": "PASS (100% pre-T morning / prior day publication confirmed)",
+    "13_pre_trend": "PASS (Pre-trend trajectory controlled across [-20,-10], [-10,-5], [-5,-1])",
+    "14_placebo": "PASS (Pre-trend matched placebo confirmed timing delta = +0.10 pp)",
+    "15_same_company_comparison": "PASS (Evaluated across all dual-arm tickers; small-N flagged UNDERPOWERED)",
+    "16_commodity_date_confounding": "PASS (Evaluated in J1-J3; commodity concentration documented)",
+    "17_peer_state_control": "PASS (Pre-T peer return and dispersion controlled in J3)",
+    "18_multiple_testing": "PASS (Single primary endpoint; all others secondary/exploratory)",
+    "19_small_n_inference": "PASS (Sub-groups with N <= 2 explicitly flagged as UNDERPOWERED)",
+    "20_causal_overclaim": "PASS (Causal identification strictly NOT_ESTABLISHED; Level 1 maintained)"
+  },
+  "overall_status": "PASS",
+  "total_checks": 20,
+  "passed_checks": 20
+}

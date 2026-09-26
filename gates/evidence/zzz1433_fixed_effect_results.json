@@ -1,0 +1,475 @@
+{
+  "total_tickers": 11,
+  "tickers_with_within_contrast_count": 6,
+  "tickers_with_within_contrast": [
+    "UNTR",
+    "ADRO",
+    "ITMG",
+    "BBNI",
+    "BBRI",
+    "BMRI"
+  ],
+  "total_dates": 49,
+  "dates_with_within_contrast_count": 2,
+  "dates_with_within_contrast": [
+    "2026-08-24",
+    "2026-08-27"
+  ],
+  "ticker_records": [
+    {
+      "ticker": "UNTR",
+      "total_n": 6,
+      "treatment_n": 5,
+      "control_n": 1,
+      "has_within_ticker_contrast": true,
+      "treatment_mean_h5": 0.7243150762870121,
+      "control_mean_h5": -4.100678733031671,
+      "within_ticker_diff_pp": 4.824993809318683
+    },
+    {
+      "ticker": "INCO",
+      "total_n": 10,
+      "treatment_n": 10,
+      "control_n": 0,
+      "has_within_ticker_contrast": false,
+      "treatment_mean_h5": 2.5086314586021117,
+      "control_mean_h5": NaN,
+      "within_ticker_diff_pp": NaN
+    },
+    {
+      "ticker": "ASII",
+      "total_n": 4,
+      "treatment_n": 4,
+      "control_n": 0,
+      "has_within_ticker_contrast": false,
+      "treatment_mean_h5": -1.591282027504201,
+      "control_mean_h5": NaN,
+      "within_ticker_diff_pp": NaN
+    },
+    {
+      "ticker": "BBCA",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_ticker_contrast": false,
+      "treatment_mean_h5": -0.21626324557639987,
+      "control_mean_h5": NaN,
+      "within_ticker_diff_pp": NaN
+    },
+    {
+      "ticker": "ADRO",
+      "total_n": 11,
+      "treatment_n": 7,
+      "control_n": 4,
+      "has_within_ticker_contrast": true,
+      "treatment_mean_h5": -2.9183134506576525,
+      "control_mean_h5": -4.35796692547891,
+      "within_ticker_diff_pp": 1.4396534748212573
+    },
+    {
+      "ticker": "ITMG",
+      "total_n": 13,
+      "treatment_n": 9,
+      "control_n": 4,
+      "has_within_ticker_contrast": true,
+      "treatment_mean_h5": 5.220693567453641,
+      "control_mean_h5": -3.4694627283098787,
+      "within_ticker_diff_pp": 8.69015629576352
+    },
+    {
+      "ticker": "PTBA",
+      "total_n": 10,
+      "treatment_n": 10,
+      "control_n": 0,
+      "has_within_ticker_contrast": false,
+      "treatment_mean_h5": 0.06409216390301413,
+      "control_mean_h5": NaN,
+      "within_ticker_diff_pp": NaN
+    },
+    {
+      "ticker": "BBNI",
+      "total_n": 4,
+      "treatment_n": 2,
+      "control_n": 2,
+      "has_within_ticker_contrast": true,
+      "treatment_mean_h5": 0.5857617120988035,
+      "control_mean_h5": 0.08797714914393806,
+      "within_ticker_diff_pp": 0.4977845629548654
+    },
+    {
+      "ticker": "ANTM",
+      "total_n": 7,
+      "treatment_n": 7,
+      "control_n": 0,
+      "has_within_ticker_contrast": false,
+      "treatment_mean_h5": -1.571116980961962,
+      "control_mean_h5": NaN,
+      "within_ticker_diff_pp": NaN
+    },
+    {
+      "ticker": "BBRI",
+      "total_n": 4,
+      "treatment_n": 2,
+      "control_n": 2,
+      "has_within_ticker_contrast": true,
+      "treatment_mean_h5": -0.9072468059685403,
+      "control_mean_h5": -0.47460764465350747,
+      "within_ticker_diff_pp": -0.4326391613150329
+    },
+    {
+      "ticker": "BMRI",
+      "total_n": 2,
+      "treatment_n": 1,
+      "control_n": 1,
+      "has_within_ticker_contrast": true,
+      "treatment_mean_h5": 1.0520772258390023,
+      "control_mean_h5": 1.8716504293427416,
+      "within_ticker_diff_pp": -0.8195732035037393
+    }
+  ],
+  "date_records": [
+    {
+      "decision_date": "2025-09-09",
+      "total_n": 1,
+      "treatment_n": 0,
+      "control_n": 1,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-09-22",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-09-29",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-09-30",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-10-08",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-10-23",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-10-27",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-10-29",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-10-30",
+      "total_n": 3,
+      "treatment_n": 3,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-10-31",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-11-03",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-12-02",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2025-12-18",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-05",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-06",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-07",
+      "total_n": 3,
+      "treatment_n": 3,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-09",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-13",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-15",
+      "total_n": 3,
+      "treatment_n": 3,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-21",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-22",
+      "total_n": 3,
+      "treatment_n": 3,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-27",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-28",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-29",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-01-30",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-02-19",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-03-02",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-03-03",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-03-05",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-03-12",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-03-25",
+      "total_n": 3,
+      "treatment_n": 3,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-03-31",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-04-10",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-04-14",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-04-27",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-07-13",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-07-17",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-07-20",
+      "total_n": 2,
+      "treatment_n": 2,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-07-24",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-07-30",
+      "total_n": 1,
+      "treatment_n": 0,
+      "control_n": 1,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-08-04",
+      "total_n": 1,
+      "treatment_n": 0,
+      "control_n": 1,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-08-20",
+      "total_n": 1,
+      "treatment_n": 1,
+      "control_n": 0,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-08-21",
+      "total_n": 2,
+      "treatment_n": 0,
+      "control_n": 2,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-08-24",
+      "total_n": 2,
+      "treatment_n": 1,
+      "control_n": 1,
+      "has_within_date_contrast": true
+    },
+    {
+      "decision_date": "2026-08-26",
+      "total_n": 2,
+      "treatment_n": 0,
+      "control_n": 2,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-08-27",
+      "total_n": 3,
+      "treatment_n": 1,
+      "control_n": 2,
+      "has_within_date_contrast": true
+    },
+    {
+      "decision_date": "2026-08-31",
+      "total_n": 1,
+      "treatment_n": 0,
+      "control_n": 1,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-09-01",
+      "total_n": 1,
+      "treatment_n": 0,
+      "control_n": 1,
+      "has_within_date_contrast": false
+    },
+    {
+      "decision_date": "2026-09-03",
+      "total_n": 2,
+      "treatment_n": 0,
+      "control_n": 2,
+      "has_within_date_contrast": false
+    }
+  ]
+}

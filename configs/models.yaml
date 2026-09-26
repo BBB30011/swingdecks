@@ -1,0 +1,20 @@
+models:
+  agent1_quant:
+    provider: "antigravity"
+    model: "gemini-3.8-flash"
+    purpose: "quant_and_market_scanner"
+
+  agent2_intelligence:
+    provider: "antigravity"
+    model: "gemini-3.8-flash"
+    purpose: "market_intelligence_and_red_team"
+
+  agent3_committee:
+    provider: "antigravity"
+    model: "claude-opus-4.6-thinking"
+    purpose: "investment_committee_and_final_review"
+
+  verification:
+    provider: "antigravity"
+    model: "gemini-3.1-pro"
+    purpose: "independent_verification"

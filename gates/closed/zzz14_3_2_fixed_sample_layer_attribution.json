@@ -1,0 +1,469 @@
+{
+  "batch": "ZZZ.14.3.2",
+  "verdict": "MEASUREMENT_FOUNDATION_PASS",
+  "gate_decision": "PASS \u2014 ZZZ.14.3.2 COMPLETE",
+  "next_research_eligibility": "ALLOWED",
+  "manifest_summary": {
+    "batch": "ZZZ.14.3.2",
+    "experiment": "Fixed-Sample Layer Attribution & Agent 2 Measurement Gate",
+    "total_canonical_observations": 73,
+    "evidence_count": 59,
+    "unobserved_count": 14,
+    "commodity_count": 51,
+    "non_commodity_count": 22,
+    "unique_tickers_count": 11,
+    "unique_dates_count": 49,
+    "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "manifest_hash_verified": true,
+    "timestamp": "2026-09-27T00:02:42.962198"
+  },
+  "information_variation_audit": {
+    "field_summaries": {
+      "agent2_confidence": {
+        "field_name": "agent2_confidence",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "MEDIUM": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      },
+      "agent2_research_status": {
+        "field_name": "agent2_research_status",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "OBSERVATION": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      },
+      "agent2_information_state": {
+        "field_name": "agent2_information_state",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "FACT": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      },
+      "agent2_information_delta": {
+        "field_name": "agent2_information_delta",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "NEW": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      },
+      "agent2_differential_status": {
+        "field_name": "agent2_differential_status",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "COMPANY_SPECIFIC_CANDIDATE": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      },
+      "red_team_verdict": {
+        "field_name": "red_team_verdict",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "PASS": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      },
+      "red_team_contradictions_count": {
+        "field_name": "red_team_contradictions_count",
+        "total_observations": 73,
+        "unique_values_count": 1,
+        "value_distribution": {
+          "0": 73
+        },
+        "categorical_entropy": 0.0,
+        "is_constant_across_sample": true,
+        "is_constant_inside_treatment": true,
+        "is_constant_inside_control": true,
+        "variation_matches_evidence_presence_1to1": false
+      }
+    },
+    "audit_conclusion": {
+      "agent2_variation_summary": "Agent 2 output variables (confidence=MEDIUM, research_status=OBSERVATION, information_state=FACT, information_delta=NEW, differential_status=COMPANY_SPECIFIC_CANDIDATE) are constant across all N=73 observations because all 12 entities have historical records in fact_event prior to T.",
+      "treatment_subgroup_variation": "Inside the Treatment cohort (N=59), Agent 2 variables are constant (CONFIDENCE=MEDIUM, STATUS=OBSERVATION).",
+      "red_team_variation_summary": "Red Team cleared 73/73 setups with 0 blocking contradictions (VERDICT=PASS constant across all N=73).",
+      "diagnostic_status": "AGENT2_INFORMATION_PRESENT_BUT_NOT_DISCRIMINATIVELY_OPERATIONALIZED",
+      "operational_value_classification": "EXPLANATORY_AND_GOVERNANCE_ACTIVE_PREDICTIVE_DISCRIMINATION_NOT_ESTIMABLE",
+      "agent2_discrimination_estimability": "AGENT2_DISCRIMINATION_NOT_ESTIMABLE",
+      "red_team_discrimination_estimability": "RED_TEAM_DISCRIMINATION_NOT_ESTIMABLE"
+    }
+  },
+  "layer_comparison": {
+    "fixed_sample_layers": [
+      {
+        "layer": "A0",
+        "information_added": "Quant Baseline (Layer E)",
+        "information_description": "Quantitative technical breakout filters",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "role_classification": "MEASURED_BASELINE",
+        "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+      },
+      {
+        "layer": "A1",
+        "information_added": "Quant + Contextual Peer Context",
+        "information_description": "Leave-one-out peer group relative returns",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "role_classification": "BENCHMARK_CONSTRUCTED",
+        "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+      },
+      {
+        "layer": "A2",
+        "information_added": "Quant + Peer + Deterministic Exposure",
+        "information_description": "Sector and commodity exposure mapping",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "role_classification": "EXPOSURE_CLASSIFIED",
+        "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+      },
+      {
+        "layer": "A3",
+        "information_added": "A2 + Historical Evidence HKS(T)",
+        "information_description": "Point-in-Time disclosure presence vs unobserved",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "role_classification": "EVIDENCE_DISCRIMINATING",
+        "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+      },
+      {
+        "layer": "A4",
+        "information_added": "A3 + Agent 2 Qualitative Thesis",
+        "information_description": "Contextual synthesis & transmission mapping",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "role_classification": "EXPLANATORY_SYNTHESIS",
+        "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+      },
+      {
+        "layer": "A5",
+        "information_added": "A4 + Red Team Challenge",
+        "information_description": "Adversarial invalidation & contradiction audit",
+        "N": 73,
+        "h5_peer_excess_mean_pct": 0.0577,
+        "h5_peer_excess_median_pct": 0.1863,
+        "h5_peer_excess_std_pct": 5.8473,
+        "h5_peer_excess_se_pct": 0.6844,
+        "ci_95_pct": [
+          -1.2837,
+          1.399
+        ],
+        "role_classification": "GOVERNANCE_VALIDATION",
+        "interpretation": "Fixed N=73 baseline universe. Incremental information operates conditionally on sub-vectors rather than sample truncation."
+      }
+    ]
+  },
+  "evidence_association": {
+    "treatment_cohort": {
+      "name": "Evidence Present (Treatment)",
+      "N": 59,
+      "mean_excess_h5_pct": 0.6529,
+      "median_excess_h5_pct": 0.4315,
+      "std_pct": 6.1514,
+      "se_pct": 0.8008,
+      "ci_95_pct": [
+        -0.9168,
+        2.2225
+      ]
+    },
+    "control_cohort": {
+      "name": "No Evidence in Dataset (Control)",
+      "N": 14,
+      "mean_excess_h5_pct": -2.4509,
+      "median_excess_h5_pct": -2.516,
+      "std_pct": 3.4868,
+      "se_pct": 0.9319,
+      "ci_95_pct": [
+        -4.2774,
+        -0.6243
+      ]
+    },
+    "differential_summary": {
+      "peer_excess_differential_pp": 3.1037,
+      "differential_se_pp": 1.2287,
+      "ci_95_differential_pp": [
+        0.6954,
+        5.5121
+      ],
+      "t_statistic": 2.526,
+      "replication_benchmark_pp": 3.1037,
+      "replication_delta_pp": 0.0,
+      "replicated_successfully": true
+    }
+  },
+  "concentration_audit": {
+    "top_3_dates": [
+      {
+        "decision_date": "2026-01-29",
+        "count": 1,
+        "mean": -0.15084244080145726,
+        "abs_mean": 0.15084244080145726
+      },
+      {
+        "decision_date": "2025-09-22",
+        "count": 1,
+        "mean": 0.14742470100398664,
+        "abs_mean": 0.14742470100398664
+      },
+      {
+        "decision_date": "2026-07-24",
+        "count": 1,
+        "mean": 0.11995151531800041,
+        "abs_mean": 0.11995151531800041
+      }
+    ],
+    "leave_one_ticker_out": [
+      {
+        "excluded_ticker": "UNTR",
+        "remaining_N": 67,
+        "differential_pp": 2.9702
+      },
+      {
+        "excluded_ticker": "INCO",
+        "remaining_N": 63,
+        "differential_pp": 2.725
+      },
+      {
+        "excluded_ticker": "ASII",
+        "remaining_N": 69,
+        "differential_pp": 3.267
+      },
+      {
+        "excluded_ticker": "BBCA",
+        "remaining_N": 71,
+        "differential_pp": 3.1342
+      },
+      {
+        "excluded_ticker": "ADRO",
+        "remaining_N": 62,
+        "differential_pp": 2.8216
+      },
+      {
+        "excluded_ticker": "ITMG",
+        "remaining_N": 60,
+        "differential_pp": 1.8741
+      },
+      {
+        "excluded_ticker": "PTBA",
+        "remaining_N": 63,
+        "differential_pp": 3.2239
+      },
+      {
+        "excluded_ticker": "BBNI",
+        "remaining_N": 69,
+        "differential_pp": 3.5292
+      },
+      {
+        "excluded_ticker": "ANTM",
+        "remaining_N": 66,
+        "differential_pp": 3.4031
+      },
+      {
+        "excluded_ticker": "BBRI",
+        "remaining_N": 69,
+        "differential_pp": 3.4879
+      },
+      {
+        "excluded_ticker": "BMRI",
+        "remaining_N": 71,
+        "differential_pp": 3.4294
+      }
+    ],
+    "leave_one_date_out": [
+      {
+        "excluded_date": "2026-01-29",
+        "remaining_N": 72,
+        "differential_pp": 3.3751
+      },
+      {
+        "excluded_date": "2025-09-22",
+        "remaining_N": 72,
+        "differential_pp": 2.8608
+      },
+      {
+        "excluded_date": "2026-07-24",
+        "remaining_N": 72,
+        "differential_pp": 2.9082
+      },
+      {
+        "excluded_date": "2026-01-09",
+        "remaining_N": 72,
+        "differential_pp": 2.9666
+      },
+      {
+        "excluded_date": "2026-01-28",
+        "remaining_N": 71,
+        "differential_pp": 3.4239
+      }
+    ],
+    "commodity_differential_pp": 4.8739,
+    "non_commodity_differential_pp": 0.3274
+  },
+  "leakage_audit": {
+    "all_adversarial_probes_passed": true,
+    "probes": [
+      {
+        "probe_id": "ADV-A",
+        "name": "Inject Future Publication",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-B",
+        "name": "Inject Future Ownership",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-C",
+        "name": "Inject Current-State Entity",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-D",
+        "name": "Inject Future Corporate Action",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-E",
+        "name": "Inject H5 Return Field",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-F",
+        "name": "Inject MFE/MAE Path Metrics",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-G",
+        "name": "Inject Generic Forward Return",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-H",
+        "name": "Inject Current/Post-T News",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-I",
+        "name": "Attempt Agent 2 Filesystem Access",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-J",
+        "name": "Attempt Agent 2 Direct SQL Access",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-K",
+        "name": "Attempt Agent 2 Network Access",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-L",
+        "name": "Silent Fallback on Missing Entity",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-M",
+        "name": "Post-Freeze Thesis Tampering Detection",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-N",
+        "name": "Post-Freeze HKS Tampering Detection",
+        "blocked": true,
+        "status": "PASS"
+      },
+      {
+        "probe_id": "ADV-O",
+        "name": "Peer Self-Exclusion Invariant",
+        "blocked": true,
+        "status": "PASS"
+      }
+    ]
+  },
+  "reproducibility": {
+    "passed": true,
+    "matches": 73
+  }
+}

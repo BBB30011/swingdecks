@@ -1,0 +1,5 @@
+coverage_stratum,setup_count,mean_archive_depth,mean_excess_h5_pct,coverage_attribution_verdict
+HIGH_COVERAGE,243,88.37037037037037,1.1340834092492862,COVERAGE_CONTROLLED (Preserves missingness as information state)
+MEDIUM_COVERAGE,620,44.62258064516129,1.2132252051606665,COVERAGE_CONTROLLED (Preserves missingness as information state)
+LOW_COVERAGE,777,14.465894465894467,0.39404149251077747,COVERAGE_CONTROLLED (Preserves missingness as information state)
+ARCHIVAL_GAP,120,36.8,0.526780647714876,COVERAGE_CONTROLLED (Preserves missingness as information state)

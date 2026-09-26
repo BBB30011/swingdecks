@@ -1,0 +1,16 @@
+data_source:
+  provider: "CSV"
+  csv:
+    directory: "data/raw"
+    timestamp_column: "timestamp"
+  mode: "HISTORICAL"
+  freshness:
+    max_age_minutes: 60
+  retry:
+    max_attempts: 3
+    backoff_seconds: 1
+  validation:
+    reject_invalid: true
+  mock:
+    bars: 200
+    frequency: "1D"

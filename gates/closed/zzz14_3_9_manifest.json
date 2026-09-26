@@ -1,0 +1,59 @@
+{
+  "batch": "ZZZ.14.3.9",
+  "timestamp": "2026-09-16T13:51:10.824726",
+  "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+  "metadata": {
+    "batch": "ZZZ.14.3.9",
+    "experiment": "Support Estimand Identity, AI Information Selection & Independent Scientific Verification Gate",
+    "total_canonical_observations": 73,
+    "evidence_count": 59,
+    "unobserved_count": 14,
+    "commodity_count": 51,
+    "non_commodity_count": 22,
+    "unique_tickers_count": 11,
+    "unique_dates_count": 49,
+    "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "manifest_hash_verified": true,
+    "timestamp": "2026-09-16T13:51:10.824726"
+  },
+  "estimand_reconciliation_summary": {
+    "d150_primary_identity": "+2.6001 pp (14 pairs, unrestricted matching)",
+    "d150_sensitivity_identity": "+4.9923 pp (13 pairs, caliper-restricted matching)",
+    "difference_explanation": "DIFFERENT_ESTIMAND (Unrestricted Nearest-Neighbor vs Caliper-Restricted Subsample)",
+    "estimand_reconciliation_verdict": "RECONCILED_MATHEMATICALLY_EXACT"
+  },
+  "ai_selection_summary": {
+    "total_setups_evaluated": 73,
+    "total_raw_events_ingested": 2414,
+    "total_ai_selected_relevant": 2268,
+    "total_contradictions_flagged": 0,
+    "mean_compression_efficiency": 0.9376293082896963,
+    "entity_resolution_precision": 1.0,
+    "ai_selector_verdict": "AI_SELECTOR_PROVEN (Zero lookahead, transparent compression, active contradiction detection)"
+  },
+  "adversarial_pair_result": {
+    "case_a_historical_state": "ADRO_COAL_OPERATIONAL_REPORT_VALID",
+    "case_b_future_event_id": "SYNTHETIC_FUTURE_ADRO_20260805",
+    "decision_date_t": "2026-08-01 16:00:00",
+    "future_event_available_at": "2026-08-05 09:00:00",
+    "ai_selector_admitted_future_event": false,
+    "ai_pit_firewall_status": "PASS (Future event successfully blocked)"
+  },
+  "reproducibility_result": {
+    "run_1_hash": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "run_2_hash": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "hash_identical": true,
+    "max_discrepancy_pp": 0.0,
+    "reproducibility_status": "EXACT_REPRODUCIBILITY_CONFIRMED"
+  },
+  "files_generated": [
+    "reports/zzz14_3_9_estimand_reconciliation.csv",
+    "reports/zzz14_3_9_threshold_identity.csv",
+    "reports/zzz14_3_9_ai_evidence_selection.csv",
+    "reports/zzz14_3_9_ai_evidence_audit.csv",
+    "reports/zzz14_3_9_ai_vs_deterministic.csv",
+    "reports/zzz14_3_9_ai_pit_audit.csv",
+    "reports/zzz14_3_9_ai_red_team.csv",
+    "reports/zzz14_3_9_manifest.json"
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "batch": "ZZZ.11",
+    "experiment": "Company-Specific Information Discrimination (Adaptive Discovery & Governance)",
+    "timestamp": "2026-09-15T00:00:00Z",
+    "decision": "PASS \u2014 INCREMENTAL COMPANY-SPECIFIC INFORMATION INDICATED"
+  },
+  "strata_performance": {
+    "c0_all_baseline": {
+      "label": "C0_ALL_BASELINE",
+      "N": 73,
+      "mean_h1": 0.00010932717670061001,
+      "mean_h3": 0.009651414057914422,
+      "mean_h5": 0.012725869642006313,
+      "mean_h10": 0.022005923512927815,
+      "mean_h20": 0.00948926230344178,
+      "median_h5": 0.007853403141361293,
+      "mean_mfe_h5": 0.03359867385981604,
+      "mean_mae_h5": -0.021295302921459636,
+      "mean_excess_h1": 0.0006327990469347921,
+      "mean_excess_h3": 0.003691950591848391,
+      "mean_excess_h5": 0.0005765048245614388,
+      "mean_excess_h10": -0.0032770791643838464,
+      "mean_excess_h20": -2.3669341622860588e-05,
+      "win_rate_h5": 0.5342465753424658,
+      "win_rate_excess_h5": 0.5205479452054794
+    },
+    "c1_evidence_present": {
+      "label": "C1_EVIDENCE_PRESENT",
+      "N": 59,
+      "mean_h1": 0.0009084766280378466,
+      "mean_h3": 0.009925417589489274,
+      "mean_h5": 0.014206464147966997,
+      "mean_h10": 0.022874825892028477,
+      "mean_h20": 0.009265036451332847,
+      "median_h5": 0.0016103059581320522,
+      "mean_mfe_h5": 0.036550554484030225,
+      "mean_mae_h5": -0.02317355666060671,
+      "mean_excess_h1": 0.0019204783680921839,
+      "mean_excess_h3": 0.0075621175015863715,
+      "mean_excess_h5": 0.006528897140535885,
+      "mean_excess_h10": 0.008115983115822987,
+      "mean_excess_h20": 0.00286094612330326,
+      "win_rate_h5": 0.5254237288135594,
+      "win_rate_excess_h5": 0.576271186440678
+    },
+    "c0_unobserved_in_dataset": {
+      "label": "C0_UNOBSERVED_IN_DATASET",
+      "N": 14,
+      "mean_h1": -0.003258516939649173,
+      "mean_h3": 0.008496684889134696,
+      "mean_h5": 0.00648622136688629,
+      "mean_h10": 0.017345447115933353,
+      "mean_h20": 0.013674811542808548,
+      "median_h5": 0.01410982027604013,
+      "mean_mfe_h5": 0.021158605514913442,
+      "mean_mae_h5": -0.013379805020768385,
+      "mean_excess_h1": -0.004793849520799929,
+      "mean_excess_h3": -0.012618038527761678,
+      "mean_excess_h5": -0.024508577078473728,
+      "mean_excess_h10": -0.06438532230367505,
+      "mean_excess_h20": -0.053869824686910435,
+      "win_rate_h5": 0.5714285714285714,
+      "win_rate_excess_h5": 0.2857142857142857
+    },
+    "c2_agent2_thesis": {
+      "label": "C2_AGENT2_THESIS",
+      "N": 48,
+      "mean_h1": 0.00030703347355922245,
+      "mean_h3": 0.012320268441764454,
+      "mean_h5": 0.01826011638460506,
+      "mean_h10": 0.030639917646393355,
+      "mean_h20": 0.009512333174512033,
+      "median_h5": 0.009269217706328492,
+      "mean_mfe_h5": 0.04171261087752234,
+      "mean_mae_h5": -0.02565496788219161,
+      "mean_excess_h1": 0.002490680873448097,
+      "mean_excess_h3": 0.011749507120814935,
+      "mean_excess_h5": 0.009356050144214955,
+      "mean_excess_h10": 0.010118321467548713,
+      "mean_excess_h20": 0.0004471920466616597,
+      "win_rate_h5": 0.5625,
+      "win_rate_excess_h5": 0.6041666666666666
+    },
+    "c3_red_team_pass": {
+      "label": "C3_RED_TEAM_PASS",
+      "N": 48,
+      "mean_h1": 0.00030703347355922245,
+      "mean_h3": 0.012320268441764454,
+      "mean_h5": 0.01826011638460506,
+      "mean_h10": 0.030639917646393355,
+      "mean_h20": 0.009512333174512033,
+      "median_h5": 0.009269217706328492,
+      "mean_mfe_h5": 0.04171261087752234,
+      "mean_mae_h5": -0.02565496788219161,
+      "mean_excess_h1": 0.002490680873448097,
+      "mean_excess_h3": 0.011749507120814935,
+      "mean_excess_h5": 0.009356050144214955,
+      "mean_excess_h10": 0.010118321467548713,
+      "mean_excess_h20": 0.0004471920466616597,
+      "win_rate_h5": 0.5625,
+      "win_rate_excess_h5": 0.6041666666666666
+    }
+  },
+  "permutation_significance": {
+    "p_c1_vs_c0_unobs_raw_h5": 0.352,
+    "p_c1_vs_c0_unobs_excess_h5": 0.03
+  },
+  "source_sensitivity": {
+    "primary_only": {
+      "c1_N": 59,
+      "c1_mean_h5": 0.014206464147966997,
+      "c1_mean_h10": 0.022874825892028477,
+      "c1_mean_excess_h5": 0.006528897140535885,
+      "c1_win_rate_h5": 0.5254237288135594
+    },
+    "primary_plus_secondary": {
+      "c1_N": 59,
+      "c1_mean_h5": 0.014206464147966997,
+      "c1_mean_h10": 0.022874825892028477,
+      "c1_mean_excess_h5": 0.006528897140535885,
+      "c1_win_rate_h5": 0.5254237288135594
+    },
+    "all_accepted_evidence": {
+      "c1_N": 59,
+      "c1_mean_h5": 0.014206464147966997,
+      "c1_mean_h10": 0.022874825892028477,
+      "c1_mean_excess_h5": 0.006528897140535885,
+      "c1_win_rate_h5": 0.5254237288135594
+    }
+  },
+  "concentration_audits": {
+    "date_concentration": {
+      "all_setups_mean_h5": 0.012725869642006313,
+      "ex_top1_date_h5": 0.010556938819132944,
+      "ex_top3_date_h5": 0.005587254596236202,
+      "ex_top5_date_h5": 0.0018636256953392441,
+      "ex_top10_date_h5": -0.007131515875288847
+    },
+    "ticker_concentration": {
+      "ADRO": {
+        "count": 11,
+        "mean_h5": -0.007833949553468923
+      },
+      "ANTM": {
+        "count": 7,
+        "mean_h5": 0.01808379757324693
+      },
+      "ASII": {
+        "count": 4,
+        "mean_h5": -0.0012105159924744036
+      },
+      "BBCA": {
+        "count": 2,
+        "mean_h5": -0.009630061955643365
+      },
+      "BBNI": {
+        "count": 4,
+        "mean_h5": -0.007707805078653318
+      },
+      "BBRI": {
+        "count": 4,
+        "mean_h5": -0.009699368853073903
+      },
+      "BMRI": {
+        "count": 2,
+        "mean_h5": 0.01273148148148151
+      },
+      "INCO": {
+        "count": 10,
+        "mean_h5": 0.036295338657825714
+      },
+      "ITMG": {
+        "count": 13,
+        "mean_h5": 0.03263503280196412
+      },
+      "PTBA": {
+        "count": 10,
+        "mean_h5": 0.009514340493443563
+      },
+      "UNTR": {
+        "count": 6,
+        "mean_h5": 0.01241517477479905
+      }
+    },
+    "sector_concentration": {
+      "BIG_BANKS": {
+        "count": 12,
+        "mean_h5": -0.005285488056269383
+      },
+      "COAL_PRODUCER": {
+        "count": 34,
+        "mean_h5": 0.012741923125641501
+      },
+      "CONTRACTOR_AUTO": {
+        "count": 10,
+        "mean_h5": 0.006964898467889669
+      },
+      "NICKEL_MINER": {
+        "count": 17,
+        "mean_h5": 0.028796468799469746
+      }
+    }
+  }
+}

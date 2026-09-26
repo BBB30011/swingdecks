@@ -1,0 +1,23 @@
+{
+    "dataset_status": "REAL_DATA_NOT_PROVISIONED",
+    "dataset_id": "UNKNOWN",
+    "real_data": true,
+    "symbols": 0,
+    "records": 0,
+    "oos_trades": 0,
+    "performance": {},
+    "benchmark": {},
+    "score_attribution": {},
+    "confidence_attribution": {},
+    "quality_attribution": {},
+    "regime_attribution": {},
+    "relative_strength": {},
+    "flow_attribution": {},
+    "robustness": {},
+    "statistical_sufficiency": "INSUFFICIENT",
+    "predictive_value": "NOT_EVALUATED",
+    "warnings": [],
+    "blocking_issues": [
+        "REAL_DATA_NOT_PROVISIONED"
+    ]
+}

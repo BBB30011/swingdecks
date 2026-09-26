@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "01_pre_trend_leakage": "PASS (Pre-trend variables calculated strictly from shifts prior to T, 0 forward return leakage)",
+    "02_over_control_bias": "PASS (Pre-trend restricted strictly to [-20,-10], [-10,-5], [-5,-1] without ad-hoc searching)",
+    "03_post_treatment_controls": "PASS (Zero post-T variables used as regression controls)",
+    "04_bad_matching": "PASS (Matching based purely on pre-T trajectory Euclidean distance and commodity group)",
+    "05_same_company_selection": "PASS (Within-ticker comparisons evaluated and appropriately flagged as UNDERPOWERED)",
+    "06_placebo_construction": "PASS (Placebos constructed outcome-blindly on non-event historical dates)",
+    "07_surprise_classification": "PASS (Taxonomy applied outcome-blindly from filing type and content at T)",
+    "08_outcome_driven_surprise_labels": "PASS (Zero return, MFE, or MAE metrics used in surprise tagging)",
+    "09_commodity_confounding": "PASS (Commodity controls evaluated in M2 and M3 regressions)",
+    "10_sector_confounding": "PASS (Sector-associated missingness explicitly diagnosed)",
+    "11_ticker_concentration": "PASS (Leave-one-ticker-out confirms 100% positive sub-sample point estimates)",
+    "12_date_clustering": "PASS (Two-way fixed effects and date exclusions audited)",
+    "13_missingness_handling": "PASS (NO_EVIDENCE_IN_DATASET preserved as unobserved, not synthesized into NO_EVENT)",
+    "14_source_availability": "PASS (Confirmed identical external API/scraping availability across all setups)",
+    "15_pit_integrity": "PASS (100% published_at <= decision_time T)",
+    "16_provenance_audit": "PASS (100% SHA-256 and source domain provenance verified)",
+    "17_event_time_alignment": "PASS (Complete trajectory T-20 to T+20 verified)",
+    "18_multiple_testing": "PASS (H5 peer excess strictly isolated as single primary endpoint)",
+    "19_small_n_inference": "PASS (Sub-groups with N <= 2 explicitly flagged as UNDERPOWERED)",
+    "20_causal_overclaim_guard": "PASS (Causal identification strictly NOT_ESTABLISHED; Level 1 maintained)"
+  },
+  "overall_status": "PASS",
+  "total_checks": 20,
+  "passed_checks": 20
+}

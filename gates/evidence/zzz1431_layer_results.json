@@ -1,0 +1,110 @@
+{
+  "layers": [
+    {
+      "layer": "A0",
+      "information": "Quant Baseline (Layer E)",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "raw_h5_mean_pct": 1.2726,
+      "incremental_vs_previous_pp": null,
+      "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+    },
+    {
+      "layer": "A1",
+      "information": "Quant + Contextual Peer",
+      "N": 73,
+      "h5_peer_excess_mean_pct": 0.0577,
+      "h5_peer_excess_median_pct": 0.1863,
+      "h5_peer_excess_std_pct": 5.8473,
+      "h5_peer_excess_se_pct": 0.6844,
+      "ci_95_pct": [
+        -1.2837,
+        1.399
+      ],
+      "raw_h5_mean_pct": 1.2726,
+      "incremental_vs_previous_pp": 0.0,
+      "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+    },
+    {
+      "layer": "A2",
+      "information": "Quant + Peer + Exposure",
+      "N": 51,
+      "h5_peer_excess_mean_pct": 0.1956,
+      "h5_peer_excess_median_pct": 0.3215,
+      "h5_peer_excess_std_pct": 6.8486,
+      "h5_peer_excess_se_pct": 0.959,
+      "ci_95_pct": [
+        -1.684,
+        2.0753
+      ],
+      "raw_h5_mean_pct": 1.8093,
+      "incremental_vs_previous_pp": 0.138,
+      "status": "INCREMENTAL_DISCRIMINATION_OBSERVED"
+    },
+    {
+      "layer": "A3",
+      "information": "A2 + Historical Evidence",
+      "N": 59,
+      "h5_peer_excess_mean_pct": 0.6529,
+      "h5_peer_excess_median_pct": 0.4315,
+      "h5_peer_excess_std_pct": 6.1514,
+      "h5_peer_excess_se_pct": 0.8008,
+      "ci_95_pct": [
+        -0.9168,
+        2.2225
+      ],
+      "raw_h5_mean_pct": 1.4206,
+      "incremental_vs_previous_pp": 0.4572,
+      "status": "INCREMENTAL_DISCRIMINATION_OBSERVED"
+    },
+    {
+      "layer": "A4",
+      "information": "A3 + Agent 2 Thesis",
+      "N": 59,
+      "h5_peer_excess_mean_pct": 0.6529,
+      "h5_peer_excess_median_pct": 0.4315,
+      "h5_peer_excess_std_pct": 6.1514,
+      "h5_peer_excess_se_pct": 0.8008,
+      "ci_95_pct": [
+        -0.9168,
+        2.2225
+      ],
+      "raw_h5_mean_pct": 1.4206,
+      "incremental_vs_previous_pp": 0.0,
+      "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+    },
+    {
+      "layer": "A5",
+      "information": "A4 + Red Team",
+      "N": 59,
+      "h5_peer_excess_mean_pct": 0.6529,
+      "h5_peer_excess_median_pct": 0.4315,
+      "h5_peer_excess_std_pct": 6.1514,
+      "h5_peer_excess_se_pct": 0.8008,
+      "ci_95_pct": [
+        -0.9168,
+        2.2225
+      ],
+      "raw_h5_mean_pct": 1.4206,
+      "incremental_vs_previous_pp": 0.0,
+      "status": "NO_INCREMENTAL_DISCRIMINATION_DETECTED"
+    }
+  ],
+  "differential_summary": {
+    "evidence_N": 59,
+    "evidence_mean_excess_h5_pct": 0.6529,
+    "unobserved_N": 14,
+    "unobserved_mean_excess_h5_pct": -2.4509,
+    "peer_excess_differential_pp": 3.1037,
+    "v1_baseline_differential_pp": 3.1037,
+    "replication_delta_pp": 0.0,
+    "replicated_successfully": true
+  }
+}

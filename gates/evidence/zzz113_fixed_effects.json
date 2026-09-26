@@ -1,0 +1,9 @@
+{
+  "fixed_effects_specification": "Excess_H5 ~ Evidence + Ticker_FE + Date_FE",
+  "within_ticker_beta": 0.03681999395280895,
+  "within_ticker_beta_pp": 3.6819993952808954,
+  "standard_error": 0.0061813588529142345,
+  "t_statistic": 5.956618088181367,
+  "observations_count": 73,
+  "interpretation": "Controlling for ticker fixed effects, the estimated marginal evidence coefficient is beta = +3.68 pp. This confirms that evidence presence is positively associated with intra-ticker peer excess return, though individual ticker sub-samples remain small."
+}

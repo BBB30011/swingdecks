@@ -1,0 +1,26 @@
+{
+  "batch_id": "BATCH-ZZZ.11.6",
+  "sample_N": 73,
+  "evidence_N": 59,
+  "unobserved_N": 14,
+  "original_peer_excess_differential_pp": 3.103747421900961,
+  "inclusive_peer_excess_differential_pp": 1.9817283717191503,
+  "median_peer_excess_differential_pp": 2.9109716430514374,
+  "date_weighted_differential_pp": 2.839268218725419,
+  "ticker_weighted_differential_pp": 1.3308236833794291,
+  "clean_controls_differential_pp": 2.78360864281998,
+  "same_date_exposure_841_reconciliation": {
+    "raw_return_spread_pp": 5.603737680092125,
+    "reported_excess_spread_pp": 8.405606520138186,
+    "multiplier": 1.4999999999999998,
+    "cluster_count": 2
+  },
+  "governance_ruling": {
+    "counterfactual_status": "COUNTERFACTUAL_VALID_WITH_LIMITATIONS",
+    "same_date_exposure_841_status": "COUNTERFACTUAL_SENSITIVITY_HIGH_SMALL_SAMPLE_SKEW",
+    "association_status": "ROBUST_WITHIN_COMMODITY_REGIMES",
+    "identification_status": "LEVEL_2 (Observed Association with Substantial Confounding & Benchmark Sensitivity)",
+    "causal_status": "NOT_ESTABLISHED",
+    "alpha_status": "NOT_ESTABLISHED"
+  }
+}

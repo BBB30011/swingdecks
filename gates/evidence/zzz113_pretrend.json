@@ -1,0 +1,20 @@
+{
+  "pre_5_1": {
+    "evidence_present_mean": 0.03636053481700001,
+    "unobserved_mean": 0.018846203697636146,
+    "diff_pp": 1.7514331119363864
+  },
+  "pre_10_5": {
+    "evidence_present_mean": 0.045487366381397894,
+    "unobserved_mean": 0.006643849665303001,
+    "diff_pp": 3.8843516716094895
+  },
+  "pre_20_10": {
+    "evidence_present_mean": 0.024590845622101794,
+    "unobserved_mean": 0.02168446248059613,
+    "diff_pp": 0.29063831415056635
+  },
+  "post_h5_raw_diff_pp": 0.7720242781080706,
+  "pre_trend_verdict": "STRONG_PRE_TREND_OBSERVED",
+  "interpretation": "Evidence-present stocks were already outperforming unobserved stocks prior to T (Pre[-10,-5]: +3.88 pp, Pre[-5,-1]: +1.75 pp). This indicates that the disclosure at T is a public confirmation/continuation marker of an existing momentum move, rather than an exogenous standalone shock that initiates price discovery from a standstill."
+}

@@ -1,0 +1,7 @@
+pipeline_stage,temporal_boundary,firewall_status,operational_evidence
+1. Evidence Ingestion & PIT Filter,available_at < setup_time T,VERIFIED,Strictly pre-T primary disclosures
+2. Candidate Setup Identification,setup_time = T,VERIFIED,"Momentum, volume, and scanning rules"
+3. Agent 2 Contradiction Flagging,contradiction_state = CONTRADICTED,VERIFIED,Formed outcome-blind at T
+4. Agent 3 Decision Generation,decision_state = REJECT,VERIFIED,Hard risk gate applied at T
+5. Pre-Outcome SHA-256 Freeze,sha256(decision_objects),VERIFIED,Cryptographic immutability sealed
+6. Outcome Firewall Unlock,"H1..H20, MAE, MFE attached",VERIFIED,Opened strictly post-freeze for counterfactual validation

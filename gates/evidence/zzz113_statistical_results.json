@@ -1,0 +1,58 @@
+{
+  "batch_id": "BATCH-ZZZ.11.3",
+  "canonical_replication": {
+    "c1_count": 59,
+    "c0_count": 14,
+    "c1_mean_excess_h5": 0.006528897140535885,
+    "c0_mean_excess_h5": -0.024508577078473728,
+    "diff_excess_h5": 0.03103747421900961,
+    "canonical_p_val": 0.03,
+    "is_replication_exact": true
+  },
+  "pre_trend_results": {
+    "pre_5_1": {
+      "evidence_present_mean": 0.03636053481700001,
+      "unobserved_mean": 0.018846203697636146,
+      "diff_pp": 1.7514331119363864
+    },
+    "pre_10_5": {
+      "evidence_present_mean": 0.045487366381397894,
+      "unobserved_mean": 0.006643849665303001,
+      "diff_pp": 3.8843516716094895
+    },
+    "pre_20_10": {
+      "evidence_present_mean": 0.024590845622101794,
+      "unobserved_mean": 0.02168446248059613,
+      "diff_pp": 0.29063831415056635
+    },
+    "post_h5_raw_diff_pp": 0.7720242781080706,
+    "pre_trend_verdict": "STRONG_PRE_TREND_OBSERVED",
+    "interpretation": "Evidence-present stocks were already outperforming unobserved stocks prior to T (Pre[-10,-5]: +3.88 pp, Pre[-5,-1]: +1.75 pp). This indicates that the disclosure at T is a public confirmation/continuation marker of an existing momentum move, rather than an exogenous standalone shock that initiates price discovery from a standstill."
+  },
+  "placebo_results": {
+    "total_placebo_pairs": 59,
+    "real_evidence_mean_excess_h5": 0.006528897140535885,
+    "placebo_mean_excess_h5": 0.005538735134782426,
+    "real_vs_placebo_delta_pp": 0.09901620057534587,
+    "permutation_p": 0.46,
+    "verdict": "IDENTIFICATION_WEAKENED_BY_PLACEBO",
+    "interpretation": "Placebo non-event dates for the same ticker produce a mean peer excess return of +0.55% (vs +0.65% for real disclosure dates, delta = +0.10 pp, p = 0.4600). This indicates that ticker-level momentum and exposure characteristics account for most of the forward return, while the precise event timing provides a modest incremental lift (+0.10 pp)."
+  },
+  "fixed_effects_results": {
+    "fixed_effects_specification": "Excess_H5 ~ Evidence + Ticker_FE + Date_FE",
+    "within_ticker_beta": 0.03681999395280895,
+    "within_ticker_beta_pp": 3.6819993952808954,
+    "standard_error": 0.0061813588529142345,
+    "t_statistic": 5.956618088181367,
+    "observations_count": 73,
+    "interpretation": "Controlling for ticker fixed effects, the estimated marginal evidence coefficient is beta = +3.68 pp. This confirms that evidence presence is positively associated with intra-ticker peer excess return, though individual ticker sub-samples remain small."
+  },
+  "identification_level_classification": {
+    "assigned_level": "LEVEL_1",
+    "level_name": "ROBUST_ASSOCIATION_SURVIVING_TICKER_DATE_SECTOR_SENSITIVITY",
+    "causal_identification": "NOT_ESTABLISHED",
+    "incremental_information": "SUGGESTIVE / CONDITIONAL_ON_COMMODITY",
+    "alpha": "NOT_ESTABLISHED",
+    "rationale": "The observed +3.10 pp excess return is a robust empirical association that survives date exclusions, ticker leave-one-out, and primary source restrictions. However, pre-trend drift (Pre[-10,-5]: +3.88 pp) and placebo excess (+0.55%) demonstrate that the disclosure acts as a public confirmation/continuation marker within an ongoing momentum regime, rather than an isolated exogenous surprise shock. Furthermore, universal negative controls remain NOT_ESTIMABLE."
+  }
+}

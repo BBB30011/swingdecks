@@ -1,0 +1,108 @@
+{
+  "top_3_dates": [
+    {
+      "decision_date": "2026-01-29",
+      "count": 1,
+      "mean": -0.15084244080145726,
+      "abs_mean": 0.15084244080145726
+    },
+    {
+      "decision_date": "2025-09-22",
+      "count": 1,
+      "mean": 0.14742470100398664,
+      "abs_mean": 0.14742470100398664
+    },
+    {
+      "decision_date": "2026-07-24",
+      "count": 1,
+      "mean": 0.11995151531800041,
+      "abs_mean": 0.11995151531800041
+    }
+  ],
+  "leave_one_ticker_out": [
+    {
+      "excluded_ticker": "UNTR",
+      "remaining_N": 67,
+      "differential_pp": 2.9702
+    },
+    {
+      "excluded_ticker": "INCO",
+      "remaining_N": 63,
+      "differential_pp": 2.725
+    },
+    {
+      "excluded_ticker": "ASII",
+      "remaining_N": 69,
+      "differential_pp": 3.267
+    },
+    {
+      "excluded_ticker": "BBCA",
+      "remaining_N": 71,
+      "differential_pp": 3.1342
+    },
+    {
+      "excluded_ticker": "ADRO",
+      "remaining_N": 62,
+      "differential_pp": 2.8216
+    },
+    {
+      "excluded_ticker": "ITMG",
+      "remaining_N": 60,
+      "differential_pp": 1.8741
+    },
+    {
+      "excluded_ticker": "PTBA",
+      "remaining_N": 63,
+      "differential_pp": 3.2239
+    },
+    {
+      "excluded_ticker": "BBNI",
+      "remaining_N": 69,
+      "differential_pp": 3.5292
+    },
+    {
+      "excluded_ticker": "ANTM",
+      "remaining_N": 66,
+      "differential_pp": 3.4031
+    },
+    {
+      "excluded_ticker": "BBRI",
+      "remaining_N": 69,
+      "differential_pp": 3.4879
+    },
+    {
+      "excluded_ticker": "BMRI",
+      "remaining_N": 71,
+      "differential_pp": 3.4294
+    }
+  ],
+  "leave_one_date_out": [
+    {
+      "excluded_date": "2026-01-29",
+      "remaining_N": 72,
+      "differential_pp": 3.3751
+    },
+    {
+      "excluded_date": "2025-09-22",
+      "remaining_N": 72,
+      "differential_pp": 2.8608
+    },
+    {
+      "excluded_date": "2026-07-24",
+      "remaining_N": 72,
+      "differential_pp": 2.9082
+    },
+    {
+      "excluded_date": "2026-01-09",
+      "remaining_N": 72,
+      "differential_pp": 2.9666
+    },
+    {
+      "excluded_date": "2026-01-28",
+      "remaining_N": 71,
+      "differential_pp": 3.4239
+    }
+  ],
+  "commodity_differential_pp": 4.8739,
+  "non_commodity_differential_pp": 0.3274
+}

@@ -1,0 +1,7 @@
+Estimand,Sample,Effect_pp,SE_pp,CI_95_pp,p_value,Inference_Method,Cluster_Method,Degrees_Of_Freedom,Seed
+R0: Raw Difference in Means,Full N=73,3.1037474219009615,1.7113095228235595,"[-0.2504, 6.4579]",0.06972884529859269,Standard Homoskedastic OLS,None (IID),71,N/A
+R1: Matched Counterfactual ATT,Matched N=28 (14 pairs),2.6001061459793773,1.9240155450535337,"[-1.1710, 6.3712]",0.17656874184690086,Paired Difference t-test,Pair Block,13,42
+R5: Quant + Coverage + Recent Density,Full N=73 (30 clusters),3.781869571823145,1.7128857646244828,"[0.4246, 7.1391]",0.027251688870290502,Sandwich Cluster-Robust OLS,Event ID Clusters (g=30),29,N/A
+R5_WILD: Wild Cluster Bootstrap,Full N=73 (30 clusters),3.781869571823145,1.7720526445966558,"[-3.2039, 3.5119]",0.022,Wild Cluster Bootstrap (Rademacher),Event ID Clusters (g=30),Finite Bootstrap (B=1000),42
+R6: Strict Matched Cluster-Robust,Matched N=28 (20 clusters),2.600106145979376,1.2744532085318263,"[0.1022, 5.0980]",0.0413330104303411,Sandwich Cluster-Robust OLS,Event ID Clusters (g=20),19,N/A
+R8: Coverage LODO Median,Jackknife N=66-72 per run,3.0261950594158753,1.7595150436152072,"[-0.4225, 6.4748]",0.08846292707639705,Leave-One-Event-Out Mean SE,Omit Entire Event Cluster,28,N/A

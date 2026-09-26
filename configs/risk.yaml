@@ -1,0 +1,14 @@
+# NOTE:
+# Nilai-nilai di bawah ini adalah baseline awal.
+# Belum dianggap optimal dan harus divalidasi melalui backtest.
+
+risk:
+  max_single_position_risk: 0.005
+  max_portfolio_risk: 0.02
+
+trade:
+  minimum_rr: 2.0
+  maximum_positions: 5
+
+decision:
+  minimum_confidence: 70

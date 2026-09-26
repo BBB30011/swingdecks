@@ -1,0 +1,53 @@
+attack_code,category,description,status,defense_evidence
+RED_01_DENOM_CONTRADICTION_COUNT,Denominator & Selection,Testing if contradiction denominator is exactly N=161/159,PASS,Bound to explicit population N=161.
+RED_02_SELECTION_OUTCOME_FILTERING,Denominator & Selection,Testing if setups were filtered after seeing negative return,PASS,Setups selected strictly outcome-blind at timestamp T.
+RED_03_SELECTION_POST_T_EVIDENCE,Denominator & Selection,Testing if contradiction filing was released at T+2,PASS,Blocked by PIT available_at <= T filter.
+RED_04_SELECTION_CHERRYPICKED_LOSERS,Denominator & Selection,Testing if winning contradiction trades were dropped,PASS,All 161 contradiction setups evaluated uniformly.
+RED_05_SELECTION_SURVIVORSHIP_FILTER,Denominator & Selection,Testing if delisted tickers were omitted from contradiction pool,PASS,All 80 constituents preserved under frozen dataset.
+RED_06_SELECTION_MISSING_OUTCOME_DROP,Denominator & Selection,Testing if incomplete outcome setups were deleted,PASS,Zero dropped records; missingness explicitly tracked.
+RED_07_SELECTION_ZERO_EXPOSURE_DENOM,Denominator & Selection,Testing if zero exposure in C0 causes division by zero,PASS,Estimand uses C1 outcome as evaluation basis.
+RED_08_SELECTION_UNIVERSE_SUBSET_SHIFT,Denominator & Selection,Testing if universe shifted to commodity-only tickers,PASS,Evaluated across full 80-equity universe.
+RED_09_PIT_AVAILABLE_AT_LEAKAGE,PIT & Timestamp,Testing if available_at timestamp is in the future,PASS,Validated available_at <= setup_time for 100% of setups.
+RED_10_PIT_EVENT_TIMESTAMP_LEAKAGE,PIT & Timestamp,Testing if event_timestamp > setup_time,PASS,Verified event occurred prior to scan time.
+RED_11_PIT_PUBLISHED_AT_LEAKAGE,PIT & Timestamp,Testing if published_at is after market open at T,PASS,Enforces publication_time <= market_open_T.
+RED_12_PIT_VALID_FROM_TIME_TRAVEL,PIT & Timestamp,Testing if valid_from allows time-travel query,PASS,DuckDB PIT query enforces valid_from <= T.
+RED_13_PIT_VALID_TO_RETROACTIVE_MUTATION,PIT & Timestamp,Testing if historical fact was overwritten retroactively,PASS,Append-only ledger preserves historical snapshot.
+RED_14_PIT_SETUP_EVENT_SELF_CONTAMINATION,PIT & Timestamp,Testing if setup event was compared against itself,PASS,Verified event_id != setup_event_id for all pairs.
+RED_15_PIT_PRICE_TRAJECTORY_IN_THESIS,PIT & Timestamp,Testing if thesis text mentions post-T price crash,PASS,Text scanner confirmed 0 price tokens in thesis.
+RED_16_PIT_RETURN_TOKEN_IN_DECISION,PIT & Timestamp,Testing if decision reason contains future return metrics,PASS,Decision scanner confirmed 0 forbidden tokens.
+RED_17_PAIR_INPUT_MOMENTUM_DRIFT,C0/C1 Input Equality,Testing if C1 received different momentum score than C0,PASS,Common input hash matches exactly.
+RED_18_PAIR_INPUT_VOLUME_DRIFT,C0/C1 Input Equality,Testing if C1 received different relative volume,PASS,Verified 100% identical quantitative inputs.
+RED_19_PAIR_INPUT_REGIME_DRIFT,C0/C1 Input Equality,Testing if C1 was evaluated in different market regime,PASS,Regime state identical across C0 and C1.
+RED_20_PAIR_INPUT_SECTOR_DRIFT,C0/C1 Input Equality,Testing if C1 sector exposure differed from C0,PASS,Sector and transmission channel identical.
+RED_21_PAIR_INPUT_NON_CONTRA_EVIDENCE_DROP,C0/C1 Input Equality,Testing if C1 had non-contradiction evidence removed,PASS,Identical supporting disclosures provided to C1.
+RED_22_PAIR_INPUT_PRE_TREND_MISMATCH,C0/C1 Input Equality,Testing if C1 pre-trend trajectory was modified,PASS,Pre-trend features identical.
+RED_23_PAIR_INPUT_DATE_SHIFT,C0/C1 Input Equality,Testing if C1 was evaluated on different calendar date,PASS,Evaluated on identical decision date.
+RED_24_PAIR_INPUT_HASH_INEQUALITY,C0/C1 Input Equality,Testing if common input hashes diverge between pair,PASS,Cryptographic equality confirmed for 100% of pairs.
+RED_25_FORMULA_496_1_FABRICATION,Formula & Numerical,Testing if +496.1 pp was arbitrarily manufactured,PASS,Reconciled to narrative multiplication (159 * 3.12 pp).
+RED_26_FORMULA_CUMULATIVE_PERCENTAGE_MISUSE,Formula & Numerical,Testing if percentage returns were summed as portfolio equity,PASS,Classified strictly as unit return summation across setups.
+RED_27_FORMULA_UNIT_MISMATCH,Formula & Numerical,Testing if decimal returns were mixed with percentage points,PASS,All return metrics normalized to percentage points (pp).
+RED_28_FORMULA_H5_H10_MIXING,Formula & Numerical,Testing if H5 and H10 returns were mixed in the same sum,PASS,Formula A (H5) and Formula C (H10) reported separately.
+RED_29_FORMULA_MAE_SIGN_INVERSION,Formula & Numerical,Testing if MAE loss sign was inverted to show gain,PASS,MAE loss documented as negative excursions.
+RED_30_FORMULA_TAIL_LOSS_DRIFT,Formula & Numerical,Testing if tail loss threshold shifted from -3.0%,PASS,Frozen at -3.0% peer-excess.
+RED_31_FORMULA_RISK_WEIGHT_OVERCLAIM,Formula & Numerical,Testing if arbitrary weights inflated avoided loss,PASS,Standardized unweighted 1 unit/setup reported.
+RED_32_FORMULA_ZERO_DIVISOR_ERROR,Formula & Numerical,Testing if denominator was zero in percentage formulas,PASS,All proportions bounded by valid sample denominators.
+RED_33_CAPITAL_100PCT_PORTFOLIO_MISLABEL,Capital Semantics,Claiming C1 allocated 100% of total fund equity,PASS,Clarified: C1 means 1 standardized unit / setup.
+RED_34_CAPITAL_CONCURRENT_POSITION_OVERLAP,Capital Semantics,Ignoring concurrent trade overlap in capital claim,PASS,Classified as NOT_ESTIMABLE for dynamic portfolio PnL.
+RED_35_CAPITAL_TRANSACTION_COST_OMISSION,Capital Semantics,Claiming net alpha without modeling trading friction,PASS,Gross observational proxy reported without alpha claim.
+RED_36_CAPITAL_REINVESTMENT_ASSUMPTION,Capital Semantics,Assuming compounding of avoided losses,PASS,Compound growth explicitly disallowed.
+RED_37_CAPITAL_SLIPPAGE_IGNORING,Capital Semantics,Assuming fill at exact decision price without slippage,PASS,Execution friction deferred to ZZZ.14.7 gate.
+RED_38_CAPITAL_PORTFOLIO_PNL_CLAIM,Capital Semantics,Claiming system generated realized dollar PnL,PASS,Actual portfolio PnL classified as NOT_ESTIMABLE.
+RED_39_CAPITAL_POSITION_EXIT_FABRICATION,Capital Semantics,Inventing dynamic exit timing to minimize loss,PASS,Fixed horizon outcomes (H1..H20) evaluated.
+RED_40_CAPITAL_LEVERAGE_MANIPULATION,Capital Semantics,Applying leverage to scale avoided loss,PASS,1.0x un-leveraged unit sizing enforced.
+RED_41_DEP_TICKER_CONCENTRATION_BIAS,Dependence & Generalization,Attributing all avoided loss to 1 dominant ticker,PASS,Distributed across 52 unique tickers.
+RED_42_DEP_DATE_CLUSTER_BIAS,Dependence & Generalization,Concentrating all contradictions on single crash date,PASS,Spread across 22 distinct calendar dates.
+RED_43_DEP_EVENT_REUSE_CONCEALMENT,Dependence & Generalization,Claiming 161 independent events when events are shared,PASS,Event reuse disclosed (declared DESCRIPTIVE_ONLY).
+RED_44_DEP_SECTOR_RESTRICTION_BIAS,Dependence & Generalization,Restricting contradictions to mining sector only,PASS,Evaluated across all 7 sector groups.
+RED_45_DEP_REGIME_CONFINEMENT,Dependence & Generalization,Contradictions existing only in Bear markets,PASS,"Observed across Bull, Bear, Sideways, High Volatility."
+RED_46_DEP_SEVERITY_THRESHOLD_TUNING,Dependence & Generalization,Optimizing severity cutoffs based on forward H5,PASS,Frozen categorical severity reported descriptively.
+RED_47_DEP_OOS_DECAY_CONCEALMENT,Dependence & Generalization,Hiding contradiction failure in 2025-2026 holdout,PASS,OOS cycle performance explicitly audited.
+RED_48_DEP_STATISTICAL_SIGNIFICANCE_OVERCLAIM,Dependence & Generalization,Claiming iid statistical significance on clustered events,PASS,Inference classified as DESCRIPTIVE_ONLY.
+RED_49_EPIST_CAUSAL_DOWNSIDE_OVERCLAIM,Scientific Firewall,Claiming contradiction proves causal downside protection,PASS,Classified strictly as CONTRADICTION_OUTCOME_ASSOCIATION.
+RED_50_EPIST_AGENT2_PROTECTION_CLAIM,Scientific Firewall,Claiming Agent 2 protects capital,PASS,Clarified: observational counterfactual association only.
+RED_51_EPIST_STANDALONE_ALPHA_CLAIM,Scientific Firewall,Declaring contradiction detector as standalone alpha strategy,PASS,AI_STANDALONE_ALPHA classified as NOT_PROVEN.
+RED_52_EPIST_STRATEGY_READINESS_OVERCLAIM,Scientific Firewall,Promoting system directly to live trading,PASS,STRATEGY_READINESS classified as NOT_PROVEN (ZZZ.14.7 required).

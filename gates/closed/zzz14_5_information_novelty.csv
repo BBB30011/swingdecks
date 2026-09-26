@@ -1,0 +1,6 @@
+novelty_category,item_count,proportion_pct,derivability_status,description
+REFINEMENT_OF_KNOWN_INFORMATION,193,38.6,PARTIALLY_DERIVABLE,Specific operational/margin refinement of known exposure channels
+KNOWN_BY_DETERMINISTIC,148,29.599999999999998,DIRECTLY_DERIVABLE,Exact restatement of known deterministic entity/commodity exposure fields
+NEW_SEMANTIC_INFORMATION,99,19.8,SEMANTICALLY_NOVEL,Qualitative context and unstructured filings not present in structured tables
+DUPLICATE_INFORMATION,43,8.6,DIRECTLY_DERIVABLE,Duplicate or unverified commentary
+CONTRADICTORY_INFORMATION,17,3.4000000000000004,SEMANTICALLY_NOVEL,"Adverse regulatory, export, or operational impediments challenging thesis"

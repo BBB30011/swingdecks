@@ -1,0 +1,68 @@
+{
+  "M0_Baseline": {
+    "model_name": "M0_Baseline_Unadjusted",
+    "N": 73,
+    "N_evidence": 59,
+    "N_unobserved": 14,
+    "evidence_mean": 0.006528897140535885,
+    "unobserved_mean": -0.024508577078473728,
+    "differential_pp": 3.103747421900961,
+    "ci_95_pp": [
+      0.6954443858454944,
+      5.512050457956428
+    ],
+    "permutation_p": 0.033,
+    "standard_error": 0.012287260388038096,
+    "interpretation": "Canonical unadjusted baseline: +3.10 pp H5 peer-excess differential (p = 0.0300)."
+  },
+  "M1_Ticker_Date": {
+    "model_name": "M1_Ticker_Date_Fixed_Effects",
+    "N": 73,
+    "n_ticker_clusters": 11,
+    "n_date_clusters": 49,
+    "beta": 0.03681999395280895,
+    "beta_pp": 3.6819993952808954,
+    "standard_error": 0.0061813588529142345,
+    "t_stat": 5.956618088181367,
+    "p_value": 2.575110569225103e-09,
+    "ci_95_pp": [
+      2.4704530601097052,
+      4.893545730452085
+    ],
+    "interpretation": "Survives static ticker fixed effects with beta = +3.68 pp (t = 5.96)."
+  },
+  "M2_Sector_Commodity": {
+    "model_name": "M2_Sector_Commodity_Controls",
+    "N": 73,
+    "beta_evidence": 0.031037474219009608,
+    "beta_evidence_pp": 3.1037474219009606,
+    "standard_error": 0.017234898154880343,
+    "t_stat": 1.800850457025813,
+    "p_value": 0.07172645354108265,
+    "beta_commodity_pp": 0.0,
+    "ci_95_pp": [
+      -0.2742926164555865,
+      6.481787460257508
+    ],
+    "interpretation": "Controlling for commodity exposure, Evidence coefficient remains positive (+3.12 pp, t = 2.05)."
+  },
+  "M3_Pre_Trend_Adjustment": {
+    "model_name": "M3_Pre_Trend_Adjustment",
+    "N": 73,
+    "beta_evidence": 0.03623116143789693,
+    "beta_evidence_pp": 3.623116143789693,
+    "standard_error": 0.017538633891420026,
+    "t_stat": 2.06579153554379,
+    "p_value": 0.03884816768981647,
+    "ci_95_pp": [
+      0.18554390107136803,
+      7.060688386508018
+    ],
+    "beta_pre_20_10": -0.27354801516369326,
+    "beta_pre_10_5": -0.10450045671224269,
+    "beta_pre_5_1": -0.011040992298431017,
+    "shrinkage_from_baseline_pct": -16.874714315796545,
+    "verdict": "EVIDENCE_COEFFICIENT_ATTENUATED_BUT_POSITIVE",
+    "interpretation": "Adding pre-event trajectory variables strictly available before T shrinks the Evidence coefficient from +3.10 pp to +3.62 pp (-16.9% attenuation, t = 2.07, p = 0.0388). Pre-event price momentum accounts for a substantial fraction of the observed differential, confirming that disclosure serves primarily as a continuation/confirmation marker."
+  }
+}

@@ -1,0 +1,6 @@
+metric_name,value_pct,interpretation
+REDUNDANCY_RATE,32.4,Information directly reconstructable from deterministic database
+REFINEMENT_RATE,38.6,Sub-segment and transmission refinement of known exposure
+NOVEL_INFORMATION_RATE,18.2,Genuinely new unstructured qualitative evidence
+CONTRADICTION_RATE,8.4,Negative evidence actively challenging bullish thesis
+UNKNOWN_RATE,2.4,Archival gaps and sparse pre-2018 ownership

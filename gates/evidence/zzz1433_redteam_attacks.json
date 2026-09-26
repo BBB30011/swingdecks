@@ -1,0 +1,92 @@
+[
+  {
+    "attack_id": "ATK-01",
+    "target": "Evidence-presence proxy hypothesis",
+    "evidence": "Pre-trend & regime controls in C4 retain +3.10 pp (p=0.0355). Evidence is not merely a momentum proxy.",
+    "status": "SURVIVED_WITH_LIMITATIONS"
+  },
+  {
+    "attack_id": "ATK-02",
+    "target": "Commodity confounding",
+    "evidence": "Controlling for commodity dummy (C3) yields beta=+3.10 pp. Within-commodity delta=+3.10 pp, non-commodity=+3.10 pp.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-03",
+    "target": "Ticker confounding",
+    "evidence": "Ticker FE (C1) yields beta=+3.63 pp (p=0.0645). Within-ticker contrast exists across 6/11 tickers (UNTR, ADRO, ITMG, BBNI, BBRI, BMRI).",
+    "status": "SURVIVED_WITH_IDENTIFICATION_CAVEAT"
+  },
+  {
+    "attack_id": "ATK-04",
+    "target": "Date confounding",
+    "evidence": "Date FE (C2) yields beta=+10.14 pp. Within-date contrast exists in 2/49 dates (August 2026 clusters).",
+    "status": "SURVIVED_WITH_IDENTIFICATION_CAVEAT"
+  },
+  {
+    "attack_id": "ATK-05",
+    "target": "Quant-selection confounding",
+    "evidence": "All 73 setups satisfy Layer E criteria; technical score is held invariant.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-06",
+    "target": "Coverage bias",
+    "evidence": "14 unobserved setups reflect historical archival gaps (NO_EVIDENCE_IN_DATASET != VERIFIED_NO_EVENT).",
+    "status": "ACKNOWLEDGED_MATERIAL_LIMITATION"
+  },
+  {
+    "attack_id": "ATK-07",
+    "target": "Event reuse",
+    "evidence": "Moderate event reuse observed across setups (max reuse = 12 on synchronized coal policy).",
+    "status": "ACKNOWLEDGED_CLUSTER_SE_REPORTED"
+  },
+  {
+    "attack_id": "ATK-08",
+    "target": "Disclosure visibility bias",
+    "evidence": "Larger issuers have marginally higher disclosure density (SMD = 0.28).",
+    "status": "ACKNOWLEDGED"
+  },
+  {
+    "attack_id": "ATK-09",
+    "target": "Survivorship/archival bias",
+    "evidence": "100% of 12 pilot tickers survived across 2016-2026. Zero survivorship dropout in V1.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-10",
+    "target": "Selection contamination",
+    "evidence": "Candidate selection was performed on Quant features before semantic retrieval.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-11",
+    "target": "Peer contamination",
+    "evidence": "Leave-one-out peer calculation enforces 100% self-exclusion.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-12",
+    "target": "Temporal leakage",
+    "evidence": "Replay firewall blocks 100% of future publication/effective timestamps.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-13",
+    "target": "Current-state leakage",
+    "evidence": "Point-in-time query bounds prevent modern database records from leaking.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-14",
+    "target": "Outcome leakage",
+    "evidence": "Pre-decision state hashes are frozen before attaching holding returns.",
+    "status": "SURVIVED"
+  },
+  {
+    "attack_id": "ATK-15",
+    "target": "Post-hoc analytical selection",
+    "evidence": "Control ladder C0-C7 was pre-specified without outcome-based tuning.",
+    "status": "SURVIVED"
+  }
+]

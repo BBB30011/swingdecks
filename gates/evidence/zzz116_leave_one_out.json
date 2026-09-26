@@ -1,0 +1,26 @@
+{
+  "canonical_is_loo": true,
+  "stats_loo": {
+    "mean": 0.0005765048245614388,
+    "median": 0.0018625624130744756,
+    "std": 0.05847285697823461,
+    "min": -0.1633875614982705,
+    "max": 0.18033981556538287
+  },
+  "stats_inclusive": {
+    "mean": 0.00023121373543733307,
+    "median": 0.0013969218098058567,
+    "std": 0.035289091634315005,
+    "min": -0.10892504099884699,
+    "max": 0.12022654371025525
+  },
+  "correlation_loo_inclusive": 0.9901880421161512,
+  "mean_absolute_difference": 0.01594638464314675,
+  "max_absolute_difference": 0.07542122040072863,
+  "evidence_mean_loo_pct": 0.6528897140535884,
+  "unobserved_mean_loo_pct": -2.450857707847373,
+  "differential_loo_pp": 3.103747421900961,
+  "differential_inclusive_pp": 1.9817283717191503,
+  "differential_median_pp": 2.9109716430514374,
+  "interpretation": "Canonical calculation is mathematically identical to Leave-One-Out (LOO) peer excess. If self-inclusion were introduced, the differential would mechanically contract from +3.10 pp to +1.98 pp due to the (K-1)/K scaling factor."
+}

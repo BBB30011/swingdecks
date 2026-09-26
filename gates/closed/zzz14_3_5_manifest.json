@@ -1,0 +1,85 @@
+{
+  "batch": "ZZZ.14.3.5",
+  "title": "Information-Coverage Confounding & Strict Pre-T Counterfactual Gate",
+  "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+  "total_observations": 73,
+  "treatment_n": 59,
+  "control_n": 14,
+  "baseline_replication": {
+    "treatment_n": 59,
+    "control_n": 14,
+    "treatment_mean_h5_excess_pct": 0.6528897140535886,
+    "control_mean_h5_excess_pct": -2.450857707847373,
+    "treatment_median_h5_excess_pct": 0.43154761904762307,
+    "control_median_h5_excess_pct": -2.5159751479149524,
+    "differential_mean_pp": 3.1037474219009615,
+    "differential_median_pp": 2.9475227669625754,
+    "standard_error_pp": 1.2287260388038095,
+    "p_value": 0.011537337055600005,
+    "bootstrap_ci_95": [
+      0.8389972653435279,
+      5.428962713043309
+    ],
+    "benchmark_expected_pp": 3.1037,
+    "replication_delta_pp": 4.742190096163057e-05,
+    "gate_a_passed": true
+  },
+  "coverage_diagnostics": {
+    "total_coverage_variables_audited": 5,
+    "treatment_pre_90d_mean": 2.016949152542373,
+    "control_pre_90d_mean": 0.0,
+    "treatment_total_archive_mean": 33.23728813559322,
+    "control_total_archive_mean": 36.57142857142857,
+    "archive_depth_comparability": "COMPARABLE (Control has 36.57 vs Treatment 33.24 archive events)",
+    "recent_event_density_gap": "ARCHIVAL_GAP (Control has 0.00 recent 90d events vs Treatment 2.02)"
+  },
+  "matched_counterfactual": {
+    "matched_pairs_count": 14,
+    "treatment_unmatched_count": 45,
+    "control_unmatched_count": 0,
+    "matched_treatment_mean_pct": 0.1492484381320045,
+    "matched_control_mean_pct": -2.450857707847373,
+    "matched_differential_pp": 2.6001061459793773,
+    "standard_error_pp": 1.9240155450535337,
+    "p_value": 0.17656874184690086,
+    "bootstrap_ci_95": [
+      -0.6366042715037566,
+      6.583132298552156
+    ],
+    "attenuation_vs_c0_pp": -0.5035938540206226,
+    "attenuation_pct": 16.22559699779691
+  },
+  "models_summary": {
+    "c0_effect_pp": 3.1037474219009615,
+    "c1_effect_pp": 2.6001061459793773,
+    "c2_effect_pp": 3.0404585766547076,
+    "c3_effect_pp": 3.5226797818842277,
+    "c4_effect_pp": 3.5226797818842277,
+    "c5_effect_pp": 2.600106145979376,
+    "c6_effect_pp": 3.1505144825978926,
+    "c7_lodo_range_pp": [
+      2.2089987447508284,
+      3.3890234705787186
+    ],
+    "c7_lodo_sign_changes": 0,
+    "attenuation_c0_to_c5_pct": 16.226876979993392
+  },
+  "placebo_falsification": {
+    "placebo_iterations": 1000,
+    "placebo_mean_pp": -0.05609860104671717,
+    "placebo_std_pp": 1.732665604696272,
+    "empirical_p_value": 0.041,
+    "actual_effect_pp": 3.1037474219009615,
+    "falsification_cleared": true
+  },
+  "red_team_attacks_cleared": 25,
+  "reproducibility": {
+    "dual_run_executed": true,
+    "max_discrepancy_pp": 0.0,
+    "manifest_hash_run1": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "manifest_hash_run2": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
+    "hash_identical": true,
+    "reproducibility_status": "EXACT_REPRODUCIBILITY_CONFIRMED"
+  },
+  "timestamp": "2026-09-16T13:13:23.277416"
+}

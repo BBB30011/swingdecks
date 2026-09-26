@@ -1,0 +1,12 @@
+{
+  "real_c5_evidence_peer_excess_pct": 1.5283155404861617,
+  "placebo_accumulation_peer_excess_pct": -4.565061778886334e-18,
+  "purified_real_vs_placebo_differential_pp": 1.5283155404861617,
+  "event_timing_classification": {
+    "new_information_surprise_count": 0,
+    "confirmation_continuation_count": 42,
+    "surprise_effect_status": "NOT_ESTIMABLE (0 unexpected surprise shocks in sample)",
+    "disclosure_role": "CONFIRMATION_MARKER"
+  },
+  "interpretation": "Purified real evidence setups exhibit +1.53% peer excess, compared to +-0.00% in matched non-event accumulation periods (delta = +1.53 pp). Disclosures validate and stabilize ongoing accumulation momentum."
+}

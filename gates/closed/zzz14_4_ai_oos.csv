@@ -1,0 +1,4 @@
+evaluation_partition,calendar_period,setup_count,commodity_mean_excess_h5_pct,non_commodity_mean_excess_h5_pct,commodity_spread_pp,ai_logic_frozen,outcome_leakage_detected,oos_integrity_status
+DEVELOPMENT_SET,2016-2023,1440,0.6320139929491158,0.08699769788272,0.5450162950663957,True,False,"PASS (Zero lookahead, frozen selection boundaries preserved)"
+VALIDATION_SET,2024,160,0.5217562564925153,-0.11664309628623215,0.6383993527787475,True,False,"PASS (Zero lookahead, frozen selection boundaries preserved)"
+OUT_OF_SAMPLE_SET,2025-2026,320,0.6038374179776166,0.34947142571572676,0.25436599226188983,True,False,"PASS (Zero lookahead, frozen selection boundaries preserved)"

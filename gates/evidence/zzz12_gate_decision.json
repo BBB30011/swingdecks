@@ -1,0 +1,12 @@
+{
+  "batch_id": "BATCH-ZZZ.12",
+  "methodology_version": "METHODOLOGY_V1_FROZEN_20260915",
+  "methodology_lock": true,
+  "historical_expansion_gate": "OPEN",
+  "gate_status": "METHODOLOGY_LOCKED",
+  "dataset_v1_baseline": "DATASET_V1_CANONICAL_FROZEN",
+  "dataset_v1_snapshot": "SNAPSHOT_ZZZ117_687970d0e904",
+  "change_control_status": "ACTIVE_4_CLASS_SYSTEM",
+  "v1_reproducibility": "VERIFIED_EXACT",
+  "next_authorized_action": "INGEST_AND_VALIDATE_DATASET_V2_WITH_REPLICATION_FIRST"
+}

@@ -1,0 +1,149 @@
+{
+  "top_1_date": {
+    "decision_date": "2026-08-27",
+    "count": 12,
+    "mean": 0.03058235933365999,
+    "abs_mean": 0.03058235933365999
+  },
+  "top_3_dates": [
+    {
+      "decision_date": "2026-08-27",
+      "count": 12,
+      "mean": 0.03058235933365999,
+      "abs_mean": 0.03058235933365999
+    },
+    {
+      "decision_date": "2025-09-09",
+      "count": 12,
+      "mean": 0.030496508994488858,
+      "abs_mean": 0.030496508994488858
+    },
+    {
+      "decision_date": "2019-10-25",
+      "count": 12,
+      "mean": -0.02789064321714743,
+      "abs_mean": 0.02789064321714743
+    }
+  ],
+  "top_5_dates": [
+    {
+      "decision_date": "2026-08-27",
+      "count": 12,
+      "mean": 0.03058235933365999,
+      "abs_mean": 0.03058235933365999
+    },
+    {
+      "decision_date": "2025-09-09",
+      "count": 12,
+      "mean": 0.030496508994488858,
+      "abs_mean": 0.030496508994488858
+    },
+    {
+      "decision_date": "2019-10-25",
+      "count": 12,
+      "mean": -0.02789064321714743,
+      "abs_mean": 0.02789064321714743
+    },
+    {
+      "decision_date": "2017-09-20",
+      "count": 12,
+      "mean": -0.02505719675869675,
+      "abs_mean": 0.02505719675869675
+    },
+    {
+      "decision_date": "2016-06-15",
+      "count": 12,
+      "mean": 0.018855130468360345,
+      "abs_mean": 0.018855130468360345
+    }
+  ],
+  "ticker_breakdown": [
+    {
+      "ticker": "ADRO",
+      "count": 8,
+      "mean": -0.013282521078663392
+    },
+    {
+      "ticker": "ANTM",
+      "count": 8,
+      "mean": -0.029346655835977228
+    },
+    {
+      "ticker": "ASII",
+      "count": 8,
+      "mean": 0.0027553054607576634
+    },
+    {
+      "ticker": "BBCA",
+      "count": 8,
+      "mean": 0.00505446863921631
+    },
+    {
+      "ticker": "BBNI",
+      "count": 8,
+      "mean": 0.0007992295693022827
+    },
+    {
+      "ticker": "BBRI",
+      "count": 8,
+      "mean": 0.0004264456599807039
+    },
+    {
+      "ticker": "BMRI",
+      "count": 8,
+      "mean": -0.0062801438684993004
+    },
+    {
+      "ticker": "INCO",
+      "count": 8,
+      "mean": 0.029346655835977228
+    },
+    {
+      "ticker": "ITMG",
+      "count": 8,
+      "mean": -0.023166976054244566
+    },
+    {
+      "ticker": "PTBA",
+      "count": 8,
+      "mean": 0.03644949713290796
+    },
+    {
+      "ticker": "TLKM",
+      "count": 8,
+      "mean": 0.00756267592650156
+    },
+    {
+      "ticker": "UNTR",
+      "count": 8,
+      "mean": -0.0027553054607576634
+    }
+  ],
+  "sector_breakdown": [
+    {
+      "sector": "BANKING_TIER1",
+      "count": 32,
+      "mean": -8.673617379884035e-19
+    },
+    {
+      "sector": "COAL_PRODUCER",
+      "count": 24,
+      "mean": 1.1564823173178713e-18
+    },
+    {
+      "sector": "HEAVY_EQUIPMENT",
+      "count": 16,
+      "mean": 0.0
+    },
+    {
+      "sector": "NICKEL_MINING",
+      "count": 16,
+      "mean": 0.0
+    },
+    {
+      "sector": "TELECOMMUNICATION",
+      "count": 8,
+      "mean": 0.00756267592650156
+    }
+  ]
+}
