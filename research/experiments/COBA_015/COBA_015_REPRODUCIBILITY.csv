@@ -1,0 +1,7 @@
+Verification_Dimension,Dataset,Items_Audited,Matches,Mismatches,Match_Rate_Pct,Status,Items_Checked
+Chronology Reconciliation,COBA_014_POSITION_LEDGER vs IHSG Trading Calendar,56.0,56,0,100.0,PASS,
+Cash Ledger Arithmetic,COBA_014_CASH_LEDGER.csv balance equations,113.0,113,0,100.0,PASS,
+P&L Balance Sheet Reconciliation,Ending Cash vs Initial Capital + Net Realized P&L,1.0,1,0,100.0,PASS,
+Integer Lot Sizing Conservation,COBA_014_LOT_ACCOUNTING.csv integer lots,150.0,150,0,100.0,PASS,
+Independent Sizing Recheck,"150 setups across 20 tickers, 11 years, 4 regimes",150.0,150,0,100.0,PASS,
+Dual-Run Clean Room Comparison,18 generated CSV artifacts in COBA_015 battery,,18,0,100.0,PASS,18.0

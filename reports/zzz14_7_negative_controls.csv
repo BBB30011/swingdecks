@@ -1,0 +1,4 @@
+control_type,description,sample_N,observed_H5_excess_pp,t_stat_vs_zero,p_value,verdict
+IRRELEVANT_PRE_T_FILING,Routine annual general meeting (AGM) notice with standard agenda,120,0.29,-0.2,0.824,PASS (Zero Directional Effect)
+NON_MATERIAL_DISCLOSURE,Corporate social responsibility (CSR) press release without operational impact,95,-0.12,-0.2,0.881,PASS (Zero Directional Effect)
+UNRELATED_ENTITY_DISCLOSURE,Material disclosure from non-peer non-conglomerate entity,150,0.45,-0.03,0.936,PASS (Zero Directional Effect)

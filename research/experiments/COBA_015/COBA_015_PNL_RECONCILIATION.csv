@@ -1,0 +1,12 @@
+Metric_Name,Value_IDR,Mathematical_Formula,Audit_Source,Status
+Initial Capital,100000000.0,Capital_0,Frozen Configuration,VERIFIED
+Total Trades Replayed,56.0,Count(Trades),Position Ledger,VERIFIED
+Gross Trading P&L,-908123.905467642,Sum(Gross_Sell - Cost_Basis),Independent Audit,VERIFIED
+Total Buy Brokerage Fees (0.15%),1388856.4349571033,Sum(Cost_Basis * 0.0015),Independent Audit,VERIFIED
+Total Sell Brokerage Fees (0.15%),1387494.2490989019,Sum(Gross_Sell * 0.0015),Independent Audit,VERIFIED
+Total Final Sales Taxes (0.10%),924996.1660659347,Sum(Gross_Sell * 0.0010),Independent Audit,VERIFIED
+Total Transaction Costs & Taxes,3701346.85012194,Total_Fees + Total_Taxes,Independent Audit,VERIFIED
+Net Realized P&L,-4609470.755589582,Gross_Trading_PnL - Total_Costs,Position Ledger,VERIFIED
+Ending Cash Balance,95390529.2444104,Cash_Final,Cash Ledger,VERIFIED
+Calculated Ending Equity,95390529.24441043,Initial_Capital + Net_Realized_PnL,Balance Sheet Equation,VERIFIED
+Equity Discrepancy,2.9802322387695312e-08,abs(Ending_Cash - Calculated_Equity),Reconciliation Invariant,ZERO_DISCREPANCY_PASS

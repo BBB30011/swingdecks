@@ -28,7 +28,7 @@ Zero strategy optimization, zero parameter tuning, and zero threshold search bas
 ## 2. Primary Reconciliation Questions (Q1 – Q10)
 
 ### Q1: Is the $C_0/C_1$ contradiction counterfactual numerically reproducible from the canonical setup matrix?
-**Answer: YES.** Evaluated on the canonical $N=1,760$ setup matrix ([`reports/zzz14_6_1_canonical_setup_matrix.csv`](file:///d:/Project/SwingDeck/reports/zzz14_6_1_canonical_setup_matrix.csv)), $C_0$ and $C_1$ produce 100% deterministic decision states and outcome distributions across multiple independent executions with zero hash divergence.
+**Answer: YES.** Evaluated on the canonical $N=1,760$ setup matrix ([`reports/zzz14_6_1_canonical_setup_matrix.csv`](file:///reports/zzz14_6_1_canonical_setup_matrix.csv)), $C_0$ and $C_1$ produce 100% deterministic decision states and outcome distributions across multiple independent executions with zero hash divergence.
 
 ### Q2: Is the $C_0/C_1$ estimand explicitly defined?
 **Answer: YES.** The counterfactual estimand is formally defined as:

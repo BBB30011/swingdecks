@@ -3,6 +3,7 @@ from core.position import PaperPosition, PositionMonitorEvent
 from core.exit_engine import ExitEngine
 from core.materiality import MaterialityEngine
 import uuid
+import hashlib
 
 class PositionMonitorResult:
     def __init__(self, position: PaperPosition, events: List[PositionMonitorEvent], action: str, reason: str):
@@ -31,8 +32,9 @@ class PositionMonitor:
         if context.get("data_quality") == "INVALID":
             # Do not fabricate price, use existing or None
             # But we must generate an event
+            pme_hash = hashlib.md5(f"{position.position_id}_{current_timestamp}_DATA_QUALITY_CHANGED".encode("utf-8")).hexdigest()[:8].upper()
             events.append(PositionMonitorEvent(
-                event_id=str(uuid.uuid4()),
+                event_id=f"PME_{pme_hash}",
                 position_id=position.position_id,
                 symbol=position.symbol,
                 timestamp=current_timestamp,
@@ -65,8 +67,9 @@ class PositionMonitor:
                     else:
                         event_type = "TARGET_APPROACHING"
                         
+                pme_hash = hashlib.md5(f"{position.position_id}_{current_timestamp}_{event_type}".encode("utf-8")).hexdigest()[:8].upper()
                 events.append(PositionMonitorEvent(
-                    event_id=str(uuid.uuid4()),
+                    event_id=f"PME_{pme_hash}",
                     position_id=position.position_id,
                     symbol=position.symbol,
                     timestamp=current_timestamp,
@@ -82,8 +85,9 @@ class PositionMonitor:
         # Assume context passes prev_risk_state if changed
         if "prev_risk_state" in context and context["prev_risk_state"] != risk_state:
             severity = "HIGH" if risk_state == "RED" else "MEDIUM"
+            pme_hash = hashlib.md5(f"{position.position_id}_{current_timestamp}_RISK_CHANGED".encode("utf-8")).hexdigest()[:8].upper()
             events.append(PositionMonitorEvent(
-                event_id=str(uuid.uuid4()),
+                event_id=f"PME_{pme_hash}",
                 position_id=position.position_id,
                 symbol=position.symbol,
                 timestamp=current_timestamp,
@@ -98,8 +102,9 @@ class PositionMonitor:
         active_invals = context.get("active_invalidations", [])
         if active_invals:
             position.invalidation_conditions = active_invals
+            pme_hash = hashlib.md5(f"{position.position_id}_{current_timestamp}_THESIS_INVALIDATED".encode("utf-8")).hexdigest()[:8].upper()
             events.append(PositionMonitorEvent(
-                event_id=str(uuid.uuid4()),
+                event_id=f"PME_{pme_hash}",
                 position_id=position.position_id,
                 symbol=position.symbol,
                 timestamp=current_timestamp,

@@ -13,7 +13,7 @@
 An exhaustive, adversarial acceptance challenge was conducted against the claims and artifacts of Batch ZZZ.14.2.1. Rather than attempting to confirm prior passing results, this audit operated under the adversarial assumption: **"Assume the PASS claim may be wrong. Try to break it."**
 
 Key Audit Outcomes:
-- **Test Circularity & Oracle Independence:** Two previous test cases were identified as partially circular because they asserted against pre-generated runner JSON summaries. An independent, live adversarial suite ([`tests/test_zzz1421R_adversarial_acceptance.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421R_adversarial_acceptance.py)) was constructed and executed, verifying all boundary conditions via live runtime reconstruction without reliance on static report flags.
+- **Test Circularity & Oracle Independence:** Two previous test cases were identified as partially circular because they asserted against pre-generated runner JSON summaries. An independent, live adversarial suite ([`tests/test_zzz1421R_adversarial_acceptance.py`](file:///tests/test_zzz1421R_adversarial_acceptance.py)) was constructed and executed, verifying all boundary conditions via live runtime reconstruction without reliance on static report flags.
 - **Sample Selection Integrity:** The 96-observation pilot dataset ($12\text{ tickers} \times 8\text{ dates}$) was verified to be strictly era-stratified and $100\%$ outcome-blind. Selection criteria did not incorporate $H_1/H_3/H_5/H_{10}/H_{20}$, MFE/MAE, or post-decision-date knowledge.
 - **V1 Canonical Reconciliation ($N=73$):** An independent live replay loop over all 73 canonical Layer E observations produced $0$ unexplained discrepancies against the frozen canonical dataset.
 - **Agent 2 Architectural Boundary:** Static AST token analysis and call-graph tracing confirmed zero direct database (`duckdb`, `sqlite3`), filesystem (`open(`, `read_parquet`), or network (`requests`, `urllib`) access paths. Agent 2 consumes exclusively immutable `HistoricalKnowledgeState(T)` instances.
@@ -36,11 +36,11 @@ To independently stress-test and attempt to refute the acceptance claims establi
 ## 3. Scope
 
 The audit encompassed:
-- The Historical Replay Engine ([`core/historical_replay_engine.py`](file:///d:/Project/SwingDeck/core/historical_replay_engine.py)).
-- The Point-in-Time (PIT) Replay Firewall ([`core/replay_firewall.py`](file:///d:/Project/SwingDeck/core/replay_firewall.py)).
-- The Agent 2 Intelligence Pipeline and Reasoning Boundary ([`agents/agent2_intelligence/pipeline.py`](file:///d:/Project/SwingDeck/agents/agent2_intelligence/pipeline.py), [`agents/agent2_intelligence/llm_reasoner.py`](file:///d:/Project/SwingDeck/agents/agent2_intelligence/llm_reasoner.py), [`agents/agent2_intelligence/schemas.py`](file:///d:/Project/SwingDeck/agents/agent2_intelligence/schemas.py)).
-- Test suites: [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///d:/Project/SwingDeck/tests/test_batch_zzz1421_agent2_replay_integration.py), [`tests/test_zzz1421_acceptance_evidence_review.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421_acceptance_evidence_review.py), and [`tests/test_zzz1421R_adversarial_acceptance.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421R_adversarial_acceptance.py).
-- Pilot data artifacts: [`scratch/zzz1421_pilot_replay_dataset.parquet`](file:///d:/Project/SwingDeck/scratch/zzz1421_pilot_replay_dataset.parquet), [`scratch/zzz1421_v1_reconciliation.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_v1_reconciliation.json), and [`scratch/zzz1421_eligibility_matrix.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_eligibility_matrix.json).
+- The Historical Replay Engine ([`core/historical_replay_engine.py`](file:///core/historical_replay_engine.py)).
+- The Point-in-Time (PIT) Replay Firewall ([`core/replay_firewall.py`](file:///core/replay_firewall.py)).
+- The Agent 2 Intelligence Pipeline and Reasoning Boundary ([`agents/agent2_intelligence/pipeline.py`](file:///agents/agent2_intelligence/pipeline.py), [`agents/agent2_intelligence/llm_reasoner.py`](file:///agents/agent2_intelligence/llm_reasoner.py), [`agents/agent2_intelligence/schemas.py`](file:///agents/agent2_intelligence/schemas.py)).
+- Test suites: [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///tests/test_batch_zzz1421_agent2_replay_integration.py), [`tests/test_zzz1421_acceptance_evidence_review.py`](file:///tests/test_zzz1421_acceptance_evidence_review.py), and [`tests/test_zzz1421R_adversarial_acceptance.py`](file:///tests/test_zzz1421R_adversarial_acceptance.py).
+- Pilot data artifacts: [`scratch/zzz1421_pilot_replay_dataset.parquet`](file:///scratch/zzz1421_pilot_replay_dataset.parquet), [`scratch/zzz1421_v1_reconciliation.json`](file:///scratch/zzz1421_v1_reconciliation.json), and [`scratch/zzz1421_eligibility_matrix.json`](file:///scratch/zzz1421_eligibility_matrix.json).
 
 ---
 
@@ -70,7 +70,7 @@ To break the baseline claims, the following adversarial procedures were enacted:
 
 ## 6. Test Circularity Audit
 
-All 10 existing tests in [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///d:/Project/SwingDeck/tests/test_batch_zzz1421_agent2_replay_integration.py) were audited for circular validation patterns:
+All 10 existing tests in [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///tests/test_batch_zzz1421_agent2_replay_integration.py) were audited for circular validation patterns:
 
 | Test ID | Test Name | Audit Finding | Classification |
 | :--- | :--- | :--- | :--- |
@@ -86,7 +86,7 @@ All 10 existing tests in [`tests/test_batch_zzz1421_agent2_replay_integration.py
 | `TC-10` | `test_20_point_red_team_pass` | Checked `status == "PASS"` on runner artifact `zzz1421_red_team.json`. | **CIRCULAR** |
 
 ### Resolution of Circular Tests:
-To eliminate reliance on circular tests `TC-02` and `TC-10`, a dedicated live adversarial test module was created in [`tests/test_zzz1421R_adversarial_acceptance.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421R_adversarial_acceptance.py), featuring direct re-computation of V1 reconciliation and end-to-end AST validation.
+To eliminate reliance on circular tests `TC-02` and `TC-10`, a dedicated live adversarial test module was created in [`tests/test_zzz1421R_adversarial_acceptance.py`](file:///tests/test_zzz1421R_adversarial_acceptance.py), featuring direct re-computation of V1 reconciliation and end-to-end AST validation.
 
 ```text
 TEST ID: TC-CIRCULAR-AUDIT
@@ -103,7 +103,7 @@ REASON: Two artifact-checking tests replaced with live adversarial suite.
 
 ## 7. 96-Pilot Sample Selection Audit
 
-The selection mechanism for the 96 pilot observations ($12\text{ tickers} \times 8\text{ dates}$) was traced back to [`core/pilot_sampler.py`](file:///d:/Project/SwingDeck/core/pilot_sampler.py):
+The selection mechanism for the 96 pilot observations ($12\text{ tickers} \times 8\text{ dates}$) was traced back to [`core/pilot_sampler.py`](file:///core/pilot_sampler.py):
 
 1. **Why exactly 8 dates?** The 8 dates represent structural era anchors chosen to span the 10-year Dataset V2 timeline (2016–2026):
    - `2016-06-15`: Pre-2018 Commodity Downturn
@@ -198,7 +198,7 @@ flowchart TD
 
 ## 11. HistoricalKnowledgeState Contract
 
-The class definition in [`agents/agent2_intelligence/schemas.py`](file:///d:/Project/SwingDeck/agents/agent2_intelligence/schemas.py) was verified:
+The class definition in [`agents/agent2_intelligence/schemas.py`](file:///agents/agent2_intelligence/schemas.py) was verified:
 - `HistoricalKnowledgeState` is a strictly typed, immutable Pydantic dataclass.
 - Prohibits passing raw database connections, cursors, or unbounded query strings.
 - Rejects unexpected extra fields (`extra = "forbid"`).
@@ -370,7 +370,7 @@ Conducted two live, independent replay executions across the 96-observation data
 ## 28. Eligibility Matrix Sanity
 
 **Audit Finding on `Pre-2016` Row:**
-The previous review noted a `Pre-2016` category in [`scratch/zzz1421_eligibility_matrix.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_eligibility_matrix.json). Adversarial investigation revealed:
+The previous review noted a `Pre-2016` category in [`scratch/zzz1421_eligibility_matrix.json`](file:///scratch/zzz1421_eligibility_matrix.json). Adversarial investigation revealed:
 - `Pre-2016` corresponds to an intentional boundary test probe date (`2015-05-15`).
 - It is designed to verify system behavior in the pre-digitization era of the Indonesia Stock Exchange (IDX).
 - In this era, Market OHLCV is `READY`, while Corporate Actions and Intelligence Graphs are correctly categorized as `LIMITED` or `BLOCKED`.
@@ -433,7 +433,7 @@ Zero unresolved architectural or empirical contradictions were found. All claims
 
 ## 32. Evidence Gaps
 
-The only identified evidence gap in prior testing was the existence of 2 circular unit tests (`test_v1_observation_reconciliation_zero_discrepancy` and `test_20_point_red_team_pass`). This gap was completely closed by the creation of [`tests/test_zzz1421R_adversarial_acceptance.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421R_adversarial_acceptance.py).
+The only identified evidence gap in prior testing was the existence of 2 circular unit tests (`test_v1_observation_reconciliation_zero_discrepancy` and `test_20_point_red_team_pass`). This gap was completely closed by the creation of [`tests/test_zzz1421R_adversarial_acceptance.py`](file:///tests/test_zzz1421R_adversarial_acceptance.py).
 
 ---
 
@@ -458,7 +458,7 @@ The only identified evidence gap in prior testing was the existence of 2 circula
 ## 36. Final Gate A: Material Circular Validation
 
 - Circular tests identified and documented: **Yes** (2 tests).
-- Replaced with live independent test oracles: **Yes** ([`tests/test_zzz1421R_adversarial_acceptance.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421R_adversarial_acceptance.py)).
+- Replaced with live independent test oracles: **Yes** ([`tests/test_zzz1421R_adversarial_acceptance.py`](file:///tests/test_zzz1421R_adversarial_acceptance.py)).
 - **Gate A Status: CLEARED.**
 
 ---

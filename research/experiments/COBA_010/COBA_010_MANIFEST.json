@@ -1,0 +1,75 @@
+{
+  "experiment_id": "COBA_010",
+  "timestamp_utc": "2026-09-27T03:25:12Z",
+  "parent_experiment_id": "COBA_009",
+  "north_star_research_question": "Does historical qualitative intelligence used by Agent 2 provide incremental discriminatory information value over empirical peer-excess outcomes once Agent 1 information is conditioned?",
+  "frozen_baseline": {
+    "coba_008_primary_beta": -0.02790607011754985,
+    "coba_008_p_wild": 0.937,
+    "coba_009_classification": "NO_CONDITIONAL_EVIDENCE"
+  },
+  "population": {
+    "N_TOTAL": 1760,
+    "N_WITH_AGENT1": 1760,
+    "N_WITH_AGENT2": 1760,
+    "N_WITH_OUTCOME": 1417,
+    "N_COMPLETE_CASE": 1417,
+    "N_EXCLUDED": 343,
+    "active_equities": 79,
+    "date_clusters": 21
+  },
+  "primary_model_results": {
+    "model_1_agent1_only": {
+      "beta_act": -0.027906070117549683,
+      "se": 0.3741916580260493,
+      "p_wild": 0.939
+    },
+    "model_2_agent2_only": {
+      "beta_a2": 0.5019580372338234,
+      "se": 0.43302738140532193,
+      "p_wild": 0.267
+    },
+    "model_3_additive": {
+      "beta_act": -0.02698675226787241,
+      "beta_a2": 0.5018238449589432,
+      "p_wild_act": 0.935,
+      "p_wild_a2": 0.269,
+      "delta_beta_act": 0.0009193178496772723
+    },
+    "model_4_interaction": {
+      "beta_act": 0.09363487285193149,
+      "beta_a2": 0.9457529173649495,
+      "beta_interaction": -1.2918022867889225,
+      "se_interaction": 1.308115428305483,
+      "p_wild_interaction": 0.37
+    }
+  },
+  "final_classification": "NO_INCREMENTAL_INFORMATION_EVIDENCE",
+  "scientific_firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY",
+    "AGENT_COUNT": "EXACTLY_3",
+    "AGENT1_ROLE": "FROZEN_QUANTITATIVE_CONTEXT",
+    "AGENT2_ROLE": "HISTORICAL_QUALITATIVE_INTELLIGENCE",
+    "AGENT3_ROLE": "DOWNSTREAM_OBSERVATIONAL_DECISION"
+  },
+  "artifacts_sha256": {
+    "COBA_010_AGENT2_FEATURE_RESULTS.csv": "d00ae8e064d7678cdd12847dd86995808c7ddd90b6cec3ce8701518984ea2dbf",
+    "COBA_010_COMMON_SUPPORT.csv": "277ff626adba32b4afa1adb4e114060836ffa8cb2d6131be4e1027ff9b52591b",
+    "COBA_010_CONTRADICTION_RESULTS.csv": "dae7db30331b9e0235513afa476e7649ba41146fe9e65d612c4d6f84dcbf2ce5",
+    "COBA_010_COVERAGE.csv": "45194a85ee12c0fb43281eca245792d9f39f47e91c8c7930a46ff47e16bcda05",
+    "COBA_010_EVENT_RESULTS.csv": "957db19345f94e6efca97b5660ffffda814c5a153cf512057079a91f08ed0a94",
+    "COBA_010_EVIDENCE_MATRIX.csv": "43a1d29754052adfc36cf5991478ebe92d88df5e15530bbc800d803625427132",
+    "COBA_010_INDEPENDENT_RECHECK.csv": "3f4137c5956e7a56d115eec1c2ace22b5e8e4bb8c72dcefb88184a73202cf81a",
+    "COBA_010_MISSINGNESS.csv": "d28a995196a0f786766f4682ecf9abfef148253d970c99ecf0585319fc45ec05",
+    "COBA_010_MODEL_COMPARISON.csv": "07e93d8367b3fa78ba95294741f0743ede06de900f3bbed855dedadfba614f23",
+    "COBA_010_MULTIPLE_COMPARISON.csv": "3d6f5cbf7d11f16e0e0c9cea3df4adef79efc7c40c925ff98b1b0b54fb0adb3e",
+    "COBA_010_PIT_AUDIT.csv": "bec7ba3b746046b3b66f2e093ce90003dbe7807546278be58166849028f7fcd4",
+    "COBA_010_PRIMARY_RESULTS.csv": "07e93d8367b3fa78ba95294741f0743ede06de900f3bbed855dedadfba614f23",
+    "COBA_010_REDTEAM_AUDIT.csv": "f6403778c22ac337adcd4c2a6adbe290e25df9b985b3218828db83b59fa60516",
+    "COBA_010_REPORT.md": "6dddd00646577d3975866db8a98f6d42a1dae721692317798030787271d9e662",
+    "COBA_010_TEMPORAL_RESULTS.csv": "d154eef2302e24906d28d8c1d1c61a4ae4cbcd8e67c1d43ebf327776e84c8737"
+  }
+}

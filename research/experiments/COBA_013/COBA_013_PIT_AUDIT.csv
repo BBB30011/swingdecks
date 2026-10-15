@@ -1,0 +1,10 @@
+Dimension,Audit_Target,Observed_Specification,Temporal_Bound,Leakage_Risk,Status
+SIGNAL_TIMESTAMP,Agent 1 Scanner Observation Timestamp,Fixed pre-market 08:30:00+07:00 on observation date T,Pre-market T (strictly prior to 09:00:00 market open),ABSENT,VERIFIED
+MARKET_OPEN_EXECUTION,Market Session Opening Price Alignment,IDX trading session begins at 09:00:00+07:00,Open T occurs 30 minutes after signal freeze,ABSENT,VERIFIED
+OUTCOME_WINDOW_START,Forward Outcome Accounting Start Horizon,Horizon evaluation begins at Close of session t+1 relative to setup date t,"Window strictly [t+1, t+h]; zero contemporaneous same-day bar outcome evaluation",ABSENT,VERIFIED
+OUTCOME_WINDOW_END,Forward Horizon Terminal Session Offset,"Terminal trading sessions h in {1, 3, 5, 10, 20} sequential trading days",Window strictly terminates at Close_{t+h},ABSENT,VERIFIED
+INTRADAY_EXTREMA_MAE_MFE,Session-by-Session Path Excursions,"Minimum Low and Maximum High calculated across sessions tau in [t+1, t+h]",Strictly post-entry path; Close_t used solely as denominator basis,ABSENT,VERIFIED
+AGENT2_INTELLIGENCE_PIT,Qualitative Intelligence Publication Timestamps,Pre-market event archiving in DuckDB; external historical news provenance partially archived,Events timestamped prior to 08:30 T where available,LOW_TO_MODERATE,PARTIAL
+EXTERNAL_PROVENANCE_SNAPSHOTS,Historical Point-in-Time Data Lake Provenance,Market data acquired via yfinance external raw download; point-in-time exchange snapshot audit trails absent,Historical corporate adjustments may reflect retrospective provider restatements,MODERATE,PARTIAL
+OUTCOME_TEMPORAL_ALIGNMENT,Mathematical Offset Alignment Across Datasets,"1,417 setups verified with exact sequential calendar session indices",100% verified alignment across H1 to H20,ABSENT,VERIFIED
+FULL_HISTORICAL_PIT,Universal Point-in-Time Audit Across Entire Pipeline,External market data and historical news provenance lack certified immutable exchange snapshot feeds,Certified pre-outcome availability cannot be proven for all historical external records,MODERATE,PARTIAL

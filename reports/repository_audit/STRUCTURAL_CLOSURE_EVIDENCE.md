@@ -3,7 +3,7 @@
 ## 1. WHAT WAS FOUND
 - **Structure**: Several dead directories existed (`d/`, `dummy/`, `migration_proposal/`, `config/`).
 - **Knowledge/Documentation**: The root `README.md` was bloated (32KB+). Important docs scattered in `docs/`.
-- **Pathing (The Blocker)**: 58 instances of hardcoded legacy DuckDB paths (`data/intelligence.duckdb`) and `scratch/` paths (`d:/Project/SwingDeck/scratch`) across `core/`, `tests/`, and `gates/` were causing mass failures (`CatalogException` and `FileNotFoundError`).
+- **Pathing (The Blocker)**: 58 instances of hardcoded legacy DuckDB paths (`data/intelligence.duckdb`) and `scratch/` paths (`scratch`) across `core/`, `tests/`, and `gates/` were causing mass failures (`CatalogException` and `FileNotFoundError`).
 
 ## 2. WHAT WAS CHANGED
 - **Path Remediation**: Surgically targeted and updated 14 hardcoded `scratch/` paths to canonical `gates/evidence/` via automated script `scripts/audit/path_remediation_v3.py`.

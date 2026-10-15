@@ -187,13 +187,13 @@ def test_portfolio_reconciliation():
     rep = portfolio.reconcile()
     assert any("Negative cash" in i for i in rep.issues)
 
-def test_no_hindsight_leakage():
+def test_no_hindsight_leakage(tmp_path):
     # Asserting that lesson does not change position entry features
     pos = create_mock_position()
     pos.status = "CLOSED"
     pos.close_price = 1050
     ctx = {"quant_score": 90}
-    ledger = LearningLedger("dummy")
+    ledger = LearningLedger(str(tmp_path))
     lesson = ledger.generate_lesson(pos, ctx)
     assert "outcome" in lesson.model_dump()
     assert ctx["quant_score"] == 90 # Unchanged
@@ -305,9 +305,9 @@ def test_unrealized_pnl_pct():
     pos.update_price(1100)
     assert pos.unrealized_pnl_pct == 0.1
 
-def test_realized_pnl_pct_in_lesson():
+def test_realized_pnl_pct_in_lesson(tmp_path):
     pos = create_mock_position()
     pos.status = "CLOSED"
     pos.close_price = 1100
-    lesson = LearningLedger("d").generate_lesson(pos, {})
+    lesson = LearningLedger(str(tmp_path)).generate_lesson(pos, {})
     assert lesson.realized_pnl_pct == 0.1

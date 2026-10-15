@@ -1,0 +1,13 @@
+{
+    "symbol": "ASII",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:43.587406+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "027285b498d3ee6099402eeb98f0c435ec577509aba1883862d020fe024e00aa"
+}

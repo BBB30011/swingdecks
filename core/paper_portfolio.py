@@ -25,6 +25,9 @@ class PaperPortfolio:
         principal = sum(p.position_value for p in self.positions.values() if p.status == "OPEN")
         return self.cash + principal + unrealized
         
+    def get_total_unrealized_pnl(self) -> float:
+        return sum(p.unrealized_pnl for p in self.positions.values() if p.status == "OPEN")
+
     def get_total_exposure(self) -> float:
         return sum(p.position_value for p in self.positions.values() if p.status == "OPEN")
         
@@ -43,6 +46,7 @@ class PaperPortfolio:
             
         position.status = "OPEN"
         position.position_value = position.entry_price * position.quantity
+        position.entry_cost = cost
         self.positions[position.position_id] = position
         
         self.cash -= position.position_value
@@ -61,9 +65,10 @@ class PaperPortfolio:
         position.close_price = close_price
         position.closed_timestamp = timestamp
         position.close_reason = reason
+        position.exit_cost = cost
         
         gross_pnl = (close_price - position.entry_price) * position.quantity
-        position.realized_pnl = gross_pnl - cost
+        position.realized_pnl = gross_pnl - position.entry_cost - cost
         
         self.realized_pnl += position.realized_pnl
         self.cash += (close_price * position.quantity) - cost
@@ -94,7 +99,7 @@ class PaperPortfolio:
                 report.add_issue(f"Impossible quantity for {p.position_id}: {p.quantity}")
                 
         # Validate PnL
-        expected_equity = self.capital + self.realized_pnl + sum(p.unrealized_pnl for p in self.positions.values() if p.status == "OPEN")
+        expected_equity = self.capital + self.realized_pnl + sum((p.unrealized_pnl - p.entry_cost) for p in self.positions.values() if p.status == "OPEN")
         actual_equity = self.get_equity()
         if abs(expected_equity - actual_equity) > 0.1: # float tolerance
             report.add_issue(f"Mismatched PnL. Expected: {expected_equity}, Actual: {actual_equity}")

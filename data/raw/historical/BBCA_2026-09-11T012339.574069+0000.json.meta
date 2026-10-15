@@ -1,0 +1,13 @@
+{
+    "symbol": "BBCA",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:39.574069+00:00",
+    "record_count": 1203,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "0f3427ce345175561c17e11ba285f0ee72be5063393cff1678a05c001786282c"
+}

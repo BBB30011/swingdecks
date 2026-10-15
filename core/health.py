@@ -35,12 +35,11 @@ class HealthMonitor:
             return SystemState.PAUSED  # Safe default if corrupt
 
     def check_health(self) -> HealthStatus:
-        if self.get_system_state() == SystemState.PAUSED:
-            return HealthStatus.PAUSED
-            
-        # Mock basic checks - in reality checks directories, disks, etc.
-        state_dir = Path("state")
+        state_dir = self.state_file.parent
         if not state_dir.exists():
             return HealthStatus.FAILED
+
+        if self.get_system_state() == SystemState.PAUSED:
+            return HealthStatus.PAUSED
             
         return HealthStatus.HEALTHY

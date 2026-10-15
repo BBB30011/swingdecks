@@ -1,0 +1,9 @@
+Feature,Description,Beta_Interaction,SE_Interaction,P_Cluster,P_Wild,P_Bonferroni,P_Holm,FDR_Q_Value,Nominally_Significant (p<0.05),Survives_FDR (q<0.10),Survives_Bonferroni
+L0_momentum_score,Relative Strength / Momentum Score (0-100),-0.20289925584590948,0.08643113801947282,0.018898605698125293,0.018,0.144,0.144,0.144,True,False,False
+L0_relative_volume,Relative Volume Ratio,0.1510874258032254,0.8703878131378077,0.8621905763157107,0.856,1.0,0.856,0.856,False,False,False
+L0_pre20_return,Pre-20d Return (Price Momentum Trend),-33.54133857312867,20.82178319774084,0.10720646150293534,0.075,0.6,0.525,0.3,False,False,False
+L0_pre10_return,Pre-10d Return,-18.988526297443762,11.157219070829655,0.08877318885130592,0.104,0.832,0.624,0.2773333333333333,False,False,False
+L0_pre5_return,Pre-5d Return,13.999661282477232,12.6100799378519,0.26691454273553883,0.286,1.0,1.0,0.45759999999999995,False,False,False
+L2_archive_depth_months,Liquidity / Archival Depth Months,-0.007283955230223917,0.00906969285088074,0.42191152757642625,0.407,1.0,0.814,0.46514285714285714,False,False,False
+L2_pre_30d_event_density,Information Density (Pre-30d Events),-0.023706990076810784,0.02151917136831406,0.27060588021199994,0.271,1.0,1.0,0.542,False,False,False
+L2_primary_source_ratio,Primary Source Ratio (Coverage Quality),-1.8178507361844307,1.824150589457478,0.31898472527681454,0.326,1.0,0.978,0.4346666666666667,False,False,False

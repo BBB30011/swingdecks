@@ -1,0 +1,4 @@
+Verification_Type,Target_Dataset,Items_Checked,Matches,Mismatches,Match_Rate_Pct,Status
+Independent Recalculation,150 historical ledger sizing and cash allocation events,150,150,0,100.0,PASS
+Clean-Room Dual Run,18 generated CSV artifacts in COBA_014 battery,18,18,0,100.0,PASS
+Accounting Invariants Battery,INV-01 through INV-12 automated invariant validation,12,12,0,100.0,PASS

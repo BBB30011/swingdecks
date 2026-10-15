@@ -1,0 +1,13 @@
+{
+    "symbol": "ICBP",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-29T06:52:09.045849+00:00",
+    "record_count": 1203,
+    "first_date": "2021-09-29T00:00:00+07:00",
+    "last_date": "2026-09-29T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "06c22e6fcdfb7b6a275247da04a678e7a039bb6a0bdcfb98a59730d6cf553d4d"
+}

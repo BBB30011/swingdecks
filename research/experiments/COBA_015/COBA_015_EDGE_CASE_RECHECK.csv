@@ -1,0 +1,21 @@
+Case_ID,Edge_Case_Description,COBA_014_Status,COBA_015_Status,Semantic_Distinction
+EC-01,Zero Volume Session,PASS,PASS,Deterministic accounting behavior verified.
+EC-02,One-Lot Minimum Purchase,PASS,PASS,Deterministic accounting behavior verified.
+EC-03,Insufficient Cash for 1 Lot,PASS,PASS,Deterministic accounting behavior verified.
+EC-04,Partial Allocation / Cash Remainder,PASS,PASS,Deterministic accounting behavior verified.
+EC-05,Max Concurrent Positions Reached,PASS,PASS,Deterministic accounting behavior verified.
+EC-06,Same-Day Signal & Execution,PASS,PASS,Deterministic accounting behavior verified.
+EC-07,Execution at Price Limit (ARA/ARB),PASS,PASS_RULE_VERIFIED,Execution blocking rules verified; real-world auction microstructure remains unobservable.
+EC-08,Trading Suspension (WSKT),PASS,PASS_RULE_VERIFIED,Execution blocking rules verified; real-world auction microstructure remains unobservable.
+EC-09,Exchange Delisting,PASS,PASS_RULE_VERIFIED,Execution blocking rules verified; real-world auction microstructure remains unobservable.
+EC-10,Stock Split During Holding (1:5),PASS,PASS,Deterministic accounting behavior verified.
+EC-11,Cash Dividend During Holding,PASS,PASS,Deterministic accounting behavior verified.
+EC-12,Rights Issue Entitlement,PASS_BLOCKED_POLICY,PASS_BLOCKED_POLICY,Rights accounting correctly blocked by policy as unsupported.
+EC-13,Ticker Symbol Change,PASS,PASS,Deterministic accounting behavior verified.
+EC-14,Duplicate Signal on Same Bar,PASS,PASS,Deterministic accounting behavior verified.
+EC-15,Duplicate Order Submission,PASS,PASS,Deterministic accounting behavior verified.
+EC-16,Repeated Entry on Existing Ticker,PASS,PASS,Deterministic accounting behavior verified.
+EC-17,Repeated Exit on Closed Position,PASS,PASS,Deterministic accounting behavior verified.
+EC-18,Partial Close,PASS_POLICY_ENFORCED,PASS_POLICY_ENFORCED,Atomic 100% position liquidation strictly enforced by architecture.
+EC-19,Complete Close on Horizon Expiry,PASS,PASS,Deterministic accounting behavior verified.
+EC-20,Right-Censored Position (2026-08-27),PASS,PASS_POLICY_VERIFIED,Terminal-date positions held open and marked to market without artificial forced liquidation.

@@ -5,10 +5,10 @@
 **Status:** COMPLETE / AUDIT GOVERNANCE FROZEN  
 **Final Audit Decision:** `CONDITIONAL — COVERAGE INSUFFICIENT / CONCLUSION LIMITED`  
 **Reference Artifacts:**
-- Primary Audit Parquet: [`scratch/zzz101_coverage_results.parquet`](file:///D:/Project/SwingDeck/scratch/zzz101_coverage_results.parquet)
-- Summary JSON: [`scratch/zzz101_summary.json`](file:///D:/Project/SwingDeck/scratch/zzz101_summary.json)
-- Coverage Audit Engine: [`core/historical_disclosure_coverage_engine.py`](file:///D:/Project/SwingDeck/core/historical_disclosure_coverage_engine.py)
-- Test Suite: [`tests/test_batch_zzz101_historical_disclosure_coverage.py`](file:///D:/Project/SwingDeck/tests/test_batch_zzz101_historical_disclosure_coverage.py)
+- Primary Audit Parquet: [`scratch/zzz101_coverage_results.parquet`](file:///scratch/zzz101_coverage_results.parquet)
+- Summary JSON: [`scratch/zzz101_summary.json`](file:///scratch/zzz101_summary.json)
+- Coverage Audit Engine: [`core/historical_disclosure_coverage_engine.py`](file:///core/historical_disclosure_coverage_engine.py)
+- Test Suite: [`tests/test_batch_zzz101_historical_disclosure_coverage.py`](file:///tests/test_batch_zzz101_historical_disclosure_coverage.py)
 
 ---
 

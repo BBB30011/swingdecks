@@ -1,0 +1,6 @@
+Test_Name,Standard,Observed_Discrepancy,Verdict
+Accounting_Balance_Identity,Cash + Market_Value == Total_Equity,0.0,PASS
+Canonical_ACT_Replay_Equity,"Ending Equity == 136,519,205.46 IDR",0.0,PASS
+Canonical_ACT_Position_Count,Executed Positions == 105,0.0,PASS
+Corporate_Action_Conservation,Position Value Conserved across Splits,0.0,PASS
+PIT_Execution_Timing,08:30 WIB Signal -> 09:00 WIB Fill -> 16:00 WIB T+5 Exit,0.0,PASS

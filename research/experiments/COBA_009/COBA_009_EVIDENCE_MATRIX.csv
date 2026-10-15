@@ -1,0 +1,9 @@
+Hypothesis_Domain,Test_Specification,Observed_Parameter,P_Wild_Range,Robustness_Status,Final_Classification
+Market_Regime_Interaction,ACT × MARKET_REGIME (4 regimes),"BULL (+0.33), BEAR (-0.27), SIDE (-0.85), VOL (+0.42)","[0.29, 1.00]",No regime achieves significance,NO_CONDITIONAL_EVIDENCE
+Volatility_State_Interaction,ACT × HIGH_VOLATILITY (Discrete),Beta = +0.4224 pp,p_wild = 1.0000,Insignificant under wild bootstrap,NO_CONDITIONAL_EVIDENCE
+Liquidity_State_Interaction,ACT × COVERAGE_TIER (4 tiers),"High (-1.39), Med (-0.35), Low (+0.32)","[0.06, 0.65]",High coverage tier marginally nominal (p=0.064),NO_CONDITIONAL_EVIDENCE
+Relative_Strength_Interaction,ACT × L0_momentum_score (Continuous),Beta3 = -0.2029 pp per score unit,"p_cluster = 0.0189, p_wild = 0.0230",Survives Wild Boot & Ticker LOO; fails Bonferroni (p_bonf=0.184),CONDITIONAL_ASSOCIATION_CANDIDATE
+Volume_State_Interaction,ACT × L0_relative_volume (Continuous),Beta3 = +0.1511 pp per ratio unit,p_wild = 0.8640,Insignificant across all specifications,NO_CONDITIONAL_EVIDENCE
+Breakout_Quality_Interaction,ACT × arm_a_timing (Timing Quality),WATCH/EARLY (+0.30) vs ACT/READY (-0.02),p_wild = 0.2190,Non-monotonic gradient; timing does not rescue ACT,NO_CONDITIONAL_EVIDENCE
+Market_Breadth_Interaction,ACT × MARKET_BREADTH_STATE,NOT_AVAILABLE,BLOCKED,No frozen PIT breadth definition in repository,BLOCKED
+Sector_Interaction,ACT × SECTOR (7 sectors),"Betas in [-1.71, +1.24] pp","[0.15, 0.98]",No sector achieves statistical significance,NO_CONDITIONAL_EVIDENCE

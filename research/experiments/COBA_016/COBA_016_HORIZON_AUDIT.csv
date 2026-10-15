@@ -1,0 +1,6 @@
+Horizon,Required_Session_Offset,Total_Positions_Tested,Completed_Exits_Count,Right_Censored_Count,Mean_Holding_Sessions,Min_Holding_Sessions,Max_Holding_Sessions,Horizon_Offset_Integrity
+H1,1,105,105,0,1.0,1,1,PASS
+H3,3,105,105,0,3.0,3,3,PASS
+H5,5,105,105,0,5.0,5,5,PASS
+H10,10,105,105,0,10.0,10,10,PASS
+H20,20,105,100,5,20.0,20,20,PASS

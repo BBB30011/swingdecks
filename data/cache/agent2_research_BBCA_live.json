@@ -1,0 +1,23 @@
+{
+  "status": "SUCCESS",
+  "command": "AGENT2 UPDATE NEWS BBCA",
+  "symbol": "BBCA",
+  "mode": "REAL_INTERNET_RESEARCH",
+  "sources": [
+    {
+      "url": "https://idx.co.id/news/bbca",
+      "title": "BBCA Klarifikasi",
+      "content_hash": "abc"
+    }
+  ],
+  "evidence": [],
+  "knowledge_delta": {
+    "ADDED": [
+      "Company officially denied acquisition rumors by Haji Isam (Sept 26)."
+    ],
+    "CONTRADICTED": [
+      "Social media speculation regarding acquisition."
+    ],
+    "UPDATED": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "symbol": "TLKM",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:42.761762+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "1ae17b19a734d4d8afea005f1dea9cdad2e3983c84bb8915a9ae316bf064c0bf"
+}

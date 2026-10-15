@@ -1,0 +1,13 @@
+{
+    "symbol": "INDF",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-29T06:52:09.792362+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-29T00:00:00+07:00",
+    "last_date": "2026-09-29T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "f7083c44cf8724e3261e7994c41c7becec99e922ef5a3ba521dcd048655d0a7d"
+}

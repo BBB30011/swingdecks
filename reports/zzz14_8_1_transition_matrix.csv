@@ -1,0 +1,17 @@
+source_action_arm_b,target_action_arm_d,transition_label,count_N,frequency_pct,negative_H5_count,positive_H5_count,negative_H5_rate_pct,mean_H5_pp,median_H5_pp,mean_H10_pp,mean_H20_pp,mean_MAE_pp,mean_MFE_pp,descriptive_interpretation
+ACT,REJECT,ACT -> REJECT,40,2.27,35,5,87.5,-1.9705,-1.49,-2.9572,-4.335,-4.0625,1.167,Observed defensive alignment
+WATCH,REJECT,WATCH -> REJECT,46,2.61,34,12,73.91,-1.8928,-1.96,-2.8393,-4.1641,-4.2248,1.7059,Observed defensive action
+WAIT,REJECT,WAIT -> REJECT,71,4.03,52,19,73.24,-1.8886,-1.55,-2.8332,-4.1549,-4.1827,1.6828,Observed defensive action
+INSUFFICIENT,REJECT,INSUFFICIENT -> REJECT,4,0.23,2,2,50.0,0.3675,0.085,0.5525,0.8075,-2.8775,3.145,Observed defensive action (sparsity+contra)
+ACT,ACT,ACT -> ACT,422,23.98,144,278,34.12,0.9721,1.125,1.4582,2.1386,-2.2251,3.4465,Observed baseline confirmation
+WATCH,ACT,WATCH -> ACT,354,20.11,127,227,35.88,0.9775,0.91,1.4664,2.1504,-2.2709,3.4543,Observed escalation
+WAIT,ACT,WAIT -> ACT,52,2.95,17,35,32.69,1.3529,1.395,2.0298,2.9758,-2.0869,3.7206,Observed escalation
+WAIT,WATCH,WAIT -> WATCH,90,5.11,37,53,41.11,0.267,0.505,0.4008,0.5874,-2.4666,2.8291,Observed timing refinement
+WATCH,WATCH,WATCH -> WATCH,217,12.33,82,135,37.79,0.5247,0.57,0.7868,1.1542,-2.4788,3.1721,Observed observation maintenance
+WAIT,WAIT,WAIT -> WAIT,360,20.45,123,237,34.17,0.9814,0.91,1.4722,2.159,-2.2591,3.4888,Observed neutral maintenance
+INSUFFICIENT,INSUFFICIENT,INSUFFICIENT -> INSUFFICIENT,77,4.38,27,50,35.06,0.9665,0.91,1.4494,2.1262,-2.1636,3.3587,Observed information sparsity maintenance
+WATCH,INSUFFICIENT,WATCH -> INSUFFICIENT,8,0.45,2,6,25.0,2.1075,1.065,3.1612,4.6363,-1.8162,4.3738,Observed information sparsity de-escalation
+WAIT,INSUFFICIENT,WAIT -> INSUFFICIENT,19,1.08,8,11,42.11,0.9211,0.79,1.3821,2.0268,-2.5642,3.5589,Observed information sparsity de-escalation
+ACT,WATCH,ACT -> WATCH,0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Observed de-escalation
+ACT,WAIT,ACT -> WAIT,0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Observed timing deferral
+REJECT,ACT,REJECT -> ACT,0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Observed opportunity recovery

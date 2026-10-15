@@ -2,7 +2,7 @@ import json
 import os
 import pytest
 
-SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"
+SCRATCH_DIR = "gates/evidence"
 
 def load_json(name):
     with open(os.path.join(SCRATCH_DIR, name)) as f:

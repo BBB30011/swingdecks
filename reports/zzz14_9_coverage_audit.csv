@@ -1,0 +1,5 @@
+temporal_partition,total_setups_N,mean_archive_depth_months,mean_pre_30d_event_density,mean_primary_source_ratio,count_HIGH_COVERAGE,count_MEDIUM_COVERAGE,count_ARCHIVAL_GAP,mean_H5_high_cov_rejections_pp,mean_H5_med_cov_rejections_pp,coverage_confounding_verdict
+DEV,1280,36.86,17.16,0.5775,175,432,117,-2.298125,-1.3559999999999999,CONTROLLED
+VAL,160,36.33,16.88,0.585,24,60,0,-1.475,-0.8300000000000001,CONTROLLED
+OOS,320,36.91,16.95,0.585,48,120,0,-1.7033333333333331,-0.62625,CONTROLLED
+FULL,1760,36.82,17.1,0.5795,247,612,117,-2.080833333333333,-1.2032692307692308,CONTROLLED

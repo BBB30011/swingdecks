@@ -41,6 +41,19 @@
             "readiness": "VALID"
         },
         {
+            "symbol": "BBCA_DUP_ROW",
+            "file": "BBCA_DUP_ROW.csv",
+            "record_count": 251,
+            "first_timestamp": "UNKNOWN",
+            "last_timestamp": "UNKNOWN",
+            "timezone": "Asia/Jakarta",
+            "corporate_action_status": "UNKNOWN",
+            "universe_status": "UNKNOWN",
+            "source": "UNKNOWN",
+            "checksum": "0fc5983ebfe50a3e1152ef683a5b4326b8313ffe2a429e22df99a1896d3de181",
+            "readiness": "VALID"
+        },
+        {
             "symbol": "BBCA_FUTURE",
             "file": "BBCA_FUTURE.csv",
             "record_count": 250,
@@ -50,7 +63,7 @@
             "corporate_action_status": "UNKNOWN",
             "universe_status": "UNKNOWN",
             "source": "UNKNOWN",
-            "checksum": "7f558e6c83668aeac0c63a4e3e42f3d470491506bce848ab38081ec8c279d784",
+            "checksum": "c7ffac970b7bd084c5f4c4659b0610ae3078db25e6045714297ccd613f8da157",
             "readiness": "VALID"
         },
         {
@@ -158,6 +171,6 @@
             "readiness": "VALID"
         }
     ],
-    "total_symbols": 12,
+    "total_symbols": 13,
     "readiness": "REAL_DATA_READY"
 }

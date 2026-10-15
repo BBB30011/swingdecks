@@ -7,7 +7,7 @@ from datetime import datetime
 # DATASET V2 RESEARCH READINESS EVIDENCE AUDIT
 # ==============================================================================
 
-WORKSPACE_DIR = "d:/Project/SwingDeck"
+WORKSPACE_DIR = ""
 SCRATCH_DIR = os.path.join(WORKSPACE_DIR, "gates/evidence")
 REPORTS_DIR = os.path.join(WORKSPACE_DIR, "reports")
 DOCS_DIR = os.path.join(WORKSPACE_DIR, "docs")
@@ -254,7 +254,7 @@ Historical Replay Engine can proceed, but **must enforce a Replay Firewall** res
 import os
 import pytest
 
-SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"
+SCRATCH_DIR = "gates/evidence"
 
 def load_json(name):
     with open(os.path.join(SCRATCH_DIR, name)) as f:

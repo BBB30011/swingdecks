@@ -63,7 +63,7 @@ In ZZZ.14.6.1, all metrics are unified to the live canonical **$699$ setups ($39
 
 ## 3. Canonical Setup Matrix Summary
 
-The Canonical Setup Matrix ([`reports/zzz14_6_1_canonical_setup_matrix.csv`](file:///d:/Project/SwingDeck/reports/zzz14_6_1_canonical_setup_matrix.csv)) contains exactly **1,760 rows $\times$ 43 audit columns**, capturing all quantitative features, layer theses ($L_0 \dots L_5$), layer decisions ($L_0 \dots L_6$), counterfactual arms (Arm A to Arm D), and atomic transition flags.
+The Canonical Setup Matrix ([`reports/zzz14_6_1_canonical_setup_matrix.csv`](file:///reports/zzz14_6_1_canonical_setup_matrix.csv)) contains exactly **1,760 rows $\times$ 43 audit columns**, capturing all quantitative features, layer theses ($L_0 \dots L_5$), layer decisions ($L_0 \dots L_6$), counterfactual arms (Arm A to Arm D), and atomic transition flags.
 
 - **Total Setups**: $1,760$
 - **Total Equities**: $80$ (12 Canonical, 28 Extended Liquid, 40 Broader Liquid)

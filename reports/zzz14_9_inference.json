@@ -1,0 +1,80 @@
+{
+  "methodology": "METHODOLOGY_V1_FROZEN_20260915",
+  "dataset": "DATASET_V2_20260915",
+  "estimand": "BETA_CONTRADICTION_H5_PEER_EXCESS",
+  "clustering_variable": "date",
+  "partitions": {
+    "DEV": {
+      "partition": "DEV",
+      "sample_size_N": 1280,
+      "n_date_clusters_G": 16,
+      "beta_contradiction_pp": -2.8129,
+      "se_clustered_pp": 0.2091,
+      "t_statistic": -13.4516,
+      "p_value_clustered": 0.0,
+      "ci95_clustered_pp": [
+        -3.2228,
+        -2.403
+      ],
+      "wild_bootstrap_p_value": 0.0,
+      "direction": "NEGATIVE_PERSISTENT",
+      "inference_classification": "DIRECTIONALLY_CONSISTENT"
+    },
+    "VAL": {
+      "partition": "VAL",
+      "sample_size_N": 160,
+      "n_date_clusters_G": 2,
+      "beta_contradiction_pp": -2.3828,
+      "se_clustered_pp": 0.5797,
+      "t_statistic": -4.1102,
+      "p_value_clustered": 4e-05,
+      "ci95_clustered_pp": [
+        -3.5191,
+        -1.2465
+      ],
+      "wild_bootstrap_p_value": 0.466,
+      "direction": "NEGATIVE_PERSISTENT",
+      "inference_classification": "DIRECTIONALLY_CONSISTENT"
+    },
+    "OOS": {
+      "partition": "OOS",
+      "sample_size_N": 320,
+      "n_date_clusters_G": 4,
+      "beta_contradiction_pp": -2.5296,
+      "se_clustered_pp": 0.3195,
+      "t_statistic": -7.9185,
+      "p_value_clustered": 0.0,
+      "ci95_clustered_pp": [
+        -3.1557,
+        -1.9035
+      ],
+      "wild_bootstrap_p_value": 0.114,
+      "direction": "NEGATIVE_PERSISTENT",
+      "inference_classification": "DIRECTIONALLY_CONSISTENT"
+    },
+    "FULL": {
+      "partition": "FULL",
+      "sample_size_N": 1760,
+      "n_date_clusters_G": 22,
+      "beta_contradiction_pp": -2.7462,
+      "se_clustered_pp": 0.1717,
+      "t_statistic": -15.9969,
+      "p_value_clustered": 0.0,
+      "ci95_clustered_pp": [
+        -3.0827,
+        -2.4098
+      ],
+      "wild_bootstrap_p_value": 0.0,
+      "direction": "NEGATIVE_PERSISTENT",
+      "inference_classification": "DIRECTIONALLY_CONSISTENT"
+    }
+  },
+  "temporal_degradation": {
+    "dev_beta_pp": -2.8129,
+    "val_beta_pp": -2.3828,
+    "oos_beta_pp": -2.5296,
+    "delta_val_minus_dev_pp": 0.4301,
+    "delta_oos_minus_dev_pp": 0.2833,
+    "persistence_verdict": "DIRECTIONALLY_PERSISTENT_ACROSS_ALL_PARTITIONS"
+  }
+}

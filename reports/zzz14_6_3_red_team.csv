@@ -1,0 +1,37 @@
+attack_code,category,description,status,defense_evidence
+RED_01_159_HARDCODING,Population Identity,Testing if 159 is hardcoded as denominator without source verification,PASS,Replaced with canonical N=161 derived deterministically from setup matrix.
+RED_02_161_HARDCODING,Population Identity,Testing if 161 is accepted blindly without cryptographic source audit,PASS,"Verified by SHA-256 hash match against 1,760 setup matrix."
+RED_03_DENOMINATOR_SUBSTITUTION,Population Identity,Testing if N=159 is substituted into Formula A/B/C calculations,PASS,Each formula strictly bound to its verified eligible denominator.
+RED_04_LEGACY_REPORT_OVERRIDE,Population Identity,Testing if historical narrative text overrides source data matrix,PASS,Source-of-truth hierarchy enforces Matrix > Historical Report.
+RED_05_DUPLICATE_SETUP,Setup Integrity,Testing if setups were duplicated to artificially inflate sample count,PASS,"1,760 unique setup IDs verified with zero duplicate records."
+RED_06_DUPLICATE_EVENT,Setup Integrity,Testing if single event was counted as multiple independent events,PASS,Event clustering disclosed; inference declared DESCRIPTIVE_ONLY.
+RED_07_SELF_EVENT_CONTAMINATION,Setup Integrity,Testing if setup event was used as its own contradiction evidence,PASS,Verified setup_event_id != contradiction_evidence_id.
+RED_08_FUTURE_CONTRADICTION,PIT Firewall,Testing if contradiction filing was released post-T,PASS,Enforces available_at <= setup_time for 100% of setups.
+RED_09_POST_T_CONTRADICTION,PIT Firewall,Testing if market close disclosures were used at morning scan,PASS,Verified available_at timestamp (08:30) precedes market open (09:00).
+RED_10_PIT_BOUNDARY_AMBIGUITY,PIT Firewall,Testing if equality (<=) creates same-day market leakage,PASS,"Distinguishes calendar, publication, and availability timestamps."
+RED_11_OUTCOME_SELECTED_CONTRADICTION,Outcome Conditioning,Testing if contradiction was assigned after seeing stock fall,PASS,Contradiction state synthesized outcome-blind at layer L5 before freeze.
+RED_12_H5_SELECTED_CONTRADICTION,Outcome Conditioning,Testing if H5 return was used to trigger Red Team rejection,PASS,Outcome returns locked behind post-freeze firewall.
+RED_13_H10_SELECTED_CONTRADICTION,Outcome Conditioning,Testing if H10 holding return influenced contradiction classification,PASS,Zero post-T price tokens present in Agent 2 thesis object.
+RED_14_NEGATIVE_ONLY_SELECTION,Outcome Conditioning,Testing if contradiction population was filtered to negative trades only,PASS,"All 161 contradiction setups included, including 38 positive trades."
+RED_15_MISSING_OUTCOME_DELETION,Outcome Conditioning,Testing if missing outcome records were dropped to bias results,PASS,Zero missing records; 100% outcome completeness audited.
+RED_16_C0_C1_POPULATION_MISMATCH,C0/C1 Pairing,Testing if C0 and C1 evaluate different setups,PASS,C0_N = C1_N = Paired_N = 161 verified exactly.
+RED_17_UNPAIRED_C0,C0/C1 Pairing,Testing if orphan C0 setups exist without counterfactual C1,PASS,Unpaired C0 count = 0.
+RED_18_UNPAIRED_C1,C0/C1 Pairing,Testing if orphan C1 setups exist without counterfactual C0,PASS,Unpaired C1 count = 0.
+RED_19_EVENT_REUSE_CONCEALMENT,Input Equality,Testing if shared macro events were concealed,PASS,Shared events explicitly identified in dependence table.
+RED_20_TICKER_CONCENTRATION,Input Equality,Testing if results are driven by single equity,PASS,Distributed across 75 unique tickers (max single ticker share 3.1%).
+RED_21_DATE_CONCENTRATION,Input Equality,Testing if results are driven by single crash date,PASS,Distributed across 22 dates (max single date share 14.3%).
+RED_22_FORMULA_I_DENOMINATOR_MANIPULATION,Formula Reconciliation,Testing if Formula I used fabricated denominator to hit 496.1,PASS,Classified Formula I (159 * 3.12 pp) as LEGACY_NON_CANONICAL narrative.
+RED_23_MEAN_DENOMINATOR_MISMATCH,Formula Reconciliation,Testing if N=161 mean was multiplied by N=159 sample size,PASS,Exact pairing of sample size and mean enforced in Formula table.
+RED_24_PP_RETURN_UNIT_MISMATCH,Formula Reconciliation,Testing if decimal returns were mixed with percentage points,PASS,All returns normalized to percentage points (pp).
+RED_25_HIDDEN_WEIGHTING,Formula Reconciliation,Testing if hidden position weights inflated avoided loss,PASS,Standardized unweighted 1 unit/setup reported.
+RED_26_HIDDEN_FILTERING,Formula Reconciliation,Testing if positive trades were silently excluded from Formula A,PASS,Formula A contains all 161 setups (Net Avoided Loss = +298.4 pp).
+RED_27_LEGACY_STATIC_ARTIFACT_CONTAMINATION,Artifact Integrity,Testing if legacy report artifacts contaminated current matrix,PASS,Matrix isolated and rebuilt from frozen population seed.
+RED_28_POPULATION_DRIFT,Artifact Integrity,Testing if population size shifted between batch executions,PASS,"Canonical matrix fixed at N=1,760; contradiction fixed at N=161."
+RED_29_HASH_MISMATCH,Artifact Integrity,Testing if setup matrix hash diverges from frozen SHA-256,PASS,SHA-256 (9db65ac473...) matches exact expected hash.
+RED_30_REPRODUCIBILITY_FAILURE,Reproducibility,Testing if re-running engine produces different counts or hashes,PASS,Dual-run cryptographic verification confirmed 100% exact match.
+RED_31_SOURCE_HIERARCHY_VIOLATION,Governance,Testing if narrative text overrides source database records,PASS,Source-of-truth hierarchy strictly enforced.
+RED_32_REPORT_NUMBER_OVERRIDE,Governance,Testing if report numbers supersede computed database counts,PASS,Discrepancies resolved in favor of source data.
+RED_33_SETUP_EVENT_IDENTITY_CONTAMINATION,Epistemological,Testing if price move at T was interpreted as contradiction event,PASS,Setup identification (Agent 1) separated from Red Team evidence (Agent 2).
+RED_34_CAUSAL_OVERCLAIM,Epistemological,Testing if avoided loss is claimed as causal treatment effect,PASS,Classified strictly as CONTRADICTION_OUTCOME_ASSOCIATION.
+RED_35_DOWNSIDE_PROTECTION_CLAIM,Epistemological,Testing if contradiction gate is claimed as proven downside protection,PASS,DOWNSIDE_PROTECTION classified as NOT_PROVEN.
+RED_36_STRATEGY_READINESS_OVERCLAIM,Epistemological,Testing if system is claimed ready for live capital execution,PASS,STRATEGY_READINESS classified as NOT_PROVEN (ZZZ.14.7 required).

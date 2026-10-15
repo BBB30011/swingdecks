@@ -1,0 +1,5 @@
+Metric,Observation_Sample,Mean_Value,Median_Value,P10_Value,P90_Value,Illiquid_Count,Tradability_Flag
+Daily Trading Volume (Shares),1417,"61,796,273","14,214,600","360,180","107,513,900",103,HIGH_LIQUIDITY_DISPERSION
+Daily Trading Turnover (IDR),1417,"70,509,270,690","20,944,694,900","165,158,940","166,102,781,800",225,SUBSTANTIAL_TURNOVER_TAIL
+Zero Volume Days on Observation Bar,1417,0.0247,0.0,0.0,0.0,35,UNTRADABLE_ON_DATE_BAR
+Severe Illiquidity (<100K shares / <1B IDR),1417,0.1588,0.0,0.0,1.0,225,EXECUTION_LIMITED

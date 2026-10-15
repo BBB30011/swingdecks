@@ -1,7 +1,7 @@
 # ZZZ.14.3.7 — STRICT COMMON-SUPPORT, ESTIMAND & INFERENCE RECONCILIATION GATE REPORT
 
 **Multidisciplinary Research & Audit Team**: Quantitative Researcher, Statistical Researcher, Indonesian Equity Researcher, Historical Data / PIT Auditor, Experimental Design Reviewer, Red Team Reviewer, Data/Software Architect.  
-**Project Path**: `D:\Project\SwingDeck`  
+**Project Path**: ``  
 **Batch Identifier**: `ZZZ.14.3.7`  
 **Parent Batch**: `ZZZ.14.3.6 — Strict Information-Environment Counterfactual & Inference Reconciliation Gate`  
 **Agent Architecture**: Strictly 3 Agents (`Agent 1` Quant & Market Scanner, `Agent 2` Market Intelligence + Red Team, `Agent 3` Investment Committee + Risk). **Zero Agent 4**.  

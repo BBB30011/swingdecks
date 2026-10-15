@@ -1,0 +1,7 @@
+Audit_Item,Finding,Status
+Frozen Portfolio Construction Rule,NOT_AVAILABLE (No executable portfolio allocator frozen in repo),BLOCKED
+Historical Position Chronology Ledger,NOT_AVAILABLE (Setups are discrete cross-sectional research objects),BLOCKED
+Portfolio Cash & Margin Accounting,NOT_AVAILABLE,BLOCKED
+Capital Allocation & Sizing Engine,STATIC_SCHEMA_ONLY (arm_d_pos has ZERO/HALF/FULL unit labels without cash rules),BLOCKED
+Drawdown Reconstruction,DRAWDOWN_RECONSTRUCTION = BLOCKED (Cannot infer portfolio DD from cross-sectional setups),BLOCKED
+Overall Portfolio Risk Test,PORTFOLIO_LEVEL_RISK_TEST = BLOCKED,BLOCKED

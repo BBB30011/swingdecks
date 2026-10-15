@@ -1,0 +1,23 @@
+{
+  "gate": "COBA_002",
+  "empirical_source_status": "PARTIAL",
+  "horizon_alignment_status": "VERIFIED",
+  "peer_excess_status": "BLOCKED",
+  "pit_status": "VERIFIED",
+  "outcome_independence_status": "HIGHLY_CORRELATED_BUT_EMPIRICALLY_CONSTRUCTED",
+  "reproducibility_status": "VERIFIED",
+  "synthetic_contamination_status": "CLEARED",
+  "final_status": "PARTIAL",
+  "execution_hash": "1774B4BB4018FED6BC52EF9EBA45EB58DCDF84CCBDF0E2CE154105D52B8B2DB8",
+  "reconstruction_coverage": {
+    "total_target_setups": 1760,
+    "total_reconstructed_setups": 264,
+    "missing_tickers": 68
+  },
+  "global_firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY"
+  }
+}

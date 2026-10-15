@@ -16,4 +16,16 @@ liquidity:
   minimum_average_turnover: 1000000000
   minimum_average_volume: 0
 
-initial_symbols: []
+initial_symbols:
+  - "ADRO"
+  - "ANTM"
+  - "ASII"
+  - "BBCA"
+  - "BBNI"
+  - "BBRI"
+  - "BMRI"
+  - "INCO"
+  - "ITMG"
+  - "PTBA"
+  - "TLKM"
+  - "UNTR"

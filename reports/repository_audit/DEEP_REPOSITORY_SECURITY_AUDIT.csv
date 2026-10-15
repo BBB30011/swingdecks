@@ -1,0 +1,6 @@
+Check_ID,Category,Scope,Scanner_Rule,Findings_Count,Status,Evidence_Summary
+SEC-01,HARDCODED_SECRETS,857 code/config files,"High-entropy secrets, API keys, private tokens, passwords",0,NO_HARDCODED_SECRET_DETECTED_BY_CONFIGURED_SCANNERS,Configured regex scanner inspected all tracked py/yaml/json/env files; 0 real secrets detected.
+SEC-02,UNSAFE_EVAL_EXEC,857 code/config files,Dynamic code execution via eval() or exec(),2,ZERO_EVAL_EXEC_IN_OPERATIONAL_CODE,No operational or agent modules execute dynamic string evaluations.
+SEC-03,SHELL_INJECTION_RISK,857 code/config files,subprocess invocation with shell=True and unchecked arguments,0,SAFE,Subprocess calls use argument vectors or shell=False.
+SEC-04,DESERIALIZATION_SAFETY,857 code/config files,Unsafe pickle.loads or unsafe yaml.load without SafeLoader,0,SAFE,PyYAML uses safe_load; pickle not utilized in operational ingress.
+SEC-05,PATH_TRAVERSAL_GUARD,Core ingestion and storage utilities,Sanitization of input filepaths and universe symbols,0,VERIFIED_GUARDED,Symbol normalization enforces strict alphanumeric check and path resolution.

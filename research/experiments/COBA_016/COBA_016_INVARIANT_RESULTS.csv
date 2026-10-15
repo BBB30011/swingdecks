@@ -1,0 +1,21 @@
+Invariant_ID,Invariant_Name,Mathematical_Specification,Items_Evaluated,Violations_Count,Status
+INV-01,Cash Reconciliation,Cash_t = Cash_{t-1} + Inflows_t - Outflows_t,211,0,PASS
+INV-02,Share Conservation,Shares = Integer_Lots * 100,105,0,PASS
+INV-03,Position Chronology,entry_session_idx < exit_session_idx,105,0,PASS
+INV-04,No Negative Inventory,Shares >= 0 for all positions at all times,105,0,PASS
+INV-05,No Unexplained Cash,Sum(Delta_Cash) == Sum(Certified_Reason_Cash),211,0,PASS
+INV-06,Corporate Action Conservation,Value_post == Value_pre across stock split ex-dates,0,0,PASS
+INV-07,Trade Value Reconciliation,Gross_Trade_Value == Shares * Executed_Price,210,0,PASS
+INV-08,Fee & Tax Reconciliation,Total_Cost == 0.15% Buy + 0.25% Sell (including 0.1% tax),105,0,PASS
+INV-09,Equity Balance Equation,Equity_t == Cash_t + Market_Value_t for every session,2826,0,PASS
+INV-10,Realized P&L Reconciliation,Ending_Equity == Capital_0 + Realized_PnL + Unrealized_PnL + Dividends - Fees,1,0,PASS
+INV-11,Zero Lookahead in Replay,Decision_Time (08:30) <= Fill_Time (09:00) <= Exit_Time (T+H 16:00),105,0,PASS
+INV-12,No Impossible Execution,Executions occur strictly when Volume > 0 and Status != SUSPENDED,105,0,PASS
+INV-13,Concurrent Position Limit,Active_Positions_Count <= 5 for all sessions,2826,0,PASS
+INV-14,Cash Availability Constraint,Cash_t >= 0 for all sessions (no unbacked margin borrowing),2826,0,PASS
+INV-15,One Portfolio State Per Session,"Count(Rows in Daily_State) == Count(Sessions in Calendar) == 2,826",2826,0,PASS
+INV-16,Position Lifecycle Consistency,Transitions follow FLAT -> OPEN -> HOLDING -> CLOSED / RIGHT_CENSORED,105,0,PASS
+INV-17,Horizon Session Index Integrity,exit_session_idx - entry_session_idx == H for completed trades,105,0,PASS
+INV-18,Terminal Censoring Consistency,Positions open at dataset end are held and marked to market without forced liquidation,0,0,PASS
+INV-19,Deterministic Replay Integrity,Dual clean-room executions produce 100% identical state hashes,1,0,PASS
+INV-20,Zero Agent Feedback Contamination,Agent decisions consume strictly pre-market local data; Replay -> Agent flow is 0,1,0,PASS

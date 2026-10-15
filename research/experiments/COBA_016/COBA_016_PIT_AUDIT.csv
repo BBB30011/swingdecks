@@ -1,0 +1,7 @@
+Audit_Dimension,Decision_Timestamp,Execution_Timestamp,Valuation_Timestamp,Information_Boundary,Lookahead_Risk,Audit_Status
+SIGNAL_GENERATION_PIT,08:30:00+07:00,09:00:00+07:00,16:00:00+07:00,Pre-market T features strictly <= 08:30 T,ABSENT,VERIFIED_PASS
+ORDER_EXECUTION_PIT,08:30:00+07:00,09:00:00+07:00,16:00:00+07:00,Executes at session Open strictly at 09:00 T,ABSENT,VERIFIED_PASS
+HORIZON_HOLDING_PIT,09:00:00 T0,09:00:00 T0,16:00:00 T_H,Exit executes strictly on session T+H Close,ABSENT,VERIFIED_PASS
+MARK_TO_MARKET_PIT,N/A (Valuation),N/A,16:00:00 Daily,MTM evaluates only currently closed session prices,ABSENT,VERIFIED_PASS
+CORPORATE_ACTION_PIT,Ex-Date 09:00:00,Ex-Date 09:00:00,Ex-Date 16:00:00,Applied strictly on certified Ex-Date,ABSENT,VERIFIED_PASS
+TERMINAL_CENSORING_PIT,Terminal Date,None (Held),Terminal Close,Zero hindsight liquidation; held open MTM,ABSENT,VERIFIED_PASS

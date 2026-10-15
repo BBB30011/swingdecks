@@ -185,7 +185,7 @@ Cross-sectional differential returns ($Target\_Return - Peer\_Mean\_Return$) on 
 
 ## 15. Temporal Integrity Tests
 
-All adversarial unit tests in [`tests/test_batch_zzz7_candidate_attribution.py`](file:///D:/Project/SwingDeck/tests/test_batch_zzz7_candidate_attribution.py) passed:
+All adversarial unit tests in [`tests/test_batch_zzz7_candidate_attribution.py`](file:///tests/test_batch_zzz7_candidate_attribution.py) passed:
 - `test_1_pit_event_filtering_public_vs_system`: PASS
 - `test_2_adversarial_future_evidence_injection`: PASS
 - `test_3_contextual_peer_and_differential_calculation`: PASS

@@ -1,0 +1,8 @@
+Component,Available_Data,Status,Limitation
+Execution Price Basis,Daily Close,OBSERVED,Assumes execution at session close with zero intraday delay
+Bid-Ask Spread,NOT_AVAILABLE,BLOCKED,Intraday L1 order book quotes are absent in data lake
+Market Impact / Slippage,NOT_AVAILABLE,BLOCKED,No tick-level execution fills to calibrate Kyle lambda or Almgren-Chriss model
+Exchange & Broker Fees,NOT_AVAILABLE,BLOCKED,"Broker commission tier, exchange levy (0.043%), and tax (0.1%) not deducted"
+Market-on-Close (MOC) Liquidity,Daily Volume Only,PARTIAL,Auction liquidity cannot be confirmed empirically
+Synthetic Friction Simulation,REJECTED,BLOCKED,Simulating arbitrary friction grids would violate the non-fabrication firewall
+Overall Execution Friction Model,EXECUTION_FRICTION_MODEL = BLOCKED,BLOCKED,Execution realism cannot be claimed without empirical microstructure data

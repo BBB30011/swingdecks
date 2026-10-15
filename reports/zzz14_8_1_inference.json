@@ -1,0 +1,18 @@
+{
+  "gate_id": "ZZZ.14.8.1",
+  "primary_estimand": "BETA_CONTRADICTION_L3_CONDITIONAL_N1760",
+  "beta": -2.8622,
+  "se_date_clustered": 0.1522,
+  "date_clustered_normal_ci95": [
+    -3.1605,
+    -2.5639
+  ],
+  "wild_bootstrap_percentile_ci95": [
+    -3.1595,
+    -2.58
+  ],
+  "wild_bootstrap_p": 0.0,
+  "negative_alignment_rate_act_to_reject": 0.875,
+  "escalation_error_rate_watch_to_act": 0.3588,
+  "inference_status": "ROBUST_OBSERVATIONAL_CONDITIONAL_DISCRIMINATION"
+}

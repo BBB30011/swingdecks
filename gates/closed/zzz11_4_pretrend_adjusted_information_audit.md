@@ -38,7 +38,7 @@ ALPHA:                     NOT_ESTABLISHED
 
 ## 2. EXACT REPLICATION BENCHMARK
 
-Before executing econometric models, the exact canonical sample ($N=73$ Layer-E setups) was audited against [scratch/zzz112_observation_level_audit.parquet](file:///d:/Project/SwingDeck/scratch/zzz112_observation_level_audit.parquet) and [scratch/zzz113_observation_level.parquet](file:///d:/Project/SwingDeck/scratch/zzz113_observation_level.parquet):
+Before executing econometric models, the exact canonical sample ($N=73$ Layer-E setups) was audited against [scratch/zzz112_observation_level_audit.parquet](file:///scratch/zzz112_observation_level_audit.parquet) and [scratch/zzz113_observation_level.parquet](file:///scratch/zzz113_observation_level.parquet):
 
 ```text
 - Total Layer E Setups (N):               73

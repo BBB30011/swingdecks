@@ -1,0 +1,9 @@
+Audit_Dimension,Target_Scope,Findings_Count,Risk_Level,Status,Mitigations
+Hardcoded Credentials & Secrets,"All .py, .yaml, .json, .md files (1,718 files)",0,NONE,NO_HARDCODED_SECRET_DETECTED_BY_CONFIGURED_SCANNERS,"Configured scanners verified zero committed API keys, tokens, or private secrets."
+Private Key & Certificate Files,"Root and all subdirectories for *.pem, *.key, *.pkcs12, .env*",0,NONE,NO_HARDCODED_SECRET_DETECTED_BY_CONFIGURED_SCANNERS,"Scanners confirmed zero certificate or private key files outside .venv/.git."
+"Unsafe Code Execution (eval, exec, pickle)","core/, agents/, scripts/ source files",0,NONE,NO_DANGEROUS_DESERIALIZATION_OR_DYNAMIC_EXECUTION,Zero dynamic code evaluation; strictly typed JSON and Pydantic schemas.
+Path Traversal & Filesystem Boundaries,"Data loaders, queue managers, and file helpers",0,LOW,BOUNDED_AND_SANITIZED,All file paths sanitized through pathlib.Path and canonical root anchors.
+Subprocess Invocation Safety,"All subprocess.run / Popen calls across codebase",0,LOW,SAFE_ARGUMENT_LISTS_ENFORCED,Zero unvetted shell=True invocations with untrusted inputs.
+Environment Credentials & Secrets (.gitignore),.gitignore configuration,0,NONE,PROACTIVELY_BLOCKED,".gitignore comprehensively blocks .env, *.pem, *.key, runtime queue/, state/, logs/, and cache/."
+Accidental Runtime-State Tracking,Git working tree status,0,NONE,NO_RUNTIME_STATE_COMMITTED,"Verified runtime state directories (queue, state, positions, logs) are untracked by git."
+SQL / DuckDB Injection Risk,DuckDB queries across core/ and agents/,0,NONE,PARAMETERIZED_QUERIES_ONLY,Parameterized queries with tuple arguments used across all DuckDB calls.

@@ -1,0 +1,3008 @@
+{
+  "status": "DRY_RUN_COMPLETED",
+  "timestamp": "2026-09-29T21:36:30Z",
+  "repository": "D:\\Project\\SwingDeck",
+  "total_file_deletion_candidates": 39,
+  "total_directory_deletion_candidates": 402,
+  "total_bytes_reclaimable": 3047681,
+  "candidates": [
+    {
+      "path": "scratch/temp_test_14.duckdb",
+      "classification": "SAFE_DELETE",
+      "sha256": "87fa445b5901a05577c6dcf48eb7234c68010722af4f9f0e5e099eaf65b653e6",
+      "size_bytes": 1847296,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "N/A (Transient Artifact)",
+      "reason": "Transient test DuckDB from gate ZZZ14 execution",
+      "risk": "LOW"
+    },
+    {
+      "path": "state/test_sem.duckdb",
+      "classification": "SAFE_DELETE",
+      "sha256": "607f93ec33fa9458f0cf810c229cddc3baf8590abf5940bab46f7861ac36dc1d",
+      "size_bytes": 1060864,
+      "reference_status": "UNREFERENCED",
+      "canonical_replacement": "N/A (Transient Artifact)",
+      "reason": "Transient test DuckDB from semantic engine test execution",
+      "risk": "LOW"
+    },
+    {
+      "path": "data/quarantine/stray_empty_intelligence.duckdb",
+      "classification": "SAFE_DELETE",
+      "sha256": "47b7d96ee0c4d2d2cfb89931b50d765265c74020c39d4fd37c035e775a4386a9",
+      "size_bytes": 12288,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "N/A (Transient Artifact)",
+      "reason": "Quarantined empty dummy database file",
+      "risk": "LOW"
+    },
+    {
+      "path": "gates/evidence/run_zzz113_identification_stress_test.cpython-312-pytest-9.1.1.pyc",
+      "classification": "SAFE_DELETE",
+      "sha256": "9ac06498602da6a79bac7c4b8c5ab734d30165875c51e46ac8b20825bbcc0f84",
+      "size_bytes": 11101,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "N/A (Transient Bytecode/Log)",
+      "reason": "Orphan Python bytecode artifact outside __pycache__",
+      "risk": "LOW"
+    },
+    {
+      "path": "reports/repository_audit/TRUE_3H_HEARTBEAT.log",
+      "classification": "SAFE_DELETE",
+      "sha256": "a0a16a2ce4ed1221785561dd747d4c8a9363425e5185ae2ed8787d9faf9d3617",
+      "size_bytes": 15847,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "N/A (Transient Bytecode/Log)",
+      "reason": "Transient watchdog soak test log superseded by certified reports",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_concentration_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "576f99dc00c961b22aefb6ac4be8cf7a44f514b27494206c3ba037fec65ea3e7",
+      "size_bytes": 2282,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_concentration_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_concentration_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_derived_feature_leakage.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "2c4afbd8f7a07dee4f7584de2864f87f9c23f70d18d1c08e268f2cfdf7d5fddb",
+      "size_bytes": 68,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_derived_feature_leakage.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_derived_feature_leakage.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_layer_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "2bf9dd38739d511b2c9be9127c847403f90cf399288efc064e08988694d63f0e",
+      "size_bytes": 3154,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_layer_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_layer_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_leakage_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "34bc3b29d784bd3cc246ac84652aa3af0bd758d6e094c43806e887bd4adce4c4",
+      "size_bytes": 605,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_leakage_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_leakage_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_peer_integrity.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "0a83403a9aa97b821e9d752c960ab05b928b0709d7a875c456f906bf3453531e",
+      "size_bytes": 79,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_peer_integrity.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_peer_integrity.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_red_team_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "498ad8d643c18b2fdc59ef4997d78e9d208809ebb314a1921df93efbd0a18c41",
+      "size_bytes": 2681,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_red_team_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_red_team_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_replay_eligibility.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "0d877bdff250acceec8e60b3615ed06ea08683b6da9c0bd01995e3d4091d832a",
+      "size_bytes": 64,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_replay_eligibility.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_replay_eligibility.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_reproducibility.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "fcff4890f2e5d57a8ce79126e279f9113d9b23a32a0355d8800ed65b4b50cfad",
+      "size_bytes": 104,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_reproducibility.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_reproducibility.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_silent_fallback.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "c9d172403d2d91602b43aca1b120cc17715c3323cf0b0e29e934d8641a3c452f",
+      "size_bytes": 602,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_silent_fallback.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_silent_fallback.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1431_stratification_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "daf404667691d5be981af707236dce218dca260148fa1bd6be4e06b17243da34",
+      "size_bytes": 2207,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1431_stratification_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1431_stratification_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1432_concentration_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "0a67c1ff6aaedd9f9b8e0e1758b122efa04fda370e5367678ca7679005208fbb",
+      "size_bytes": 2366,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1432_concentration_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1432_concentration_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1432_evidence_association.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "95f874fdf8938e0b2f314813db1c5b94578eac97c4ed43a453ee188696ef26a7",
+      "size_bytes": 861,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1432_evidence_association.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1432_evidence_association.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1432_layer_comparison.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "0270ee3ae8a7a41fa3e7b3e0b0ce9e44310be21488d2198170b96817396af6ad",
+      "size_bytes": 3822,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1432_layer_comparison.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1432_layer_comparison.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1432_leakage_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "a47ba5a1c75677271507531d43e192e0b998c6c062d915cd0cbed23304648c7f",
+      "size_bytes": 2155,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1432_leakage_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1432_leakage_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1432_redteam_output_ledger.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "adc9562023b93fae036f3f09442e8a7203d91be7e78e2e3d048e4a115d5c5ac1",
+      "size_bytes": 23144,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1432_redteam_output_ledger.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1432_redteam_output_ledger.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1432_reproducibility.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "8a73305d29717562ea26bfa37fcd3978e195990e4755c79597555219a9b10c68",
+      "size_bytes": 98,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1432_reproducibility.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1432_reproducibility.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_balance_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "df726001fea141be9a5b5b197c872af4ced90c01dea65bc57286a9d35c779909",
+      "size_bytes": 1470,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_balance_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_balance_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_control_eligibility.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "d200ebc191e3360efeb09cc59c3a9a62f9c41b8ce62b95314a12a5850d2e2218",
+      "size_bytes": 4199,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_control_eligibility.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_control_eligibility.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_coverage_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "3cc76e85a2681ef84871b36e80350687d83a3b0a37cbc0b54628ab265bfb7022",
+      "size_bytes": 1933,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_coverage_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_coverage_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_effect_attenuation.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "9aff6ba1c9b7d9f00fdfc1e7866993ead535ad55da35112ba311a64e92c174fa",
+      "size_bytes": 1823,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_effect_attenuation.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_effect_attenuation.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_event_reuse_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "7ec2e818f254da85a369199f3747d8acc5596bec677dc338bc2ab004cb467e9e",
+      "size_bytes": 1548,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_event_reuse_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_event_reuse_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_fixed_effect_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "ddef213ab24366a206641498dd322c530f2e502a0da81edcf12263ca27c06d19",
+      "size_bytes": 11506,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_fixed_effect_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_fixed_effect_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_leakage_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "266ffce3666a154b640f64726d9a8bcd83001685608aa9614fe48388ab6c9e0a",
+      "size_bytes": 4958,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_leakage_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_leakage_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_matching_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "40c40de0fc90b8af7a29f35afe0e54a7f22508d5411ffa345947810874a4b40c",
+      "size_bytes": 5056,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_matching_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_matching_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_placebo_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "73c7dfa8042890e19751015fd005f86c758301f43427cb523c7616159ccb1bf7",
+      "size_bytes": 416,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_placebo_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_placebo_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_redteam_attacks.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "66c13c29d80adb1409636ec3590b65676164b6a49b338cad8ee87b9573ae6b00",
+      "size_bytes": 3304,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_redteam_attacks.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_redteam_attacks.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_reproducibility.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "b6e6d2190a44d34d55305a4884829bba9e687885aafd203d1457b7bbd9c8da89",
+      "size_bytes": 420,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_reproducibility.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_reproducibility.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz1433_sample_flow.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "339b5ac0bb21080fb99ddecb65b5b0688c0c77656bf244d38ce3c6070d2f32d5",
+      "size_bytes": 1191,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz1433_sample_flow.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz1433_sample_flow.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz143_concentration_audit.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "ae46ca805492bd177ad8c4fb2ff4ce296022d24cfb178721b3b19bb73612e7ad",
+      "size_bytes": 3102,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz143_concentration_audit.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz143_concentration_audit.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz143_eligibility_distribution.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "ef4a6dca5df0443dae0cfba664759555b76381b10a64d7dca8f808479ab36723",
+      "size_bytes": 1809,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz143_eligibility_distribution.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz143_eligibility_distribution.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz143_layer_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "5794b0225c904138e95c34777f83dd87a38b987f8dfe9e926ff42014484c8559",
+      "size_bytes": 2815,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz143_layer_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz143_layer_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz143_red_team_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "38408c4747986fb4694c076eb1d1d4e4edfd17f3d8dba070caebd4f69530fdbd",
+      "size_bytes": 2405,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz143_red_team_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz143_red_team_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz143_statistical_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "d110977be39b3e0de9165fb1efcb7668d4ff486726d7d239416c19f24c8a93f8",
+      "size_bytes": 5540,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz143_statistical_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz143_statistical_results.json",
+      "risk": "LOW"
+    },
+    {
+      "path": "scratch/zzz143_stratification_results.json",
+      "classification": "DUPLICATE_SAFE_DELETE",
+      "sha256": "76a4afe3820c387557c4404e3c8aa87a2df629c139787e5305981973d6b7dee2",
+      "size_bytes": 2498,
+      "reference_status": "REFERENCED",
+      "canonical_replacement": "gates/evidence/zzz143_stratification_results.json",
+      "reason": "Exact 100% SHA256 and byte-for-byte duplicate of canonical gates/evidence/zzz143_stratification_results.json",
+      "risk": "LOW"
+    }
+  ],
+  "empty_directory_candidates": [
+    {
+      "path": "data/intelligence",
+      "classification": "SAFE_DELETE",
+      "reason": "Obsolete empty directory without active files or references",
+      "risk": "LOW"
+    },
+    {
+      "path": "data/manifests",
+      "classification": "SAFE_DELETE",
+      "reason": "Obsolete empty directory without active files or references",
+      "risk": "LOW"
+    },
+    {
+      "path": "knowledge/agent/agent1",
+      "classification": "SAFE_DELETE",
+      "reason": "Obsolete empty directory without active files or references",
+      "risk": "LOW"
+    },
+    {
+      "path": "knowledge/agent/agent2",
+      "classification": "SAFE_DELETE",
+      "reason": "Obsolete empty directory without active files or references",
+      "risk": "LOW"
+    },
+    {
+      "path": "knowledge/agent/agent3",
+      "classification": "SAFE_DELETE",
+      "reason": "Obsolete empty directory without active files or references",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/continuous_desk_state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/continuous_desk_state/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/continuous_desk_state/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/continuous_desk_state/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_message/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/missing_state",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/queue_corruption/queue",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_after/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_after/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_after/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_after/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_after/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_during/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_during/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_during/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_during/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_during/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/restart_during/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/worker_crash/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/worker_crash/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/worker_crash/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/worker_crash/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/worker_crash/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/failure_injection_sandbox/worker_crash/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/live_like_desk_state/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/live_like_desk_state/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/live_like_desk_state/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/live_like_desk_state/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_a/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_a/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_a/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_a/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_a/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_b/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_b/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_b/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_b/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/replay_test_b/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_10_AFTER_EXIT/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_10_AFTER_EXIT/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_10_AFTER_EXIT/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_1_BEFORE_CANDIDATE_GEN/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_1_BEFORE_CANDIDATE_GEN/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_1_BEFORE_CANDIDATE_GEN/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_1_BEFORE_CANDIDATE_GEN/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_1_BEFORE_CANDIDATE_GEN/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_2_AFTER_AGENT_1/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_2_AFTER_AGENT_1/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_2_AFTER_AGENT_1/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_2_AFTER_AGENT_1/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_2_AFTER_AGENT_1/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_3_AFTER_AGENT_2/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_3_AFTER_AGENT_2/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_3_AFTER_AGENT_2/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_3_AFTER_AGENT_2/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_3_AFTER_AGENT_2/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_4_AFTER_AGENT_3/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_4_AFTER_AGENT_3/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_4_AFTER_AGENT_3/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_4_AFTER_AGENT_3/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_4_AFTER_AGENT_3/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_5_AFTER_ORDER_CREATION/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_5_AFTER_ORDER_CREATION/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_5_AFTER_ORDER_CREATION/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_5_AFTER_ORDER_CREATION/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_5_AFTER_ORDER_CREATION/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_6_AFTER_FILL/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_6_AFTER_FILL/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_6_AFTER_FILL/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_6_AFTER_FILL/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_6_AFTER_FILL/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_7_WHILE_POSITION_OPEN/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_7_WHILE_POSITION_OPEN/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_7_WHILE_POSITION_OPEN/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_7_WHILE_POSITION_OPEN/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_7_WHILE_POSITION_OPEN/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_8_WHILE_MONITORING/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_8_WHILE_MONITORING/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_8_WHILE_MONITORING/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_9_DURING_EXIT/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_9_DURING_EXIT/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/restart_test_state/POINT_9_DURING_EXIT/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_10_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_1_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_2_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_3_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_4_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_5_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_6_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_7_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_8_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_e2e/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_e2e/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_e2e/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_e2e/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_idemp/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_idemp/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_idemp/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_idemp/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_obs/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_obs/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_obs/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_obs/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_queue/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_queue/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_queue/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_queue/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_queue/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/soak_harness/iter_9_queue/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_a/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_a/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_a/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_b/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_b/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_b/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_c/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_c/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/state_run_c/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_delta_state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_delta_state/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_delta_state/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_delta_state/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_delta_state/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_loop_state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_loop_state/knowledge/lessons",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_loop_state/knowledge/missed_opportunities",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_loop_state/knowledge/patterns",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/test_loop_state/knowledge/successful_setups",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_1/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_1/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_1/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_1/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_10/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_10/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_10/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_10/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_11/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_11/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_11/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_11/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_2/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_2/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_2/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_2/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_3/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_3/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_3/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_3/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_4/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_4/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_4/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_4/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_5/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_5/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_5/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_5/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_6/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_6/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_6/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_6/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_7/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_7/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_7/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_7/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_8/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_8/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_8/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_8/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_9/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_9/queue/dead_letter",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_9/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/e2e_it_9/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_1/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_1/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_1/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_1/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_1/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_1/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_10/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_10/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_10/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_10/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_10/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_10/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_11/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_11/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_11/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_11/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_11/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_11/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_2/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_2/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_2/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_2/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_2/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_2/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_3/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_3/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_3/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_3/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_3/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_3/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_4/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_4/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_4/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_4/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_4/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_4/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_5/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_5/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_5/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_5/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_5/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_5/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_6/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_6/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_6/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_6/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_6/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_6/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_7/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_7/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_7/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_7/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_7/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_7/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_8/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_8/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_8/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_8/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_8/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_8/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_9/queue/completed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_9/queue/failed",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_9/queue/processing",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_9/state/audit",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_9/state/idempotency",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    },
+    {
+      "path": "runtime/watchdog_worker/queue_it_9/state/stages",
+      "classification": "SAFE_DELETE",
+      "reason": "Empty transient test/soak harness iteration directory in runtime/",
+      "risk": "LOW"
+    }
+  ],
+  "protected": [
+    {
+      "path": "state/audit/ledger.jsonl",
+      "classification": "PROTECTED_HISTORICAL",
+      "sha256": "67d19ce76e078d4f44be74e1ef9c805b1657debb0d80f080f6f300fdad636da1",
+      "size_bytes": 75365998,
+      "reason": "Canonical audit ledger evidence. Absolute protection mandated by Section 2.2 and 12."
+    },
+    {
+      "path": "data/duckdb/intelligence.duckdb",
+      "classification": "CANONICAL",
+      "reason": "Primary canonical knowledge database."
+    },
+    {
+      "path": "scratch/run_truth_gate.py",
+      "classification": "ACTIVE_OPERATIONAL",
+      "reason": "Active operational Truth Gate scanner script."
+    }
+  ],
+  "retained": [
+    {
+      "path": "reports/zzz14_7_2_closure.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "72e1e4423810190d68aec31666927537a85b658fdf7fa95806e6e13012c3761e",
+      "size_bytes": 7417,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    },
+    {
+      "path": "reports/zzz14_8_1_1_validation.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "738b17d17bbe9139b9611504c0ded39da857c1fdfeae1889935b54ae246e83ac",
+      "size_bytes": 7382,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    },
+    {
+      "path": "reports/zzz14_8_1_2_validation.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "7e6c778c5590a82d344a810781a27906e7c1fa38bd9707af38a901fd6163c282",
+      "size_bytes": 9913,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    },
+    {
+      "path": "reports/zzz14_8_1_validation.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "1e5e8affe1f0d203e81619e51e9df5126f36996eac87c56c6a3246d220f49896",
+      "size_bytes": 7828,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    },
+    {
+      "path": "reports/zzz14_8_validation.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "191f03637204f8152e36fa75623cdb2c520860ba720de9ebfe3ea705a3307582",
+      "size_bytes": 9897,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    },
+    {
+      "path": "reports/COBA_001_RESULTS.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "9f42f9348e17dee074015ad298b3c74e3ac3e1ff4652e2af19b1475bdafd3910",
+      "size_bytes": 1912,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    },
+    {
+      "path": "reports/zzz14_9_validation.md",
+      "classification": "ARCHIVE_RETAIN",
+      "sha256": "c13cbb6847dbc8e9208f656fc8e8dd66a249ae33c9a6bd6d8a48d98ef80e861a",
+      "size_bytes": 6284,
+      "reason": "Identical to canonical gate/research doc but retained because referenced in core validation engines."
+    }
+  ],
+  "review_required": [
+    {
+      "path": "scratch/zzz1431_agent2_thesis_freeze.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "46c3ba1fe475a5cc79908e63d7fb68f742c4034ee829265325652e4929ee3a90",
+      "size_bytes": 28911,
+      "reason": "Hash differs from gates/evidence/zzz1431_agent2_thesis_freeze.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1431_canonical_manifest.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "5509a2f5becc79c84e3f5bdcc1ad5d7c17a8e35d05f21511f6f826352e987163",
+      "size_bytes": 438,
+      "reason": "Hash differs from gates/evidence/zzz1431_canonical_manifest.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1431_observation_level.parquet",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "b9d7df422be341c5ef32d8cf26ea94f3a013e956ce2c5c34d031e00209dbbd87",
+      "size_bytes": 42273,
+      "reason": "Hash differs from gates/evidence/zzz1431_observation_level.parquet. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1431_reconciliation_ledger.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "afad5e6f0e3fb6951841494bfffc7e58faa3a537891ac468fd94c37ec2be61a7",
+      "size_bytes": 33282,
+      "reason": "Hash differs from gates/evidence/zzz1431_reconciliation_ledger.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1432_agent2_output_ledger.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "86c7d6a32bf6139e4ae1aa8e56a9d6d2d6b2d99fee25995dd3f17fbf9fc149a4",
+      "size_bytes": 27796,
+      "reason": "Hash differs from gates/evidence/zzz1432_agent2_output_ledger.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1432_fixed_sample_manifest.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "0a7e8562f4e412ce795b50065f4f1397e7da71c4f38c4320bb3a3e55d2fc9097",
+      "size_bytes": 485,
+      "reason": "Hash differs from gates/evidence/zzz1432_fixed_sample_manifest.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1432_information_variation_audit.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "44f7ab1a4fb05a93d76873ce4546e8bd2e60a643a1566117e6621094e68b00e2",
+      "size_bytes": 4211,
+      "reason": "Hash differs from gates/evidence/zzz1432_information_variation_audit.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1432_layer_states.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "9dd5500fba0feea496ce962775fca93fe58f15a3d59c6866396e2dd0ecae63ba",
+      "size_bytes": 143351,
+      "reason": "Hash differs from gates/evidence/zzz1432_layer_states.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1432_preoutcome_freeze.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "5e6a5dbac29eb47233064777c4004fc3aa0a45012a4726e49c96195feddabbef",
+      "size_bytes": 28765,
+      "reason": "Hash differs from gates/evidence/zzz1432_preoutcome_freeze.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz1433_control_manifest.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "a80fe5f5c087280c3e212675d359f73f9dfde3ece3396b0e7c7a99641c1216f3",
+      "size_bytes": 497,
+      "reason": "Hash differs from gates/evidence/zzz1433_control_manifest.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz143_agent2_thesis_freeze.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "2a5f1f5be11086b1f2f5ef96c9d5c581e59d7ccde59b24655bec31ad580818bf",
+      "size_bytes": 35439,
+      "reason": "Hash differs from gates/evidence/zzz143_agent2_thesis_freeze.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz143_observation_level.parquet",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "821d1c5a9308e46d04ab4aded3252bfc163a5286d85e4e22710efbb7fd85a02a",
+      "size_bytes": 49603,
+      "reason": "Hash differs from gates/evidence/zzz143_observation_level.parquet. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "scratch/zzz143_outcome_blindness.json",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "sha256": "1bad4d34df5d21981cc134e03ab5b8dbf859f33d1267834a04efdb28bbb41eaa",
+      "size_bytes": 25792,
+      "reason": "Hash differs from gates/evidence/zzz143_outcome_blindness.json. Retained to prevent evidence loss.",
+      "action": "RETAIN"
+    },
+    {
+      "path": "data/raw/synthetic",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "reason": "Empty directory requiring review",
+      "action": "RETAIN"
+    },
+    {
+      "path": "research/analysis",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "reason": "Empty directory requiring review",
+      "action": "RETAIN"
+    },
+    {
+      "path": "research/validation",
+      "classification": "UNKNOWN_REVIEW_REQUIRED",
+      "reason": "Empty directory requiring review",
+      "action": "RETAIN"
+    }
+  ]
+}

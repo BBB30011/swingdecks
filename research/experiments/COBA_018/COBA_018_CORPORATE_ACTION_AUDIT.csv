@@ -1,0 +1,4 @@
+Event_Category,Audited_Count,Conservation_Status,Discrepancy_IDR
+Stock_Splits,12,PASS_CONSERVED,0.0
+Cash_Dividends,385,PASS_CASH_CREDITED,0.0
+Trading_Suspensions,1,PASS_EXECUTION_BLOCKED,0.0

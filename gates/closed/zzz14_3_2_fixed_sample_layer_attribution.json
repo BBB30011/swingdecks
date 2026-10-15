@@ -15,7 +15,7 @@
     "unique_dates_count": 49,
     "manifest_sha256": "20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd",
     "manifest_hash_verified": true,
-    "timestamp": "2026-09-27T00:02:42.962198"
+    "timestamp": "2026-09-29T20:44:54.529571"
   },
   "information_variation_audit": {
     "field_summaries": {
@@ -48,13 +48,14 @@
       "agent2_information_state": {
         "field_name": "agent2_information_state",
         "total_observations": 73,
-        "unique_values_count": 1,
+        "unique_values_count": 2,
         "value_distribution": {
-          "FACT": 73
+          "OBSERVATION": 46,
+          "FACT": 27
         },
-        "categorical_entropy": 0.0,
-        "is_constant_across_sample": true,
-        "is_constant_inside_treatment": true,
+        "categorical_entropy": 0.9506,
+        "is_constant_across_sample": false,
+        "is_constant_inside_treatment": false,
         "is_constant_inside_control": true,
         "variation_matches_evidence_presence_1to1": false
       },
@@ -74,14 +75,15 @@
       "agent2_differential_status": {
         "field_name": "agent2_differential_status",
         "total_observations": 73,
-        "unique_values_count": 1,
+        "unique_values_count": 2,
         "value_distribution": {
-          "COMPANY_SPECIFIC_CANDIDATE": 73
+          "COMPANY_SPECIFIC_CANDIDATE": 57,
+          "UNKNOWN": 16
         },
-        "categorical_entropy": 0.0,
-        "is_constant_across_sample": true,
-        "is_constant_inside_treatment": true,
-        "is_constant_inside_control": true,
+        "categorical_entropy": 0.7587,
+        "is_constant_across_sample": false,
+        "is_constant_inside_treatment": false,
+        "is_constant_inside_control": false,
         "variation_matches_evidence_presence_1to1": false
       },
       "red_team_verdict": {

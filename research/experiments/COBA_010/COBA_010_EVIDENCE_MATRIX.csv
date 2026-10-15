@@ -1,0 +1,9 @@
+Hypothesis_Domain,Test_Specification,Observed_Parameter,P_Wild,Robustness_Status,Final_Classification
+Agent 1 Baseline,Y = alpha_s + beta1*ACT + eps,Beta = -0.0279 pp,0.9390,Replicates COBA_008 null result,SIGNAL_NOT_SUPPORTED
+Agent 2 Standalone,Y = alpha_s + beta2*Contradiction + eps,Beta = 0.5020 pp,0.2670,Insignificant across clustered and wild bootstrap,NO_DISCRIMINATION
+Agent 1 + Agent 2 Additive Lift,Y = alpha_s + beta1*ACT + beta2*Contradiction + eps,"Beta_ACT = -0.0270, Beta_A2 = 0.5018 pp","p_ACT = 0.9350, p_A2 = 0.2690",Zero incremental explanatory power; Delta_Beta_ACT = +0.0009 pp,NO_INCREMENTAL_INFORMATION_EVIDENCE
+Agent 1 x Agent 2 Interaction,Y = alpha_s + beta1*ACT + beta2*Contradiction + beta3*(ACT*Contradiction) + eps,Beta3 = -1.2918 pp,0.3700,Insignificant under Wild Cluster Bootstrap (p=0.370),NO_INTERACTION_EVIDENCE
+Agent 2 Source Quality,Additive: ACT + L2_primary_source_ratio,Beta_A2 = 0.7295 pp,0.6270,Insignificant across specifications,NO_INCREMENTAL_INFORMATION_EVIDENCE
+Agent 2 Information Density,Additive: ACT + L2_pre_30d_event_density,Beta_A2 = 0.0001 pp,0.9910,Insignificant (p=0.991),NO_INCREMENTAL_INFORMATION_EVIDENCE
+Agent 3 Downstream Observational Decisions,Arm D State dummy regressions,"ACT (+0.29 pp, p=0.297), REJECT (+0.50 pp, p=0.267)",All p > 0.19,Downstream committee decisions do not discriminate forward returns,NO_DISCRIMINATION
+Overall Battery Evaluation,Comprehensive Incremental Information Assessment,All Agent 2 features yield p > 0.20,"p in [0.267, 0.991]","Zero incremental lift, temporal instability, multiplicity failure",NO_INCREMENTAL_INFORMATION_EVIDENCE

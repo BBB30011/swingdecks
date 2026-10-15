@@ -1,0 +1,18 @@
+{
+  "run_id": "OPERATIONAL_RUN_20260928_1245",
+  "started_at": "2026-09-28T09:37:52.579520+00:00",
+  "completed_at": "2026-09-28T09:38:09.197686+00:00",
+  "duration_seconds": 16.618166,
+  "total_scenarios_tested": 17,
+  "scenarios_passed": 17,
+  "scenarios_failed": 0,
+  "stability_cycles_executed": 100,
+  "stability_cycles_successful": 100,
+  "stability_cycles_failed": 0,
+  "operational_readiness_status": "OPERATIONALLY_VALIDATED_WITH_LIMITATIONS",
+  "limitations": [
+    "Standalone quantitative alpha not proven (COBA_001-COBA_018 frozen)",
+    "Live automated broker trading blocked; strictly bounded to paper-trading and research evaluation",
+    "External paid news APIs absent; live intelligence relies on RSS and semi-manual ingestion"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "symbol": "BBNI",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:41.189741+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "2612983682b64bcb8dc486f40a54652dfc7304017cd7706344f79a4604e20bd4"
+}

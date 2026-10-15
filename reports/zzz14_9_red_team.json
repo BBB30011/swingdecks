@@ -1,0 +1,370 @@
+{
+  "red_team_summary": {
+    "total_attacks": 60,
+    "passed_attacks": 60,
+    "failed_attacks": 0,
+    "red_team_verdict": "PASS"
+  },
+  "attacks": [
+    {
+      "attack_id": "ATK-01",
+      "attack_name": "lookahead_future_price",
+      "description": "Testing if forward prices are accessible during decision generation",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-02",
+      "attack_name": "future_event_injection",
+      "description": "Injecting post-T regulatory event into pre-T entity graph",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-03",
+      "attack_name": "outcome_injection",
+      "description": "Injecting H5 return directly into Agent 2 prompt input",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-04",
+      "attack_name": "post_t_article_injection",
+      "description": "Adding news article timestamped T+3 into evidence pool",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-05",
+      "attack_name": "future_relationship_injection",
+      "description": "Injecting 2026 merger relationship into 2018 setup graph",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-06",
+      "attack_name": "future_ownership_injection",
+      "description": "Injecting future shareholding disclosure into pre-T ownership table",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-07",
+      "attack_name": "future_commodity_information",
+      "description": "Using post-T coal price peak to tag pre-T commodity setup",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-08",
+      "attack_name": "current_state_contamination",
+      "description": "Querying current unversioned table instead of AS_OF point-in-time",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-09",
+      "attack_name": "decision_hash_mutation",
+      "description": "Mutating decision hash after outcome vector attachment",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-10",
+      "attack_name": "model_drift",
+      "description": "Switching LLM architecture between Dev and OOS partitions",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-11",
+      "attack_name": "prompt_drift",
+      "description": "Altering Agent 2 prompt template between Dev and OOS",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-12",
+      "attack_name": "threshold_drift",
+      "description": "Tuning confidence threshold on 2025 OOS outcomes",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-13",
+      "attack_name": "action_relabeling",
+      "description": "Relabeling OOS negative ACT setups to WAIT post-hoc",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-14",
+      "attack_name": "confidence_relabeling",
+      "description": "Upgrading confidence of winning setups in hindsight",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-15",
+      "attack_name": "contradiction_definition_drift",
+      "description": "Redefining contradiction population away from N=161",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-16",
+      "attack_name": "temporal_split_leakage",
+      "description": "Fitting hyperparameters on full sample before temporal split",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-17",
+      "attack_name": "sample_selection_leakage",
+      "description": "Dropping high-loss OOS setups from reported metrics",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-18",
+      "attack_name": "coverage_selection",
+      "description": "Filtering sample to only HIGH_COVERAGE setups post-hoc",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-19",
+      "attack_name": "survivorship_bias",
+      "description": "Excluding delisted tickers from 2016-2023 historical population",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-20",
+      "attack_name": "ticker_concentration",
+      "description": "Allowing single ticker to represent >15% of OOS contradictions",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-21",
+      "attack_name": "date_concentration",
+      "description": "Allowing single date cluster to dominate >25% of OOS setups",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-22",
+      "attack_name": "event_concentration",
+      "description": "Over-weighting single commodity shock across all eras",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-23",
+      "attack_name": "placebo_contamination",
+      "description": "Reusing real Agent 2 evidence inside placebo test pipeline",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-24",
+      "attack_name": "outcome_conditioned_missingness",
+      "description": "Treating missing outcomes as zero return",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-25",
+      "attack_name": "unknown_coercion",
+      "description": "Forcing UNKNOWN confidence state into LOW category",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-26",
+      "attack_name": "no_evidence_coercion",
+      "description": "Treating archival gaps as confirmed absence of adverse events",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-27",
+      "attack_name": "duplicated_evidence",
+      "description": "Counting repeated corporate disclosure filings as multiple signals",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-28",
+      "attack_name": "duplicated_setup",
+      "description": "Allowing duplicate setup IDs in OOS partition matrix",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-29",
+      "attack_name": "join_key_collision",
+      "description": "Joining outcome table on ticker only causing many-to-one explosion",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-30",
+      "attack_name": "rounding_error",
+      "description": "Calculating partition means from 2dp rounded inputs instead of float64",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-31",
+      "attack_name": "estimator_mismatch",
+      "description": "Mixing OLS standard errors with clustered beta estimates",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-32",
+      "attack_name": "cluster_mismatch",
+      "description": "Changing cluster grouping from Date to Ticker mid-analysis",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-33",
+      "attack_name": "bootstrap_mismatch",
+      "description": "Using standard residual bootstrap instead of Wild cluster bootstrap",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-34",
+      "attack_name": "small_cluster_inference",
+      "description": "Failing to flag small cluster counts (G < 10) in validation partition",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-35",
+      "attack_name": "oos_contamination",
+      "description": "Using 2025-2026 outcome distribution to adjust position sizing",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-36",
+      "attack_name": "validation_feedback_leakage",
+      "description": "Iteratively modifying risk limits based on 2024 validation results",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-37",
+      "attack_name": "semantic_benchmark_leakage",
+      "description": "Using ground-truth validation set for model tuning",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-38",
+      "attack_name": "agent3_contamination",
+      "description": "Allowing Agent 3 to override Agent 2 contradiction without evidence",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-39",
+      "attack_name": "risk_state_contamination",
+      "description": "Sizing positions inversely to realized future volatility",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-40",
+      "attack_name": "sizing_contamination",
+      "description": "Suppressing position size on historical losing trades in hindsight",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-41",
+      "attack_name": "timing_contamination",
+      "description": "Using intraday low to adjust entry timing trigger in backtest",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-42",
+      "attack_name": "action_state_contamination",
+      "description": "Converting categorical action state into continuous rank",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-43",
+      "attack_name": "counterfactual_contamination",
+      "description": "Using realized Arm D path to modify counterfactual Arm B logic",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-44",
+      "attack_name": "narrative_statistic_override",
+      "description": "Allowing markdown report text to override setup-level matrix",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-45",
+      "attack_name": "hidden_fallback",
+      "description": "Silently falling back to Agent 1 when Agent 2 returns UNKNOWN",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-46",
+      "attack_name": "model_output_nondeterminism",
+      "description": "Allowing temperature > 0 to introduce run-to-run drift",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-47",
+      "attack_name": "source_availability_leakage",
+      "description": "Accessing primary sources published after setup decision time",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-48",
+      "attack_name": "archival_gap_misclassification",
+      "description": "Labeling unindexed pre-2018 filings as zero-contradiction",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-49",
+      "attack_name": "event_date_substitution",
+      "description": "Substituting press release date for official exchange filing date",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-50",
+      "attack_name": "published_at_available_at_confusion",
+      "description": "Using filing publication time before exchange intake time",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-51",
+      "attack_name": "valid_from_available_at_confusion",
+      "description": "Treating retroactive restatements as known on original date",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-52",
+      "attack_name": "observed_at_leakage",
+      "description": "Using future audit adjustments in historical information graph",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-53",
+      "attack_name": "current_vs_historical_confusion",
+      "description": "Using current 2026 board composition for 2017 trading setup",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-54",
+      "attack_name": "ticker_universe_back_projection",
+      "description": "Including newly listed 2024 IPOs in 2016 trade universe",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-55",
+      "attack_name": "sector_membership_back_projection",
+      "description": "Using current IDX sector classifications on legacy 2016 data",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-56",
+      "attack_name": "commodity_classification_back_projection",
+      "description": "Tagging diversified conglomerate as coal play in hindsight",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-57",
+      "attack_name": "transition_matrix_mismatch",
+      "description": "Using 16-transition matrix instead of 25-cell complete matrix",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-58",
+      "attack_name": "outcome_vector_mismatch",
+      "description": "Mixing H5 absolute return with H5 peer-excess return",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-59",
+      "attack_name": "temporal_partition_mismatch",
+      "description": "Including 2024 setups in 2016-2023 development sample",
+      "defense_status": "PASS"
+    },
+    {
+      "attack_id": "ATK-60",
+      "attack_name": "silent_parameter_optimization",
+      "description": "Re-tuning stop loss width during OOS verification run",
+      "defense_status": "PASS"
+    }
+  ]
+}

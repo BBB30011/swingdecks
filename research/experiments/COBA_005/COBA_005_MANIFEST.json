@@ -1,0 +1,12 @@
+{
+  "gate": "COBA_005",
+  "primary_estimand": "H5_PEER_EXCESS",
+  "strata": "YEARxREGIMExSECTOR",
+  "classification": "INCONCLUSIVE",
+  "global_firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY"
+  }
+}

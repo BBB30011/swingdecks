@@ -62,7 +62,7 @@ The objective of Batch ZZZ.14.3.2 is to construct an unconfounded fixed-sample l
 
 ## 5. Canonical N=73 Identity
 
-The canonical observation manifest was loaded directly from [`scratch/zzz1431_canonical_manifest.json`](file:///d:/Project/SwingDeck/scratch/zzz1431_canonical_manifest.json):
+The canonical observation manifest was loaded directly from [`scratch/zzz1431_canonical_manifest.json`](file:///scratch/zzz1431_canonical_manifest.json):
 - **Manifest SHA-256 Digest:** `20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd`
 - **Verification Status:** `EXACT_MATCH` (0 additions, 0 deletions, 0 substitutions).
 - **Cohort Composition:** 59 Treatment (Evidence Present), 14 Control (Unobserved / No Evidence in Dataset).
@@ -249,7 +249,7 @@ The observed differential matches the frozen baseline from ZZZ.11, ZZZ.11.7, and
 
 ## 21. Observation-Level Reconciliation
 
-100% of individual setup rows in [`scratch/zzz1432_layer_states.json`](file:///d:/Project/SwingDeck/scratch/zzz1432_layer_states.json) reconcile with the baseline:
+100% of individual setup rows in [`scratch/zzz1432_layer_states.json`](file:///scratch/zzz1432_layer_states.json) reconcile with the baseline:
 - Exact Matches ($|\Delta| < 0.0001\text{ pp}$): 73 / 73 (100.0%).
 - Unexplained Discrepancies: 0 / 73 (0.0%).
 

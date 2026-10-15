@@ -1,0 +1,7 @@
+Hypothesis,P_Wild_Raw,P_Bonferroni,P_Holm,FDR_Q_Value,Survives_Multiplicity
+M2_contradiction_standalone,0.267,1.0,1.0,1.0,False
+M3_contradiction_additive,0.269,1.0,1.0,0.807,False
+M4_contradiction_interaction,0.37,1.0,1.0,0.7399999999999999,False
+L2_primary_source_ratio_additive,0.627,1.0,1.0,0.9405,False
+L2_archive_depth_months_additive,0.731,1.0,1.0,0.8772,False
+L2_pre_30d_event_density_additive,0.991,1.0,0.991,0.991,False

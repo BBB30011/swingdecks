@@ -1,0 +1,13 @@
+{
+    "symbol": "PTBA",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-29T06:54:22.247489+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-29T00:00:00+07:00",
+    "last_date": "2026-09-29T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "b6a542574f2aa2b24ed177fbba4b690c3d98eb79ae43110317027b9e10ab5cae"
+}

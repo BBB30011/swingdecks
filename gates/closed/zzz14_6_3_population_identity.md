@@ -6,7 +6,7 @@ This audit report represents the final micro-closure milestone for the Contradic
 
 $$\text{ZZZ.14.6} \longrightarrow \text{ZZZ.14.6.1} \longrightarrow \text{ZZZ.14.6.2} \longrightarrow \mathbf{ZZZ.14.6.3}$$
 
-* **Project Root**: `D:\Project\SwingDeck`
+* **Project Root**: ``
 * **Governing Rule**: Exactly 3 AI Agents (**Zero Agent 4**):
   1. `Agent 1` — Quant & Market Scanner (*WHAT IS MOVING?*)
   2. `Agent 2` — Market Intelligence & Red Team (*WHY IS IT MOVING AND CAN THE THESIS SURVIVE?*)

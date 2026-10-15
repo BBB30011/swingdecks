@@ -1,0 +1,9 @@
+Audit_Dimension,Rule,Observed_Behavior,Violations,Status
+Signal_Freeze_Timestamp,Pre-market 08:30 WIB freeze before 09:00 market open,All candidates frozen prior to session execution loop,0,PASS
+Execution_Fill_Pricing,Session Open quote at 09:00 WIB,Fills strictly use session Open price from market data,0,PASS
+Horizon_Exit_Pricing,Session Close quote on session T + H,Exits strictly use session Close price on session T + 5,0,PASS
+Candidate_Ordering_Independence,No future return or outcome sorting allowed,"Permitted sorts strictly use date, setup_id, or ticker name",0,PASS
+Position_Sizing_Independence,Sizing uses entry_open and current cash only,Zero future equity or price utilized in sizing math,0,PASS
+Daily_MTM_Valuation,Current session Close prices for mark-to-market only,Valuation uses session t Close without lookahead,0,PASS
+Corporate_Action_ExDate_Alignment,Splits & Dividends applied on exact Ex-Date,Processed strictly when session date == Ex_Date,0,PASS
+Terminal_Censoring_Handling,Positions active beyond calendar right-censored,No artificial liquidation or future extrapolation,0,PASS

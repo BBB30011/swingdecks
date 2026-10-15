@@ -16,8 +16,8 @@ from core.historical_replay_engine import HistoricalReplayEngine
 from agents.agent2_intelligence.llm_reasoner import Agent2LLMReasoner
 from agents.agent2_intelligence.pipeline import Agent2IntelligencePipeline
 
-SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"
-DATA_DIR = "d:/Project/SwingDeck/data"
+SCRATCH_DIR = "gates/evidence"
+DATA_DIR = "data"
 
 CANONICAL_12 = [
     "ADRO", "ANTM", "ASII", "BBCA", "BBNI", "BBRI", 
@@ -107,7 +107,7 @@ def test_adversarial_outcome_sentinel_rejection():
 def test_adversarial_agent2_ast_token_scan():
     """Verify AST / source files of Agent 2 have zero direct DB, Parquet, or network imports."""
     prohibited = ["duckdb", "read_parquet", "parquet", "open(", "requests", "urllib", "sqlite3", "psycopg2"]
-    agent2_dir = "d:/Project/SwingDeck/agents/agent2_intelligence"
+    agent2_dir = "agents/agent2_intelligence"
     
     for fname in ["pipeline.py", "llm_reasoner.py", "schemas.py"]:
         with open(os.path.join(agent2_dir, fname), "r") as f:

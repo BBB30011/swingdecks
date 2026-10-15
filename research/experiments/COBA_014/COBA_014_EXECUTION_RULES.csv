@@ -1,0 +1,10 @@
+Rule_ID,Rule_Category,Frozen_Specification,Execution_Timing,Lot_Constraint,Price_Limit_Handling,Fee_Model_Tax,Status
+R_TIMING_SIGNAL,SIGNAL_TIMING,08:30:00+07:00 pre-market observation date T,PRE_MARKET_T,N/A,N/A,N/A,FROZEN_VERIFIED
+R_TIMING_EXEC,EXECUTION_TIMING,Market Open 09:00:00+07:00 session T (or Next Session Open if signal post-close),SESSION_OPEN_T,N/A,N/A,N/A,FROZEN_VERIFIED
+R_LOT_SIZING,LOT_CONSTRAINTS,1 Lot = 100 Shares integer constraint mandatory on IDX,ON_ORDER_CREATION,INTEGER_LOT_MANDATORY,N/A,N/A,FROZEN_VERIFIED
+R_PRICE_LIMITS,PRICE_LIMITS,"IDX Auto-Rejection bands: 20%-35% ARA (upper), 20%-35% ARB (lower)",CONTINUOUS_SESSION,N/A,REJECT_IF_BEYOND_LIMIT,N/A,RULE_BASED_VERIFIED
+R_FEES_BUY,TRANSACTION_FEES,0.15% gross buy value (0.043% IDX levy + 0.107% broker commission),POST_FILL,N/A,N/A,BUY_FEE_0_15_PCT,RULE_BASED_VERIFIED
+R_FEES_SELL,TRANSACTION_FEES,0.25% gross sell value (0.10% final sales tax + 0.043% levy + 0.107% broker),POST_FILL,N/A,N/A,SELL_FEE_TAX_0_25_PCT,RULE_BASED_VERIFIED
+R_CONCURRENT_LIMIT,PORTFOLIO_CONCURRENCY,Maximum 5 concurrent active positions (from core/risk_engine.py),ON_ORDER_CREATION,N/A,N/A,N/A,FROZEN_VERIFIED
+R_RISK_BUDGET,CAPITAL_ALLOCATION,Max single position risk = 0.5% portfolio capital (core/risk_engine.py),ON_SIZING,N/A,N/A,N/A,FROZEN_VERIFIED
+R_SUSPENSION,SUSPENSION_DELISTING,Trading halts and regulatory suspensions block execution; zero price fill forced,ALL_SESSIONS,N/A,EXECUTION_BLOCKED,N/A,RULE_BASED_VERIFIED

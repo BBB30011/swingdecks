@@ -1,0 +1,4 @@
+partition_id,description,total_setups,treatment_setups,control_setups,treatment_mean_H5_pp,control_mean_H5_pp,excess_differential_pp,treatment_negative_rate_pct,temporal_generalization_status
+DEVELOPMENT_2016_2023,2016-2023 (18 historical scanning dates),1280,128,1152,-1.93,0.88,-2.81,76.6,CONSISTENT_DIRECTION
+VALIDATION_2024,2024 (2 scanning dates),160,12,148,-1.37,1.01,-2.38,83.3,CONSISTENT_DIRECTION
+OUT_OF_SAMPLE_2025_2026,2025-2026 (4 scanning dates),320,21,299,-1.65,0.88,-2.53,71.4,CONSISTENT_DIRECTION

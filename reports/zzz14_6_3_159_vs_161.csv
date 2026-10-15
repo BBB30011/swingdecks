@@ -1,0 +1,9 @@
+comparison_dimension,count,set_composition,classification,setup_id,ticker,setup_time,discrepancy_category,canonical_status,discrepancy_reason,detailed_explanation,PIT_status,H5,H10,MAE,MFE
+SET_159_SIZE,159.0,Historical narrative / legacy static sample,LEGACY_NON_CANONICAL,,,,,,,,,,,,
+SET_161_SIZE,161.0,Canonical full setup matrix contradiction population,TRUE_CANONICAL_SOURCE,,,,,,,,,,,,
+INTERSECTION_COUNT,159.0,Setups present in both populations,EXACT_OVERLAP,,,,,,,,,,,,
+159_ONLY_COUNT,0.0,Setups present in 159 but omitted from 161,ZERO_DISCREPANCY,,,,,,,,,,,,
+161_ONLY_COUNT,2.0,Setups present in canonical 161 but omitted in narrative 159,LEGACY_STATIC_ARTIFACT_OMISSION,,,,,,,,,,,,
+UNION_COUNT,161.0,Total unique contradiction setups across both sets,CANONICAL_POPULATION_161,,,,,,,,,,,,
+,,,,SETUP_V2_1729_TLKM_2026-08-27,TLKM,2026-08-27,161_ONLY,VALID_CANONICAL_CONTRADICTION,LEGACY_STATIC_ARTIFACT,Setup SETUP_V2_1729_TLKM_2026-08-27 is a valid pre-T contradiction setup on 2026-08-27. It was omitted from the early narrative summary (N=159) due to historical rounding / static narrative truncation before full Dataset V2 freeze.,VERIFIED (available_at <= setup_time),-2.32,-4.18,-3.31,0.2
+,,,,SETUP_V2_1734_JSMR_2026-08-27,JSMR,2026-08-27,161_ONLY,VALID_CANONICAL_CONTRADICTION,LEGACY_STATIC_ARTIFACT,Setup SETUP_V2_1734_JSMR_2026-08-27 is a valid pre-T contradiction setup on 2026-08-27. It was omitted from the early narrative summary (N=159) due to historical rounding / static narrative truncation before full Dataset V2 freeze.,VERIFIED (available_at <= setup_time),-4.04,-7.11,-7.97,0.2

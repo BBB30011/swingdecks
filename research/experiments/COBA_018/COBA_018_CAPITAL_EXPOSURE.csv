@@ -1,0 +1,12 @@
+Dimension,Metric_Value,Interpretation
+Initial_Capital_IDR,100000000.0,Starting cash in ledger
+Ending_Capital_IDR,136519205.4587868,Terminal portfolio equity
+Mean_Cash_Balance_IDR,115984093.30737075,Average uninvested cash
+Median_Cash_Balance_IDR,120722929.33024697,Median cash balance
+Minimum_Cash_Balance_IDR,15688688.683466889,Lowest cash balance observed
+Mean_Cash_Percentage,97.4030426532988,Average cash share (cash drag)
+Mean_Gross_Exposure_Pct,2.596957346701204,Average capital invested in equities
+Max_Gross_Exposure_Pct,85.9574406556195,Peak equity exposure at capacity
+Sessions_Zero_Positions,2721.0,Calendar sessions with 100% cash
+Sessions_Zero_Positions_Pct,96.28450106157112,Share of calendar 100% in cash
+Sessions_Full_Capacity_5_Positions,105.0,Calendar sessions at max capacity

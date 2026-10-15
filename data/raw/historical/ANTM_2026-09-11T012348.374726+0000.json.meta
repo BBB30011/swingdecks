@@ -1,0 +1,13 @@
+{
+    "symbol": "ANTM",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:48.374726+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "b295fea0042f7d0d58da059d445117dc53f3f337105985b88f661ebd790caa80"
+}

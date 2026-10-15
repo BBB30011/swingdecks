@@ -1,7 +1,7 @@
 # BATCH ZZZ.14.3.8 — NUMERICAL RECONCILIATION, SUPPORT-THRESHOLD & RESIDUAL-CONFOUNDING CLOSURE GATE REPORT
 
 **Multidisciplinary Research & Audit Team**: Quantitative Researcher, Statistical/Econometric Researcher, Indonesian Equity Researcher, Historical Data / PIT Auditor, Experimental Design Reviewer, Red Team Reviewer, Data/Software Architect.  
-**Project Path**: `D:\Project\SwingDeck`  
+**Project Path**: ``  
 **Batch Identifier**: `ZZZ.14.3.8`  
 **Parent Batch**: `ZZZ.14.3.7 — Strict Common-Support, Estimand & Inference Reconciliation Gate`  
 **Agent Architecture**: Strictly 3 Agents (`Agent 1` Quant & Market Scanner, `Agent 2` Market Intelligence + Red Team, `Agent 3` Investment Committee + Risk). **Zero Agent 4**.  
@@ -170,17 +170,17 @@ All 45 Adversarial Attacks across 8 domains were executed and passed with 100% v
 
 ## 9. Generated Artifacts & Repository Locations
 
-1. **Research Closure Report**: [`reports/zzz14_3_8_closure_gate.md`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_closure_gate.md)
-2. **Reconciled Inference Table**: [`reports/zzz14_3_8_inference_reconciled.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_inference_reconciled.csv)
-3. **Support Sensitivity Grid**: [`reports/zzz14_3_8_support_sensitivity.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_support_sensitivity.csv)
-4. **Covariate Balance Table**: [`reports/zzz14_3_8_balance.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_balance.csv)
-5. **Residual Confounding Table**: [`reports/zzz14_3_8_residual_confounding.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_residual_confounding.csv)
-6. **Survivorship Provenance Table**: [`reports/zzz14_3_8_survivorship_provenance.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_survivorship_provenance.csv)
-7. **Event Dependence Table**: [`reports/zzz14_3_8_event_dependence.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_event_dependence.csv)
-8. **Red Team Battery (45 Attacks)**: [`reports/zzz14_3_8_red_team.csv`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_red_team.csv)
-9. **Closure Gate Manifest**: [`reports/zzz14_3_8_manifest.json`](file:///d:/Project/SwingDeck/reports/zzz14_3_8_manifest.json)
-10. **Core Closure Engine**: [`core/zzz1438_closure_gate.py`](file:///d:/Project/SwingDeck/core/zzz1438_closure_gate.py)
-11. **Automated Test Suite**: [`tests/test_zzz1438_closure_gate.py`](file:///d:/Project/SwingDeck/tests/test_zzz1438_closure_gate.py)
+1. **Research Closure Report**: [`reports/zzz14_3_8_closure_gate.md`](file:///reports/zzz14_3_8_closure_gate.md)
+2. **Reconciled Inference Table**: [`reports/zzz14_3_8_inference_reconciled.csv`](file:///reports/zzz14_3_8_inference_reconciled.csv)
+3. **Support Sensitivity Grid**: [`reports/zzz14_3_8_support_sensitivity.csv`](file:///reports/zzz14_3_8_support_sensitivity.csv)
+4. **Covariate Balance Table**: [`reports/zzz14_3_8_balance.csv`](file:///reports/zzz14_3_8_balance.csv)
+5. **Residual Confounding Table**: [`reports/zzz14_3_8_residual_confounding.csv`](file:///reports/zzz14_3_8_residual_confounding.csv)
+6. **Survivorship Provenance Table**: [`reports/zzz14_3_8_survivorship_provenance.csv`](file:///reports/zzz14_3_8_survivorship_provenance.csv)
+7. **Event Dependence Table**: [`reports/zzz14_3_8_event_dependence.csv`](file:///reports/zzz14_3_8_event_dependence.csv)
+8. **Red Team Battery (45 Attacks)**: [`reports/zzz14_3_8_red_team.csv`](file:///reports/zzz14_3_8_red_team.csv)
+9. **Closure Gate Manifest**: [`reports/zzz14_3_8_manifest.json`](file:///reports/zzz14_3_8_manifest.json)
+10. **Core Closure Engine**: [`core/zzz1438_closure_gate.py`](file:///core/zzz1438_closure_gate.py)
+11. **Automated Test Suite**: [`tests/test_zzz1438_closure_gate.py`](file:///tests/test_zzz1438_closure_gate.py)
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Batch ZZZ.14.3.6 — Strict Information-Environment Counterfactual & Inference Reconciliation Gate
 
-**Project Root**: [`D:\Project\SwingDeck`](file:///d:/Project/SwingDeck)  
+**Project Root**: [``](file:///)  
 **Execution Timestamp**: `2026-09-16T13:25:11+07:00`  
 **Methodology Version**: `METHODOLOGY_V1_FROZEN_20260915`  
 **Dataset**: `DATASET_V1_CANONICAL_FROZEN` ($N=73$, SHA-256: `20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd`)  

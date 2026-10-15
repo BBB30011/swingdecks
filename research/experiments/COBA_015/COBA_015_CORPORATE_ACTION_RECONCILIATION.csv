@@ -1,0 +1,6 @@
+Category,Count,Description,Classification
+Stock Splits,12,Verified stock split events in pilot market files,PURE_CORPORATE_ACTION
+Cash Dividends,385,Verified cash dividend distributions in pilot market files,PURE_CORPORATE_ACTION
+Trading Suspensions,1,Regulatory trading suspension event (WSKT on 2023-05-08),REGULATORY_TRADING_HALT
+Subtotal Pure Corporate Actions,397,12 stock splits + 385 cash dividends,397_EVENTS_FOUND_IN_COBA_014_SUMMARY
+Total Rows in CA Ledger,398,12 splits + 385 dividends + 1 trading suspension,398_ROWS_FOUND_IN_COBA_014_LEDGER

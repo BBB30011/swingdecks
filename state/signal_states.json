@@ -1,20 +1,10 @@
 {
     "states": {
-        "BBCA_VALID": "WATCH",
         "BMRI": "EARLY_WATCH",
-        "STRONG_BULL": "WATCH",
-        "WEAK_BULL": "WATCH",
-        "BBCA": "WATCH",
-        "PTBA": "WATCH",
-        "UNTR": "WATCH",
-        "ASII": "EARLY_WATCH",
-        "BBRI": "EARLY_WATCH",
-        "TLKM": "EARLY_WATCH",
-        "ANTM": "WATCH",
-        "INCO": "EARLY_WATCH",
+        "BBCA_VALID": "WATCH",
+        "BBCA": "SETUP_FORMING",
         "BBNI": "WATCH",
-        "ADRO": "EARLY_WATCH",
-        "ITMG": "EARLY_WATCH",
+        "STRONG_BULL": "WATCH",
         "SYM0": "WATCH",
         "SYM10": "WATCH",
         "SYM11": "WATCH",
@@ -79,6 +69,10 @@
         "SYM2": "WATCH",
         "AALI": "WATCH",
         "ZBRA": "WATCH",
-        "GOOD": "WATCH"
+        "GOOD": "WATCH",
+        "BBCA_SYNTHETIC_FIXTURE": "SETUP_FORMING",
+        "A": "SETUP_FORMING",
+        "X": "SETUP_FORMING",
+        "WEAK_BULL": "WATCH"
     }
 }

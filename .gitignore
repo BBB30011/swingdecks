@@ -1,36 +1,83 @@
-# Python
+# Python Bytecode & Compilation Caches
 __pycache__/
 *.py[cod]
+*$py.class
 *.pyd
+*.pyc
+*.pyo
 
-# Virtual environment
+# Virtual Environments
 .venv/
 venv/
 env/
+ENV/
 
-# Environment secrets
+# Environment Variables & Secrets
 .env
 .env.*
+*.pem
+*.key
+*.cert
 
-# Temporary files
-*.tmp
-*.temp
-*.log
-
-# IDE
-.vscode/
-.idea/
-
-# OS
+# Operating System & IDE Transient Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-# Project runtime
-data/raw/
-data/cache/
-logs/
-
-# Test/cache
+# Test & Coverage Caches
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Generic Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# DuckDB Temporary & Scratch Databases
+*.duckdb.tmp
+*.duckdb.wal
+temp_*.duckdb
+test_*.duckdb
+scratch/temp_*.duckdb
+scratch/temp_*.parquet
+data/test_*.duckdb
+
+# Runtime Transient Directories & State
+logs/*
+!logs/.gitkeep
+*.log
+scratch/*
+!scratch/.gitkeep
+runtime/*
+!runtime/.gitkeep
+!runtime/continuous_desk_daemon_state.json
+runtime/soak_harness/
+runtime/watchdog_worker/
+runtime/failure_injection_sandbox/
+test_queue/
+test_state/
+test_state_runner/
+
+# Whitelist Protected Files
+!positions/.gitkeep
+!queue/**/.gitkeep
+!knowledge/**/.gitkeep
+!data/**/.gitkeep
+!logs/.gitkeep
+!scratch/.gitkeep
+!runtime/.gitkeep

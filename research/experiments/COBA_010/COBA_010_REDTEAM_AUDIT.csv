@@ -1,0 +1,5 @@
+Audit_Domain,Test_Description,Evidence_Found,Verdict
+Future Leakage Check,Verify no post-t=0 events or disclosures contaminated pre-t=0 intelligence state,Zero forward events detected; all event timestamps <= setup_time,PASS (0 Leaks)
+Hindsight Narrative Audit,Check whether contradiction labels contain post-outcome language or subsequent project cancellations,Contradictions strictly bound to IDX pre-market disclosures released at or before 08:30 T,PASS (Zero Hindsight Terms)
+Outcome Blindness,Verify Agent 2 features were constructed strictly blind to H5/H10/H20 peer excess returns,Feature generation pipeline isolated from outcome matrix; sha256 identical,PASS (Strictly Outcome-Blind)
+Synthetic Contamination Check,Audit whether synthetic multipliers or legacy ZZZ148 synthetic scalars entered COBA_010,100% empirical H5_PEER_EXCESS from COBA_007 verified; synthetic columns purged,PASS (Zero Synthetic Contamination)

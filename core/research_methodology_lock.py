@@ -87,7 +87,7 @@ class ResearchMethodologyLockEngine:
     Engine that manages, validates, and certifies the SwingDeck Research Methodology Lock
     prior to material historical data expansion (Dataset V2).
     """
-    base_dir: Path = field(default_factory=lambda: Path("d:/Project/SwingDeck"))
+    base_dir: Path = field(default_factory=lambda: Path(""))
     
     # Frozen Baseline Constants
     METHODOLOGY_VERSION: str = "METHODOLOGY_V1_FROZEN_20260915"

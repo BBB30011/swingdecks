@@ -1,0 +1,7 @@
+Defect_ID,Category,Discovery_Batch,Description,Resolution_Status,Scientific_Impact
+DEF_01_ZZZ6_STATE_EXTRACTION,IMPLEMENTATION_DEFECT,ZZZ.6,Extracted READY_FOR_RESEARCH string instead of SignalState enum,RESOLVED_IN_ZZZ6_1,Zero false negatives post-fix
+DEF_02_COBA14_SIZING_SCHEMA,DOCUMENTATION_SEMANTIC_DEFECT,COBA_015,Allocated_Cash column labeled 500k IDR risk budget as cash allocation,RESOLVED_IN_COBA15,"Arithmetic proved sound, schema clarified"
+DEF_03_COBA14_ISOLATED_REPLAY,METHODOLOGICAL_DEFECT,COBA_015,Simulated setups sequentially using forward return shortcut without multi-day holding,RESOLVED_IN_COBA16,Calendar-stepped engine built
+DEF_04_COBA14_EXIT_PRICE_SYNTHETIC,METHODOLOGICAL_DEFECT,COBA_015,Exit price computed as Open_T0 * (1 + H5) instead of observed exchange quote,RESOLVED_IN_COBA16,100% observed Close price provenance restored
+DEF_05_COBA17_SLOT_SELECTION_BIAS,SCIENTIFIC_DEFECT,COBA_017,"Setup_id sorting assigned permanent queue priority to commodity tickers (IDs 1-20), causing 81.9% commodity concentration and extreme ordering sensitivity",DIAGNOSED_CLOSED_IN_COBA18,"Proved portfolio PnL was commodity beta, not Agent 3 alpha"
+DEF_06_DAILY_BAR_FRICTION_LIMIT,OPEN_LIMITATION,COBA_013,"Intraday order book queues, spread, and market impact unobservable in daily bars",OPEN_BOUNDED_LIMITATION,Replay valid within daily-bar scope only

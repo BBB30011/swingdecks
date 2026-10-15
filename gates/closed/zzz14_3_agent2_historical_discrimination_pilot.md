@@ -52,7 +52,7 @@ The framework explicitly separates:
 
 ## 4. Frozen Baseline
 
-In accordance with [`docs/RESEARCH_METHODOLOGY_LOCK_ZZZ12.md`](file:///d:/Project/SwingDeck/docs/RESEARCH_METHODOLOGY_LOCK_ZZZ12.md):
+In accordance with [`docs/RESEARCH_METHODOLOGY_LOCK_ZZZ12.md`](file:///docs/RESEARCH_METHODOLOGY_LOCK_ZZZ12.md):
 - **Methodology Version:** `METHODOLOGY_V1_FROZEN_20260915`
 - **Canonical Universe:** 12 IDX Tickers (`ADRO`, `ANTM`, `ASII`, `BBCA`, `BBNI`, `BBRI`, `BMRI`, `INCO`, `ITMG`, `PTBA`, `TLKM`, `UNTR`)
 - **Primary Endpoint:** $H_5$ Peer-Excess Differential
@@ -167,7 +167,7 @@ Agent 2 received strictly typed `HistoricalKnowledgeState` instances without acc
 
 For every observation, a pre-outcome SHA-256 thesis freeze hash was generated over:
 $$\text{Hash} = \text{SHA-256}(HKS\_hash + \text{thesis} + \text{confidence} + \text{red\_team})$$
-Recorded in [`scratch/zzz143_agent2_thesis_freeze.json`](file:///d:/Project/SwingDeck/scratch/zzz143_agent2_thesis_freeze.json).
+Recorded in [`scratch/zzz143_agent2_thesis_freeze.json`](file:///scratch/zzz143_agent2_thesis_freeze.json).
 
 ---
 

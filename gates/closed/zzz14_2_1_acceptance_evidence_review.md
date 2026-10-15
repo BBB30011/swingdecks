@@ -12,7 +12,7 @@
 ## 1. Executive Summary
 An exhaustive, independent verification was conducted on all code, tests, dataset layers, and artifacts produced in Batch **ZZZ.14.2.1 (Agent 2 Replay Integration & Historical Replay Pilot Acceptance Gate)**.
 
-This review did **not** accept summary claims or previous AI affirmations as ground truth. Every claim was audited directly against the physical files, AST/source implementations, DuckDB tables, Parquet partitions, test assertions, and generated JSON/Parquet outputs in `d:/Project/SwingDeck`.
+This review did **not** accept summary claims or previous AI affirmations as ground truth. Every claim was audited directly against the physical files, AST/source implementations, DuckDB tables, Parquet partitions, test assertions, and generated JSON/Parquet outputs in ``.
 
 ### Primary Audit Findings:
 1. **Real Dataset V2 Substrate:** Replays query real DuckDB tables (526 events, 10 exposures, 11 relationships, 15 peer networks) and real Parquet daily market data (4,458–6,470 bars per ticker). No mock data or hardcoded returns were substituted in the pilot.
@@ -71,33 +71,33 @@ A total of 20 core claims (CLAIM-001 through CLAIM-020) spanning data provenance
 ---
 
 ## 6. Repository Implementation Review
-1. [`core/historical_knowledge_state.py`](file:///d:/Project/SwingDeck/core/historical_knowledge_state.py): Implements immutable dataclass with four-timestamp enforcement (`enforce_pit`), custom JSON serializer for `date`/`datetime` types, strict rejection of prohibited outcome keys (`_PROHIBITED_OUTCOME_KEYS`), and deterministic SHA-256 snapshot hashing.
-2. [`core/replay_firewall.py`](file:///d:/Project/SwingDeck/core/replay_firewall.py): Implements domain eligibility mapping, future timestamp rejection (`prevent_future_leak`), current-state rejection (`prevent_current_state_leak`), outcome leak prevention (`prevent_outcome_leak`), and leave-one-out peer filtering (`enforce_peer_self_exclusion`).
-3. [`core/historical_replay_engine.py`](file:///d:/Project/SwingDeck/core/historical_replay_engine.py): Direct read-only query layer for DuckDB and Parquet. Enforces temporal parameterization ($T$ close at 16:00:00 WIB), loads OHLCV, corporate actions, disclosures, exposures, relationships, and peer networks.
-4. [`agents/agent2_intelligence/llm_reasoner.py`](file:///d:/Project/SwingDeck/agents/agent2_intelligence/llm_reasoner.py): Consumes exclusively `HistoricalKnowledgeState(T)`. Zero database clients, zero SQL dependencies, zero forward return keys in prompt generation.
-5. [`agents/agent2_intelligence/pipeline.py`](file:///d:/Project/SwingDeck/agents/agent2_intelligence/pipeline.py): Pipeline wrapper operating exclusively on historical knowledge state.
+1. [`core/historical_knowledge_state.py`](file:///core/historical_knowledge_state.py): Implements immutable dataclass with four-timestamp enforcement (`enforce_pit`), custom JSON serializer for `date`/`datetime` types, strict rejection of prohibited outcome keys (`_PROHIBITED_OUTCOME_KEYS`), and deterministic SHA-256 snapshot hashing.
+2. [`core/replay_firewall.py`](file:///core/replay_firewall.py): Implements domain eligibility mapping, future timestamp rejection (`prevent_future_leak`), current-state rejection (`prevent_current_state_leak`), outcome leak prevention (`prevent_outcome_leak`), and leave-one-out peer filtering (`enforce_peer_self_exclusion`).
+3. [`core/historical_replay_engine.py`](file:///core/historical_replay_engine.py): Direct read-only query layer for DuckDB and Parquet. Enforces temporal parameterization ($T$ close at 16:00:00 WIB), loads OHLCV, corporate actions, disclosures, exposures, relationships, and peer networks.
+4. [`agents/agent2_intelligence/llm_reasoner.py`](file:///agents/agent2_intelligence/llm_reasoner.py): Consumes exclusively `HistoricalKnowledgeState(T)`. Zero database clients, zero SQL dependencies, zero forward return keys in prompt generation.
+5. [`agents/agent2_intelligence/pipeline.py`](file:///agents/agent2_intelligence/pipeline.py): Pipeline wrapper operating exclusively on historical knowledge state.
 
 ---
 
 ## 7. Test Quality Review
 The repository contains 2 active test suites for Batch ZZZ.14.2.1:
-1. [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///d:/Project/SwingDeck/tests/test_batch_zzz1421_agent2_replay_integration.py) (13 tests):
+1. [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///tests/test_batch_zzz1421_agent2_replay_integration.py) (13 tests):
    - Tests real database replay loading, V1 reconciliation zero discrepancy, future injection blocking, current-state injection blocking, peer self-exclusion, silent fallback absence, prompt isolation, outcome blindness, reproducibility, and Red Team results.
-2. [`tests/test_zzz1421_acceptance_evidence_review.py`](file:///d:/Project/SwingDeck/tests/test_zzz1421_acceptance_evidence_review.py) (12 tests):
+2. [`tests/test_zzz1421_acceptance_evidence_review.py`](file:///tests/test_zzz1421_acceptance_evidence_review.py) (12 tests):
    - Independent deep tests verifying database row counts, pilot parquet schema/distributions, prompt content string checks, artifact integrity, and temporal boundaries.
 - **Combined Test Status:** 25 passed in 3.28s. Zero dummy tests (`test_dummy` removed/superseded). All assertions are substantive.
 
 ---
 
 ## 8. Real Dataset V2 Verification
-- **DuckDB Intelligence Database:** [`data/intelligence.duckdb`](file:///d:/Project/SwingDeck/data/intelligence.duckdb)
+- **DuckDB Intelligence Database:** [`data/intelligence.duckdb`](file:///data/intelligence.duckdb)
   - `fact_event`: 526 verified historical events.
   - `fact_exposure`: 10 deterministic economic exposures.
   - `fact_relationship`: 11 temporal corporate relationships.
   - `fact_peer_network`: 15 peer group mappings.
   - `dim_entity`: 28 canonical entities.
   - `dim_entity_alias`: 24 aliases.
-- **Parquet Market Data:** [`data/parquet/market/`](file:///d:/Project/SwingDeck/data/parquet/market/)
+- **Parquet Market Data:** [`data/parquet/market/`](file:///data/parquet/market/)
   - Real daily OHLCV bars across all 12 canonical tickers spanning 2000–2026 (4,458 to 6,470 bars per ticker).
 
 ---
@@ -117,12 +117,12 @@ The repository contains 2 active test suites for Batch ZZZ.14.2.1:
 ---
 
 ## 10. V1 N=73 Reconciliation Verification
-- **Baseline File:** [`scratch/zzz115_observation_level.parquet`](file:///d:/Project/SwingDeck/scratch/zzz115_observation_level.parquet)
+- **Baseline File:** [`scratch/zzz115_observation_level.parquet`](file:///scratch/zzz115_observation_level.parquet)
 - **Baseline Sample Size:** 73
 - **Replayed Sample Size:** 73
 - **Observation-Level Exact Matches:** 73
 - **Unexplained Discrepancies:** 0
-- **Artifact Verified:** [`scratch/zzz1421_v1_reconciliation.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_v1_reconciliation.json)
+- **Artifact Verified:** [`scratch/zzz1421_v1_reconciliation.json`](file:///scratch/zzz1421_v1_reconciliation.json)
 
 ---
 
@@ -130,7 +130,7 @@ The repository contains 2 active test suites for Batch ZZZ.14.2.1:
 - `event_date`, `published_at`, `available_at`, `observed_at`, `valid_from`, and `valid_to` were audited across queries and filtering gates.
 - 8 adversarial injection probes executed (`published_at > T`, `available_at > T`, `observed_at > T`, `valid_from > T`, `valid_to < T`, modern 2026 records).
 - **Leaks Detected:** 0 (100% blocked).
-- **Artifact Verified:** [`scratch/zzz1421_leakage_audit.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_leakage_audit.json)
+- **Artifact Verified:** [`scratch/zzz1421_leakage_audit.json`](file:///scratch/zzz1421_leakage_audit.json)
 
 ---
 
@@ -153,13 +153,13 @@ The repository contains 2 active test suites for Batch ZZZ.14.2.1:
 - **Total Peer Links Evaluated:** 52
 - **Self-Inclusion Violations:** 0 (100% leave-one-out compliance).
 - **Peer Contamination Rate:** 0.0% on clean purified benchmarks.
-- **Artifact Verified:** [`scratch/zzz1421_peer_integrity.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_peer_integrity.json)
+- **Artifact Verified:** [`scratch/zzz1421_peer_integrity.json`](file:///scratch/zzz1421_peer_integrity.json)
 
 ---
 
 ## 15. Derived Feature Leakage
 14 derived features audited across input data, lookback windows, and as-of time rules. Zero lookahead dependencies identified.
-- **Artifact Verified:** [`scratch/zzz1421_derived_feature_leakage.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_derived_feature_leakage.json)
+- **Artifact Verified:** [`scratch/zzz1421_derived_feature_leakage.json`](file:///scratch/zzz1421_derived_feature_leakage.json)
 
 ---
 
@@ -172,7 +172,7 @@ All 7 firewall dimensions verified:
 5. *Prompt Firewall:* Prompts verified clean: zero occurrences of `H1`, `H3`, `H5`, `H10`, `H20`, `forward_return`.
 6. *Tool Firewall:* Constrained to historical state objects. Zero Agent 4.
 7. *Outcome Firewall:* Forward returns attached strictly after thesis freeze.
-- **Artifact Verified:** [`scratch/zzz1421_agent2_context_firewall.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_agent2_context_firewall.json)
+- **Artifact Verified:** [`scratch/zzz1421_agent2_context_firewall.json`](file:///scratch/zzz1421_agent2_context_firewall.json)
 
 ---
 
@@ -193,14 +193,14 @@ All 7 firewall dimensions verified:
 - Pre-outcome hash: `9bc3d700a89cb5335612484b988f9c007c654b123ed7f2d3a69bd02dc9472475`.
 - Post-outcome hash: `9bc3d700a89cb5335612484b988f9c007c654b123ed7f2d3a69bd02dc9472475`.
 - Hashes identical; snapshot immutable.
-- **Artifact Verified:** [`scratch/zzz1421_outcome_blindness.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_outcome_blindness.json)
+- **Artifact Verified:** [`scratch/zzz1421_outcome_blindness.json`](file:///scratch/zzz1421_outcome_blindness.json)
 
 ---
 
 ## 20. Reproducibility
 - 96 setups executed across 2 independent runs.
 - **Hash Mismatches:** 0 / 96 (100.0% reproducibility).
-- **Artifact Verified:** [`scratch/zzz1421_reproducibility.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_reproducibility.json)
+- **Artifact Verified:** [`scratch/zzz1421_reproducibility.json`](file:///scratch/zzz1421_reproducibility.json)
 
 ---
 
@@ -244,7 +244,7 @@ All 20 Red Team checks verified against substantive code and data bounds:
 - **Weak Count:** 0
 - **Fail Count:** 0
 - **Not Estimable Count:** 0
-- **Artifact Verified:** [`scratch/zzz1421_red_team.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_red_team.json)
+- **Artifact Verified:** [`scratch/zzz1421_red_team.json`](file:///scratch/zzz1421_red_team.json)
 
 ---
 

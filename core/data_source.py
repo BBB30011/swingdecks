@@ -160,25 +160,10 @@ class MockMarketDataSource(MarketDataSource):
             data_quality=data_quality
         )
 
-class DataSourceFactory:
-    """
-    Factory untuk menginstansiasi provider secara dinamis dari config.
-    """
-    @staticmethod
-    def create(config: dict = None) -> MarketDataSource:
-        if config is None:
-            config = {}
-        
-        ds_config = config.get("data_source", {})
-        provider = ds_config.get("provider", "MOCK").upper().strip()
-        
-        if provider == "MOCK":
-            return MockMarketDataSource(config)
-        elif provider == "CSV":
-            from core.csv_data_source import CSVMarketDataSource
-            return CSVMarketDataSource(config)
-        elif provider == "YFINANCE":
-            from core.providers.yfinance_provider import YFinanceProvider
-            return YFinanceProvider(config)
-            
-        raise ValueError(f"Unknown Market Data Provider: {provider}")
+def __getattr__(name: str):
+    if name == "DataSourceFactory":
+        import importlib
+        mod = importlib.import_module("core.data_source_factory")
+        return getattr(mod, name)
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+

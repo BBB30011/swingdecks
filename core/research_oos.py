@@ -14,7 +14,8 @@ class OOSResearchFramework:
     def audit_dataset(self) -> Dict[str, Any]:
         """Audits the dataset before any experiments are run."""
         stats = {}
-        events_query = "SELECT COUNT(*), MIN(publication_time), MAX(publication_time) FROM fact_event"
+        # Support published_at column name
+        events_query = "SELECT COUNT(*), MIN(published_at), MAX(published_at) FROM fact_event"
         res = self.engine._execute_query(events_query)
         if res:
             stats['event_count'] = res[0][0]
@@ -93,7 +94,7 @@ class OOSResearchFramework:
         """Runs the deterministic chronological experiment on a specific candidate family."""
         
         # 1. Fetch Candidate Events
-        query = "SELECT event_id, publication_time FROM fact_event WHERE event_type = ? ORDER BY publication_time ASC"
+        query = "SELECT event_id, published_at FROM fact_event WHERE event_type = ? ORDER BY published_at ASC"
         events_rows = self.engine._execute_query(query, (event_type,))
         
         events = [{"event_id": r[0], "publication_time": r[1]} for r in events_rows]

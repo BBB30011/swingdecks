@@ -290,10 +290,10 @@ The primary research bottleneck is now **Cross-Sectional Semantic Ingestion Scal
 
 ## 27. Reproducibility Manifest
 
-- **DuckDB Substrate Engine**: [semantic_substrate_engine.py](file:///D:/Project/SwingDeck/core/semantic_substrate_engine.py)
-- **Semantic Attribution Engine**: [semantic_attribution_engine.py](file:///D:/Project/SwingDeck/core/semantic_attribution_engine.py)
-- **Batch Execution Runner**: [run_zzz9_semantic_expansion.py](file:///D:/Project/SwingDeck/scratch/run_zzz9_semantic_expansion.py)
-- **Validation Test Suite**: [test_batch_zzz9_semantic_explanation_attribution.py](file:///D:/Project/SwingDeck/tests/test_batch_zzz9_semantic_explanation_attribution.py)
+- **DuckDB Substrate Engine**: [semantic_substrate_engine.py](file:///core/semantic_substrate_engine.py)
+- **Semantic Attribution Engine**: [semantic_attribution_engine.py](file:///core/semantic_attribution_engine.py)
+- **Batch Execution Runner**: [run_zzz9_semantic_expansion.py](file:///scratch/run_zzz9_semantic_expansion.py)
+- **Validation Test Suite**: [test_batch_zzz9_semantic_explanation_attribution.py](file:///tests/test_batch_zzz9_semantic_explanation_attribution.py)
 - **Evaluation Dataset Artifacts**:
   - `scratch/zzz9_semantic_results.parquet`
   - `scratch/zzz9_semantic_summary.json`

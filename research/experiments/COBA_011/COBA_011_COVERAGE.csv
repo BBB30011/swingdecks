@@ -1,0 +1,11 @@
+Category,Setups,Percentage,Description
+Canonical Population Total,1760,100.0,Canonical universe 80 equities x 22 observation dates
+Market Data Populated,1429,81.19318181818181,Setups matching ingested trading sessions
+H1 Outcome Available,1354,76.93181818181817,1-session forward return available
+H3 Outcome Available,1318,74.88636363636364,3-session forward return available
+H5 Outcome Available (Primary),1417,80.51136363636363,5-session forward return available
+H10 Outcome Available,1417,80.51136363636363,10-session forward return available
+H20 Outcome Available,1338,76.02272727272728,20-session forward return available (right-censored in 2026)
+H5 LOO Peer-Excess Available,1417,80.51136363636363,Canonical sector leave-one-out benchmark excess
+H5 Broad-Market IHSG Excess Available,1417,80.51136363636363,IHSG broad market index excess
+Missing Historical Market Data,331,18.806818181818183,Missing historical coverage (e.g. UNTR / pre-listing / calendar gaps)

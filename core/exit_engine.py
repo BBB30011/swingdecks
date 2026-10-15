@@ -1,9 +1,9 @@
 from typing import Dict, Any, Literal, List
 from core.position import PaperPosition
 
-# Exit reason classification (Batch AR)
+# Exit reason classification (Batch AR + Intelligence Upgrade V1.1)
 EXIT_REASONS = {
-    "DATA_INVALID", "THESIS_INVALIDATED", "STOP_LOSS", "RISK_RED",
+    "DATA_INVALID", "THESIS_INVALIDATED", "THESIS_WEAKENING", "STOP_LOSS", "RISK_RED",
     "TARGET_REACHED", "TIME_EXIT",
     # Extended classification (AR)
     "MOMENTUM_FADE", "FLOW_REVERSAL", "FAILED_BREAKOUT",
@@ -18,14 +18,15 @@ class ExitEngine:
     
     Priority:
     1. DATA_INVALID
-    2. THESIS_INVALIDATED
+    2. THESIS_INVALIDATED / THESIS_DELTA INVALIDATED
     3. STOP_LOSS
     4. RISK_RED
     5. TARGET_REACHED
-    6. MOMENTUM_FADE / FLOW_REVERSAL (Batch AR)
-    7. CATALYST_EXPIRED (Batch AR)
-    8. SECTOR_REVERSAL (Batch AR)
-    9. TIME_EXIT / TIME_DECAY
+    6. THESIS_WEAKENING
+    7. MOMENTUM_FADE / FLOW_REVERSAL (Batch AR)
+    8. CATALYST_EXPIRED (Batch AR)
+    9. SECTOR_REVERSAL (Batch AR)
+    10. TIME_EXIT / TIME_DECAY
     """
     
     @staticmethod
@@ -37,7 +38,15 @@ class ExitEngine:
         if data_quality == "INVALID":
             return {"action": "EXIT", "reason": "DATA_INVALID", "price": current_price}
             
-        # 2. THESIS_INVALIDATED
+        # 2. THESIS_INVALIDATED / THESIS_DELTA
+        thesis_delta = context.get("thesis_delta")
+        if thesis_delta:
+            t_state = getattr(thesis_delta, "thesis_state", None) or thesis_delta.get("thesis_state")
+            t_state_val = t_state.value if hasattr(t_state, "value") else str(t_state)
+            t_reason = getattr(thesis_delta, "reason", "") or thesis_delta.get("reason", "")
+            if t_state_val == "INVALIDATED":
+                return {"action": "EXIT", "reason": "THESIS_INVALIDATED", "price": current_price, "details": t_reason}
+        
         active_invalidations = context.get("active_invalidations", [])
         if active_invalidations:
             return {"action": "EXIT", "reason": "THESIS_INVALIDATED", "price": current_price}
@@ -55,6 +64,15 @@ class ExitEngine:
         # 5. TARGET_REACHED
         if current_price and current_price >= position.target_price:
             return {"action": "EXIT", "reason": "TARGET_REACHED", "price": current_price}
+
+        # 6. THESIS_WEAKENING
+        if thesis_delta:
+            t_state = getattr(thesis_delta, "thesis_state", None) or thesis_delta.get("thesis_state")
+            t_state_val = t_state.value if hasattr(t_state, "value") else str(t_state)
+            t_reason = getattr(thesis_delta, "reason", "") or thesis_delta.get("reason", "")
+            if t_state_val == "WEAKENING":
+                return {"action": "EXIT_WARNING", "reason": "THESIS_WEAKENING", "price": current_price, "details": t_reason}
+
 
         # 6. MOMENTUM_FADE — quant score collapsed
         quant_score = context.get("quant_score", None)
@@ -98,6 +116,7 @@ class ExitEngine:
         if reason in ("THESIS_INVALIDATED", "FAILED_BREAKOUT", "MARKET_SHOCK"):
             return "HIGH"
         if reason in ("TARGET_REACHED", "MOMENTUM_FADE", "FLOW_REVERSAL",
-                      "CATALYST_EXPIRED", "SECTOR_REVERSAL", "THESIS_BREAK"):
+                      "CATALYST_EXPIRED", "SECTOR_REVERSAL", "THESIS_BREAK", "THESIS_WEAKENING"):
             return "MEDIUM"
         return "LOW"
+

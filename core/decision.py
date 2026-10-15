@@ -60,6 +60,8 @@ class DecisionTrace(BaseModel):
     evidence_checks: Dict[str, Any] = {}
     sizing_checks: Dict[str, Any] = {}
     final_override: Optional[str] = None
+    evidence_refs: List[str] = []
+    graph_intelligence: Dict[str, Any] = {}
 
 class TriggerInfo(BaseModel):
     trigger_type: str = "UNKNOWN" # e.g., BREAKOUT, PULLBACK_BOUNCE
@@ -140,6 +142,7 @@ class DecisionResult(BaseModel):
     
     trace: DecisionTrace = Field(default_factory=DecisionTrace)
     opportunity_assessment: Optional[OpportunityAssessment] = None
+    market_delta: Dict[str, Any] = Field(default_factory=dict)
 
     @model_validator(mode='after')
     def validate_finite_numerics(self) -> 'DecisionResult':

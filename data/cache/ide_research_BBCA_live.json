@@ -1,0 +1,55 @@
+{
+  "status": "SUCCESS",
+  "command": "AGENT2 UPDATE NEWS BBCA",
+  "symbol": "BBCA",
+  "mode": "REAL_INTERNET_RESEARCH",
+  "search_queries": ["BBCA news idx", "Bank Central Asia acquisition rumor"],
+  "source_categories": ["NEWS_WIRE", "OFFICIAL_EXCHANGE"],
+  "sources_discovered": 2,
+  "sources_inspected": 2,
+  "sources_retained": 2,
+  "sources_rejected": 0,
+  "sources_inaccessible": 0,
+  "sources": [
+    {
+      "url": "https://www.idnfinancials.com/news/50921/bca-denies-haji-isam-acquisition-rumor",
+      "title": "BCA denies Haji Isam acquisition rumor",
+      "content_hash": "bca_denial_haji_isam_20260926"
+    }
+  ],
+  "evidence": [
+    "Management at Bank Central Asia has officially dismissed recent speculation circulating on social media claiming that businessman Andi Syamsuddin Arsyad (Haji Isam) plans to acquire a stake in the bank."
+  ],
+  "events": [
+    {
+      "event_id": "LIVE_EV_BBCA_20260926_01",
+      "entity_id": "ENT_BBCA",
+      "event_type": "CORPORATE_ACTION",
+      "event_subtype": "M_AND_A_DENIAL",
+      "event_date": "2026-09-26T00:00:00Z",
+      "published_at": "2026-09-26T00:00:00Z",
+      "information_available_at": "2026-09-26T00:00:00Z",
+      "source_id": "IDX_NEWS_01",
+      "source_name": "IDN Financials",
+      "source_quality": "PRIMARY_AUTHORITATIVE",
+      "source_type": "NEWS_WIRE",
+      "provenance": "https://www.idnfinancials.com/news/50921/bca-denies-haji-isam-acquisition-rumor",
+      "information_state": "CONFIRMED_FALSE",
+      "confidence": 0.99,
+      "economic_transmission": {
+        "expected_direction": "NEUTRAL",
+        "expected_materiality": "LOW",
+        "specificity_status": "COMPANY_SPECIFIC"
+      }
+    }
+  ],
+  "knowledge_delta": {
+    "ADDED": [
+      "Company management officially denied acquisition rumors involving Andi Syamsuddin Arsyad (Haji Isam) as of late September 2026."
+    ],
+    "CONTRADICTED": [
+      "Social media speculation that Haji Isam is acquiring a stake in BBCA is false."
+    ],
+    "UPDATED": []
+  }
+}

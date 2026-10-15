@@ -1,0 +1,51 @@
+{
+  "experiment_id": "COBA_008",
+  "timestamp_utc": "2026-09-27T01:26:08Z",
+  "canonical_dataset": {
+    "path": "reports/zzz14_8_canonical_setup_decision_matrix.csv",
+    "sha256": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39",
+    "canonical_tickers": 80,
+    "canonical_setups": 1760
+  },
+  "empirical_inputs": {
+    "coba_007_coverage_path": "research/experiments/COBA_007/COBA_007_SETUP_COVERAGE.csv",
+    "coba_007_coverage_sha256": "e98aeacb64c5f4d1d06c72cf86704c08a7ceb368273916226e1bb8582b57a86e",
+    "ihsg_benchmark_path": "data/raw/market_external/IHSG_yf_raw.csv",
+    "ihsg_benchmark_sha256": "cabd5b7cc11a9bb903098798591e7e290ab39ae5b62cc0b843b2b5398d5ee234",
+    "market_data_setups": 1429,
+    "h5_setups": 1417,
+    "h5_peer_excess_setups": 1417,
+    "h20_setups": 1338,
+    "populated_tickers": 79
+  },
+  "primary_inference": {
+    "estimand": "ACT vs WATCH+WAIT (ARM_A_SIGNAL_IDENTITY = PURE_AGENT1_SIGNAL)",
+    "outcome": "H5_PEER_EXCESS",
+    "N": 1417,
+    "N_common_support": 1381,
+    "ACT_N": 460,
+    "CTRL_N": 957,
+    "stratified_beta_pp": -0.02790607011754985,
+    "se_pp": 0.3741951073746319,
+    "ci_95_pp": [
+      -0.7613284805718283,
+      0.7055163403367286
+    ],
+    "p_cluster": 0.9405518664784764,
+    "p_wild_bootstrap": 0.937,
+    "wild_bootstrap_replications": 1000,
+    "wild_bootstrap_seed": 42
+  },
+  "evidence_classification": "SIGNAL_NOT_SUPPORTED",
+  "scientific_firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY"
+  },
+  "environment": {
+    "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy_version": "2.5.3",
+    "pandas_version": "3.0.5"
+  }
+}

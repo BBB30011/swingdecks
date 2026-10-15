@@ -1,0 +1,6 @@
+Audit_Item,Empirical_Value,Status,Description
+Price Series Adjustment Status,RAW_UNADJUSTED,CONFIRMED,Market prices ingested via yfinance raw Close without backward corporate action restatement
+Dividend Event Accounting,EXCLUDED,LIMITATION_IDENTIFIED,Cash dividends are not added back to capital return; forward return measures pure price change
+Stock Split / Reverse Split Sensitivity,POTENTIAL_DISTORTION,BLOCKED_FROM_STRATEGY_CLAIM,Forward windows spanning ex-date of splits could induce large artificial percentage changes
+Rights Issue Dilution Sensitivity,UNADJUSTED,LIMITATION_IDENTIFIED,Theoretical ex-rights price adjustments are not applied
+Formal Corporate Action Classification,CORPORATE_ACTION_SENSITIVITY = BLOCKED,BLOCKED,Proper adjusted historical market price series is unavailable in canonical foundation

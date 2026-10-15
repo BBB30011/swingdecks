@@ -1,0 +1,8 @@
+probe_id,probe_description,real_effect_pp,placebo_effect_pp,attenuation_pct,verdict
+P1_RANDOM_CONTRADICTION,Random permutation of contradiction indicator across all setups,-2.7462,0.1257,95.4,PASS (Attenuated to near zero)
+P2_DATE_SHUFFLED_CONTRADICTION,Contradiction status shuffled within same calendar dates,-2.7462,-0.0947,96.5,PASS (Attenuated)
+P3_TICKER_SHUFFLED_CONTRADICTION,Contradiction status shuffled within same ticker history,-2.7462,-0.2664,90.3,PASS (Attenuated)
+P4_EVENT_SHUFFLED_CONTRADICTION,Shuffled event category taxonomy mapping across issuers,-2.7462,0.0584,97.9,PASS (Attenuated)
+P5_PRE_T_WITHIN_TICKER_SHUFFLE,Shuffled pre-T evidence timelines within issuer historical horizon,-2.7462,0.0808,97.1,PASS (Attenuated)
+P6_STRUCTURE_MATCHED_RANDOM,"Random evidence selector matching document count, ticker, and era",-2.7462,0.1103,96.0,PASS (Attenuated)
+P7_FUTURE_EVIDENCE_SENTINEL,Adversarial injection of T+2 earnings disclosure at scan time T,-2.7462,0.0,100.0,PASS (Strictly Blocked by Replay Firewall)

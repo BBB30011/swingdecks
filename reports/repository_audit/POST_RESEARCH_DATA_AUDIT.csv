@@ -1,0 +1,7 @@
+Data_Store,Path,Format,Record_Count,Integrity_Status,Issues_Identified,Resolution
+Primary Relational DuckDB,data/duckdb/intelligence.duckdb,DuckDB v1.0,"10 tables, 531 fact_events, 28 entities, 10 exposures",VALID_VERIFIED,None. Schema and relations intact.,Primary operational database for Agent 2 intelligence.
+Legacy Stray DuckDB,data/intelligence.duckdb,DuckDB (0 tables),0 records (12 KB empty file),QUARANTINED,Stray empty file at data/ root caused potential connection ambiguity.,Moved to data/quarantine/stray_empty_intelligence.duckdb.
+Test Mock DuckDB,tests/fixtures/intelligence_mock.duckdb,DuckDB,10 tables populated with pilot entities and exposures,VALID_VERIFIED,Was uninitialized with 0 tables causing CatalogExceptions.,Initialized canonical schema and populated pilot substrate.
+Canonical Market Parquet Lake,data/parquet/market/,Apache Parquet (Snappy),12 pilot ticker series spanning 2000–2026,VALID_VERIFIED,None.,Maintained as immutable time-series lake.
+Raw Market CSV Data,data/raw/market/,CSV (daily OHLCV),12 ticker files (250+ bars each),VALID_VERIFIED,None.,Ingestion source for historical replay and scanner.
+External Market Benchmark,data/raw/market_external/IHSG_yf_raw.csv,CSV (daily OHLCV),"2,826 daily trading sessions (2015-01-02 to 2026-09-15)",CANONICAL_LOCKED,None.,Single Source of Truth benchmark calendar.

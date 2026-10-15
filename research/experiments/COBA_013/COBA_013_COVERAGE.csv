@@ -1,0 +1,13 @@
+Metric,Canonical_N,Populated_N,Coverage_Pct,Missing_N,Audit_Status
+Canonical Population Universe,1760,1760,100.0,0,VERIFIED
+Equities Populated,80,79,98.75,1,PARTIAL (WSKT missing)
+Market Data Available Setups,1760,1429,81.19,331,PARTIAL
+Primary Complete Cases (H5 Peer Excess),1760,1417,80.51,343,PARTIAL
+H1 Return Complete Cases,1760,1417,80.51,343,PARTIAL
+H3 Return Complete Cases,1760,1417,80.51,343,PARTIAL
+H10 Return Complete Cases,1760,1417,80.51,343,PARTIAL
+H20 Return Complete Cases,1760,1338,76.02,422,PARTIAL (Right-censoring at H20)
+MAE / MFE Excursion Setups,1760,1429,81.19,331,PARTIAL
+Agent 1 Signal States,1760,1760,100.0,0,VERIFIED
+Agent 2 Intelligence States,1760,1760,100.0,0,VERIFIED
+Agent 3 Decision States,1760,1760,100.0,0,VERIFIED

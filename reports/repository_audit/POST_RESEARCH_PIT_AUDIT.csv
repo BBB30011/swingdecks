@@ -1,0 +1,6 @@
+Dimension,Component,Timestamp_Enforcement,Lookahead_Risk,Verification_Method,Status
+Market Data Execution Timing,core/csv_data_source.py & Replay Engine,Fills at session Open (T+1); exits at session Close (T+H),ZERO_LOOKAHEAD_VERIFIED,Observed quotes; no intraday high/low lookahead shortcuts,PASS
+Semantic Information Publication Boundaries,core/replay_firewall.py & ResearchPacket,published_at <= decision_timestamp (T0),ZERO_LOOKAHEAD_VERIFIED,filter_by_timestamp rejects all events published after T0,PASS
+Forward Outcome Blindness,core/replay_firewall.py,"Hard-blocks H1, H3, H5, H10, H20, mae, mfe in decision context",ZERO_LOOKAHEAD_VERIFIED,prevent_outcome_leak verified via unit tests,PASS
+Corporate Action Timing & Conservation,COBA_014 Corporate Action Ledger,Applied strictly on effective ex-date,ZERO_LOOKAHEAD_VERIFIED,397 events audited; zero value leakage across splits and dividends,PASS
+Contextual Peer Self-Exclusion,core/replay_firewall.py (enforce_peer_self_exclusion),Leave-One-Out (LOO) peer basket calculation,ZERO_LOOKAHEAD_VERIFIED,Target stock strictly excluded from its own peer differential,PASS

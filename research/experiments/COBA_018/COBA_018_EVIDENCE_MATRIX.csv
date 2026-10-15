@@ -1,0 +1,9 @@
+Dimension_ID,Dimension_Name,Empirical_Result,Standard,Verdict
+EVID_01,Portfolio_Capital_Preservation,"136,519,205.46 IDR (Canonical)",Flat Cash (100M IDR),CAPITAL_GROWTH_OBSERVED_IN_CANONICAL
+EVID_02,Candidate_Ordering_Invariance,"Equity Range: 91,458,536 to 136,519,205 IDR",Order-Invariant Equity Trajectory,ORDERING_SENSITIVITY_CONFIRMED
+EVID_03,Sector_Concentration_Bias,99.05% of executed trades in Energy & Mining,Balanced representation across 7 sectors,SEVERE_SECTOR_CONCENTRATION
+EVID_04,Concurrency_Constraint_Dominance,81.28% of ACT setups blocked by 5 slots,Signal-driven portfolio execution,CONCURRENCY_PREEMPTS_SIGNAL
+EVID_05,Downside_Discrimination_ACT_vs_REJECT,ACT NegSessionRate = 2.19% vs REJECT = 2.12%,Statistically superior loss reduction,NO_DOWNSIDE_SUPERIORITY
+EVID_06,Exposure_Cash_Drag,Mean Cash Share = 82.41%,Dynamic market-timing cash adjustments,PASSIVE_CASH_DRAG_DAMPENING
+EVID_07,Temporal_Regime_Generalization,Profits clustered in 2016-2021 BULL commodity cycle,Stable performance across all regimes,REGIME_COMMODITY_DEPENDENT
+EVID_08,Final_Scientific_Classification,RESEARCH_CLOSURE,Empirical resolution of research question,RESEARCH_CLOSURE

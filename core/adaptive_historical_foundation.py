@@ -120,7 +120,7 @@ class AdaptiveHistoricalFoundationEngine:
     """
     Core engine managing the evolutionary historical data and research architecture.
     """
-    base_dir: Path = field(default_factory=lambda: Path("d:/Project/SwingDeck"))
+    base_dir: Path = field(default_factory=lambda: Path(""))
     
     # In-memory registries
     criteria_registry: Dict[str, Dict[str, Any]] = field(default_factory=dict)

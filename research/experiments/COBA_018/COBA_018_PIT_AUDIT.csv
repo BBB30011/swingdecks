@@ -1,0 +1,9 @@
+Dimension,Rule,Observed_Behavior,Violations,Status
+Signal_Freeze_Timestamp,08:30 WIB Pre-market freeze,Freeze strictly verified before session loop,0,PASS
+Execution_Fill_Pricing,09:00 WIB Session Open price,Fills strictly use session Open quote,0,PASS
+Horizon_Exit_Pricing,16:00 WIB Session Close price on T+5,Exits strictly use session Close quote,0,PASS
+Candidate_Ordering_Independence,No future prices in sorting keys,Sorting uses only historical keys,0,PASS
+Sizing_Independence,No future portfolio equity in sizing,Sizing uses entry Open and current cash,0,PASS
+Mark_To_Market_Independence,Daily MTM uses session Close only,Session Close price used strictly at valuation,0,PASS
+Corporate_Action_ExDate_Timing,Splits/Dividends applied on Ex-Date,Applied strictly when session == Ex_Date,0,PASS
+Terminal_Censoring_Handling,No extrapolation past calendar end,Zero future data used past calendar boundary,0,PASS

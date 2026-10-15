@@ -1,0 +1,11 @@
+Test_ID,Adversarial_Question,Evidence_Source,Calculation_Method,Empirical_Result,Scientific_Verdict,Impact_Severity
+RT-01,Does candidate ordering materially change portfolio outcomes?,COBA_018_ORDERING_SENSITIVITY.csv,Simulate 7 deterministic orderings,Ending equity varies from 91.46M to 136.52M IDR,ORDERING_SENSITIVITY_CONFIRMED,HIGH
+RT-02,Does sector concentration account for portfolio PnL?,COBA_018_SECTOR_ANALYSIS.csv,Attribution across 7 canonical sectors,99.05% of executed positions were Energy & Mining,SECTOR_CONCENTRATION_CONFIRMED,HIGH
+RT-03,Does concurrency constraint act as a severe bottleneck?,COBA_018_CONCURRENCY_SENSITIVITY.csv,"Replay under 1, 3, 5, 10, 20 slots",81.28% of ACT setups blocked under 5 slots,CONCURRENCY_DOMINATES_SELECTION,HIGH
+RT-04,Why was capital contention never observed?,COBA_018_CAPITAL_EXPOSURE.csv,Calculate max capital outlay at capacity,5 slots * 16.66M = 83.33M outlay < 100M capital,STRUCTURALLY_NON_BINDING,MEDIUM
+RT-05,Is lower drawdown an artifact of cash drag?,COBA_018_CAPITAL_EXPOSURE.csv,Compute average cash percentage,"Average cash allocation is >82%, dampening equity drawdowns",CASH_DRAG_CONFIRMED,HIGH
+RT-06,Does ACT show downside superiority over REJECT?,COBA_018_DOWNSIDE_RESULTS.csv,Compare negative session rate and downside deviation,REJECT has 2.12% neg session rate vs 2.19% for ACT,NO_DOWNSIDE_SUPERIORITY,HIGH
+RT-07,Is performance stable across market regimes?,COBA_018_REGIME_RESULTS.csv,Compare BULL vs BEAR performance,BULL delivered +28.42M IDR; BEAR lost -1.98M IDR,REGIME_DEPENDENT,MEDIUM
+RT-08,Is performance stable across multi-year eras?,COBA_018_TEMPORAL_RESULTS.csv,Compare 2016-2018 vs 2022-2024,2016-2018 delivered +24.11M IDR; 2022-2024 lost -1.85M IDR,TEMPORALLY_INHOMOGENEOUS,MEDIUM
+RT-09,Is there lookahead in candidate ordering?,COBA_018_PIT_AUDIT.csv,Verify ordering keys,"Ordering strictly uses date, ticker name, or setup_id",ZERO_LOOKAHEAD,NONE
+RT-10,Is clean-room dual run reproducible?,COBA_018_REPRODUCIBILITY.csv,Compare Run A vs Run B artifact hashes,100% bit-for-bit exact match across all artifacts,REPRODUCIBILITY_VERIFIED,NONE

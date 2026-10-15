@@ -1,0 +1,11 @@
+{
+  "primary_estimand": "BETA_CONTRADICTION_L3_CONDITIONAL_N1760",
+  "primary_effect_beta": -2.8622,
+  "date_clustered_se": 0.1522,
+  "date_clustered_ci95": [
+    -3.1605,
+    -2.5639
+  ],
+  "wild_bootstrap_p": 0.0,
+  "inference_robustness": "ROBUST_ACROSS_METHODS"
+}

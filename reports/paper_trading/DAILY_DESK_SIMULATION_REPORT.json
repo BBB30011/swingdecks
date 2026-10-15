@@ -1,0 +1,52 @@
+{
+  "report_timestamp": "2026-09-28T09:48:40.621796+00:00",
+  "run_id": "LIVE_LIKE_DESK_20260928_094840",
+  "control_state": "ACTIVE",
+  "starting_capital": 100000000.0,
+  "current_equity": 99860344.65,
+  "cash": 92845714.65,
+  "realized_pnl": 0.0,
+  "unrealized_pnl": -128939.99999999971,
+  "total_transaction_costs": 10715.35,
+  "open_positions": [
+    {
+      "position_id": "POS_853AB78A",
+      "job_id": "DEC_71CCB57A",
+      "symbol": "BBCA",
+      "status": "OPEN",
+      "entry_timestamp": "2026-03-23T09:00:00Z",
+      "entry_price": 1020.51,
+      "quantity": 7000.0,
+      "lots": 70,
+      "stop_loss": 948.6,
+      "target_price": 1173.0,
+      "initial_risk": 499799.9999999998,
+      "initial_reward": 1071000.0,
+      "initial_rr": 2.1428571428571437,
+      "position_value": 7143570.0,
+      "entry_cost": 10715.35,
+      "exit_cost": 0.0,
+      "current_price": 1002.09,
+      "unrealized_pnl": -128939.99999999971,
+      "unrealized_pnl_pct": -0.018049798630096675,
+      "realized_pnl": 0.0,
+      "max_favorable_excursion": 0.044624746450304224,
+      "max_adverse_excursion": -0.018049798630096675,
+      "highest_price": 1066.05,
+      "lowest_price": 1002.09,
+      "thesis": "Momentum supported by catalysts: Earnings acceleration, Sector momentum",
+      "invalidation_conditions": [
+        "Price < Stop Loss",
+        "Critical contradiction"
+      ],
+      "opened_by_decision_id": "DEC_71CCB57A",
+      "holding_bars": 10,
+      "closed_timestamp": null,
+      "close_price": null,
+      "close_reason": null
+    }
+  ],
+  "closed_positions_count": 0,
+  "reconciliation": true,
+  "sessions_completed": 5
+}

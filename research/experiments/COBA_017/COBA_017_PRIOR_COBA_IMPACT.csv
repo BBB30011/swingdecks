@@ -1,0 +1,10 @@
+Prior_COBA,Scope,Finding,COBA_017_Impact,Justification
+COBA_008,Agent 1 Unconditional Directional Alpha,NO_UNCONDITIONAL_ALPHA,NO_IMPACT,Cross-sectional signal neutrality remains unchanged; portfolio results reflect slot allocation and sector beta.
+COBA_009,Agent 1 Dependency & Interaction Gate,STRUCTURAL_DEPENDENCY_CONFIRMED,NO_IMPACT,Structural feature dependence in Agent 1 is completely preserved.
+COBA_010,Agent 2 Incremental Information Value,ZERO_INCREMENTAL_VALUE,NO_IMPACT,Agent 2 signals remain frozen; portfolio replay introduces no new intelligence features.
+COBA_011,Structural Neutrality & Sensitivity,NEUTRALITY_ROBUST_ACROSS_HORIZONS,NO_IMPACT,Cross-sectional multi-horizon sensitivity confirmed neutral.
+COBA_012,Agent 3 Risk Filter & Downside Battery,NO_RISK_FILTER_EVIDENCE,NO_IMPACT,Portfolio-level downside metrics confirm ACT does not show superior loss prevention over REJECT.
+COBA_013,Master Foundation & Data Integrity,FOUNDATION_BLOCKED,NO_IMPACT,Foundation resolved through subsequent simulation engine.
+COBA_014,Master Historical Portfolio Ledger,PORTFOLIO_ACCOUNTING_FOUNDATION_PARTIAL,SCOPE_EXTENSION,COBA_016 resolved isolated replay shortcuts; COBA_017 confirms empirical sensitivity.
+COBA_015,Portfolio Ledger Reconciliation Gate,LEDGER_VALIDATED_WITH_LIMITATIONS,SCOPE_EXTENSION,Low-level accounting arithmetic re-verified; portfolio evaluation unblocked.
+COBA_016,Calendar-Stepped Concurrent Replay Engine,CONCURRENT_REPLAY_ENGINE_VALIDATED,SCOPE_CONFIRMED,Replay engine served as exact frozen substrate for COBA_017 evaluation.

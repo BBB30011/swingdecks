@@ -1,0 +1,4 @@
+Execution_Dimension,Model,Observed_Coverage,Limitation
+Entry_Execution,Session Open Bar,100% Observed Exchange Bars,Intraday slippage and spread unobservable
+Exit_Execution,Session Close Bar,100% Observed Exchange Bars,Auction queue dynamics unobservable
+Friction_Model,"0.15% Buy, 0.25% Sell (incl. 0.10% Tax)",Statutory IDX Broker & Tax Rates,Variable liquidity impact unobservable

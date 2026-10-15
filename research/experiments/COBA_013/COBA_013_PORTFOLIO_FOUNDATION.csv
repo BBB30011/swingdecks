@@ -1,0 +1,8 @@
+Portfolio_Component,Repository_Availability,Frozen_Specification,Implementation_Status,Readiness_Classification
+Dynamic Cash Balance Accounting,UNAVAILABLE,No cash ledger frozen in repository,ABSENT,BLOCKED
+Historical Position Chronology Ledger,UNAVAILABLE,Setups evaluated as isolated cross-sectional rows,ABSENT,BLOCKED
+Capital Allocation & Sizing Policy,STATIC_TIERS_ONLY,Arm D specifies size tier 1-3 without cash basis,STATIC_SCHEMA_ONLY,PARTIAL
+Overlapping Position Governance,UNAVAILABLE,No concurrent risk-budget rules,ABSENT,NOT_PRE_SPECIFIED
+"Rebalancing, Margining & Cash Drag",UNAVAILABLE,No portfolio simulation engine,ABSENT,BLOCKED
+Portfolio-Level Drawdown Reconstruction,UNAVAILABLE,No equity curve reconstruction engine,ABSENT,BLOCKED
+Portfolio-Level Risk Inference,UNAVAILABLE,Equating setup returns to portfolio CAGR/Sharpe is blocked,PROHIBITED_BY_FIREWALL,BLOCKED

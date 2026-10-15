@@ -14,7 +14,7 @@ from core.historical_replay_engine import HistoricalReplayEngine
 from agents.agent2_intelligence.llm_reasoner import Agent2LLMReasoner
 from agents.agent2_intelligence.pipeline import Agent2IntelligencePipeline
 
-SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"
+SCRATCH_DIR = "gates/evidence"
 
 def load_json(name):
     filepath = os.path.join(SCRATCH_DIR, name)

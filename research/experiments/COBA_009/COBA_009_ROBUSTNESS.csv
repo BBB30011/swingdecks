@@ -1,0 +1,5 @@
+Specification,Target,Base_Beta,LOO_Min,LOO_Max,LOO_Median,Sign_Reversals,Total_LOO_Runs,P_Wild_Range
+Ticker_LOO_Distribution,L0_momentum_score interaction,-0.20289925584590948,-0.23215579180197554,-0.1783875288507118,-0.2027328348969898,0,79,All LOO models preserve negative sign
+Sector_LOO_Distribution,L0_momentum_score interaction,-0.20289925584590948,-0.2454365156150684,-0.12146507338863805,-0.2095352540515094,0,7,All LOO models preserve negative sign
+Outlier_Winsorized_1_99,L0_momentum_score interaction,-0.20289925584590948,-0.2105853145003665,-0.2105853145003665,-0.2105853145003665,0,1,p_wild = 0.0080
+Outlier_Trimmed_1_99,L0_momentum_score interaction,-0.20289925584590948,-0.1613998823751356,-0.1613998823751356,-0.1613998823751356,0,1,p_wild = 0.0510

@@ -1,0 +1,9 @@
+Prior_COBA,Frozen_Finding,Replay_Scope_Impact,Impact_Classification,Detailed_Assessment
+COBA_008,SIGNAL_NOT_SUPPORTED,REPLAY_SCOPE_CHANGE,LIMITED_IMPACT,Calendar-stepped concurrent replay confirms that cross-sectional signal neutrality persists under realistic multi-day holding and cash drag. Directional alpha remains unproven.
+COBA_009,NO_CONDITIONAL_EVIDENCE,REPLAY_SCOPE_CHANGE,LIMITED_IMPACT,Structural dependence on momentum score >= 80 remains unaltered; concurrent portfolio simulation uncovers no hidden conditional edge.
+COBA_010,NO_INCREMENTAL_INFORMATION_EVIDENCE,REPLAY_SCOPE_CHANGE,LIMITED_IMPACT,Agent 2 qualitative intelligence provides zero incremental capital preservation under concurrent portfolio holding.
+COBA_011,STRUCTURAL_ROBUSTNESS_SUPPORTED,REPLAY_SCOPE_CHANGE,LIMITED_IMPACT,Multi-horizon evaluation (H1 to H20) confirms that empirical neutrality is invariant to holding duration in concurrent simulation.
+COBA_012,NO_RISK_FILTER_EVIDENCE,REPLAY_SCOPE_CHANGE,LIMITED_IMPACT,Absence of downside risk filtering persists in concurrent portfolio replay; rejected setups do not protect portfolio capital.
+COBA_013,FOUNDATION_BLOCKED,FOUNDATION_UNBLOCKED_FOR_CONCURRENT_REPLAY,LIMITED_IMPACT,COBA_016 unblocks the historical replay harness dependency by constructing a fully calendar-stepped concurrent simulation engine.
+COBA_014,PORTFOLIO_ACCOUNTING_FOUNDATION_PARTIAL,SUPERSEDED_REPLAY_ARCHITECTURE,LIMITED_IMPACT,COBA_016 replaces COBA_014's isolated setup replay with a true calendar-stepped concurrent replay engine; low-level accounting arithmetic is retained.
+COBA_015,LEDGER_VALIDATED_WITH_LIMITATIONS (GATE_BLOCKED),BLOCKER_RESOLVED_IN_TESTED_SCOPE,LIMITED_IMPACT,"COBA_016 directly resolves the critical blockers exposed by COBA_015 (same-day H5 shortcuts, hybrid prices, duplicate dates, unexercised concurrency)."

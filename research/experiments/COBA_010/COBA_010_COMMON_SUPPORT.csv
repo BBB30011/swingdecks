@@ -1,0 +1,4 @@
+Feature,Feature_Type,ACT_Presence_1,ACT_Presence_0,Control_Presence_1,Control_Presence_0,Empty_Cells,Common_Support_Status,Common_Support_N,Common_Support_Pct
+contradiction_indicator,BINARY (0/1),45,415,87,870,0,VERIFIED_SUPPORT (Both treatment & control exist in both states),1417,100.0
+L2_primary_source_ratio,CONTINUOUS (0.30 to 0.95),460,957,957,0,0,VERIFIED_SUPPORT (Complete overlapping density),1417,100.0
+arm_c_action,"CATEGORICAL (ACT, WATCH, WAIT, REJECT, INSUFFICIENT)",334,1083,132,1285,0,VERIFIED_SUPPORT,1417,100.0

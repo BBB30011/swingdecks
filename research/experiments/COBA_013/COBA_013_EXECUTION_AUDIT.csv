@@ -1,0 +1,7 @@
+Execution_Component,Data_Availability,Empirical_Source,Default_Assumption,Status
+Bid / Ask Quotes & Spread,UNAVAILABLE,None in repository,Zero friction assumed in raw returns,EXECUTION_FRICTION_BLOCKED
+IDX Auto-Rejection Price Limits (ARA/ARB),RULE_BASED_ONLY,IDX regulatory asymmetric bands (20%-35%),Unbounded fill assumed,STATIC_RULES_ONLY
+Mandatory Lot Sizing,RULE_BASED_ONLY,IDX 100 shares per lot standard,Continuous sizing assumed in theoretical models,STATIC_RULES_ONLY
+Brokerage Commissions & Taxes,RULE_BASED_ONLY,"0.1% sales tax, 0.043% IDX levy, 0.15%-0.25% broker fee",Zero friction assumed in raw returns,STATIC_RULES_ONLY
+Market Impact & Order Book Depth,UNAVAILABLE,Intraday L2/L3 order book unavailable,Infinite depth assumed,BLOCKED
+Pre-Close & Pre-Open Auction Matching,UNAVAILABLE,Auction prints not separated from continuous session,Continuous close fill assumed,BLOCKED

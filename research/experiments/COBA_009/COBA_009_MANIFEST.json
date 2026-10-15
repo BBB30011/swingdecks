@@ -1,0 +1,84 @@
+{
+  "experiment_id": "COBA_009",
+  "timestamp_utc": "2026-09-27T02:45:00Z",
+  "parent_experiment_id": "COBA_008",
+  "revision": "CLOSURE_REVISION_COMMON_SUPPORT_AND_STRUCTURAL_DEPENDENCY_GATE",
+  "frozen_baseline": {
+    "coba_008_primary_beta": -0.02790607011754985,
+    "coba_008_p_wild": 0.937,
+    "coba_008_sample_n": 1417,
+    "coba_008_classification": "SIGNAL_NOT_SUPPORTED"
+  },
+  "coba_009_inputs": {
+    "canonical_dataset_hash": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39",
+    "coverage_dataset_hash": "e98aeacb64c5f4d1d06c72cf86704c08a7ceb368273916226e1bb8582b57a86e",
+    "observation_matrix_hash": "e4e2ab967de4731f55821b1db0791b53a27cff4c5a50bd047c4c7615a375f004",
+    "population_n": 1417,
+    "act_n": 460,
+    "ctrl_n": 957,
+    "active_equities": 79
+  },
+  "baseline_interaction_finding": {
+    "feature": "L0_momentum_score",
+    "beta_interaction": -0.20289925584590948,
+    "se_interaction": 0.08643113801947282,
+    "p_cluster": 0.018898605698125293,
+    "p_wild": 0.018,
+    "p_bonferroni": 0.144,
+    "fdr_q_value": 0.144
+  },
+  "closure_revision_findings": {
+    "signal_construction": "DETERMINISTIC_CONJUNCTION (mom >= 80.0 & rel_vol >= 1.2)",
+    "common_support_range": [
+      80.01463856928241,
+      94.89956545233152
+    ],
+    "common_support_n": 604,
+    "common_support_act_n": 458,
+    "common_support_ctrl_n": 146,
+    "common_support_overlap_pct": 42.62526464361327,
+    "outside_common_support_n": 813,
+    "outside_common_support_pct": 57.37473535638673,
+    "common_support_status": "PARTIAL",
+    "extrapolative_illustration_status": "INVALID_FOR_INFERENCE",
+    "structural_dependency_status": "MECHANICAL_ARTIFACT_CONFIRMED",
+    "common_support_interaction": {
+      "beta_interaction": 0.03913598891636576,
+      "se_interaction": 0.14363265288257318,
+      "ci_95": [
+        -0.24238401073347765,
+        0.3206559885662092
+      ],
+      "p_cluster": 0.785258514513633,
+      "p_wild": 0.78,
+      "pct_change_from_baseline": 119.2887640244799,
+      "sign_reversed": true
+    }
+  },
+  "final_classification": "NO_CONDITIONAL_EVIDENCE",
+  "scientific_firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY",
+    "AGENT_COUNT": "EXACTLY_3",
+    "AGENT1_ROLE": "STRUCTURAL_QUANT_ANALYTICAL_ASSISTANT"
+  },
+  "artifacts_sha256": {
+    "COBA_009_CLOSURE_EVIDENCE_MATRIX.csv": "8a469f2ed9e87d6a40c23a373321968aa005269b87013183e37abfa399a8bf45",
+    "COBA_009_CLOSURE_RECHECK.csv": "e9d392828c9fa4d99e2522fc568ae8966c539e1f1ad2ee16a11856c5e838a1bf",
+    "COBA_009_COMMON_SUPPORT.csv": "b6f969f9a696dab657e4f8a436adcdade828241d509ffadfab495d617d194e4e",
+    "COBA_009_COMMON_SUPPORT_INTERACTION.csv": "f27435ebe1a2dc0cbffcfdf35836fb50d0bc9ed0ab5e2c35e2a101d139cd320c",
+    "COBA_009_COVERAGE.csv": "9f6b3bce715bf7671fda8552233fc561aa1ee670cf77dc4d5b54a4ecf0f526fb",
+    "COBA_009_EVIDENCE_MATRIX.csv": "1efd84610de0192c109378e23122c9430a30510bc6de6468283884647035bc9c",
+    "COBA_009_INDEPENDENT_RECHECK.csv": "db8aaa0be68062fd4cfbc024112419f44ec2f14237c73f6b0e8d8ea17ace0760",
+    "COBA_009_MULTIPLE_COMPARISON.csv": "50ced93d9127cc1f744af801f694ec94609dde73191d66f5cabb8371f462f634",
+    "COBA_009_PRIMARY_INTERACTIONS.csv": "1aaf461dbcd454af0f1d3d86ca415d4694533f4d82b80fec8f7eea4bf9b15287",
+    "COBA_009_REPORT.md": "9b64f037cc0e7670aec8a2eca7df9bd2db62399d15bef11347fc4b0a161b59e2",
+    "COBA_009_ROBUSTNESS.csv": "85b0518c03cc75a4bcde0b1c91d85d6419d540733b0bcae7724b895a692449f9",
+    "COBA_009_SIGNAL_DEPENDENCY_AUDIT.csv": "8b66d48076d7208bde4ee27de64bfbaeffa8c0d70136bcc961f750c8235c83a8",
+    "COBA_009_STRUCTURAL_DEPENDENCY.csv": "3f2bdd3ccea78049a41d260f0822f805eaa9483eaa17272a38d2a2c9328dfcc4",
+    "COBA_009_SUBGROUP_RESULTS.csv": "68358b64e32b4220e84a7d346437a4f960c28356c226fbd74145d12a4cd36001",
+    "COBA_009_TEMPORAL_CONDITIONAL.csv": "44f73bfe740400ae01f7b305cfdf41e440c0b717ca2e75f49f4c15750fedab72"
+  }
+}

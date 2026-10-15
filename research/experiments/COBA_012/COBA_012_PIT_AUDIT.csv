@@ -1,0 +1,5 @@
+Audit_Domain,Verification,Finding,Status
+Agent 3 Committee Timestamp,Pre-market observation session t timestamp (08:30 WIB),Generated strictly before evaluation session t+1 opens,VERIFIED
+Adverse Excursion (MAE) Calculation,Observed min Low price strictly between session t+1 and t+h,Zero lookahead into post-h sessions; reference entry price is Close_t,VERIFIED
+Favorable Excursion (MFE) Calculation,Observed max High price strictly between session t+1 and t+h,Zero lookahead into post-h sessions; reference entry price is Close_t,VERIFIED
+External Market Data Provenance,Historical snapshot audit,"Ingested via external raw layer; OUTCOME_TEMPORAL_ALIGNMENT = VERIFIED, FULL_HISTORICAL_PIT = PARTIAL",PARTIAL

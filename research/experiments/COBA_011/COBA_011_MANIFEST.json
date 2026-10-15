@@ -1,0 +1,98 @@
+{
+  "experiment_id": "COBA_011",
+  "title": "COBA_011 \u2014 STRUCTURAL NEUTRALITY, HORIZON, BENCHMARK & OUTCOME SENSITIVITY BATTERY",
+  "timestamp": "2026-09-27T10:49:00+07:00",
+  "lineage": [
+    "COBA_001",
+    "COBA_001.1",
+    "COBA_002",
+    "COBA_003",
+    "COBA_004",
+    "COBA_005",
+    "COBA_006",
+    "COBA_007",
+    "COBA_008",
+    "COBA_009",
+    "COBA_010",
+    "COBA_011"
+  ],
+  "research_question": "Apakah kesimpulan empirical neutrality dari Agent 1, Agent 2, dan downstream Agent 3 tetap bertahan ketika horizon outcome, benchmark/peer construction, dan outcome definition diuji menggunakan data empiris yang benar-benar tersedia, atau apakah neutrality tersebut sensitif terhadap structural choice dari estimand?",
+  "population": {
+    "canonical_equities": 80,
+    "canonical_setups": 1760,
+    "market_data_populated": 1429,
+    "h1_setups": 1354,
+    "h3_setups": 1318,
+    "h5_setups": 1417,
+    "h10_setups": 1417,
+    "h20_setups": 1338,
+    "h20_right_censored": 79
+  },
+  "primary_estimand": {
+    "outcome": "H5_PEER_EXCESS_PP",
+    "model": "Y = alpha_{YEAR x REGIME x SECTOR} + beta * ACT + eps",
+    "sample_n": 1417,
+    "common_support_n": 1381,
+    "act_n": 460,
+    "control_n": 957,
+    "date_clusters": 21,
+    "beta_act_pp": -0.027906,
+    "se_act_pp": 0.374195,
+    "ci_95_pp": [
+      -0.761328,
+      0.705516
+    ],
+    "p_cluster": 0.940552,
+    "p_wild": 0.937
+  },
+  "frozen_inputs": {
+    "canonical_decision_matrix": {
+      "path": "reports/zzz14_8_canonical_setup_decision_matrix.csv",
+      "sha256": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39"
+    },
+    "canonical_observation_matrix": {
+      "path": "reports/zzz1471_canonical_observation_matrix.csv",
+      "sha256": "e4e2ab967de4731f55821b1db0791b53a27cff4c5a50bd047c4c7615a375f004"
+    },
+    "coba_007_setup_coverage": {
+      "path": "research/experiments/COBA_007/COBA_007_SETUP_COVERAGE.csv",
+      "sha256": "e98aeacb64c5f4d1d06c72cf86704c08a7ceb368273916226e1bb8582b57a86e"
+    },
+    "ihsg_raw": {
+      "path": "data/raw/market_external/IHSG_yf_raw.csv",
+      "sha256": "cabd5b7cc11a9bb903098798591e7e290ab39ae5b62cc0b843b2b5398d5ee234"
+    },
+    "intelligence_db": {
+      "path": "data/duckdb/intelligence.duckdb",
+      "sha256": "41f64a94dc53cf49b3fd298813f4fd9402aa11ffa4b8235c6f5914dc4c638035"
+    }
+  },
+  "artifacts": {
+    "COBA_011_BENCHMARK_RESULTS.csv": "02bf39089d86ffad4e43678a1a34f4a9f1a4881f2a6506e1fc15e93602fa0d13",
+    "COBA_011_CENSORING.csv": "5e38ceed68d552eae8ed2b7b147a087d28a09fdc49495994d081ad11c3dd006a",
+    "COBA_011_CORPORATE_ACTION_AUDIT.csv": "ca680a69160c6d7c0dcdee160f2d68b82794b68366af6c47198030e29b5e931d",
+    "COBA_011_COVERAGE.csv": "9c5d0744ea33b8c91bdb77f1cb9cc47ca331e1d74bdb0fe413dda115d04bd8e7",
+    "COBA_011_EVIDENCE_MATRIX.csv": "81e3dd869b85db1a69e53becfa2d9f70728fff14d775c1267a7eb1a68953a15a",
+    "COBA_011_EXECUTION_LIMITATIONS.csv": "134942e3b90a8ae7c194d59b68dd00f04cd5bad7ec8d9da39133d1ba0be86e76",
+    "COBA_011_HORIZON_RESULTS.csv": "3a3faeab2b5b169a9dd01c140435dbfd3927ab63f9518ff0718df19bbfff9086",
+    "COBA_011_INDEPENDENT_RECHECK.csv": "e63cbe6038b5b55a62916b5321e02769c4b6ea70423fd13c19e60a042892ecc2",
+    "COBA_011_MULTIPLE_COMPARISON.csv": "d66be2bbdd3d0a839d584d334dd43b39e8c7db08a4e816555a6e465cc5d1e265",
+    "COBA_011_PIT_AUDIT.csv": "79e87d19c69526ffe33ec9eb84f99ad7f22ff29757d046dc7ebd91497021dfa3",
+    "COBA_011_PRIMARY_RESULTS.csv": "f4b438aa6e5da0567a35710a1219d6699fa87cbf0e9967ff20c68ad29ef08a95",
+    "COBA_011_REDTEAM_AUDIT.csv": "c3bae259f82b3ff22c43039d5bdff56baedc26a55065919ea21eac04c9d05dd8",
+    "COBA_011_REGIME_RESULTS.csv": "fa407bb3a61fb595e37cee8cd49eb056aebe90d8568e1d1b59c347b2bd9c3129",
+    "COBA_011_REPORT.md": "e6939de5f483ad936d08dcb96d28eefae97692ec3832be90720d28631b95e02e",
+    "COBA_011_SECTOR_RESULTS.csv": "bc82d58f5dfc8317634fa716d2e4f848bf98c728a95e0f89162cef0f0adad942",
+    "COBA_011_TEMPORAL_RESULTS.csv": "68bca33a4a05cf825dc6a876eab2191bec311f98de4d4f72041918f89101f53c"
+  },
+  "dual_run_reproducibility": "PASS",
+  "independent_recheck": "100% (150/150 setups verified, 0 mismatches)",
+  "final_classification": "STRUCTURAL_ROBUSTNESS_SUPPORTED",
+  "firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY"
+  },
+  "next_research_question": "Having established that the empirical neutrality of Agent 1 and Agent 2 signals is structurally robust across forward horizons (H1\u2013H20) and benchmark definitions (Raw, Sector LOO, IHSG), does downstream Agent 3 (Investment Committee & Risk) decision-making add portfolio-level loss-prevention or drawdown-reduction value, or does downstream risk filtering also inherit empirical neutrality from the upstream signals?"
+}

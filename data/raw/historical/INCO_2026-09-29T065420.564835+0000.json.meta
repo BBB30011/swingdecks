@@ -1,0 +1,13 @@
+{
+    "symbol": "INCO",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-29T06:54:20.564835+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-29T00:00:00+07:00",
+    "last_date": "2026-09-29T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "1444344c9f1e4117a3bdcd16028d41cfea0101a281e55156bc9e81e5013cf1b4"
+}

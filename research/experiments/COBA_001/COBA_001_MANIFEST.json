@@ -1,0 +1,35 @@
+{
+  "coba_id": "COBA_001",
+  "status": "FROZEN_READY",
+  "design_date": "2026-09-27",
+  "research_objective": "Determine the conditional observational difference in future outcomes of the pure quant signal (arm_a_action == ACT) independent of downstream effects.",
+  "dataset": {
+    "identity": "DATASET_V2_20260915",
+    "source_path": "reports/zzz14_8_canonical_setup_decision_matrix.csv",
+    "total_setups": 1760
+  },
+  "treatment": {
+    "variable": "arm_a_action",
+    "exposed_state": "ACT",
+    "control_state": ["WATCH", "WAIT"]
+  },
+  "stratification": {
+    "method": "Exact-Stratified Common-Support Sample",
+    "strata_variables": ["year", "market_regime", "sector"],
+    "allowed_variables": "Pre-outcome only"
+  },
+  "outcomes": {
+    "primary": "H5_PEER_EXCESS",
+    "secondary": ["H1_return", "H3_return", "H10_PEER_EXCESS", "H20_PEER_EXCESS"],
+    "families": {
+      "short_horizon_absolute": ["H1_return", "H3_return"],
+      "medium_long_peer_excess": ["H5_PEER_EXCESS", "H10_PEER_EXCESS", "H20_PEER_EXCESS"]
+    }
+  },
+  "inference": {
+    "primary_method": "OLS with date-clustered standard errors",
+    "secondary_method": "Wild Cluster Bootstrap",
+    "minimum_effect_size": "NOT_PRE_SPECIFIED"
+  },
+  "random_seed": 149001
+}

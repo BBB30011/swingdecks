@@ -1,0 +1,14 @@
+{
+  "experiment_id": "COBA_007",
+  "canonical_setups": 1760,
+  "market_data_setups": 1429,
+  "h5_peer_excess_setups": 1417,
+  "benchmark_status": "VERIFIED",
+  "classification": "PARTIAL",
+  "firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY"
+  }
+}

@@ -1,0 +1,10 @@
+Component,Scope,Audit_Standard,Observed_Status,Integrity_Verdict
+Governance_Lineage,COBA_001 to COBA_017,Immutable historical lineage,VERIFIED_IMMUTABLE,PASS
+Agent_1_Quant_Scanner,core/agent1_scanner.py & historical_replay.py,"Pre-market 08:30 WIB signal generation, zero lookahead",VERIFIED_PIT_SAFE,PASS
+Agent_2_Intelligence,core/intelligence_engine.py & zzz146_syntactic_synthesis.py,"Relational DuckDB context, publication_time bounds",VERIFIED_PIT_SAFE,PASS
+Agent_3_Committee,core/risk_engine.py & zzz148_decision_utility_gate.py,Committee decisions & risk sizing freeze,VERIFIED_FROZEN,PASS
+Master_Calendar,data/raw/market_external/IHSG_yf_raw.csv,"Canonical 2,826 trading sessions (2015-2026)",VERIFIED_CANONICAL,PASS
+Market_Data_OHLCV,data/raw/market/ & market_external/,Observed Open fill and Close exit provenance,VERIFIED_OBSERVED_PRICE,PASS
+Corporate_Action_Ledger,COBA_014_CORPORATE_ACTION_LEDGER.csv,Conservation across 398 corporate action events,VERIFIED_CONSERVED,PASS
+Portfolio_Accounting_Engine,COBA_016 Calendar-Stepped Concurrent Engine,"Integer lots, cash ledger balance identity, MTM",VERIFIED_INVARIANT_CLEAN,PASS
+Candidate_Slot_Allocation,COBA_017 Concurrency Queue,Sequence independence & cross-sectional fairness,DEFECT_IDENTIFIED_SELECTION_SENSITIVE,METHODOLOGICAL_CONFOUNDER

@@ -16,8 +16,9 @@ class TradeLesson(BaseModel):
     exit_reason: str
     
     # Process vs Outcome
-    outcome_quality: str  # WIN, LOSS, BREAKEVEN
-    process_quality: str  # GOOD_TRADE, BAD_TRADE_LUCKY_WIN, GOOD_THESIS_BAD_TIMING, POOR_EXECUTION
+    outcome: str = "BREAKEVEN" # WIN, LOSS, BREAKEVEN
+    outcome_quality: str = "BREAKEVEN"  # WIN, LOSS, BREAKEVEN
+    process_quality: str = "GOOD_TRADE"  # GOOD_TRADE, BAD_TRADE_LUCKY_WIN, GOOD_THESIS_BAD_TIMING, POOR_EXECUTION
     loss_type: Optional[str] = None # THESIS_FAILURE, TIMING_FAILURE, RISK_FAILURE, MARKET_REGIME_FAILURE, FALSE_BREAKOUT, CATALYST_PRICED_IN
     
     # Metrics
@@ -33,9 +34,9 @@ class TradeLesson(BaseModel):
     sector: str = "UNKNOWN"
     
     # Extraction
-    mistakes: str
-    what_worked: str
-    what_failed: str
+    mistakes: str = ""
+    what_worked: str = ""
+    what_failed: str = ""
     knowledge_available_at: str
 
 class MissedOpportunity(BaseModel):
@@ -71,10 +72,12 @@ class LearningLedger:
     def __init__(self, directory: str = "knowledge"):
         self.directory = Path(directory)
         self.lessons_dir = self.directory / "lessons"
+        self.success_dir = self.directory / "successful_setups"
         self.missed_dir = self.directory / "missed_opportunities"
         self.patterns_dir = self.directory / "patterns"
         
         self.lessons_dir.mkdir(parents=True, exist_ok=True)
+        self.success_dir.mkdir(parents=True, exist_ok=True)
         self.missed_dir.mkdir(parents=True, exist_ok=True)
         self.patterns_dir.mkdir(parents=True, exist_ok=True)
         
@@ -93,10 +96,22 @@ class LearningLedger:
         if close_reason == "THESIS_INVALIDATED": return "THESIS_FAILURE"
         return "UNKNOWN"
 
-    def generate_lesson(self, position_data: Dict[str, Any], context: Dict[str, Any]) -> TradeLesson:
-        pnl = position_data.get("realized_pnl", 0.0)
-        pnl_pct = position_data.get("realized_pnl_pct", 0.0)
-        close_reason = position_data.get("close_reason", "UNKNOWN")
+    def generate_lesson(self, position_data: Any, context: Dict[str, Any]) -> TradeLesson:
+        if hasattr(position_data, "model_dump"):
+            pos_dict = position_data.model_dump()
+        elif isinstance(position_data, dict):
+            pos_dict = dict(position_data)
+        else:
+            pos_dict = getattr(position_data, "__dict__", {})
+
+        pnl = pos_dict.get("realized_pnl", 0.0)
+        pnl_pct = pos_dict.get("realized_pnl_pct", 0.0)
+        if not pnl_pct:
+            entry = pos_dict.get("entry_price") or 0.0
+            close = pos_dict.get("close_price") or 0.0
+            if entry > 0 and close > 0:
+                pnl_pct = (close - entry) / entry
+        close_reason = pos_dict.get("close_reason") or "UNKNOWN"
         
         outcome = "BREAKEVEN"
         if pnl > 0: outcome = "WIN"
@@ -108,20 +123,21 @@ class LearningLedger:
         timestamp = datetime.now(timezone.utc).isoformat()
         
         return TradeLesson(
-            lesson_id=f"L_{position_data.get('position_id', 'unknown')}",
-            position_id=position_data.get("position_id", "unknown"),
-            symbol=position_data.get("symbol", "UNKNOWN"),
-            entry_date=position_data.get("entry_timestamp", ""),
-            exit_date=position_data.get("closed_timestamp", ""),
+            lesson_id=f"L_{pos_dict.get('position_id', 'unknown')}",
+            position_id=pos_dict.get("position_id", "unknown"),
+            symbol=pos_dict.get("symbol", "UNKNOWN"),
+            entry_date=pos_dict.get("entry_timestamp", "") or "",
+            exit_date=pos_dict.get("closed_timestamp", "") or "",
             action="BUY",
-            entry_reason=position_data.get("thesis", ""),
+            entry_reason=pos_dict.get("thesis", "") or "",
             exit_reason=close_reason,
+            outcome=outcome,
             outcome_quality=outcome,
             process_quality=process_quality,
             loss_type=loss_type,
             realized_pnl=pnl,
             realized_pnl_pct=pnl_pct,
-            holding_period=position_data.get("holding_bars", 0),
+            holding_period=pos_dict.get("holding_bars", 0),
             signal_tier=context.get("signal_tier", "UNKNOWN"),
             alert_urgency=context.get("alert_urgency", "UNKNOWN"),
             timing_quality=context.get("timing_quality", "UNKNOWN"),
@@ -137,6 +153,10 @@ class LearningLedger:
         file_path = self.lessons_dir / f"{lesson.lesson_id}.json"
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(lesson.model_dump_json(indent=4))
+        if getattr(lesson, "outcome", None) == "WIN" or getattr(lesson, "outcome_quality", None) == "WIN":
+            succ_path = self.success_dir / f"{lesson.lesson_id}.json"
+            with open(succ_path, "w", encoding="utf-8") as f:
+                f.write(lesson.model_dump_json(indent=4))
 
     def log_missed_opportunity(self, missed: MissedOpportunity):
         file_path = self.missed_dir / f"{missed.miss_id}.json"
@@ -147,3 +167,26 @@ class LearningLedger:
         file_path = self.patterns_dir / f"{pattern.knowledge_id}.json"
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(pattern.model_dump_json(indent=4))
+
+    def get_pattern_statistics(self, min_sample: int = 10) -> Dict[str, Any]:
+        lessons = []
+        if self.lessons_dir.exists():
+            for p in self.lessons_dir.glob("*.json"):
+                try:
+                    with open(p, "r", encoding="utf-8") as f:
+                        lessons.append(json.load(f))
+                except Exception:
+                    pass
+        if len(lessons) < min_sample:
+            return {"status": "INSUFFICIENT_SAMPLE", "sample_size": len(lessons)}
+        sample_size = len(lessons)
+        wins = sum(1 for l in lessons if l.get("realized_pnl", 0.0) > 0)
+        win_rate = wins / sample_size if sample_size > 0 else 0.0
+        avg_pnl = sum(l.get("realized_pnl", 0.0) for l in lessons) / sample_size if sample_size > 0 else 0.0
+        return {
+            "status": "VALID",
+            "sample_size": sample_size,
+            "win_rate": win_rate,
+            "avg_pnl": avg_pnl
+        }
+

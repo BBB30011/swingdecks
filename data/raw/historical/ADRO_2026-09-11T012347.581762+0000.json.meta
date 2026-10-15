@@ -1,0 +1,13 @@
+{
+    "symbol": "ADRO",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:47.581762+00:00",
+    "record_count": 1203,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "909135a94197e490004082cf21f589c4148377129e04b8d0f463c06b81537f57"
+}

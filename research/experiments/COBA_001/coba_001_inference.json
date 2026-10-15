@@ -1,0 +1,98 @@
+{
+  "status": "SIGNAL_NOT_SUPPORTED",
+  "support_metrics": {
+    "total_treatment": 572,
+    "total_control": 1188,
+    "number_of_strata": 147,
+    "treatment_only_strata": 0,
+    "control_only_strata": 1,
+    "common_support_strata": 146,
+    "retained_treatment": 572,
+    "retained_control": 1180,
+    "retained_total": 1752,
+    "unmatched_treatment": 0,
+    "unmatched_control": 8
+  },
+  "primary": {
+    "outcome": "H5_PEER_EXCESS",
+    "role": "PRIMARY",
+    "beta": 0.1637,
+    "standard_error": 0.1307,
+    "confidence_interval": [
+      -0.0925,
+      0.4199
+    ],
+    "clustered_p_value": 0.210552,
+    "bootstrap_p_value": 0.212,
+    "N": 1752,
+    "cluster_count": 22,
+    "effect_magnitude": "NEGLIGIBLE",
+    "causality": "NOT_PROVEN"
+  },
+  "secondary": [
+    {
+      "outcome": "H1_return",
+      "role": "SECONDARY",
+      "beta": 0.0328,
+      "standard_error": 0.0262,
+      "confidence_interval": [
+        -0.0184,
+        0.0841
+      ],
+      "clustered_p_value": 0.209485,
+      "bootstrap_p_value": 0.211,
+      "N": 1752,
+      "cluster_count": 22,
+      "effect_magnitude": "NEGLIGIBLE",
+      "causality": "NOT_PROVEN"
+    },
+    {
+      "outcome": "H3_return",
+      "role": "SECONDARY",
+      "beta": 0.0984,
+      "standard_error": 0.0784,
+      "confidence_interval": [
+        -0.0553,
+        0.252
+      ],
+      "clustered_p_value": 0.209478,
+      "bootstrap_p_value": 0.212,
+      "N": 1752,
+      "cluster_count": 22,
+      "effect_magnitude": "NEGLIGIBLE",
+      "causality": "NOT_PROVEN"
+    },
+    {
+      "outcome": "H10_PEER_EXCESS",
+      "role": "SECONDARY",
+      "beta": 0.2453,
+      "standard_error": 0.1961,
+      "confidence_interval": [
+        -0.1391,
+        0.6296
+      ],
+      "clustered_p_value": 0.211003,
+      "bootstrap_p_value": 0.212,
+      "N": 1752,
+      "cluster_count": 22,
+      "effect_magnitude": "NEGLIGIBLE",
+      "causality": "NOT_PROVEN"
+    },
+    {
+      "outcome": "H20_PEER_EXCESS",
+      "role": "SECONDARY",
+      "beta": 0.3602,
+      "standard_error": 0.2876,
+      "confidence_interval": [
+        -0.2035,
+        0.9238
+      ],
+      "clustered_p_value": 0.210454,
+      "bootstrap_p_value": 0.212,
+      "N": 1752,
+      "cluster_count": 22,
+      "effect_magnitude": "NEGLIGIBLE",
+      "causality": "NOT_PROVEN"
+    }
+  ]
+}

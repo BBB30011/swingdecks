@@ -298,9 +298,9 @@ The current pilot is constrained to 12 tickers and lacks deep historical company
 
 ## 23. File / Code / Schema Changes
 
-* [`core/oos_validation_engine.py`](file:///d:/Project/SwingDeck/core/oos_validation_engine.py): New OOS Validation Engine executing Tests A–K.
-* [`scratch/run_zzz82_oos_validation.py`](file:///d:/Project/SwingDeck/scratch/run_zzz82_oos_validation.py): Automated runner script.
-* [`tests/test_batch_zzz82_temporal_cross_sectional_oos.py`](file:///d:/Project/SwingDeck/tests/test_batch_zzz82_temporal_cross_sectional_oos.py): Pytest validation suite.
-* [`reports/batch_zzz82_temporal_cross_sectional_oos_validation.md`](file:///d:/Project/SwingDeck/reports/batch_zzz82_temporal_cross_sectional_oos_validation.md): Comprehensive validation report.
-* [`docs/PROJECT_MEMORY.md`](file:///d:/Project/SwingDeck/docs/PROJECT_MEMORY.md): Updated project ledger.
-* [`README.md`](file:///d:/Project/SwingDeck/README.md): Updated research status.
+* [`core/oos_validation_engine.py`](file:///core/oos_validation_engine.py): New OOS Validation Engine executing Tests A–K.
+* [`scratch/run_zzz82_oos_validation.py`](file:///scratch/run_zzz82_oos_validation.py): Automated runner script.
+* [`tests/test_batch_zzz82_temporal_cross_sectional_oos.py`](file:///tests/test_batch_zzz82_temporal_cross_sectional_oos.py): Pytest validation suite.
+* [`reports/batch_zzz82_temporal_cross_sectional_oos_validation.md`](file:///reports/batch_zzz82_temporal_cross_sectional_oos_validation.md): Comprehensive validation report.
+* [`docs/PROJECT_MEMORY.md`](file:///docs/PROJECT_MEMORY.md): Updated project ledger.
+* [`README.md`](file:///README.md): Updated research status.

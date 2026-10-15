@@ -1,0 +1,6 @@
+Dimension,Audit_Target,Observed_Specification,Temporal_Bound,Lookahead_Risk,Status
+ORDER_GENERATION_PIT,Pre-market signal generation (08:30) vs Order submission,Orders generated strictly at 08:30 T pre-market based on pre-T features,Strictly prior to 09:00 T market open,ABSENT,VERIFIED
+EXECUTION_TIMESTAMP_PIT,Trade execution fill timing,Fills executed at 09:00 T Open or subsequent session Open,Chronologically strictly after signal observation,ABSENT,VERIFIED
+CORPORATE_ACTION_EX_DATE_PIT,Split and dividend accounting event application,Applied strictly on certified Ex-Date; zero pre-announcement positioning leakage,Effective strictly at market open on Ex-Date,ABSENT,VERIFIED
+DELISTING_LIQUIDATION_PIT,Suspension and delisting event realization,Positions frozen on suspension date; no hindsight pre-suspension liquidation,Regulatory halt freezes capital immediately,ABSENT,VERIFIED
+CASH_SETTLEMENT_CYCLE,IDX T+2 (and T+1) clearing cycle,Deterministic immediate cash commitment on buy; settlement delay accounted for,Cash reserved instantaneously on fill,ABSENT,VERIFIED

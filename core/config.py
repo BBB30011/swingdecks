@@ -3,8 +3,10 @@ import yaml
 
 def load_yaml(filename: str) -> dict:
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    config_path = os.path.join(base_dir, 'config', filename)
-    
+    config_path = os.path.join(base_dir, 'configs', filename)
+    if not os.path.exists(config_path):
+        config_path = os.path.join(base_dir, 'config', filename)
+        
     if not os.path.exists(config_path):
         raise FileNotFoundError(f"File konfigurasi tidak ditemukan: {config_path}")
         

@@ -1,0 +1,30 @@
+{
+  "target_url": "https://finance.yahoo.com/rss/headline?s=BBCA.JK",
+  "http_status": 200,
+  "telemetry": {
+    "run_id": "NAT_RUN_20260929_145731_234b57",
+    "raw_document_id": "RAW_CA63F56E684C3837",
+    "document_id": "DOC_DD1CA99F856A9F76",
+    "authenticity_status": "PARTIALLY_VERIFIED",
+    "identity_status": "NEW_DOCUMENT_IDENTITY",
+    "dedup_action": "NEW_DOCUMENT",
+    "resolved_entities_count": 1,
+    "claims_count": 1,
+    "evidence_count": 1,
+    "relationships_count": 0,
+    "contradictions_count": 0,
+    "access_status": "AUTHORIZED_DECISION_ELIGIBLE",
+    "pit_status": "VALID",
+    "canonical_persisted": true,
+    "graph_updated": true,
+    "errors": []
+  },
+  "retrieval": {
+    "query_id": "RETRIEVE_BBCA_2026-09-29",
+    "provenance_status": "VERIFIED",
+    "access_status": "AUTHORIZED",
+    "evidence_refs": [
+      "EV_8CEC9EEBA273"
+    ]
+  }
+}

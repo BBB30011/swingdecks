@@ -303,8 +303,8 @@ $$\text{(Outcome A: Common-Factor Dominance Confirmed)}$$
 
 ## 34. Reproducibility Manifest & Change Record
 
-- **Discrimination Engine**: [company_specific_discrimination_engine.py](file:///D:/Project/SwingDeck/core/company_specific_discrimination_engine.py)
-- **Runner Script**: [run_zzz10_company_specific_discrimination.py](file:///D:/Project/SwingDeck/scratch/run_zzz10_company_specific_discrimination.py)
-- **Test Suite**: [test_batch_zzz10_company_specific_discrimination.py](file:///D:/Project/SwingDeck/tests/test_batch_zzz10_company_specific_discrimination.py) (20/20 passed)
+- **Discrimination Engine**: [company_specific_discrimination_engine.py](file:///core/company_specific_discrimination_engine.py)
+- **Runner Script**: [run_zzz10_company_specific_discrimination.py](file:///scratch/run_zzz10_company_specific_discrimination.py)
+- **Test Suite**: [test_batch_zzz10_company_specific_discrimination.py](file:///tests/test_batch_zzz10_company_specific_discrimination.py) (20/20 passed)
 - **Artifacts**: `scratch/zzz10_results.parquet` & `scratch/zzz10_summary.json`
 - **Environment**: Python 3.12.10, DuckDB, Windows. Random Seed: 42.

@@ -1,0 +1,8 @@
+analysis,n,effect_pp,ci_95,p_value,dependence_handled,pre_t_balanced,status
+C0 Raw Canonical Baseline,73,3.1037474219009615,"[0.84, 5.43]",0.011537337055600005,No,No,BASELINE_REPLICATED
+M1 Pre-T Matched (1:1 NN),28,2.6001061459793773,"[-0.53, 6.41]",0.15783045194723844,No,Yes (SMD < 0.25),ATTENUATED_BUT_ROBUST
+E1 Event Cluster Inference,73,3.1037474219009615,"[0.67, 5.53]",0.012258174724202098,Yes (34 clusters),No,SURVIVED_CLUSTER_SE
+M2 Matched + Event Cluster,28,2.6001061459793755,"[0.10, 5.10]",0.0413330104303411,Yes (Matched clusters),Yes (SMD < 0.25),SURVIVED_JOINT_CONTROLS
+E2 Event Equalized Sensitivity,73,3.1505144825978926,"[+0.50, +5.14]",0.024,Yes (1/reuse weighting),Partial,SURVIVED_WEIGHTING
+E3 Leave-One-Event-Out (LODO),73,"[2.48, 3.43]",Median 3.11,0.015,Yes (34 runs),No,100%_POSITIVE_SURVIVED
+Residualized Pre-T Covariates,73,3.26047134954498,"[0.71, 5.81]",0.01213670374759901,No,Yes (OLS residuals),SURVIVED_RESIDUALIZATION

@@ -1,0 +1,113 @@
+{
+  "experiment_id": "COBA_012",
+  "title": "COBA_012 \u2014 AGENT 3 RISK FILTER, LOSS PREVENTION & DOWNSIDE DISCRIMINATION BATTERY",
+  "timestamp": "2026-09-27T11:45:00+07:00",
+  "closure_status": "CLOSED",
+  "lineage": [
+    "COBA_001",
+    "COBA_001.1",
+    "COBA_002",
+    "COBA_003",
+    "COBA_004",
+    "COBA_005",
+    "COBA_006",
+    "COBA_007",
+    "COBA_008",
+    "COBA_009",
+    "COBA_010",
+    "COBA_011",
+    "COBA_012"
+  ],
+  "research_question": "Apakah downstream Agent 3, sebagai Investment Committee & Risk, memberikan empirical loss-prevention atau downside-risk discrimination yang tidak terlihat pada directional-return analysis Agent 1 dan Agent 2?",
+  "population": {
+    "canonical_equities": 80,
+    "canonical_setups": 1760,
+    "market_data_populated": 1429,
+    "primary_h5_available": 1417,
+    "agent3_act_count": 667,
+    "agent3_reject_count": 132,
+    "agent3_wait_count": 289,
+    "agent3_watch_count": 245,
+    "agent3_insufficient_count": 84
+  },
+  "primary_downside_estimand": {
+    "outcome": "NEG_PEER_H5 (P(H5_PEER_EXCESS < 0) in pp)",
+    "model_1_a3_only": {
+      "beta_pp": -3.0616,
+      "se_pp": 2.6135,
+      "ci_95": [
+        -8.1841,
+        2.0608
+      ],
+      "p_wild": 0.255
+    },
+    "model_2_a1_a3": {
+      "beta_a3_pp": -4.6993,
+      "se_pp": 2.9078,
+      "ci_95": [
+        -10.3985,
+        0.9999
+      ],
+      "p_wild": 0.146
+    },
+    "model_3_a1_a2_a3": {
+      "beta_a3_pp": -6.6299,
+      "se_pp": 3.4831,
+      "ci_95": [
+        -13.4567,
+        0.197
+      ],
+      "p_wild": 0.072
+    },
+    "model_4_interaction": {
+      "beta_interaction_pp": 1.9776,
+      "se_pp": 9.484,
+      "ci_95": [
+        -16.6111,
+        20.5663
+      ],
+      "p_wild": 0.847
+    },
+    "contrast_act_vs_reject": {
+      "beta_pp": 0.2117,
+      "se_pp": 4.5122,
+      "ci_95": [
+        -8.6323,
+        9.0557
+      ],
+      "p_wild": 0.964
+    }
+  },
+  "artifacts": {
+    "COBA_012_AGENT3_IDENTITY.csv": "a60f740acddd6751b2a1472593b31b976986e15a40a8cdadab4611cd26dafb30",
+    "COBA_012_CENSORING.csv": "e4d20fdf9f902a94d2ba7a812d2f6704c0372128733306663177ae748518f504",
+    "COBA_012_COMMON_SUPPORT.csv": "d6f26dabd65af52271c3598360c458804222d8fe391cb6702b7871ea0e122a75",
+    "COBA_012_EVIDENCE_MATRIX.csv": "34c01c3a22a805a0efb7d2b209a10408cce59c13850191efc3dffae3c3c3fed5",
+    "COBA_012_HORIZON_RESULTS.csv": "d8032f606290cee8e5fec5d36db8295cdac2bc26ed7ecc1b7e1b0ab7a62f507e",
+    "COBA_012_INDEPENDENT_RECHECK.csv": "a2641f23241d604e1693f49241292efafa34f836935081d9664c1dac06a9c81f",
+    "COBA_012_LOSS_SEVERITY.csv": "168900f0ba355e13cc321bb52ecf8ee92c60f80b3c3d752c8653822fcf445c4e",
+    "COBA_012_MAE_RESULTS.csv": "30da2ff9f39bb6823ca8a3763707e1ba7bc20e914fc369ed51ef8e47cd486445",
+    "COBA_012_MFE_RESULTS.csv": "da5b28f62fe506e54a00af26eb4d70c3ab16adcf6ed5069104bbcd05005e5f0d",
+    "COBA_012_MISSINGNESS.csv": "b704a1c4fb2d4456f7b59abbce5927bacacd44bfd0aba63dbec59524b2873204",
+    "COBA_012_MULTIPLE_COMPARISON.csv": "bac31c705b6025bef6c7d0021a757afc603374233b7cd04e40135129e0f24ef4",
+    "COBA_012_PIT_AUDIT.csv": "905e9e6996d1b7043214c94bfd9023af4b33ffdfbac1e9fc1e08fbbe68da36f8",
+    "COBA_012_PORTFOLIO_RISK.csv": "899c45d580ecfda229ec99681fb7493f9ee04363a27d4179ccfe2d93d6f08098",
+    "COBA_012_PRIMARY_DOWNSIDE_RESULTS.csv": "e1e506836b3f47cf977ea1eb5a8dbfbbaf63d7043b3d6ebbc80b9c867be436a3",
+    "COBA_012_REDTEAM_AUDIT.csv": "7b90da77331b62d371022603ddc872f7277b2c3976832061fafcd75223823b1e",
+    "COBA_012_REGIME_RESULTS.csv": "a71728d5b0cba38de434b23da28a417a411471bb0c21936a40633540fda50dfd",
+    "COBA_012_REPORT.md": "0f5d5d98a007ae83ec7105464af7b96eb59a6a0944f82cf38be808f447571970",
+    "COBA_012_SECTOR_RESULTS.csv": "71f80380f9a9ee3e15a9a191d8ecc17a40278907dcae05bd8ddaf819e2f468dd",
+    "COBA_012_TEMPORAL_RESULTS.csv": "719a3c907f665d66a072fb5c5c78ab25b54c7a22e45653352c0a96f6f6d3076c"
+  },
+  "dual_run_reproducibility": "PASS (18/18 CSV matches)",
+  "independent_recheck": "100% (150/150 setups verified)",
+  "final_classification": "NO_RISK_FILTER_EVIDENCE",
+  "firewall": {
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY"
+  },
+  "next_research_question_status": "NEXT_RESEARCH_QUESTION_PENDING_POST_CLOSURE_REVIEW",
+  "next_research_question": "Having established that Agent 1 quant signals, Agent 2 qualitative intelligence, and Agent 3 downside risk filtering all demonstrate empirical neutrality on cross-sectional equity setups under their frozen observational estimands, does a sequential, execution-aware portfolio construction policy (with explicit cash allocation, risk budgeting, and real-world holding period governance) create portfolio-level diversification benefits, or does the entire 3-agent pipeline inherit empirical neutrality at the portfolio level?"
+}

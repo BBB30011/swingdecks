@@ -1,0 +1,7 @@
+Population_Stage,Setup_Count,Equities_Count,Reduction_Reason
+N_TOTAL (Canonical Dataset V2 Universe),1760,80,Complete canonical universe baseline
+N_WITH_AGENT1 (Frozen Quant Signal Populated),1760,80,100% complete Agent 1 signal assignment (ACT/WATCH/WAIT)
+N_WITH_AGENT2 (Discrete Historical Intelligence Populated),1760,80,100% complete canonical contradiction and attribution states
+N_WITH_OUTCOME (Verified Empirical H5_PEER_EXCESS),1417,79,Excluded 343 setups: 331 missing security market data (WSKT delisted + session gaps) + 12 insufficient trading history
+N_COMPLETE_CASE (Joined Agent 1 + Agent 2 + Empirical Outcome),1417,79,100% complete case retention across valid empirical population
+N_DUCKDB_PHYSICAL_EVENT_SUBSTRATE,204,12,Physical DuckDB filing archives populated only for 12 pilot tickers (85.6% classified as NO_EVIDENCE_IN_DATASET)

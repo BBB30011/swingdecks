@@ -120,16 +120,12 @@ class CSVMarketDataSource(MarketDataSource):
             c = float(row['close'])
             v = float(row['volume'])
             
-            # Auto-correct dirty OHLC data to satisfy MarketBar constraints
-            actual_high = max(o, h, l, c)
-            actual_low = min(o, h, l, c)
-            
             bars.append(MarketBar(
                 symbol=sym,
                 timestamp=row['timestamp'],
                 open=o,
-                high=actual_high,
-                low=actual_low,
+                high=h,
+                low=l,
                 close=c,
                 volume=v
             ))

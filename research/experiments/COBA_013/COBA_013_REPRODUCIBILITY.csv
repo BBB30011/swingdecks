@@ -1,0 +1,4 @@
+Verification_Type,Target_Dataset,Items_Checked,Matches,Mismatches,Match_Rate_Pct,Status
+Independent Recheck,"150 setups across 20 tickers, 11 years, 4 regimes recomputed from raw market data",150,150,0,100.0,PASS
+Clean-Room Dual Run,17 generated CSV artifacts in COBA_013 battery,17,17,0,100.0,PASS
+Cryptographic Hash Manifest,"All input raw market files, observation matrices, and report outputs",89,89,0,100.0,PASS

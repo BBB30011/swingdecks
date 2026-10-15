@@ -1,0 +1,7 @@
+Prior_COBA,Frozen_Finding,Portfolio_Accounting_Dependency,Impact_Classification,Detailed_Assessment
+COBA_008,SIGNAL_NOT_SUPPORTED,Directional return setup foundation,LIMITED_IMPACT,Portfolio accounting engine confirms that discrete setup returns inherit transaction fees and lot frictions; directional null is unrescued.
+COBA_009,NO_CONDITIONAL_EVIDENCE,Common support distribution across momentum strata,LIMITED_IMPACT,Lot constraints and cash allocation do not alter the structural dependence on momentum scores >= 80.
+COBA_010,NO_INCREMENTAL_INFORMATION_EVIDENCE,Agent 2 contradiction signals,LIMITED_IMPACT,Contradiction signals continue to exhibit zero incremental directional or portfolio alpha lift.
+COBA_011,STRUCTURAL_ROBUSTNESS_SUPPORTED,Multi-horizon sequential sessions and benchmark definitions,LIMITED_IMPACT,Invariance of empirical neutrality across horizons is robust to deterministic portfolio cash accounting.
+COBA_012,NO_RISK_FILTER_EVIDENCE,Agent 3 downside risk filtering and loss severity,LIMITED_IMPACT,Absence of downside risk filtering persists in portfolio replay; rejected setups do not protect portfolio capital.
+COBA_013,FOUNDATION_BLOCKED,Master foundation audit and portfolio readiness blockers,LIMITED_IMPACT,"COBA_014 resolves core accounting blockers (cash ledger, lot sizing, position chronology); external execution data limitations remain."

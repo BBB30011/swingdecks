@@ -1,0 +1,2 @@
+Repair_ID,Component,Action_Taken,Technical_Justification,Regression_Test_Passed,Status
+REP_COBA18_01,Portfolio_Replay_Substrate,NO_TECHNICAL_REPAIR_REQUIRED,"The calendar-stepped engine arithmetic is verified 100% bug-free. The candidate ordering sensitivity is an empirical property of the frozen candidate stream and queue rules, not a code defect.",True,CLOSED

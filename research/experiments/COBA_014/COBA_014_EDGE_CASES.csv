@@ -1,0 +1,21 @@
+Case_ID,Edge_Case_Description,Target_Condition,Handled_Mechanism,Accounting_Result,Verification_Status
+EC-01,Zero Volume Session,Volume == 0 on observation date,Order creation blocked; status marked EXECUTION_BLOCKED_ZERO_VOLUME,"No cash outflow, no position opened",PASS
+EC-02,One-Lot Minimum Purchase,Available cash permits exactly 100 shares,Integer lot floor evaluates to exactly 1 lot,"Cash deducted for 100 shares + fee, valid position",PASS
+EC-03,Insufficient Cash for 1 Lot,Available cash < (Price * 100),Integer lot floor evaluates to 0 lots; order rejected,"No cash deducted, zero position opened",PASS
+EC-04,Partial Allocation / Cash Remainder,Allocated cash not divisible by (Price * 100),Floor lot sizing leaves uninvested cash remainder in cash ledger,Remainder preserved in cash balance,PASS
+EC-05,Max Concurrent Positions Reached,Active positions count == 5,Risk engine blocks order creation (MAX_POSITION_LIMIT_REACHED),"New order rejected, cash unchanged",PASS
+EC-06,Same-Day Signal & Execution,"Signal 08:30 T pre-market, execution 09:00 T open",Timestamp strictly sequence: signal T -> open T -> close T,Zero lookahead bar leakage,PASS
+EC-07,Execution at Price Limit (ARA/ARB),Open price hits regulatory price limit band,Order rejected if limit locks continuous matching,"Order unexecuted, cash unchanged",PASS
+EC-08,Trading Suspension (WSKT),Ticker suspended by exchange regulator,Marked SUSPENDED; zero price fill forced,No trade execution possible,PASS
+EC-09,Exchange Delisting,Ticker removed from exchange board,Marked DELISTED; liquidation requires external bankruptcy quote,"Liquidation marked UNKNOWN, no fictional price",PASS
+EC-10,Stock Split During Holding (1:5),Position held across ex-split date (BBCA 2021-10-12),"Shares multiplied by 5, cost basis divided by 5","Total position value conserved, zero cash movement",PASS
+EC-11,Cash Dividend During Holding,Position held across ex-dividend date (BBCA 2024-03-25),Cash ledger credited with (Shares * DPS),"Cash increases, realized dividend income logged",PASS
+EC-12,Rights Issue Entitlement,Corporate rights distribution announced,Subscription requires cash commitment; rights unexercised by default,RIGHTS_ACCOUNTING = BLOCKED (unsupported),PASS_BLOCKED_POLICY
+EC-13,Ticker Symbol Change,Company changes ticker symbol on IDX,Position ledger maps old symbol to new symbol,Cost basis and shares preserved across symbol alias,PASS
+EC-14,Duplicate Signal on Same Bar,Identical signal received twice for same symbol/date,Idempotency gate rejects duplicate job_id,"Single position opened, second signal ignored",PASS
+EC-15,Duplicate Order Submission,Order submitted while position already OPEN,can_open_position() returns False; ValueError raised,Duplicate order rejected,PASS
+EC-16,Repeated Entry on Existing Ticker,Attempting to add to existing position,SwingDeck architecture enforces discrete single position per ticker,Add-on order rejected,PASS
+EC-17,Repeated Exit on Closed Position,Exit trigger fired on already CLOSED position,close_position() verifies status == OPEN; returns immediately,"Ignored, zero double-selling cash effect",PASS
+EC-18,Partial Close,Closing half of position shares,SwingDeck architecture enforces atomic 100% position liquidation,Partial close rejected; full close required,PASS_POLICY_ENFORCED
+EC-19,Complete Close on Horizon Expiry,Holding sessions == H5,Position liquidated at market close t+5; cash credited,"Position marked CLOSED, realized P&L finalized",PASS
+EC-20,Right-Censored Position (2026-08-27),Position opened on terminal date lacks H20 exit,Position remains OPEN at terminal date; marked MTM,"Unrealized P&L tracked in equity, no forced exit",PASS

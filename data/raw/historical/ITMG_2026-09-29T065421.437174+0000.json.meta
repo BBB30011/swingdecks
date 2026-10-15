@@ -1,0 +1,13 @@
+{
+    "symbol": "ITMG",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-29T06:54:21.437174+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-29T00:00:00+07:00",
+    "last_date": "2026-09-29T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "d1ac9fb2860f5810bbc924c725450ee959d0d8de1be9670a43ff8cd2e1983197"
+}

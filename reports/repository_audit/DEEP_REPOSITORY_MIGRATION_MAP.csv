@@ -1,0 +1,4 @@
+Source_Path,Target_Path,Action_Type,Reason,Reference_Updated,Status
+core/data_source.py:DataSourceFactory,core/data_source_factory.py:DataSourceFactory,DECOUPLE_AND_EXTRACT,Break circular static dependency core/data_source.py <-> core/csv_data_source.py and yfinance_provider.py,Backward-compatible PEP 562 __getattr__ forwarding retained in core/data_source.py,COMPLETED_VERIFIED
+data/duckdb/intelligence_stray.duckdb (or empty root instance),data/quarantine/stray_empty_intelligence.duckdb,QUARANTINE_ISOLATION,Prevent accidental runtime binding to stray 0-table database artifact,All operational services point strictly to data/duckdb/intelligence.duckdb,COMPLETED_VERIFIED
+tests/test_daily_cycle.py,tests/test_daily_cycle.py,NEW_OPERATIONAL_TEST_COVERAGE,Eliminate unreferenced orphan warning for core/daily_cycle.py and verify all 5 market cycle slots,Registered in conftest.py OPERATIONAL_FILE_STEMS,COMPLETED_VERIFIED

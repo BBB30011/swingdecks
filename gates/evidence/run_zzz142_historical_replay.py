@@ -8,7 +8,7 @@ from datetime import datetime
 # HISTORICAL REPLAY ENGINE & INFORMATION-STATE FIREWALL VALIDATION
 # ==============================================================================
 
-WORKSPACE_DIR = "d:/Project/SwingDeck"
+WORKSPACE_DIR = ""
 SCRATCH_DIR = os.path.join(WORKSPACE_DIR, "gates/evidence")
 REPORTS_DIR = os.path.join(WORKSPACE_DIR, "reports")
 DOCS_DIR = os.path.join(WORKSPACE_DIR, "docs")
@@ -182,7 +182,7 @@ Defines the eligibility bounds for the Historical Replay Engine.
 import os
 import pytest
 import sys
-sys.path.append("d:/Project/SwingDeck")
+sys.path.append("")
 from core.historical_replay_engine import HistoricalReplayEngine
 
 def test_historical_knowledge_future_leak():

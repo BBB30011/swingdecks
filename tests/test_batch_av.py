@@ -1,8 +1,8 @@
 import pytest
 from core.learning import LearningLedger, TradeLesson, MissedOpportunity, KnowledgePattern
 
-def test_learning_ledger_win_classification():
-    ledger = LearningLedger("tests/scratch/knowledge")
+def test_learning_ledger_win_classification(tmp_path):
+    ledger = LearningLedger(str(tmp_path / "knowledge"))
     
     pos_data = {
         "position_id": "test_win",
@@ -19,8 +19,8 @@ def test_learning_ledger_win_classification():
     assert lesson.loss_type is None
     assert "knowledge_available_at" in lesson.model_dump()
 
-def test_learning_ledger_loss_classification():
-    ledger = LearningLedger("tests/scratch/knowledge")
+def test_learning_ledger_loss_classification(tmp_path):
+    ledger = LearningLedger(str(tmp_path / "knowledge"))
     
     pos_data = {
         "position_id": "test_loss",

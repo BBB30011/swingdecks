@@ -5,11 +5,11 @@
 **Status:** COMPLETE / DATA FOUNDATION EXPANDED  
 **Final Decision:** `PASS — HISTORICAL COVERAGE MATERIALLY IMPROVED`  
 **Primary Reference Artifacts:**
-- Primary Evaluation Parquet: [`scratch/zzz102_disclosure_events.parquet`](file:///D:/Project/SwingDeck/scratch/zzz102_disclosure_events.parquet)
-- Summary JSON: [`scratch/zzz102_coverage_summary.json`](file:///D:/Project/SwingDeck/scratch/zzz102_coverage_summary.json)
-- Ingestion Engine: [`core/historical_disclosure_ingestion_engine.py`](file:///D:/Project/SwingDeck/core/historical_disclosure_ingestion_engine.py)
-- Raw Disclosure Directory: [`data/raw/disclosures/`](file:///D:/Project/SwingDeck/data/raw/disclosures/)
-- Test Suite: [`tests/test_batch_zzz102_historical_disclosure_ingestion.py`](file:///D:/Project/SwingDeck/tests/test_batch_zzz102_historical_disclosure_ingestion.py) (16/16 tests PASSED)
+- Primary Evaluation Parquet: [`scratch/zzz102_disclosure_events.parquet`](file:///scratch/zzz102_disclosure_events.parquet)
+- Summary JSON: [`scratch/zzz102_coverage_summary.json`](file:///scratch/zzz102_coverage_summary.json)
+- Ingestion Engine: [`core/historical_disclosure_ingestion_engine.py`](file:///core/historical_disclosure_ingestion_engine.py)
+- Raw Disclosure Directory: [`data/raw/disclosures/`](file:///data/raw/disclosures/)
+- Test Suite: [`tests/test_batch_zzz102_historical_disclosure_ingestion.py`](file:///tests/test_batch_zzz102_historical_disclosure_ingestion.py) (16/16 tests PASSED)
 
 ---
 

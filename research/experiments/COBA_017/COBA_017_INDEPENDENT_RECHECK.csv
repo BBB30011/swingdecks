@@ -1,0 +1,6 @@
+Dimension,Engine_Value,Independent_Value,Discrepancy,Status
+Total_Positions_Executed,105.0,105.0,0.0,PASS
+Cumulative_Realized_PnL,36519205.458786786,36519205.458786786,0.0,PASS
+Ending_Portfolio_Equity,136519205.4587868,136519205.4587868,0.0,PASS
+Concurrency_Limit_5_Enforcement,5.0,5.0,0.0,PASS
+Daily_Session_Count,2826.0,2826.0,0.0,PASS

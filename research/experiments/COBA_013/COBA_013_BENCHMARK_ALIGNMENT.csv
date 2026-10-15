@@ -1,0 +1,3 @@
+Benchmark_Name,Source,Trading_Sessions,Start_Date,End_Date,Calendar_Alignment_With_Equities,Missing_Dates,Hash_SHA256,Benchmark_Status
+IHSG (^JKSE),data/raw/market_external/IHSG_yf_raw.csv,2826,2015-01-02,2026-09-15,100% (Acts as master trading session calendar),0,cabd5b7cc11a9bb903098798591e7e290ab39ae5b62cc0b843b2b5398d5ee234,VERIFIED
+Canonical Sector Peer (12-Ticker Universe),core/research_methodology_lock.py (EXPOSURE_GROUPS),2826,2015-01-02,2026-09-11,Leave-one-out calculation within sector groups,0,e4e2ab967de4731f55821b1db0791b53a27cff4c5a50bd047c4c7615a375f004,VERIFIED

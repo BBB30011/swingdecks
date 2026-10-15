@@ -1,5 +1,4 @@
 import pytest
-pytest.skip("OBSOLETE_TEST_DEPENDENCY: Mock classes removed during deterministic pipeline migration", allow_module_level=True)
 
 from core.red_team import RedTeamAnalyzer
 from core.research import ResearchPacket, ResearchCompletenessEngine

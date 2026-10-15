@@ -2,7 +2,7 @@ import json
 import os
 import pytest
 import sys
-sys.path.append("d:/Project/SwingDeck")
+sys.path.append("")
 from core.historical_replay_engine import HistoricalReplayEngine
 
 def test_historical_knowledge_future_leak():

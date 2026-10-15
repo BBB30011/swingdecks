@@ -1,0 +1,2 @@
+Initial_Capital,Total_Trades_Closed,Gross_Trading_Profit_Loss,Total_Broker_Fees,Total_Sales_Taxes,Total_Fees_And_Taxes,Net_Realized_PnL,Final_Cash_Balance,Calculated_Ending_Equity,Discrepancy,Reconciliation_Verdict
+100000000.0,56,-908123.9054676411,2776350.6840560054,924996.1660659347,3701346.85012194,-4609470.755589581,95390529.2444104,95390529.24441043,2.9802322387695312e-08,ZERO_DISCREPANCY_EXACT_MATCH

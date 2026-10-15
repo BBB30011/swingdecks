@@ -1,7 +1,4 @@
 import pytest
-pytest.skip("OBSOLETE_TEST_DEPENDENCY: Mock classes removed during deterministic pipeline migration", allow_module_level=True)
-
-import pytest
 import time
 import shutil
 from pathlib import Path
@@ -230,13 +227,11 @@ def test_pipeline_metrics_dead_letter():
     assert metrics.metrics["stage_failure_count"]["AGENT1"] == 1
 
 def test_health_dir_missing():
-    import os
-    if os.path.exists("state"):
-        shutil.rmtree("state")
-    hm = HealthMonitor("state/sys.json")
-    # if state doesn't exist it is FAILED
-    if not Path("state").exists():
-        assert hm.check_health() == HealthStatus.FAILED
+    missing_dir = Path("test_state/missing_dir")
+    hm = HealthMonitor(str(missing_dir / "sys.json"))
+    if missing_dir.exists():
+        shutil.rmtree(missing_dir)
+    assert hm.check_health() == HealthStatus.FAILED
 
 def test_orchestrator_job_failed_retry(portfolio):
     orch = Orchestrator("test_queue", "test_state")

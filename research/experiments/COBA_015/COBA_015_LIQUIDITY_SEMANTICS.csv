@@ -1,0 +1,5 @@
+Classification,Condition,Observed_Setups_Count,Execution_Status,Semantic_Meaning
+LIQUIDITY_SUPPORTED,"Daily Volume >= 100,000 shares and Turnover >= 1B IDR",1314,EXECUTION_POSSIBLE,Empirical order book likely had sufficient depth for 100-lot market order without catastrophic slippage.
+LIQUIDITY_LIMITED,"Daily Volume > 0 but Volume < 100,000 shares or Turnover < 1B IDR",68,EXECUTION_RESTRICTED_WARNING,"Trade physically possible on exchange, but full fill at quoted price without market impact cannot be confirmed from daily bars."
+ZERO_VOLUME,Daily Volume == 0 on trading day,35,EXECUTION_BLOCKED,"Physical exchange impossibility; zero shares traded, order cannot execute at any price."
+REGULATORY_SUSPENSION,Ticker halted or suspended by IDX regulator (e.g. WSKT),1,EXECUTION_BLOCKED,Regulatory freeze; trading matching engine disabled.

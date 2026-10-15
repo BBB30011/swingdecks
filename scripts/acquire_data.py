@@ -28,9 +28,8 @@ def acquire(provider: str):
     
     # Fallback initial symbols from Task 10
     symbols = [
-        "BBCA", "BMRI", "BBNI", "BRIS", "TLKM", 
-        "ASII", "UNVR", "ICBP", "INDF", "PGAS", 
-        "ADRO", "ANTM", "PTBA"
+        "ADRO", "ANTM", "ASII", "BBCA", "BBNI", "BBRI", 
+        "BMRI", "INCO", "ITMG", "PTBA", "TLKM", "UNTR"
     ]
     
     engine.acquire_benchmark("IHSG")

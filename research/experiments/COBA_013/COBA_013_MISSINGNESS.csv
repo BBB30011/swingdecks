@@ -1,0 +1,5 @@
+Missingness_Reason,Category,Setup_Count,Pct_Of_Missing,Mechanism_Classification,Impact_Assessment
+Pre-IPO Historical Horizon (Company Not Yet Listed on IDX),LISTING_CHRONOLOGY,309,90.09,SECTOR_ASSOCIATED_MISSINGNESS,Cannot observe market returns before company listing date
+Trading Suspension / Delisting (WSKT),REGULATORY_SUSPENSION,22,6.41,MNAR_REGULATORY,Ticker halted/delisted on IDX; external provider returned zero rows
+Public Holiday / Forward Session Gap (2017-05-18),SESSION_ALIGNMENT,12,3.5,MAR_CALENDAR,Market data file present but forward 5 sessions cross historical holiday gap
+Total Missingness (1760 Canonical - 1417 Usable H5),TOTAL_POPULATION_ATTRITION,343,100.0,UNKNOWN_NON_MCAR,Overall sample attrition is 19.49%; cannot assume missing completely at random (MCAR)

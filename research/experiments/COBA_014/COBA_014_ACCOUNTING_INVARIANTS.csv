@@ -1,0 +1,13 @@
+Invariant_ID,Invariant_Name,Description,Mathematical_Formula,Evaluated_Transactions,Violations_Count,Status
+INV-01,Cash Reconciliation,Closing cash equals opening cash plus inflows minus outflows for every entry,Cash_t = Cash_{t-1} + Inflows_t - Outflows_t,113,0,PASS
+INV-02,Share Conservation,Shares strictly equal integer lots times 100; zero fractional shares allowed,"Shares = Lots x 100, Lots in Z^+",56,0,PASS
+INV-03,Position Chronology,Entry timestamp strictly precedes exit timestamp; no negative holding duration,Timestamp_entry < Timestamp_exit,56,0,PASS
+INV-04,No Negative Inventory,Share inventory strictly non-negative at all times; no short sales without borrow,"Inventory_{i,t} >= 0 for all i, t",56,0,PASS
+INV-05,No Unexplained Cash,"Every cash movement maps to a certified reason code (BUY, SELL, DIV, FEE)",Sum(Delta_Cash) = Sum(Certified_Reason_Cash),113,0,PASS
+INV-06,Corporate Action Conservation,Position market value is conserved across stock split ex-dates,Value_post = Shares x Ratio x (Price / Ratio) = Value_pre,5,0,PASS
+INV-07,Trade Value Reconciliation,Gross cash movement equals filled shares times executed price,Gross_Value = Shares x Fill_Price,112,0,PASS
+INV-08,Fee & Tax Reconciliation,Statutory fees and sales taxes strictly accounted for in cost basis and realized P&L,Total_Cost = Buy_Fee + Sell_Fee + Tax,56,0,PASS
+INV-09,Equity Balance Equation,Total equity strictly equals cash balance plus marked-to-market position values,"Equity_t = Cash_t + Sum(Value_{i,t})",150,0,PASS
+INV-10,P&L Reconciliation,Ending equity strictly equals initial capital plus realized P&L plus dividends minus costs,Ending_Equity = Capital_0 + Realized_PnL,1,0,PASS
+INV-11,Zero Lookahead in Accounting,Cash deductions and trade executions occur strictly on or after order timestamp,Order_Time <= Fill_Time <= Settlement_Time,113,0,PASS
+INV-12,No Impossible Execution,Zero executions allowed on zero-volume days or during regulatory trading suspension,Volume_t > 0 and Status_t != SUSPENDED,1417,0,PASS

@@ -17,6 +17,7 @@ import math
 def create_mock_trade(net_pnl: float, score: float, conf: float, regime: str, quality: str = "HIGH") -> BacktestTrade:
     sig = DecisionResult(
             job_id="test", symbol="TEST", as_of_timestamp="2020", action="BUY", risk_state="GREEN", confidence=conf if "conf" in locals() else 100.0,
+            entry_price=100.0, stop_loss=90.0, target_price=120.0,
             opportunity_score=score if "score" in locals() else 80.0, thesis=InvestmentThesis(), reason="", decision_timestamp="2020",
             opportunity_assessment=OpportunityAssessment(
                 symbol="TEST", opportunity_score=score if "score" in locals() else 80.0, 

@@ -1,7 +1,7 @@
 import yaml
 from pathlib import Path
 from datetime import datetime, timezone
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from core.schemas import MarketSnapshot, SignalState
 from core.universe import UniverseManager
 from core.liquidity import LiquidityAnalyzer
@@ -9,6 +9,7 @@ from core.market_scanner import MarketScanner, rank_candidates
 from core.benchmark import BenchmarkProvider
 from core.alert_engine import AlertEngine
 from core.signal_state_tracker import SignalStateTracker
+from core.data_platform_schemas import InvestigationRequest, InvestigationTriggerType
 
 class Agent1QuantPipeline:
     """
@@ -199,9 +200,52 @@ class Agent1QuantPipeline:
                 "as_of_timestamp": meta.get("as_of_timestamp", cand.get("timestamp")),
                 "history_length": meta.get("history_length", 0),
                 "gap_status": meta.get("gap_status", "UNKNOWN"),
-                "features": features,
-                "score_breakdown": cand.get("score_breakdown", {}),
                 "source": "agent1_quant",
                 "destination": "agent2_intelligence"
             })
         return queue
+
+
+    def build_investigation_requests(self, selected_candidates: List[Dict], as_of: Optional[str] = None) -> List[InvestigationRequest]:
+        """
+        Generates on-demand investigation requests for Agent 2 when quantitative anomalies are detected
+        (e.g., unusual volume, breakout, relative strength surge).
+        """
+        requests = []
+        now_ts = as_of or datetime.now(timezone.utc).isoformat()
+        
+        for cand in selected_candidates:
+            sym = cand.get("symbol", "UNKNOWN")
+            features = cand.get("features", {})
+            vol_surge = features.get("volume", {}).get("relative_volume", 1.0)
+            breakout = features.get("price_action", {}).get("breakout_20d", False)
+            rs_surge = features.get("relative_strength", {}).get("relative_return_20d", 0.0)
+            
+            trigger = InvestigationTriggerType.UNUSUAL_VOLUME
+            if breakout:
+                trigger = InvestigationTriggerType.MOMENTUM_BREAKOUT
+            elif rs_surge > 0.10:
+                trigger = InvestigationTriggerType.RELATIVE_STRENGTH
+            elif vol_surge > 2.0:
+                trigger = InvestigationTriggerType.UNUSUAL_VOLUME
+            else:
+                trigger = InvestigationTriggerType.ABNORMAL_RETURN
+
+                
+            req = InvestigationRequest(
+                request_id=f"INV_REQ_{sym}_{now_ts[:10]}_{trigger.value}",
+                symbol=sym,
+                entity_id=f"ENT_{sym.upper()}",
+                trigger_type=trigger,
+                as_of_timestamp=now_ts,
+                lookback_hours=48,
+                trigger_context={
+                    "quant_score": cand.get("quant_score"),
+                    "volume_ratio": vol_surge,
+                    "breakout": breakout,
+                    "relative_return_20d": rs_surge
+                }
+            )
+            requests.append(req)
+        return requests
+

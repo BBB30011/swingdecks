@@ -1,0 +1,187 @@
+{
+  "run_id": "CONT_DESK_1000S_20260928",
+  "evaluated_at": "2026-09-28T11:37:38.709062+00:00",
+  "historical_sample": {
+    "sessions": 1000,
+    "bars": 12000,
+    "symbols": 12,
+    "start_date": "2022-07-14",
+    "end_date": "2026-09-13"
+  },
+  "states": [
+    {
+      "state": "BUY",
+      "category": "DECISION",
+      "count": 109,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "WAIT",
+      "category": "DECISION",
+      "count": 11183,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "AVOID",
+      "category": "DECISION",
+      "count": 708,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "HOLD",
+      "category": "DECISION",
+      "count": 0,
+      "classification": "IMPLEMENTED_BUT_NOT_OBSERVED"
+    },
+    {
+      "state": "SELL",
+      "category": "DECISION",
+      "count": 0,
+      "classification": "IMPLEMENTED_BUT_NOT_OBSERVED"
+    },
+    {
+      "state": "INSUFFICIENT",
+      "category": "DECISION",
+      "count": 0,
+      "classification": "IMPLEMENTED_BUT_NOT_OBSERVED"
+    },
+    {
+      "state": "ORDER_CREATED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 109,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "ORDER_ACCEPTED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 109,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "FILLED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 109,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "PARTIALLY_FILLED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 1,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "REJECTED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 1,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "EXPIRED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 1,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "CANCELLED",
+      "category": "ORDER_LIFECYCLE",
+      "count": 1,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "ENTRY_PENDING",
+      "category": "POSITION_LIFECYCLE",
+      "count": 109,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "OPEN",
+      "category": "POSITION_LIFECYCLE",
+      "count": 1,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "MONITORING",
+      "category": "POSITION_LIFECYCLE",
+      "count": 882,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "EXIT_PENDING",
+      "category": "POSITION_LIFECYCLE",
+      "count": 108,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "CLOSED",
+      "category": "POSITION_LIFECYCLE",
+      "count": 108,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "THESIS_INVALIDATED",
+      "category": "EXIT_DIVERSITY",
+      "count": 81,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "STOP_LOSS",
+      "category": "EXIT_DIVERSITY",
+      "count": 20,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "TARGET_REACHED",
+      "category": "EXIT_DIVERSITY",
+      "count": 4,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "TIME_EXIT",
+      "category": "EXIT_DIVERSITY",
+      "count": 3,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "CONCURRENCY_0",
+      "category": "CONCURRENCY",
+      "count": 118,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "CONCURRENCY_1",
+      "category": "CONCURRENCY",
+      "count": 882,
+      "classification": "NATURALLY_OBSERVED"
+    },
+    {
+      "state": "CONCURRENCY_2_PLUS",
+      "category": "CONCURRENCY",
+      "count": 0,
+      "classification": "IMPLEMENTED_BUT_NOT_OBSERVED"
+    },
+    {
+      "state": "DATA_BLOCKED",
+      "category": "SAFETY",
+      "count": 6,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "PIT_BLOCKED",
+      "category": "SAFETY",
+      "count": 7,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "LIVE_EXECUTION_BLOCKED",
+      "category": "SAFETY",
+      "count": 5,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    },
+    {
+      "state": "SYSTEM_RECOVERY",
+      "category": "RECOVERY",
+      "count": 10,
+      "classification": "FIXTURE_OR_FAULT_INJECTION_ONLY"
+    }
+  ]
+}

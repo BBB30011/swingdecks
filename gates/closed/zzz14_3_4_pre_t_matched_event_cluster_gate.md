@@ -102,7 +102,7 @@ Before matching, significant standardized mean differences (SMD) existed between
 - **Matched Differential (ATT):** $\mathbf{+2.6001\text{ pp}}$
 - **Attenuation vs C0 Baseline:** $-0.5036\text{ pp}$ ($16.23\%$ attenuation).
 - **Bootstrap 95% CI:** $[-0.53\text{ pp}, +6.41\text{ pp}]$
-- **Artifact:** [zzz14_3_4_matching_pairs.csv](file:///d:/Project/SwingDeck/reports/zzz14_3_4_matching_pairs.csv).
+- **Artifact:** [zzz14_3_4_matching_pairs.csv](file:///reports/zzz14_3_4_matching_pairs.csv).
 
 ---
 
@@ -117,7 +117,7 @@ Before matching, significant standardized mean differences (SMD) existed between
 | `peer_pre_trend` | $+0.5700$ | $\mathbf{+0.4308}$ | **$24.4\%$** | **IMBALANCE REDUCED** |
 | `market_regime` | $0.0000$ | $\mathbf{0.0000}$ | $0.0\%$ | **BALANCED ($|\text{SMD}| = 0.00$)** |
 
-**Artifact:** [zzz14_3_4_pre_t_balance.csv](file:///d:/Project/SwingDeck/reports/zzz14_3_4_pre_t_balance.csv).
+**Artifact:** [zzz14_3_4_pre_t_balance.csv](file:///reports/zzz14_3_4_pre_t_balance.csv).
 
 ---
 
@@ -129,7 +129,7 @@ Before matching, significant standardized mean differences (SMD) existed between
 - **Single-Use Events ($=1$ setup):** 11 events
 - **Max Event Reuse:** `EVT_DISC_ITMG_20260301_183000__001` (reused across 5 ITMG setups in March 2026).
 - **Top 5 Events Concentration:** Account for $32.2\%$ of all Treatment setups.
-- **Artifacts:** [zzz14_3_4_event_clusters.csv](file:///d:/Project/SwingDeck/reports/zzz14_3_4_event_clusters.csv) & [zzz14_3_4_event_reuse.csv](file:///d:/Project/SwingDeck/reports/zzz14_3_4_event_reuse.csv).
+- **Artifacts:** [zzz14_3_4_event_clusters.csv](file:///reports/zzz14_3_4_event_clusters.csv) & [zzz14_3_4_event_reuse.csv](file:///reports/zzz14_3_4_event_reuse.csv).
 
 ---
 
@@ -166,7 +166,7 @@ Sequentially removing each unique event (30 iterations):
 - **Median Differential:** $\mathbf{+3.1089\text{ pp}}$
 - **Mean Differential:** $\mathbf{+3.0970\text{ pp}}$
 - **Sign Changes:** **0 / 30** ($100\%$ remain positive).
-- **Artifact:** [zzz14_3_4_lodo_event.csv](file:///d:/Project/SwingDeck/reports/zzz14_3_4_lodo_event.csv).
+- **Artifact:** [zzz14_3_4_lodo_event.csv](file:///reports/zzz14_3_4_lodo_event.csv).
 
 ---
 
@@ -244,7 +244,7 @@ All 12 canonical tickers (`ADRO`, `ANTM`, `ASII`, `BBCA`, `BBNI`, `BBRI`, `BMRI`
 | **E3 Leave-One-Event-Out (LODO)**| 73 | $\mathbf{[+2.48, +3.43]}$| Median $+3.11$ | $0.0150$ | Yes (30 runs) | No | `100%_POSITIVE_SURVIVED` |
 | **Residualized Pre-T Covariates** | 73 | $\mathbf{+3.2605}$ | $[+0.71, +5.81]$ | $0.0121$ | No | Yes (OLS residuals) | `SURVIVED_RESIDUALIZATION` |
 
-**Artifact:** [zzz14_3_4_result_matrix.csv](file:///d:/Project/SwingDeck/reports/zzz14_3_4_result_matrix.csv).
+**Artifact:** [zzz14_3_4_result_matrix.csv](file:///reports/zzz14_3_4_result_matrix.csv).
 
 ---
 

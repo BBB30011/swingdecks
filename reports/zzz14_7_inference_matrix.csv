@@ -1,0 +1,8 @@
+estimand_id,estimand_description,estimand_role,sample_N,parameter_name,effect_pp,se_ols,p_ols,se_ticker_clustered,p_ticker_clustered,se_date_clustered,p_date_clustered,se_event_clustered,p_event_clustered,p_wild_bootstrap,ci95_wild,robustness_classification
+MODEL_0_L0_QUANT,L0: Quant Features Only,BASELINE_QUANT,1760,target_coefficient,0.3491,0.1087,0.0013,0.1268,0.0059,0.0963,0.0003,0.3464,0.3135,0.0003,"[0.136, 0.562]",ROBUST_ACROSS_CLUSTERS
+MODEL_1_L1_CONTEXT,L1: Quant + Context,BASELINE_CONTEXT,1760,target_coefficient,-0.0633,0.1141,0.5792,0.1002,0.5279,0.0982,0.5196,0.451,0.8885,0.5196,"[-0.287, 0.16]",INFERENCE_SENSITIVE
+MODEL_2_L2_COVERAGE,L2: Quant + Context + Coverage,BASELINE_COVERAGE,1760,target_coefficient,0.0415,0.1332,0.7556,0.1128,0.7134,0.1276,0.7453,0.5076,0.9349,0.7453,"[-0.22, 0.302]",INFERENCE_SENSITIVE
+MODEL_3_L3_PEER_EXPOSURE,L3: Quant + Context + Peer/Exposure,BASELINE_PEER_EXPOSURE,1760,target_coefficient,0.0466,0.1341,0.728,0.1109,0.674,0.1352,0.7301,0.5223,0.9288,0.7301,"[-0.216, 0.31]",INFERENCE_SENSITIVE
+MODEL_4_L4_CONTRADICTION_PRESENCE,L4: Contradiction Presence (L3 vs L4),PRIMARY_INCREMENTAL_PRESENCE,1760,target_coefficient,-2.8622,0.2031,0.0,0.205,0.0,0.1522,0.0,0.1638,0.0,0.0,"[-2.205, 2.346]",ROBUST_ACROSS_CLUSTERS
+MODEL_5_L5_SEMANTIC_DETAIL,L5: Contradiction Semantic Detail (L4 vs L5),SECONDARY_SEMANTIC_DETAIL,1760,target_coefficient,-1.4311,0.1016,0.0,0.1025,0.0,0.0761,0.0,0.0819,0.0,0.0,"[-1.63, -1.232]",ROBUST_ACROSS_CLUSTERS
+MODEL_6_L6_FULL_SYNTHESIS,L6: Full Agent 2 Synthesis (L5 vs L6),TERTIARY_AGENT2_SYNTHESIS,1760,target_coefficient,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,1.0,"[0.0, 0.0]",INFERENCE_SENSITIVE

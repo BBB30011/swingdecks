@@ -1,0 +1,11 @@
+attack_id,category,description,status,mitigation
+ATTACK_01_WILD_BOOTSTRAP_CI_SUBSTITUTION,Inference Contract,"Test whether Normal CI [-3.1605, -2.5639] is falsely claimed as Wild Bootstrap CI",PASS,CI origins are explicitly bifurcated into DATE_CLUSTERED_NORMAL_CI and WILD_BOOTSTRAP_PERCENTILE_CI.
+ATTACK_02_P_VALUE_SUBSTITUTION,Inference Contract,Test whether p-value is mismatched from another unstated estimator,PASS,"Date-clustered normal p < 0.0001 and Wild Bootstrap p < 0.0001 (B=1000, seed=42) are verified."
+ATTACK_03_SE_SUBSTITUTION,Inference Contract,Test whether SE (0.1522) was substituted from homoskedastic OLS (0.2031),PASS,SE=0.1522 is confirmed as Date-clustered CRV1 sandwich standard error on G=22 clusters.
+ATTACK_04_ESTIMATOR_SUBSTITUTION,Econometric Rigor,Test whether Difference-in-Means (-2.7462) was substituted for Beta (-2.8622),PASS,"Estimands E1, E2, and E1,cov are uniquely identified with exact formulas and distinct IDs."
+ATTACK_05_ATT_TERMINOLOGY_INFLATION,Epistemological Rigor,Test whether regression coefficient beta is mislabeled as causal ATT,PASS,Canonical ID renamed to BETA_CONTRADICTION_L3_CONDITIONAL_N1760; non-causal status enforced.
+ATTACK_06_G3_G5_TAXONOMY_SUBSTITUTION,Cluster Taxonomy,Test whether G=3 and G=5 cluster counts cause silent estimator switching,PASS,Taxonomy Level 1 (G=3 mechanism) and Level 2 (G=5 broad disclosure) are explicitly defined.
+ATTACK_07_CLUSTER_COUNT_MANIPULATION,Statistical Rigor,Test whether G=3 event clustering is claimed as primary proof without warning,PASS,SMALL_EVENT_CLUSTER_LIMITATION=True is active; Date clustering is enforced as primary.
+ATTACK_08_HEADLINE_NUMBER_HARDCODING,Reproducibility,Test whether headline numbers in report deviate from canonical JSON artifact,PASS,All report numbers are dynamically bound to zzz14_7_2_canonical_inference.json.
+ATTACK_09_SEMANTIC_NOVELTY_INFLATION,Information Attribution,Test whether 65.2% enrichment is conflated with genuine semantic novelty,PASS,Enrichment (65.17%) and Novelty (18.18% general / 79.50% contradiction) are strictly decoupled.
+ATTACK_10_CAUSAL_LANGUAGE_INFLATION,Scientific Firewall,Test whether avoided loss is described as causal trading alpha or profit protection,PASS,"Causality=NOT_PROVEN, Alpha=NOT_PROVEN, Strategy Optimization=BLOCKED strictly preserved."

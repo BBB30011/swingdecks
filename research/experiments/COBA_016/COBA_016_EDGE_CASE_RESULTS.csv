@@ -1,0 +1,26 @@
+Case_ID,Edge_Case_Description,Target_Condition,Engine_Handling_Mechanism,Observed_Result,Verification_Status
+EC-01,Multiple Signals Same Day,27 candidate ACT signals on 2016-04-12,First 5 candidates execute; remaining 22 blocked by concurrency,"Exactly 5 positions opened, 22 blocked",PASS
+EC-02,Insufficient Cash for 1 Lot,Available Cash < (Open * 100),Integer lot sizing floor evaluates to 0; order rejected with BLOCKED_INSUFFICIENT_CASH,Cash remains non-negative; zero position opened,PASS
+EC-03,Five Active Positions Limit,Active positions count == 5,Engine halts further order submissions on that session,Active positions count never exceeds 5,PASS
+EC-04,Sixth Candidate Rejection,6th approved setup arrives while 5 positions active,Logged in concurrency audit as BLOCKED_MAX_CONCURRENCY,673 candidate setups blocked by concurrency constraint,PASS
+EC-05,Position Reaching H1,Holding duration = 1 session,Exits on session index entry + 1 Close,Verified in multi-horizon audit,PASS
+EC-06,Position Reaching H3,Holding duration = 3 sessions,Exits on session index entry + 3 Close,Verified in multi-horizon audit,PASS
+EC-07,Position Reaching H5,Holding duration = 5 sessions,Exits on session index entry + 5 Close,105 positions completed full 5-session holding,PASS
+EC-08,Position Reaching H10,Holding duration = 10 sessions,Exits on session index entry + 10 Close,Verified in multi-horizon audit,PASS
+EC-09,Position Reaching H20,Holding duration = 20 sessions,Exits on session index entry + 20 Close,Verified in multi-horizon audit,PASS
+EC-10,Terminal Right Censoring,"Target exit index exceeds total sessions (2,825)",Position remains OPEN and marked to market without forced liquidation,Handled without state corruption or artificial liquidation,PASS
+EC-11,Trading Suspension (WSKT),Regulatory trading halt on WSKT (2023-05-08),Order rejected with BLOCKED_NO_MARKET_BAR / BLOCKED_SUSPENDED,Zero positions opened on suspended security,PASS
+EC-12,Zero Trading Volume Bar,Candidate day volume == 0,Order rejected with BLOCKED_ZERO_VOLUME_OR_PRICE,No execution on zero-volume days,PASS
+EC-13,Low Turnover Session (<1B IDR),Turnover < 1B IDR warning,Logged with LIQUIDITY_LIMITED flag; executed if volume > 0,Execution succeeds with liquidity friction warning,PASS
+EC-14,Stock Split During Holding,Open position held across ex-split date,"Shares multiplied by ratio, cost basis per share divided by ratio",Position value conserved 100%,PASS
+EC-15,Cash Dividend During Holding,Open position held across ex-dividend date,Cash credited with (Shares * DPS); logged in cash ledger,Dividend income recognized in cash and realized P&L,PASS
+EC-16,Rights Issue Entitlement,Corporate rights distribution announced,Subscription unexercised by default; policy verified,RIGHTS_ACCOUNTING = BLOCKED_POLICY,PASS_BLOCKED_POLICY
+EC-17,Exchange Delisting,Ticker removed from exchange board,Marked DELISTED; external bankruptcy quote required,No fictional price fabricated,PASS_POLICY_VERIFIED
+EC-18,Duplicate Candidate Setup,Identical setup_id evaluated twice,Idempotency check prevents duplicate execution,Single position opened,PASS
+EC-19,Duplicate Ticker / Date,Candidate setup in ticker already active in portfolio,Rejected with BLOCKED_ALREADY_OPEN,Single discrete position per ticker enforced,PASS
+EC-20,Missing Price on Bar,Open <= 0 or missing,Rejected with BLOCKED_ZERO_VOLUME_OR_PRICE,No execution at missing/zero prices,PASS
+EC-21,Missing Calendar Session (Holiday),Setup date on exchange holiday (2026-03-18),Identified as non-trading session; order creation skipped,Zero state corruption; holiday handled deterministically,PASS
+EC-22,Multiple Exits Same Day,5 positions reaching horizon on identical session,All 5 liquidated at session close; proceeds credited to cash,Cash and slots freed simultaneously,PASS
+EC-23,Cash Exactly Equal to Required Capital,Available cash == notional + fee,Order accepted; cash drops to 0.00 IDR,Position opened; cash non-negative,PASS
+EC-24,Cash Slightly Below Requirement,Available cash < notional + fee for 1 lot,Order rejected with BLOCKED_INSUFFICIENT_CASH,No unbacked margin leverage permitted,PASS
+EC-25,Position Already Closed,Liquidation call on already closed position,Engine verifies position in active_positions before liquidation,Zero double selling; ignored,PASS

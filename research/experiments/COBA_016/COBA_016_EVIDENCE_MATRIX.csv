@@ -1,0 +1,17 @@
+Dimension_ID,Domain_Name,Metric_or_Result,Status,Scientific_Interpretation
+DOM_01_CALENDAR_STEPPING,Calendar-Stepped Engine Stepping,"2,826 daily trading sessions processed sequentially",PASS,Simulation advances session-by-session across 11+ years of actual exchange trading days.
+DOM_02_CONCURRENT_HOLDING,Multi-Asset Concurrent Holding,Up to 5 simultaneous positions held concurrently,PASS,Positions overlap across time with shared cash balance and shared position slots.
+DOM_03_CONCURRENCY_ENFORCEMENT,Concurrency Constraint Enforcement,673 candidate setups blocked by 5-position limit,PASS,Concurrency constraint is empirically stressed and active on every signal date.
+DOM_04_CAPITAL_CONTENTION,Cash Contention & Dynamic Drag,Cash balance strictly tied up while positions are open,PASS,Capital is realistically locked; cash drag and capital contention are observed.
+DOM_05_OBSERVED_PRICES,Real Execution Price Provenance,Entry at session Open; Exit at session Close,PASS,Synthetic hybrid prices eliminated; 100% of executions derive from observed quotes.
+DOM_06_HORIZON_OFFSET,Holding Horizon Calendar Offsets,actual_exit_session_idx - entry_session_idx == H,PASS,Holding duration represents actual exchange trading sessions (zero calendar-day shortcuts).
+DOM_07_DAILY_MTM,Daily Mark-to-Market Unrealized P&L,"Daily unrealized P&L tracked across 2,826 sessions",PASS,Mark-to-market equity curve fluctuates realistically with market prices.
+DOM_08_SESSION_EQUITY,Canonical Session Equity Curve,Exactly 1 equity snapshot per trading session,PASS,Duplicate date timestamps and candidate-level equity logging completely eliminated.
+DOM_09_CORPORATE_ACTIONS,Corporate Action Value Conservation,Splits and dividends processed on certified ex-dates,PASS,Position value conserved across stock splits; dividends credited deterministically.
+DOM_10_TERMINAL_CENSORING,Terminal Right Censoring Handling,Right-censored positions held open and marked to market,PASS,Zero artificial forced liquidations at terminal date.
+DOM_11_PIT_ALIGNMENT,Point-in-Time Alignment & Lookahead,08:30 signal freeze precedes 09:00 Open fill,PASS,Zero lookahead bar leakage; strictly unidirectional flow from agents to replay.
+DOM_12_INVARIANTS,Portfolio Accounting Invariants,20 out of 20 invariants PASS (100% pass rate),PASS,All core mathematical and state invariants strictly satisfied.
+DOM_13_EDGE_CASES,Comprehensive Edge Case Battery,25 out of 25 edge cases PASS / POLICY_VERIFIED,PASS,Zero unhandled exceptions or state corruptions under extreme conditions.
+DOM_14_INDEPENDENT_RECHECK,Independent Reimplementation,105 positions recomputed with 0.0 discrepancy,PASS,Replay results independently verified from raw market quotes.
+DOM_15_REPRODUCIBILITY,Clean-Room Dual-Run Reproducibility,100% SHA256 match across all generated CSV artifacts,PASS,Engine execution is 100% deterministic and reproducible.
+DOM_16_SYNTHETIC_FIREWALL,Synthetic Data Firewall,Zero synthetic return multipliers or counterfactual fixtures,PASS,All portfolio states derive 100% from empirical market prices and statutory costs.

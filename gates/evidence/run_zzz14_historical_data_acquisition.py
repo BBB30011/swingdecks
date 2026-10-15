@@ -29,7 +29,7 @@ def run_zzz14_historical_acquisition():
     print("EXECUTING BATCH ZZZ.14: HISTORICAL DATA ACQUISITION & COVERAGE BUILD (DATASET V2)")
     print("================================================================================")
     
-    base_dir = Path("d:/Project/SwingDeck")
+    base_dir = Path("")
     engine = AdaptiveHistoricalFoundationEngine(base_dir=base_dir)
     
     # 1. Define Proposals for Dataset V2 Expansion (2016-2026)

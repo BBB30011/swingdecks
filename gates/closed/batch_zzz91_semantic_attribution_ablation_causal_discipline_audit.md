@@ -306,9 +306,9 @@ The primary research bottleneck is **Automated Ingestion of Company-Specific Reg
 
 ## 31. Reproducibility Manifest
 
-- **Ablation Engine**: [semantic_ablation_engine.py](file:///D:/Project/SwingDeck/core/semantic_ablation_engine.py)
-- **Runner Script**: [run_zzz91_semantic_ablation.py](file:///D:/Project/SwingDeck/scratch/run_zzz91_semantic_ablation.py)
-- **Validation Test Suite**: [test_batch_zzz91_semantic_ablation_causal_audit.py](file:///D:/Project/SwingDeck/tests/test_batch_zzz91_semantic_ablation_causal_audit.py) (16/16 passed)
+- **Ablation Engine**: [semantic_ablation_engine.py](file:///core/semantic_ablation_engine.py)
+- **Runner Script**: [run_zzz91_semantic_ablation.py](file:///scratch/run_zzz91_semantic_ablation.py)
+- **Validation Test Suite**: [test_batch_zzz91_semantic_ablation_causal_audit.py](file:///tests/test_batch_zzz91_semantic_ablation_causal_audit.py) (16/16 passed)
 - **Artifacts**: `scratch/zzz91_ablation_results.parquet` & `scratch/zzz91_ablation_summary.json`
 - **Environment**: Python 3.12.10, DuckDB, Windows. Random Seed: 42.
 

@@ -25,7 +25,7 @@ def run_zzz12_lock():
     print("EXECUTING BATCH ZZZ.12: RESEARCH METHODOLOGY LOCK & HISTORICAL EXPANSION GATE")
     print("================================================================================")
     
-    base_dir = Path("d:/Project/SwingDeck")
+    base_dir = Path("")
     engine = ResearchMethodologyLockEngine(base_dir=base_dir)
     
     # 1. Manifest

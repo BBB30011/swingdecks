@@ -1,0 +1,32 @@
+{
+  "coba_id": "COBA_001",
+  "closure_gate": "RESULT_INTEGRITY_CLOSURE",
+  "status": "VERIFIED",
+  "final_signal_status": "SIGNAL_NOT_SUPPORTED",
+  "frozen_inputs": {
+    "dataset": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39",
+    "engine": "cfba5751825261f7b36cbc9c9d3695a1af8f2d399526b5b403233516938f61ca",
+    "manifest": "274203c3f1c7bbde05b5ece0a31b9f25953754a723f4def7d763cb63e0f432a9",
+    "design": "7e54af360bd00949109d9d0e99e732f26aa421ce42980d4fc63ddcb26748bab7",
+    "protocol": "b0a02128ab3128e34eb595ee4d31c68ddb8f56fc196c0751096708ac337a3c21"
+  },
+  "audits": {
+    "horizon_independence": "PASS",
+    "fwl_equivalence": "PASS",
+    "date_cluster": "PASS",
+    "wild_cluster_bootstrap": "PASS",
+    "clean_room_recomputation": "PASS",
+    "dual_run_reproducibility": "PASS",
+    "cache_hardcode_stale_artifact": "PASS",
+    "numerical_sanity": "OBSERVATION_NOTED"
+  },
+  "structural_limitations": [
+    "Outcome vectors H1 through H20 exhibit near-perfect collinearity (Pearson corr ~ 0.99999)."
+  ],
+  "scientific_firewall": {
+    "causality": "NOT_PROVEN",
+    "standalone_alpha": "NOT_PROVEN",
+    "strategy_optimization": "BLOCKED",
+    "strategy_readiness": "NOT_READY"
+  }
+}

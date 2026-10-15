@@ -91,7 +91,7 @@ The frozen baseline sample ($N=73$ Layer E setups) was replayed through the real
 - **Exact Matches:** 73
 - **Unexplained Discrepancies:** 0
 - **Reconciliation Verdict:** `PASS`
-- **Artifact:** [`scratch/zzz1421_v1_reconciliation.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_v1_reconciliation.json)
+- **Artifact:** [`scratch/zzz1421_v1_reconciliation.json`](file:///scratch/zzz1421_v1_reconciliation.json)
 
 ---
 
@@ -107,7 +107,7 @@ Every historical observation was tested against four distinct temporal dimension
 - 8 adversarial injection probes executed (`published_at > T`, `available_at > T`, `observed_at > T`, `valid_from > T`, `valid_to < T`).
 - **Leaks Detected:** 0 (100% blocked).
 - **Status:** `PASS`
-- **Artifact:** [`scratch/zzz1421_leakage_audit.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_leakage_audit.json)
+- **Artifact:** [`scratch/zzz1421_leakage_audit.json`](file:///scratch/zzz1421_leakage_audit.json)
 
 ---
 
@@ -127,7 +127,7 @@ Every historical observation was tested against four distinct temporal dimension
 - **Peer Contamination Rate:** 0.0%
 - **Peer Group Size Distribution:** $N=0$ (64), $N=1$ (16), $N=2$ (12), $N=3$ (4).
 - **Status:** `PASS`
-- **Artifact:** [`scratch/zzz1421_peer_integrity.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_peer_integrity.json)
+- **Artifact:** [`scratch/zzz1421_peer_integrity.json`](file:///scratch/zzz1421_peer_integrity.json)
 
 ---
 
@@ -153,7 +153,7 @@ Every historical observation was tested against four distinct temporal dimension
 
 - **Lookahead Violations:** 0
 - **Status:** `PASS`
-- **Artifact:** [`scratch/zzz1421_derived_feature_leakage.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_derived_feature_leakage.json)
+- **Artifact:** [`scratch/zzz1421_derived_feature_leakage.json`](file:///scratch/zzz1421_derived_feature_leakage.json)
 
 ---
 
@@ -189,7 +189,7 @@ Every historical observation was tested against four distinct temporal dimension
 - **Rule:** Final prompt string constructed for Agent 2 must be completely devoid of forward returns ($H_1 \dots H_{20}$), future events, or modern hindsight explanations.
 - **Verification:** Prompt string generated for real historical dates verified clean: `0` instances of `H5`, `target_H5`, `target_h5`, or `forward_return`.
 - **Status:** `PASS`
-- **Artifact:** [`scratch/zzz1421_agent2_context_firewall.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_agent2_context_firewall.json)
+- **Artifact:** [`scratch/zzz1421_agent2_context_firewall.json`](file:///scratch/zzz1421_agent2_context_firewall.json)
 
 ---
 
@@ -227,7 +227,7 @@ Every historical observation was tested against four distinct temporal dimension
 - **Hash After Outcome:** `9bc3d700a89cb5335612484b988f9c007c654b123ed7f2d3a69bd02dc9472475`
 - **Result:** Hashes identical; knowledge state remains completely immutable.
 - **Status:** `PASS`
-- **Artifact:** [`scratch/zzz1421_outcome_blindness.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_outcome_blindness.json)
+- **Artifact:** [`scratch/zzz1421_outcome_blindness.json`](file:///scratch/zzz1421_outcome_blindness.json)
 
 ---
 
@@ -236,7 +236,7 @@ Every historical observation was tested against four distinct temporal dimension
 - **Mismatches:** 0 / 96
 - **Reproducibility Rate:** 100.0%
 - **Status:** `PASS`
-- **Artifact:** [`scratch/zzz1421_reproducibility.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_reproducibility.json)
+- **Artifact:** [`scratch/zzz1421_reproducibility.json`](file:///scratch/zzz1421_reproducibility.json)
 
 ---
 
@@ -245,7 +245,7 @@ Every historical observation was tested against four distinct temporal dimension
 - Ownership pre-2018 classified as `LIMITED` (archival missingness).
 - News classified as `CONDITIONAL` (top-20 indexing bias).
 - Market, Exposure, and Peer networks classified as `READY` across 2016–2026.
-- **Artifact:** [`scratch/zzz1421_eligibility_matrix.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_eligibility_matrix.json)
+- **Artifact:** [`scratch/zzz1421_eligibility_matrix.json`](file:///scratch/zzz1421_eligibility_matrix.json)
 
 ---
 
@@ -276,7 +276,7 @@ All 20 mandatory Red Team validation criteria were evaluated:
 | 20 | Provenance Traceability | `PASS` | Primary source references retained |
 
 - **Red Team Verdict:** `PASS` (20 Pass, 0 Weak, 0 Fail, 0 Not Estimable).
-- **Artifact:** [`scratch/zzz1421_red_team.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_red_team.json)
+- **Artifact:** [`scratch/zzz1421_red_team.json`](file:///scratch/zzz1421_red_team.json)
 
 ---
 
@@ -297,17 +297,17 @@ None. All 20 Red Team criteria met rigorous evidence standards.
 ---
 
 ## 30. Evidence and Artifact References
-1. [`scratch/zzz1421_pilot_observation_level.parquet`](file:///d:/Project/SwingDeck/scratch/zzz1421_pilot_observation_level.parquet)
-2. [`scratch/zzz1421_eligibility_matrix.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_eligibility_matrix.json)
-3. [`scratch/zzz1421_v1_reconciliation.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_v1_reconciliation.json)
-4. [`scratch/zzz1421_leakage_audit.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_leakage_audit.json)
-5. [`scratch/zzz1421_peer_integrity.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_peer_integrity.json)
-6. [`scratch/zzz1421_derived_feature_leakage.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_derived_feature_leakage.json)
-7. [`scratch/zzz1421_agent2_context_firewall.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_agent2_context_firewall.json)
-8. [`scratch/zzz1421_outcome_blindness.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_outcome_blindness.json)
-9. [`scratch/zzz1421_reproducibility.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_reproducibility.json)
-10. [`scratch/zzz1421_red_team.json`](file:///d:/Project/SwingDeck/scratch/zzz1421_red_team.json)
-11. [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///d:/Project/SwingDeck/tests/test_batch_zzz1421_agent2_replay_integration.py)
+1. [`scratch/zzz1421_pilot_observation_level.parquet`](file:///scratch/zzz1421_pilot_observation_level.parquet)
+2. [`scratch/zzz1421_eligibility_matrix.json`](file:///scratch/zzz1421_eligibility_matrix.json)
+3. [`scratch/zzz1421_v1_reconciliation.json`](file:///scratch/zzz1421_v1_reconciliation.json)
+4. [`scratch/zzz1421_leakage_audit.json`](file:///scratch/zzz1421_leakage_audit.json)
+5. [`scratch/zzz1421_peer_integrity.json`](file:///scratch/zzz1421_peer_integrity.json)
+6. [`scratch/zzz1421_derived_feature_leakage.json`](file:///scratch/zzz1421_derived_feature_leakage.json)
+7. [`scratch/zzz1421_agent2_context_firewall.json`](file:///scratch/zzz1421_agent2_context_firewall.json)
+8. [`scratch/zzz1421_outcome_blindness.json`](file:///scratch/zzz1421_outcome_blindness.json)
+9. [`scratch/zzz1421_reproducibility.json`](file:///scratch/zzz1421_reproducibility.json)
+10. [`scratch/zzz1421_red_team.json`](file:///scratch/zzz1421_red_team.json)
+11. [`tests/test_batch_zzz1421_agent2_replay_integration.py`](file:///tests/test_batch_zzz1421_agent2_replay_integration.py)
 
 ---
 

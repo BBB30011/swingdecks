@@ -1,0 +1,17 @@
+Dimension_ID,Dimension_Name,Metric,Value,Benchmark_Value,Verdict,Rule
+EVID_01,Portfolio_Capital_Preservation,Ending Equity (ACT),"136,519,205.46 IDR","100,000,000 IDR (Cash)",CAPITAL_GROWTH_OBSERVED,
+EVID_02,Portfolio_Downside_Exposure,Max Drawdown (ACT),10.06%,41.52% (IHSG),LOWER_DRAWDOWN_VS_BENCHMARK,
+EVID_03,Cohort_Discrimination_Equity,ACT vs REJECT Equity Difference,"-28,944,844.20 IDR",0 IDR,STATISTICALLY_FRAGILE_AFTER_MULTIPLE_TESTING,
+EVID_04,Cohort_Discrimination_Downside,ACT vs REJECT Downside Dev,12.65% vs 13.51%,Lower is better,NO_SYSTEMATIC_DOWNSIDE_SUPERIORITY,
+EVID_05,Slot_Selection_Concentration,Commodity/Energy Trade Share in ACT,81.9%,25.0% Universe share,SEVERE_SELECTION_CONCENTRATION,
+EVID_06,Candidate_Ordering_Sensitivity,Equity Range across Orderings,"91,458,536 - 136,519,205 IDR",Zero variance expected if robust,ORDERING_SENSITIVITY_DETECTED,
+EVID_07,Concurrency_Constraint_Dominance,ACT Concurrency Rejection Rate,81.28% (673 / 828 setups),<50%,CONCURRENCY_PREEMPTS_SIGNAL_SELECTION,
+EVID_08,Capital_Contention_State,Capital Contention Blocks,0 blocks,>0 if binding,STRUCTURALLY_NON_BINDING,
+EVID_09,Exposure_Cash_Drag,Mean Portfolio Cash Share,97.40%,0% Fully Invested,SUBSTANTIAL_CASH_DRAG_DAMPENING,
+EVID_10,Regime_Invariance,Realized PnL in BEAR Regime,"4,496,272.02 IDR",Positive if robust,REGIME_SENSITIVE,
+EVID_11,Temporal_Generalization,Realized PnL in 2022-2024 Era,"11,674,613.03 IDR",Positive across all eras,TEMPORALLY_INHOMOGENEOUS,
+EVID_12,Point_In_Time_Integrity,,0 violations,0 violations,POINT_IN_TIME_VERIFIED,PIT Zero Lookahead
+EVID_13,Execution_Price_Provenance,,100% Observed Bars,100% Observed Bars,PROVENANCE_VERIFIED,Observed Market Price Fill
+EVID_14,Clean_Room_Reproducibility,Dual Run Artifact Match,100% Exact Match,100%,CLEAN_ROOM_REPRODUCIBLE,
+EVID_15,Runtime_Agent_Firewall,,3 Agents,3 Agents,FIREWALL_PRESERVED,"Exactly 3 Agents, ZERO Agent 4"
+EVID_16,Final_Scientific_Classification,Primary Research Standard,PORTFOLIO_RESULT_SELECTION_SENSITIVE,Robust discrimination,PORTFOLIO_RESULT_SELECTION_SENSITIVE,

@@ -1,0 +1,7 @@
+Audit_Scope,Verification_Method,Finding,Alignment_Status
+Signal Generation Timestamp,Canonical Decision Matrix Date_x vs Market Data Date,Signals are timestamped at observation date t close; forward return begins at t,VERIFIED
+Forward Horizon Evaluation Windows,"Offset verification: Session t+1, t+3, t+5, t+10, t+20 strictly after t","Forward returns are computed using session indices >= t+h, with zero lookahead into evaluation window",VERIFIED
+LOO Sector Peer Benchmark Real-Time Alignment,Leave-one-out sector mean constructed using exact contemporaneous session forward returns,Contemporaneous sector peer returns matched session-by-session; target security strictly excluded,VERIFIED
+Broad Market IHSG Benchmark Real-Time Alignment,Contemporaneous session alignment with JKSE index forward return,Matching on exact trading calendar date; zero temporal displacement,VERIFIED
+Historical Provenance & External Acquisition Timestamp,External Yahoo Finance Ingestion in COBA_007,"External data acquired post-facto; immutable raw files preserved, but historical PIT snapshot provenance is PARTIAL",PARTIAL
+Overall PIT Classification,Dual-criterion: OUTCOME_TEMPORAL_ALIGNMENT vs FULL_HISTORICAL_PIT,OUTCOME_TEMPORAL_ALIGNMENT = VERIFIED; FULL_HISTORICAL_PIT = PARTIAL,VERIFIED_TEMPORAL_ALIGNMENT

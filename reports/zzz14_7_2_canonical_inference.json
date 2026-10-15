@@ -1,0 +1,183 @@
+{
+  "primary_estimand": {
+    "canonical_id": "BETA_CONTRADICTION_L3_CONDITIONAL_N1760",
+    "legacy_id": "ATT_INFO_161_REGRESSION_BETA",
+    "legacy_status": "NON_CANONICAL_TERMINOLOGY_ALIASED",
+    "definition": "Partial conditional regression coefficient beta_contradiction of pre-T contradiction state in the predeclared L3 baseline linear model adjusting for momentum, relative volume, pre-trends, market regime, commodity exposure, archive depth, pre-T event density, primary source ratio, and regime-commodity interactions.",
+    "epistemological_type": "CONDITIONAL_OBSERVATIONAL_ASSOCIATION_COEFFICIENT",
+    "strictly_non_causal": true,
+    "not_att": true,
+    "not_alpha": true,
+    "not_pnl": true
+  },
+  "population": {
+    "dataset_version": "DATASET_V2_20260915",
+    "methodology_version": "METHODOLOGY_V1_FROZEN_20260915",
+    "total_setups": 1760,
+    "contradiction_setups": 161,
+    "non_contradiction_setups": 1599,
+    "equities_count": 80,
+    "date_clusters_count": 22,
+    "sample_attrition": 0
+  },
+  "effect": {
+    "primary_effect_beta": -2.8622,
+    "unadjusted_diff_in_means": -2.7462,
+    "coverage_adjusted_beta": -2.7988,
+    "units": "percentage_points"
+  },
+  "inference_hierarchy": {
+    "1_ols_homoskedastic": {
+      "method": "OLS_HOMOSKEDASTIC",
+      "effect": -2.8622,
+      "se": 0.2031,
+      "ci95": [
+        -3.2603,
+        -2.4641
+      ],
+      "p_value": 0.0,
+      "df": 1749
+    },
+    "2_ticker_clustered": {
+      "method": "OLS_TICKER_CLUSTERED_CRV1",
+      "cluster_variable": "TICKER",
+      "cluster_count": 80,
+      "effect": -2.8622,
+      "se": 0.205,
+      "ci95": [
+        -3.264,
+        -2.4604
+      ],
+      "p_value": 0.0,
+      "df": 79
+    },
+    "3_date_clustered_primary": {
+      "method": "OLS_DATE_CLUSTERED_CRV1",
+      "cluster_variable": "DATE",
+      "cluster_count": 22,
+      "effect": -2.8622,
+      "se": 0.1522,
+      "t_statistic": -18.8064,
+      "ci95_normal": [
+        -3.1605,
+        -2.5639
+      ],
+      "p_value_normal": 0.0,
+      "designation": "PRIMARY_INFERENCE_METHOD"
+    },
+    "4_event_clustered_sensitivity": {
+      "method": "OLS_EVENT_CLUSTERED_CRV1",
+      "cluster_variable": "EVENT_MECHANISM_LEVEL_1",
+      "cluster_count": 3,
+      "effect": -2.8622,
+      "se": 0.1638,
+      "ci95": [
+        -3.1832,
+        -2.5412
+      ],
+      "p_value": 0.0,
+      "small_cluster_warning": true,
+      "designation": "SECONDARY_SENSITIVITY_ONLY"
+    },
+    "5_wild_date_cluster_bootstrap": {
+      "method": "WILD_CLUSTER_BOOTSTRAP_RADEMACHER",
+      "cluster_variable": "DATE",
+      "cluster_count": 22,
+      "B": 1000,
+      "seed": 42,
+      "effect": -2.8622,
+      "bootstrap_se": 0.1465,
+      "ci95_percentile": [
+        -3.1595,
+        -2.58
+      ],
+      "p_value": 0.0,
+      "null_t_distribution_quantiles_95": [
+        -2.1878,
+        2.3997
+      ],
+      "designation": "DEPENDENCE_AWARE_CONFIRMATORY_INFERENCE"
+    }
+  },
+  "primary_inference": {
+    "estimand_id": "BETA_CONTRADICTION_L3_CONDITIONAL_N1760",
+    "effect": -2.8622,
+    "se": 0.1522,
+    "ci95": [
+      -3.1605,
+      -2.5639
+    ],
+    "p_value": 0.0,
+    "primary_inference_method": "DATE_CLUSTERED_CRV1_WITH_WILD_BOOTSTRAP_P",
+    "ci_origin": "DATE_CLUSTERED_NORMAL_APPROXIMATION",
+    "wild_percentile_ci": [
+      -3.1595,
+      -2.58
+    ],
+    "cluster": "DATE",
+    "cluster_count": 22,
+    "bootstrap": "WILD_RADEMACHER",
+    "B": 1000,
+    "seed": 42
+  },
+  "event_taxonomy": {
+    "canonical_event_cluster_count": 3,
+    "level_1_taxonomy": {
+      "taxonomy_name": "EVENT_TAXONOMY_LEVEL_1_CONTRADICTION_MECHANISM",
+      "cluster_count": 3,
+      "clusters": {
+        "NONE": 1599,
+        "OPERATIONAL_DISRUPTION": 116,
+        "REGULATORY_RESTRICTION": 45
+      },
+      "mapping_source": "core/zzz147_information_layers.py (Layer L5 Semantic Detail)",
+      "usage": "Executable clustering variable for event CRV1 sensitivity"
+    },
+    "level_2_taxonomy": {
+      "taxonomy_name": "EVENT_TAXONOMY_LEVEL_2_BROAD_DISCLOSURE_CATEGORIES",
+      "cluster_count": 5,
+      "clusters": {
+        "FINANCIAL_RESULTS_EARNINGS": "Quarterly & Annual Financial Disclosures",
+        "OPERATIONAL_DISRUPTION": "Production shutdowns, logistics delays, plant outages",
+        "REGULATORY_PERMIT_GOVERNMENT": "Mining quotas (RKAB), export levies, tariff changes",
+        "OWNERSHIP_CONTROLLER_MNA": "Divestments, acquisitions, shareholder restructuring",
+        "CORPORATE_ACTIONS_DIVIDENDS": "Cash dividends, stock splits, rights issues"
+      },
+      "mapping_source": "core/historical_disclosure_coverage_engine.py (CANONICAL_EVENT_TYPES grouped)",
+      "usage": "Qualitative disclosure completeness audit (ZZZ.101/ZZZ.102)"
+    },
+    "discrepancy_explanation": "G=3 represents the executable Contradiction Mechanism clusters (NONE, OPERATIONAL_DISRUPTION, REGULATORY_RESTRICTION) evaluated in zzz147_inference.py. G=5 represents the thematic broad corporate disclosure categories from ZZZ.101/ZZZ.102. Narrative text in ZZZ.14.7 referenced the Level 2 taxonomy, whereas econometric calculation executed Level 1.",
+    "small_cluster_limitation": true,
+    "inference_designation": "SECONDARY_SENSITIVITY_ONLY_NOT_PRIMARY"
+  },
+  "information_novelty": {
+    "substrate_enrichment_ratio": "1147 / 1760 (65.17%)",
+    "substrate_enrichment_definition": "Presence of structured primary corporate disclosure records",
+    "general_universe_novelty": "320 / 1760 (18.18%)",
+    "contradiction_cohort_novelty": "128 / 161 (79.50%)",
+    "classification": "PARTIAL"
+  },
+  "classifications": {
+    "POPULATION_IDENTITY": "N_1760_EXACT",
+    "PRIMARY_ESTIMAND_IDENTITY": "BETA_CONTRADICTION_L3_CONDITIONAL_N1760",
+    "NUMERICAL_RECONCILIATION": "PASS",
+    "ESTIMAND_IDENTITY": "EXACT",
+    "INFERENCE_ROBUSTNESS": "ROBUST_ACROSS_METHODS",
+    "COMMON_SUPPORT_STATUS": "BROAD_SUPPORT_SCREEN_PASS",
+    "COVERAGE_EFFECT_SURVIVAL": "PASS",
+    "INFORMATION_NOVELTY": "PARTIAL",
+    "INCREMENTAL_INFORMATION": "OBSERVED",
+    "INCREMENTAL_DISCRIMINATION": "CONDITIONAL_ASSOCIATION_OBSERVED",
+    "TEMPORAL_GENERALIZATION": "CONDITIONAL",
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_OPTIMIZATION": "BLOCKED",
+    "STRATEGY_READINESS": "NOT_READY",
+    "REPRODUCIBILITY": "PASS",
+    "RED_TEAM": "PASS",
+    "SCIENTIFIC_FIREWALL": "PASS",
+    "ZZZ_14_7_STATUS": "CLOSED",
+    "ZZZ_14_8_STATUS": "ELIGIBLE",
+    "FINAL_CLASSIFICATION": "INCREMENTAL_DISCRIMINATION_OBSERVED_NUMERICALLY_RECONCILED"
+  }
+}

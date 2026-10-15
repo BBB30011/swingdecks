@@ -1,0 +1,25 @@
+temporal_partition,probe_code,probe_description,action_divergence_rate,action_divergence_pct,mean_H5_pp,separation_ratio_vs_real,falsification_status
+DEV,REAL_AGENT2,Genuine PIT Historical Qualitative Intelligence,0.3945,39.45,-1.9328,1.0,REAL_INTELLIGENCE
+DEV,P1_RANDOM_STRUCTURAL,Random structural information with identical density,0.0484,4.84,0.5942,8.15,PLACEBO_PASS
+DEV,P2_IRRELEVANT_INFO,Ticker-matched irrelevant disclosure text,0.0242,2.42,0.5834,16.29,PLACEBO_PASS
+DEV,P3_SHUFFLED_TRANSMISSION,Pre-T evidence with shuffled transmission channels,0.032,3.2,0.5794,12.32,PLACEBO_PASS
+DEV,P4_SHUFFLED_CONTRADICTION,Shuffled contradiction state indicators,0.0156,1.56,0.5693,25.25,PLACEBO_PASS
+DEV,P5_RANDOM_SEMANTIC,Structure-matched synthetic random semantic evidence,0.0531,5.31,0.6071,7.43,PLACEBO_PASS
+VAL,REAL_AGENT2,Genuine PIT Historical Qualitative Intelligence,0.3937,39.38,-1.3733,1.0,REAL_INTELLIGENCE
+VAL,P1_RANDOM_STRUCTURAL,Random structural information with identical density,0.0688,6.88,0.74,5.73,PLACEBO_PASS
+VAL,P2_IRRELEVANT_INFO,Ticker-matched irrelevant disclosure text,0.0187,1.88,0.7288,21.0,PLACEBO_PASS
+VAL,P3_SHUFFLED_TRANSMISSION,Pre-T evidence with shuffled transmission channels,0.0125,1.25,0.7378,31.5,PLACEBO_PASS
+VAL,P4_SHUFFLED_CONTRADICTION,Shuffled contradiction state indicators,0.0,0.0,0.7862,393.75,PLACEBO_PASS
+VAL,P5_RANDOM_SEMANTIC,Structure-matched synthetic random semantic evidence,0.05,5.0,0.7056,7.87,PLACEBO_PASS
+OOS,REAL_AGENT2,Genuine PIT Historical Qualitative Intelligence,0.3625,36.25,-1.649,1.0,REAL_INTELLIGENCE
+OOS,P1_RANDOM_STRUCTURAL,Random structural information with identical density,0.0563,5.62,0.7555,6.44,PLACEBO_PASS
+OOS,P2_IRRELEVANT_INFO,Ticker-matched irrelevant disclosure text,0.0312,3.12,0.726,11.6,PLACEBO_PASS
+OOS,P3_SHUFFLED_TRANSMISSION,Pre-T evidence with shuffled transmission channels,0.0344,3.44,0.7428,10.55,PLACEBO_PASS
+OOS,P4_SHUFFLED_CONTRADICTION,Shuffled contradiction state indicators,0.0187,1.88,0.7797,19.33,PLACEBO_PASS
+OOS,P5_RANDOM_SEMANTIC,Structure-matched synthetic random semantic evidence,0.0563,5.62,0.6843,6.44,PLACEBO_PASS
+FULL,REAL_AGENT2,Genuine PIT Historical Qualitative Intelligence,0.3886,38.86,-1.8541,1.0,REAL_INTELLIGENCE
+FULL,P1_RANDOM_STRUCTURAL,Random structural information with identical density,0.0523,5.23,0.6646,7.43,PLACEBO_PASS
+FULL,P2_IRRELEVANT_INFO,Ticker-matched irrelevant disclosure text,0.0335,3.35,0.6419,11.59,PLACEBO_PASS
+FULL,P3_SHUFFLED_TRANSMISSION,Pre-T evidence with shuffled transmission channels,0.0227,2.27,0.6075,17.1,PLACEBO_PASS
+FULL,P4_SHUFFLED_CONTRADICTION,Shuffled contradiction state indicators,0.0159,1.59,0.6887,24.43,PLACEBO_PASS
+FULL,P5_RANDOM_SEMANTIC,Structure-matched synthetic random semantic evidence,0.0375,3.75,0.6576,10.36,PLACEBO_PASS

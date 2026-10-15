@@ -1,0 +1,141 @@
+{
+  "Experiment_ID": "COBA_018",
+  "Title": "MASTER PORTFOLIO ALLOCATION, ORDER-INVARIANCE & FINAL GENERALIZATION CLOSURE GATE",
+  "Execution_Timestamp": "2026-09-27T21:10:00+07:00",
+  "Classification": "RESEARCH_CLOSURE",
+  "Primary_Finding": "Within the frozen SwingDeck 3-agent architecture and historical replay framework, no statistically reliable portfolio-level discrimination was identified that remained robust to candidate ordering, sector-allocation sensitivity, concurrency sensitivity, temporal variation, regime variation, and multiple-comparison controls. The observed historical portfolio profit is highly concentrated in the sector exposure induced by the frozen candidate-allocation mechanism (99.05% of executed trades in Energy & Mining coinciding with the 2016-2022 commodity cycle) and fails invariance under candidate ordering, sector balancing, and capacity expansion. The research lineage is formally closed.",
+  "Total_Calendar_Sessions": 2826,
+  "Total_Setups_Audited": 1760,
+  "Total_ACT_Setups": 828,
+  "Executed_ACT_Positions": 105,
+  "Concurrency_Blocks": 673,
+  "Ordering_Sensitivity": "ORDER_SENSITIVE (Equity range: 91.46M to 136.52M IDR)",
+  "Sector_Concentration": "99.05% in Energy & Mining; 4 sectors 100% excluded",
+  "Allocation_Invariance": "FAILED (PnL drops by 74% under sector-balanced allocation)",
+  "Cohort_Discrimination": "NOT_SUPPORTED (ACT vs REJECT p=0.126 after Holm correction)",
+  "Runtime_Agents": 3,
+  "Agent_4": "NONE",
+  "Causality": "NOT_PROVEN",
+  "Standalone_Alpha": "NOT_PROVEN",
+  "Strategy_Optimization": "BLOCKED",
+  "Strategy_Readiness": "NOT_READY",
+  "Next_Research_Question": "RESEARCH_CLOSURE",
+  "Artifacts": {
+    "COBA_018_ALLOCATION_SENSITIVITY.csv": {
+      "File_Size_Bytes": 2268,
+      "SHA256": "d5cc17ec1c831d69a3f1716b6156206f6c90b2b4e4b9597605cbd6b39e11a226"
+    },
+    "COBA_018_ARTIFACT_INTEGRITY.csv": {
+      "File_Size_Bytes": 3492,
+      "SHA256": "e4e0fdde7017b35f7ff2c3eccb3b5a0c74f410fcef045b191a0c9ae1640e62ef"
+    },
+    "COBA_018_BENCHMARK_RESULTS.csv": {
+      "File_Size_Bytes": 955,
+      "SHA256": "d1c81465eb19249a7e8f3562be0023b6635e7ebea2af73f199c52782078bc55a"
+    },
+    "COBA_018_CAPITAL_EXPOSURE.csv": {
+      "File_Size_Bytes": 807,
+      "SHA256": "98d51da60a507fca294a8bd2122633ee23b74d18f72faa84dc3184c3fc96ae1c"
+    },
+    "COBA_018_COHORT_RESULTS.csv": {
+      "File_Size_Bytes": 1886,
+      "SHA256": "a8300b3a3cff0955d688b5df3fe21e81e34f02fcf8f0e9c644fc243736302eca"
+    },
+    "COBA_018_CONCURRENCY_SENSITIVITY.csv": {
+      "File_Size_Bytes": 1518,
+      "SHA256": "36f4ef19577a4de9b7481825c0b09992a701268f843fc2106d4330d854106682"
+    },
+    "COBA_018_CORPORATE_ACTION_AUDIT.csv": {
+      "File_Size_Bytes": 195,
+      "SHA256": "354c817761c13f38e74b71913f7f7c0aa4bd8648e2780aee885d4d4986134e45"
+    },
+    "COBA_018_COUNTERFACTUAL_RESULTS.csv": {
+      "File_Size_Bytes": 2137,
+      "SHA256": "89b380d765146de148aa641c2032ce906af6629441bc9b2575c68e33a4fdbfb3"
+    },
+    "COBA_018_DEFECT_REGISTER.csv": {
+      "File_Size_Bytes": 1375,
+      "SHA256": "c64d30e9438f5401d487f20e9606bf9423b89f25bbf9ab50848337d7cba2455b"
+    },
+    "COBA_018_DOWNSIDE_RESULTS.csv": {
+      "File_Size_Bytes": 906,
+      "SHA256": "c6533e8182e62c009fd19c854f675425d4ad6b9055483ffed9ed4b9032f246dd"
+    },
+    "COBA_018_DRAWDOWN_RESULTS.csv": {
+      "File_Size_Bytes": 292557,
+      "SHA256": "eab19d62155120f65a1e0f9366c2c7c393e74a3601037e2944725e836919e98f"
+    },
+    "COBA_018_EVIDENCE_MATRIX.csv": {
+      "File_Size_Bytes": 1185,
+      "SHA256": "d38fc49a9466d1464a1803fdebafc4675414d545e7519c497e820ae68a9c284b"
+    },
+    "COBA_018_EXECUTION_AUDIT.csv": {
+      "File_Size_Bytes": 388,
+      "SHA256": "5a7f9a3756cde7c3390baed02435fd38984d6aa2222e77aca7c3af4be43ac9fc"
+    },
+    "COBA_018_INDEPENDENT_RECHECK.csv": {
+      "File_Size_Bytes": 344,
+      "SHA256": "d5b360f0c3134d1d0ff771ee7c67bbe199ad58d5f82a756b49feba956669d164"
+    },
+    "COBA_018_MULTIPLE_COMPARISON.csv": {
+      "File_Size_Bytes": 674,
+      "SHA256": "4e121299fe2b3c6c0358aed2c3223d73b26a5f0914605d480c8aa40f3e9f8a63"
+    },
+    "COBA_018_ORDERING_SENSITIVITY.csv": {
+      "File_Size_Bytes": 2427,
+      "SHA256": "c339f456665095269386b7080e2565290eea8f3d6339fe297fda3838d0e6e1bc"
+    },
+    "COBA_018_PIT_AUDIT.csv": {
+      "File_Size_Bytes": 921,
+      "SHA256": "2ed7996cfab33898274f6be86ebfb7d323a0cb7b1a765e118275f7eebfb05506"
+    },
+    "COBA_018_PORTFOLIO_RESULTS.csv": {
+      "File_Size_Bytes": 1886,
+      "SHA256": "a8300b3a3cff0955d688b5df3fe21e81e34f02fcf8f0e9c644fc243736302eca"
+    },
+    "COBA_018_PRIOR_COBA_IMPACT.csv": {
+      "File_Size_Bytes": 1560,
+      "SHA256": "c9a43557b6efbebe1b0057f92125c1345aab41c6af1ec48666330f929454b01c"
+    },
+    "COBA_018_REDTEAM_AUDIT.csv": {
+      "File_Size_Bytes": 2141,
+      "SHA256": "0682d2b184a9240e4ef3d2d2481664364dec7f9ed5d7e692394b2d08ee966767"
+    },
+    "COBA_018_REGIME_RESULTS.csv": {
+      "File_Size_Bytes": 350,
+      "SHA256": "1cdf7a837e93db29fb3513858fd64b71908f26d55261e0c707d300282df43317"
+    },
+    "COBA_018_REGRESSION_RESULTS.csv": {
+      "File_Size_Bytes": 431,
+      "SHA256": "976251f0f3d505206991ca3fdd65231d925bc93e5eaa96c6f9e99122117399ba"
+    },
+    "COBA_018_REPAIR_LOG.csv": {
+      "File_Size_Bytes": 366,
+      "SHA256": "8fd924f27c1b445f3fd693a4f3b0d7d09ff268d0a69310158c44b70043f4a704"
+    },
+    "COBA_018_REPORT.md": {
+      "File_Size_Bytes": 28681,
+      "SHA256": "6aa5a66c6d78ededb4b68b7ca94894b64b8468a93cb4e939d273ae8e7c8cb5c7"
+    },
+    "COBA_018_REPOSITORY_AUDIT.csv": {
+      "File_Size_Bytes": 1314,
+      "SHA256": "9377dfc333e2a5475194f6d01aea452b9345d71d0be19ab9a30d46b1dbcf74c1"
+    },
+    "COBA_018_REPRODUCIBILITY.csv": {
+      "File_Size_Bytes": 4707,
+      "SHA256": "1316128ac821e5aa8a0e60db1a12b163ba84cb46825decbfe021e3a0b8ae3436"
+    },
+    "COBA_018_SECTOR_ANALYSIS.csv": {
+      "File_Size_Bytes": 829,
+      "SHA256": "f37a61958c63a6256ab96b92f8d5a7dabeb2ec0dc5cfd98dd45f9860a0102377"
+    },
+    "COBA_018_SLOT_SELECTION.csv": {
+      "File_Size_Bytes": 83638,
+      "SHA256": "10dda3193614915bb4e71adcfacaeb47dccf471b55910803a493b6ea8263d385"
+    },
+    "COBA_018_TEMPORAL_RESULTS.csv": {
+      "File_Size_Bytes": 361,
+      "SHA256": "e0d3552bd6c64d4149edf391d25b1b3bca6ad27a1b03963872eaba160bc98729"
+    }
+  }
+}

@@ -13,7 +13,7 @@ import core.db_init
 class TestBatchZZZ41AdversarialReasoning(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.test_db_path = "data/test_agent2_zzz41.duckdb"
+        cls.test_db_path = "tests/fixtures/test_agent2_zzz41.duckdb"
         core.db_init.DB_PATH = cls.test_db_path
         
         if os.path.exists(cls.test_db_path):

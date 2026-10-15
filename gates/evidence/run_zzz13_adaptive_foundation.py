@@ -28,7 +28,7 @@ def run_zzz13_foundation():
     print("EXECUTING BATCH ZZZ.13: ADAPTIVE HISTORICAL DATA & RESEARCH FOUNDATION")
     print("================================================================================")
     
-    base_dir = Path("d:/Project/SwingDeck")
+    base_dir = Path("")
     engine = AdaptiveHistoricalFoundationEngine(base_dir=base_dir)
     
     # 1. Register sample proposals across Types A through F to demonstrate the 6-type intake pipeline

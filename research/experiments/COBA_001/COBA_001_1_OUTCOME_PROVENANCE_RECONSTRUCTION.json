@@ -1,0 +1,14 @@
+{
+  "gate": "COBA_001.1",
+  "dataset_id": "DATASET_V2_20260915",
+  "dataset_sha256": "f8fa877142a78d8986873fdc5b8f2ea30c3c084bd47a844a4f7cdf3c53d5ee39",
+  "outcome_construction_status": "CONSTRUCTION_DEFECT_CONFIRMED",
+  "provenance_status": "RESOLVED_AS_SYNTHETIC",
+  "reconstruction_status": "PASS",
+  "pit_status": "NOT_APPLICABLE_SYNTHETIC_DATA",
+  "horizon_independence_status": "FAILED_DETERMINISTIC_SCALING",
+  "synthetic_origin_status": "CONFIRMED",
+  "h5_h10_h20_status": "FAILED_LINEAR_SCALING",
+  "coba_001_outcome_validity": "BLOCKED",
+  "coba_001_result_integrity": "VERIFIED"
+}

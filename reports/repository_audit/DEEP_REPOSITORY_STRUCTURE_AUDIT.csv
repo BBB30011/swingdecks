@@ -1,0 +1,24 @@
+Entry_Name,Is_Directory,Owner,Purpose,Mutability,Status
+.agents,True,UNKNOWN,Unclassified or ghost item,UNKNOWN,GHOST_OR_ANOMALOUS
+.gitignore,False,PLATFORM_CORE,Canonical repository root anchor file (.gitignore),CONTROLLED_MUTABLE,CANONICAL_ROOT_FILE
+README.md,False,PLATFORM_CORE,Canonical repository root anchor file (README.md),CONTROLLED_MUTABLE,CANONICAL_ROOT_FILE
+agents,True,AGENT_ENGINEERING,"Runtime execution logic for exactly 3 agents (agent1_quant, agent2_intelligence, agent3_committee)",CONTROLLED_MUTABLE,CANONICAL
+configs,True,PLATFORM_CORE,System YAML configurations and data source settings,CONTROLLED_MUTABLE,CANONICAL
+conftest.py,False,PLATFORM_CORE,Canonical repository root anchor file (conftest.py),CONTROLLED_MUTABLE,CANONICAL_ROOT_FILE
+core,True,PLATFORM_CORE,"Shared platform infrastructure, orchestrator, pipeline runner, schemas, replay firewall",CONTROLLED_MUTABLE,CANONICAL
+data,True,DATA_ENGINEERING,"Canonical data storage (duckdb, parquet, raw, processed)",IMMUTABLE_LAKE_AND_LOCAL_DB,CANONICAL
+gates,True,RESEARCH_LEAD,Historical gate evidence artifacts,IMMUTABLE_FROZEN,CANONICAL_FROZEN
+governance,True,GOVERNANCE_LEAD,"Architectural maps, lineage charters, and frozen research ledgers",CONTROLLED_MUTABLE,CANONICAL
+knowledge,True,KNOWLEDGE_CURATOR,"Domain patterns, memory, and context",CONTROLLED_MUTABLE,CANONICAL
+logs,True,RUNTIME_OPERATIONS,Runtime operational ephemeral storage (logs),MUTABLE_RUNTIME,CANONICAL_RUNTIME
+main.py,False,PLATFORM_CORE,Canonical repository root anchor file (main.py),CONTROLLED_MUTABLE,CANONICAL_ROOT_FILE
+positions,True,RUNTIME_OPERATIONS,Runtime operational ephemeral storage (positions),MUTABLE_RUNTIME,CANONICAL_RUNTIME
+pytest.ini,False,PLATFORM_CORE,Canonical repository root anchor file (pytest.ini),CONTROLLED_MUTABLE,CANONICAL_ROOT_FILE
+queue,True,RUNTIME_OPERATIONS,Runtime operational ephemeral storage (queue),MUTABLE_RUNTIME,CANONICAL_RUNTIME
+reports,True,GOVERNANCE_AUDIT,"Audit registers, forensic findings, and human-readable operational reports",CONTROLLED_MUTABLE,CANONICAL
+research,True,RESEARCH_LEAD,Historical frozen experimental lineage COBA_001 to COBA_018,IMMUTABLE_FROZEN,CANONICAL_FROZEN
+runtime,True,UNKNOWN,Unclassified or ghost item,UNKNOWN,GHOST_OR_ANOMALOUS
+scratch,True,DEVELOPER_SCRATCH,Temporary workspace for scratch calculations,EPHEMERAL,EPHEMERAL_WORKSPACE
+scripts,True,PLATFORM_CORE,Audit scripts and operational maintenance utilities,CONTROLLED_MUTABLE,CANONICAL
+state,True,RUNTIME_OPERATIONS,Runtime operational ephemeral storage (state),MUTABLE_RUNTIME,CANONICAL_RUNTIME
+tests,True,QA_VALIDATION,"Unit, integration, architecture, PIT, and historical regression test suites",CONTROLLED_MUTABLE,CANONICAL

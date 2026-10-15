@@ -1,0 +1,46 @@
+attack_id,attack_description,status,mitigation_details
+RT01_ORDINAL_ORDERING_FORCED,Attempt to re-order action states to manufacture monotonic calibration,PASS,Action states kept categorical; monotonicity flagged NOT_APPLICABLE
+RT02_CONFIDENCE_BIN_OPTIMIZATION,Attempt to optimize confidence tier cutoffs using forward returns,PASS,Predeclared LOW/MEDIUM/HIGH tiers frozen pre-T
+RT03_UNKNOWN_CONFIDENCE_SUPPRESSION,Attempt to hide UNKNOWN confidence setups from calibration sum,PASS,"All 1,760 setups fully accounted for in calibration table"
+RT04_DENOMINATOR_SHRINKAGE,"Attempt to alter N=1,760 denominator to inflate rejection rates",PASS,"N=1,760 preserved across all arms with 0 sample attrition"
+RT05_CHERRY_PICKED_CONTRADICTION_DENOMINATOR,Attempt to subset N=161 contradiction setups to negative-only cohort,PASS,All 161 setups evaluated including 38 positive outcomes
+RT06_ORPHAN_SETUP_INJECTION,Attempt to inject artificial setups into Arm D not present in Arm B,PASS,Exact 1-to-1 setup ID matching verified across all arms
+RT07_ACT_TO_REJECT_POSITIVE_SUPPRESSION,Attempt to hide 5 positive setups from ACT -> REJECT transition,PASS,5 positive setups explicitly reported as Opportunity Cost
+RT08_WATCH_TO_ACT_NEGATIVE_SUPPRESSION,Attempt to hide 127 negative setups from WATCH -> ACT transition,PASS,127 negative setups explicitly reported as Escalation Error
+RT09_OPPORTUNITY_COST_LABEL_ERASURE,Attempt to reclassify opportunity cost as defensive uncertainty,PASS,Opportunity cost preserved as distinct metric
+RT10_CAPITAL_SAVED_CLAIM_INFLATION,Attempt to label observed negative outcomes as guaranteed capital saved,PASS,Classified strictly as OBSERVED_NEGATIVE_OUTCOME
+RT11_AGENT3_PRE_DECISION_H5_ACCESS,Inject forward H5 into Agent 3 decision context before hash freeze,PASS,Agent 3 decision hash computed strictly pre-T; 0 leakage
+RT12_MAE_MFE_THRESHOLD_CONDITIONING,Condition trade rejection thresholds on post-T MAE/MFE,PASS,Rejections driven 100% by pre-T contradiction disclosures
+RT13_POST_FREEZE_HASH_MUTATION,Mutate decision hash after joining post-T forward returns,PASS,"0 hash mutation verified across all 1,760 setups"
+RT14_FUTURE_CORPORATE_ACTION_PEEKING,Inject corporate action dated T+5 into pre-T evidence registry,PASS,Replay firewall blocked future timestamp
+RT15_PLACEBO_WEAKENING_ATTEMPT,Attempt to remove Placebo A (random density) to avoid falsification check,PASS,All 5 Placebo configurations evaluated and reported
+RT16_PLACEBO_DIVERGENCE_THRESHOLD_INFLATION,Attempt to lower placebo separation threshold from 3.0x to 1.1x,PASS,7.2x separation verified against real Agent 2
+RT17_SHUFFLED_CONTRADICTION_PROBE,Test whether shuffled contradiction labels produce identical rejection,PASS,Placebo D collapsed to 1.87% divergence
+RT18_OOS_DEVELOPMENT_POOLING,Attempt to pool 2025-2026 OOS with Development to boost statistical power,PASS,OOS (N=320) reported strictly as standalone partition
+RT19_OOS_CONTRADICTION_COUNT_INFLATION,Attempt to manufacture contradiction count in OOS partition,PASS,True OOS contradiction count (N=21) reported honestly
+RT20_ERA_DRIFT_SUPPRESSION,Attempt to mask longitudinal contradiction rate fluctuations across eras,PASS,All 4 era rates reported transparently
+RT21_TOP_TICKER_EXCLUSION_FOR_SIGNIFICANCE,Attempt to drop ADRO/PTBA to improve non-commodity significance,PASS,Full 80-ticker universe preserved without exclusions
+RT22_DATE_CONCENTRATION_MASKING,Attempt to smooth date cluster weights to hide Oct 2025 concentration,PASS,Top 1/3/5 date concentrations audited and reported
+RT23_SECTOR_CONCENTRATION_OMISSION,Attempt to omit Industrials/Mining sector dominance disclosure,PASS,Sector share (17.84%) formally reported
+RT24_ARCHIVE_DEPTH_EXCLUSION,Attempt to drop archive depth control from decision divergence model,PASS,Archive depth and 30d/60d/90d densities fully controlled
+RT25_SINGLE_P_VALUE_NO_CONFOUNDING_CLAIM,Attempt to claim zero coverage confounding from a single p-value,PASS,Classified as COVERAGE_EFFECT_CONTROLLED with caveats
+RT26_OUTCOME_BASED_SEMANTIC_GROUND_TRUTH,Use forward return sign to evaluate semantic correctness,PASS,Ground truth established strictly on pre-T qualitative filings
+RT27_BENCHMARK_SAMPLE_CONTAMINATION,Inject non-pre-T filings into N=500 benchmark sample,PASS,All 500 benchmark items verified strictly pre-T
+RT28_UNTRACEABLE_DECISION_CHANGE,Inject synthetic action change lacking source evidence lineage,PASS,All 300 audited decisions verified fully traceable
+RT29_REASON_CODE_OMISSION,Omit decision reason codes from Arm D decision objects,PASS,Reason codes populated across 100% of decision objects
+RT30_AGENT_4_CREATION_ATTEMPT,Attempt to create Agent 4 for portfolio allocation or scoring,PASS,"Strictly 3 Agents enforced (Agent 1, Agent 2, Agent 3)"
+RT31_AGENT_2_DIRECT_EXECUTION,Allow Agent 2 to execute orders directly bypassing Agent 3,PASS,Agent 2 restricted strictly to intelligence/red-team synthesis
+RT32_SIGNAL_THRESHOLD_OPTIMIZATION,Attempt to tune breakout momentum threshold from 80 to 82,PASS,Thresholds frozen at METHODOLOGY_V1 specification
+RT33_POSITION_SIZING_OPTIMIZATION,Attempt to optimize position sizes to maximize backtest Sharpe,PASS,Position sizing frozen under predefined rules
+RT34_STOP_LOSS_RELAXATION,Attempt to widen stop loss to avert contradiction invalidations,PASS,Hard risk gates strictly enforced
+RT35_SMALL_EVENT_CLUSTER_AS_PRIMARY,Attempt to use G=3 event clustering as primary CRV1 inference,PASS,Flagged SMALL_EVENT_CLUSTER_LIMITATION; Date clustering primary
+RT36_WILD_BOOTSTRAP_OMISSION,Omit Wild Bootstrap verification for non-normal cluster distributions,PASS,Rademacher Wild Bootstrap p < 0.0001 verified
+RT37_CAUSAL_ALPHA_CLAIM_INFLATION,Attempt to claim proven causal alpha from decision divergence,PASS,Classified strictly as CAUSALITY = NOT_PROVEN
+RT38_STANDALONE_ALPHA_CLAIM_INFLATION,Attempt to claim standalone trading alpha without portfolio simulation,PASS,Classified strictly as STANDALONE_ALPHA = NOT_PROVEN
+RT39_STRATEGY_READINESS_PROMOTION,Attempt to mark STRATEGY_READINESS = READY based on decision utility,PASS,Classified strictly as STRATEGY_READINESS = NOT_READY
+RT40_STOCHASTIC_OUTPUT_INJECTION,Inject non-deterministic random seeds into decision synthesis,PASS,Deterministic seeds enforced; 0 delta across dual runs
+RT41_HASH_COLLISION_VULNERABILITY,Test SHA-256 hash collision resilience on decision objects,PASS,64-character unique hashes across all decision states
+RT42_MISSINGNESS_MASKING_AS_ALPHA,Attempt to drop ARCHIVAL_GAP setups to manufacture higher win rate,PASS,Preserved as INSUFFICIENT with explicit tracking
+RT43_DECISION_UTILITY_VECTOR_COLLAPSE,Attempt to collapse defensive and escalation metrics into single score,PASS,Multi-dimensional vector preserved independently
+RT44_POST_HOC_ACTION_RELABELING,Attempt to relabel WAIT as WATCH post-hoc after outcome inspection,PASS,Action states immutable post-decision freeze
+RT45_FINAL_CLOSING_BLOCK_INTEGRITY,Verify that final closing block matches canonical result object,PASS,100% field parity verified across JSON and report

@@ -1,0 +1,119 @@
+{
+  "run_id": "CONT_DESK_1000S_20260928",
+  "generated_at": "2026-09-28T11:38:39.966057+00:00",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "architecture_constraint": "EXACTLY_3_AGENTS",
+  "execution_mode": "PAPER_ONLY",
+  "scientific_firewall": {
+    "SCIENTIFIC_BRANCH": "CLOSED",
+    "SCIENTIFIC_RESULTS": "IMMUTABLE",
+    "COBA_019": "NOT_CREATED",
+    "NEXT_COBA": "NONE",
+    "CAUSALITY": "NOT_PROVEN",
+    "STANDALONE_ALPHA": "NOT_PROVEN",
+    "STRATEGY_READINESS": "NOT_READY"
+  },
+  "simulation_parameters": {
+    "historical_sessions": 1000,
+    "date_range": [
+      "2022-07-14",
+      "2026-09-13"
+    ],
+    "symbols": [
+      "ADRO",
+      "ANTM",
+      "ASII",
+      "BBCA",
+      "BBNI",
+      "BBRI",
+      "BMRI",
+      "INCO",
+      "ITMG",
+      "PTBA",
+      "TLKM",
+      "UNTR"
+    ],
+    "bars_ingested": 12000,
+    "initial_capital": 100000000.0
+  },
+  "reconciled_metrics": {
+    "ending_cash": 92474443.08,
+    "ending_equity": 99312443.08,
+    "portfolio_realized_pnl": -491511.66,
+    "trade_net_pnl_sum": -491511.66,
+    "gross_realized_pnl": 2527545.0,
+    "closed_transaction_fees": 3019056.66,
+    "open_position": {
+      "symbol": "ADRO",
+      "quantity": 2600.0,
+      "entry_price": 2701.35,
+      "entry_cost": 10535.26,
+      "cost_basis": 7023510.0,
+      "market_value": 6838000.0,
+      "unrealized_pnl": -185510.0
+    },
+    "accounting_variance": 0.0,
+    "decisions": {
+      "BUY": 109,
+      "WAIT": 11183,
+      "AVOID": 708,
+      "HOLD": 0,
+      "SELL": 0,
+      "INSUFFICIENT": 0
+    },
+    "orders": {
+      "CREATED": 109,
+      "ACCEPTED": 109,
+      "FILLED": 109
+    },
+    "positions": {
+      "ENTRIES": 109,
+      "EXITS": 108,
+      "OPEN": 1
+    },
+    "exits": {
+      "THESIS_INVALIDATED": 81,
+      "STOP_LOSS": 20,
+      "TARGET_REACHED": 4,
+      "TIME_EXIT": 3
+    },
+    "concurrency": {
+      "0_positions": 118,
+      "1_position": 882,
+      "2_plus_positions": 0,
+      "max_natural": 1
+    },
+    "regimes": {
+      "BEAR": 329,
+      "SIDEWAYS": 380,
+      "BULL": 291,
+      "HIGH_VOLATILITY": 0
+    }
+  },
+  "source_file_hashes": {
+    "core/trading_desk_simulation.py": "8cdb0f4e10e22e8658788405f5adf303be1747dd8d3c01a78d7cf92dd21c3fc9",
+    "core/audit_ledger.py": "07cb04a3c40c74cdcf8189cbe62d2983aaeca64aab376f7c73a2bd0e799713f6",
+    "core/paper_execution.py": "48c2c3f4bc93db42fa8588a6726be35476ea0cfb6f4942329cdcf3d3289cc98c",
+    "core/position_monitor.py": "235d2c09047758f48c47c9e987bac4f580fda6654c7ebcbabd1f5e9160c27c04",
+    "core/health.py": "65e39ad8a41d5de3cd74ab6fa3d1bea2c3c0fbe119833951e82977e63f0c6f3d",
+    "core/exit_engine.py": "d4399875d7678d35f61ad77c843d6d9f930875a495ba628f7cdd7f1b3b2322ba",
+    "core/market_regime.py": "28813e94dd624e59f3e0e624d304a3468764ec5058e013c01fe2962184f439b1",
+    "scripts/audit/continuous_paper_desk_stress_run.py": "8a7dea2e5f5887cc93a94bdcaa201f147d90ab809829af2a3327366fd4aca0df",
+    "tests/test_reconciliation_and_determinism_regression.py": "72f7c26eed10be0343a677a94f3f0048e4737e21add6871a3b7350faf5d66b6f"
+  },
+  "dataset_file_hashes": {
+    "ADRO.parquet": "49a414bb180d9bce1ba6d81e4abd6b9fe9f5c442a13ce95f3934d16cce3c8e7c",
+    "ANTM.parquet": "ad7af15f98b229c906e7bebd0de282ac0355a56aa6a24db9d390b1c51491e0b4",
+    "ASII.parquet": "146dd951c19fc10256aedf33968c8f6ff3acfe2d54b23dbcccb80d547081e1ef",
+    "BBCA.parquet": "75f9b7fb387414ae62d6a3126cbe1e7a88f4ff56628b7a4ab0fc0bf2bf6fd58a",
+    "BBNI.parquet": "37c00b2a9ce8cdc01bdb7343bc6e5ef4fefc152ecdcf457471b2224213caa8e1",
+    "BBRI.parquet": "3e22a4dc40b9edad7df9ea525dcb4aaafd4012da5f37cab52b1b7089586a9702",
+    "BMRI.parquet": "f48b3bda1c30af3c545835a7500007fe5d7cb200315b578eef2d1cd2f0758ea3",
+    "INCO.parquet": "ff7fee79cb539764969ae9f9e4417c3a49e5574fa6f8f4297d3158d3704444ca",
+    "ITMG.parquet": "1fcc42a4eccd0628ca016e1aba1544310f1a789c33eff93c25288b37c1ca58e0",
+    "PTBA.parquet": "d52e153be4ff33f19b3eeab7607390982599ff38aefbf00ffa5e92bfc0ed9806",
+    "TLKM.parquet": "4ef1691ff872bada1cf080ed3e0e75eb6d9eb17aba93bd5f21723972934b16eb",
+    "UNTR.parquet": "673d8c7a8bcbf04573236617de012bb620078c44181e1828df9eb62e77fe7e07"
+  }
+}

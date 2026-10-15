@@ -14,8 +14,8 @@ from core.historical_replay_engine import HistoricalReplayEngine
 from agents.agent2_intelligence.llm_reasoner import Agent2LLMReasoner
 from agents.agent2_intelligence.pipeline import Agent2IntelligencePipeline
 
-SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"
-DATA_DIR = "d:/Project/SwingDeck/data"
+SCRATCH_DIR = "gates/evidence"
+DATA_DIR = "data"
 
 CANONICAL_12 = [
     "ADRO", "ANTM", "ASII", "BBCA", "BBNI", "BBRI", 

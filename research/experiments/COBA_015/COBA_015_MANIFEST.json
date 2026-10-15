@@ -1,0 +1,92 @@
+{
+  "Experiment_ID": "COBA_015",
+  "Title": "MASTER PORTFOLIO LEDGER SCIENTIFIC RECONCILIATION & HISTORICAL REPLAY VALIDITY GATE",
+  "Execution_Timestamp": "2026-09-27T12:25:00+07:00",
+  "Classification": "LEDGER_VALIDATED_WITH_LIMITATIONS",
+  "Portfolio_Level_Evaluation_Gate": "BLOCKED",
+  "Replay_Scope_Classification": "ISOLATED_SETUP_REPLAY",
+  "Runtime_Agents": 3,
+  "Agent_4": "NONE",
+  "Causality": "NOT_PROVEN",
+  "Standalone_Alpha": "NOT_PROVEN",
+  "Strategy_Optimization": "BLOCKED",
+  "Strategy_Readiness": "NOT_READY",
+  "Artifacts": {
+    "COBA_015_ARTIFACT_INTEGRITY.csv": {
+      "File_Size_Bytes": 3062,
+      "SHA256": "05729951d3d840cb2164d19e2110199d6181df60c7de0872ee1c1d7f5d12f6ae"
+    },
+    "COBA_015_CASH_RECONCILIATION.csv": {
+      "File_Size_Bytes": 18149,
+      "SHA256": "9052d50c7913531998248493a4fda490ba7df664b548dbacd818ee10ae38d83e"
+    },
+    "COBA_015_CHRONOLOGY_AUDIT.csv": {
+      "File_Size_Bytes": 12297,
+      "SHA256": "1d31da803f84e69684b070de730162ed737e65779bb36e430b9b754c0dd5306b"
+    },
+    "COBA_015_CORPORATE_ACTION_RECONCILIATION.csv": {
+      "File_Size_Bytes": 560,
+      "SHA256": "b6f4582ecc0c82dbc52c61777bf5bc9ff540ef5890e1e137485ef4c18e3b2cda"
+    },
+    "COBA_015_EDGE_CASE_RECHECK.csv": {
+      "File_Size_Bytes": 2222,
+      "SHA256": "279b08cd0953b799011cd227b44ab954d2a0f7e493297b21e0d170be09b02da1"
+    },
+    "COBA_015_EQUITY_RECONCILIATION.csv": {
+      "File_Size_Bytes": 28197,
+      "SHA256": "df272bdddc918b3e7ad9c839f49e40d375e8776a5710f7ff43ee5f0a54d125d4"
+    },
+    "COBA_015_EVIDENCE_MATRIX.csv": {
+      "File_Size_Bytes": 4376,
+      "SHA256": "ad0729fb6a2a9d0300e8e3daaa51196c542ab3c1775a8d3ac4acb9e147317f81"
+    },
+    "COBA_015_EXECUTION_RECONCILIATION.csv": {
+      "File_Size_Bytes": 13387,
+      "SHA256": "e6432cb9733779ba1790ce3ab476faa8074f0852ebe87b66e94c79e7552c7cca"
+    },
+    "COBA_015_INDEPENDENT_RECHECK.csv": {
+      "File_Size_Bytes": 15747,
+      "SHA256": "840ac654e9b9f7ed6dfcc70943ae7a4cf23c428a6e3210fe67c30cebfec053c0"
+    },
+    "COBA_015_INVARIANT_RECHECK.csv": {
+      "File_Size_Bytes": 1283,
+      "SHA256": "331a4862a1ccdc0c9503987767bfd550179885c04f7ea986fcf323fc1d5c4a22"
+    },
+    "COBA_015_LIQUIDITY_SEMANTICS.csv": {
+      "File_Size_Bytes": 846,
+      "SHA256": "761454a9689967a3170739e8e2eaeffe0e17d389e7eb621c5474abc9f5bf41cc"
+    },
+    "COBA_015_PNL_RECONCILIATION.csv": {
+      "File_Size_Bytes": 1111,
+      "SHA256": "f17c878e527a5ab1af567dbf00b3e541ab76050faa1aabb90d3fbcf80f8154c3"
+    },
+    "COBA_015_POSITION_RECONCILIATION.csv": {
+      "File_Size_Bytes": 11070,
+      "SHA256": "8b6f61ebacb21bd254b86fc66cbf6bf419e0d56d4db42e91d7b2a78857337630"
+    },
+    "COBA_015_PRIOR_COBA_IMPACT.csv": {
+      "File_Size_Bytes": 1513,
+      "SHA256": "5ad241b3275ef9b3257f5a4b704bc46c99ac39bfdecaaa13c737ece6e050a496"
+    },
+    "COBA_015_REDTEAM_AUDIT.csv": {
+      "File_Size_Bytes": 7044,
+      "SHA256": "af4af3832e7d46a016be48edeb8765f0b99281cc3b2d9c387ca0e4613834fc0a"
+    },
+    "COBA_015_REPLAY_CLASSIFICATION.csv": {
+      "File_Size_Bytes": 1367,
+      "SHA256": "aec90cc1ae9ab0d779a716ae48ce3affb40a82fa58485c6c94e09ebd41fa7ffd"
+    },
+    "COBA_015_REPRODUCIBILITY.csv": {
+      "File_Size_Bytes": 698,
+      "SHA256": "58cc21c5dd8b96e60443411fef181c0f76e28adca7e1d0ddc8ff4e043e9f60fc"
+    },
+    "COBA_015_RISK_BUDGET_AUDIT.csv": {
+      "File_Size_Bytes": 38378,
+      "SHA256": "d1110001ae8e936c50db4eee2ff75c7659eb5702d72a40f214d5d77f9c3f71e0"
+    },
+    "COBA_015_REPORT.md": {
+      "File_Size_Bytes": 36866,
+      "SHA256": "e0940234030ee46685eba96830f0478eac240fbcb4fee0c9b267d43f33a65484"
+    }
+  }
+}

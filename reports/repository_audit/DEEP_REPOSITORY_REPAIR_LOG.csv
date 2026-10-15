@@ -1,0 +1,4 @@
+Repair_ID,Defect_Category,Target,Severity,Resolution,Test_Verification,Status
+REP-001,CIRCULAR_DEPENDENCY,"core/data_source.py, core/csv_data_source.py, core/providers/yfinance_provider.py",HIGH,Extracted DataSourceFactory into core/data_source_factory.py and added PEP 562 lazy resolution,"tests/test_data_source_factory.py (6/6 pass), scripts/audit/deep_dependency_analyzer.py (0 cycles)",REPAIRED_AND_VERIFIED
+REP-002,ORPHAN_MODULE_COVERAGE,core/daily_cycle.py,MEDIUM,Implemented formal operational unit test suite in tests/test_daily_cycle.py covering all 5 market slots,"tests/test_daily_cycle.py (3/3 pass), pytest -m operational (243/243 pass)",REPAIRED_AND_VERIFIED
+REP-003,DOCUMENTATION_INCONSISTENCY,"README.md, CURRENT_SYSTEM_ARCHITECTURE.md, REPOSITORY_MAP.md, DATA_MAP.md",MEDIUM,"Reconciled test count (243 operational tests), 0 circular dependencies, explicit 3-agent boundary, immutable COBA_001-COBA_018",Second-pass forensic inspection,REPAIRED_AND_VERIFIED

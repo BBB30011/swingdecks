@@ -10,7 +10,7 @@ from datetime import datetime
 # audit and dataset integrity checks for Dataset V2.
 # ==============================================================================
 
-WORKSPACE_DIR = "d:/Project/SwingDeck"
+WORKSPACE_DIR = ""
 SCRATCH_DIR = os.path.join(WORKSPACE_DIR, "gates/evidence")
 REPORTS_DIR = os.path.join(WORKSPACE_DIR, "reports")
 DOCS_DIR = os.path.join(WORKSPACE_DIR, "docs")
@@ -193,7 +193,7 @@ It is certified for downstream historical alpha evaluation.
 import os
 import pytest
 
-SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"
+SCRATCH_DIR = "gates/evidence"
 
 def load_json(name):
     with open(os.path.join(SCRATCH_DIR, name)) as f:

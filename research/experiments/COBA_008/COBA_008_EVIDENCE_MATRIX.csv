@@ -1,0 +1,19 @@
+Evidence_Layer,Test,Result,Direction,Stability,Classification
+Primary,H5_PEER_EXCESS Stratified,Beta=-0.0279 pp,Flat / Negative (-0.03 pp),Stable (Null),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H1 Raw Return,Beta=0.2812 pp,Flat (-0.01 pp),Insignificant (p=0.96),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H3 Raw Return,Beta=0.1696 pp,Negative (-0.02 pp),Insignificant (p=0.94),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H5 Raw Return,Beta=0.0250 pp,Negative (-0.04 pp),Insignificant (p=0.92),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H10 Raw Return,Beta=-0.1447 pp,Negative (-0.06 pp),Insignificant (p=0.93),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H20 Raw Return,Beta=0.4327 pp,Positive (+0.31 pp),Insignificant (p=0.76),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H10 Peer Excess,Beta=-0.1422 pp,Negative (-0.07 pp),Insignificant (p=0.93),SIGNAL_NOT_SUPPORTED
+Secondary_Horizon,H20 Peer Excess,Beta=0.5489 pp,Positive (+0.30 pp),Insignificant (p=0.78),SIGNAL_NOT_SUPPORTED
+Secondary_Benchmark,H5 IHSG Excess,Beta=0.0057 pp,Negative (-0.04 pp),Insignificant (p=0.92),SIGNAL_NOT_SUPPORTED
+Temporal,4-Period Generalization,Betas range from -0.63 pp to +0.33 pp,Mixed / Non-persistent,All periods p > 0.40,SIGNAL_NOT_SUPPORTED
+Regime,4 Market Regimes,"BULL (-0.11), BEAR (-0.36), SIDE (+0.66)",Regime-dependent,All regimes p > 0.35,SIGNAL_NOT_SUPPORTED
+Sector,7 Canonical Sectors,"5 Negative, 2 Positive",Heterogeneous,All sectors p > 0.20,SIGNAL_NOT_SUPPORTED
+Robustness_LOO,79-Ticker LOO,"Betas range [-0.09, +0.03] pp",Zero sign changes from null,Extremely Stable around 0,SIGNAL_NOT_SUPPORTED
+Robustness_LOSO,7-Sector LOO,"Betas range [-0.09, +0.03] pp",Consistently ~0.0 pp,High Stability,SIGNAL_NOT_SUPPORTED
+Distributional,Mann-Whitney U & Permutation,"MWU p=0.4643, Perm p=0.9470",Null distribution match,Confirmed Null,SIGNAL_NOT_SUPPORTED
+Placebo,PLACEBO-01 & PLACEBO-02,Placebo p=0.9470,Indistinguishable from real,Noise-equivalent,SIGNAL_NOT_SUPPORTED
+Sensitivity,Coverage & Outlier Sensitivity,"Betas range [-0.03, +0.07] pp",Consistently ~0.0 pp,High Stability,SIGNAL_NOT_SUPPORTED
+Firewall,Corporate Action Sensitivity,BLOCKED,N/A,Protected,BLOCKED

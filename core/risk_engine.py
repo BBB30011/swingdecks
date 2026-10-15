@@ -66,12 +66,25 @@ class RiskEngine:
             blockers.append("DATA_QUALITY_GATE_FAILED")
             trace.failed_gates.append("DATA_QUALITY")
         elif data_quality == "STALE_DATA":
-            # For live-like decision
             blockers.append("DATA_STALE")
             trace.failed_gates.append("DATA_FRESHNESS")
             
-        research_completeness = research_data.get("completeness", "INSUFFICIENT")
-        red_team_decision = research_data.get("red_team_decision", "BLOCK")
+        # Firewall check
+        firewall_status = research_data.get("firewall_status", "PASS")
+        if firewall_status in ["BLOCKED_UNTRUSTED", "BLOCKED_MNPI"]:
+            blockers.append(f"FIREWALL_BLOCKED_{firewall_status}")
+            trace.failed_gates.append("SECURITY_FIREWALL")
+            
+        research_completeness = research_data.get("completeness", "VALID" if research_data.get("research_status") in ["SUPPORTED", "OBSERVATION", "TESTING"] else "INSUFFICIENT")
+        red_team_decision = research_data.get("red_team_decision")
+        if not red_team_decision and "red_team" in research_data:
+            rt = research_data["red_team"]
+            if isinstance(rt, dict) and rt.get("contradicting_evidence"):
+                red_team_decision = "REWORK" if len(rt["contradicting_evidence"]) == 1 else "BLOCK"
+            else:
+                red_team_decision = "PASS"
+        if not red_team_decision:
+            red_team_decision = "BLOCK"
         
         if research_completeness == "INSUFFICIENT":
             blockers.append("RESEARCH_INSUFFICIENT")
@@ -83,8 +96,8 @@ class RiskEngine:
             
         # 3. Contradiction Gate
         contradictions = research_data.get("contradictions", [])
-        has_major_contradiction = any(c.get("severity") == "HIGH" for c in contradictions)
-        if has_major_contradiction:
+        has_major_contradiction = any((c.get("severity") == "HIGH" if isinstance(c, dict) else False) for c in contradictions)
+        if has_major_contradiction or research_data.get("contradictions_found", 0) > 1:
             blockers.append("MAJOR_CONTRADICTION")
             trace.failed_gates.append("CONTRADICTION_GATE")
             
@@ -96,6 +109,9 @@ class RiskEngine:
             
         # 5. Confidence Gate
         confidence = research_data.get("confidence", 0)
+        if isinstance(confidence, str):
+            conf_map = {"HIGH": 90, "MEDIUM": 75, "LOW": 30, "UNKNOWN": 0}
+            confidence = conf_map.get(confidence.upper(), 50)
         if confidence < self.config.minimum_confidence:
             blockers.append("LOW_CONFIDENCE")
             trace.failed_gates.append("CONFIDENCE_GATE")

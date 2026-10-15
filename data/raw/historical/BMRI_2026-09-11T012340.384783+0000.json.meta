@@ -1,0 +1,13 @@
+{
+    "symbol": "BMRI",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:40.384783+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "07c5beff9b88dc1f596aa03af97f0df9c153b6cb90dc6661e706b9408b127dcd"
+}

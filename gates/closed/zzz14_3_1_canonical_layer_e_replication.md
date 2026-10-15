@@ -89,7 +89,7 @@ The canonical observation manifest was serialized and cryptographically hashed p
 | **Unique Decision Dates** | 49 |
 | **Date Range** | 2025-09-09 to 2026-09-11 |
 | **Manifest SHA-256 Hash** | `20d780e900a63a08cfef8998c39717546f7c1a10ccc08a360cf5befbfd743cfd` |
-| **Artifact Path** | [`scratch/zzz1431_canonical_manifest.json`](file:///d:/Project/SwingDeck/scratch/zzz1431_canonical_manifest.json) |
+| **Artifact Path** | [`scratch/zzz1431_canonical_manifest.json`](file:///scratch/zzz1431_canonical_manifest.json) |
 
 ---
 
@@ -153,7 +153,7 @@ All Agent 2 theses and Red Team assessments were committed to the immutable Thes
 | **Total Frozen Theses** | 73 |
 | **Thesis Hash Uniqueness** | 73 unique SHA-256 hashes |
 | **Post-Freeze Hash Mutability** | 0 mutations detected |
-| **Artifact Path** | [`scratch/zzz1431_agent2_thesis_freeze.json`](file:///d:/Project/SwingDeck/scratch/zzz1431_agent2_thesis_freeze.json) |
+| **Artifact Path** | [`scratch/zzz1431_agent2_thesis_freeze.json`](file:///scratch/zzz1431_agent2_thesis_freeze.json) |
 
 ---
 
@@ -289,7 +289,7 @@ The historical $+3.10\text{ pp}$ association from ZZZ.11/ZZZ.11.7 was reconciled
 
 ## 22. Observation-Level Differences
 
-Across all 73 individual observations in [`scratch/zzz1431_reconciliation_ledger.json`](file:///d:/Project/SwingDeck/scratch/zzz1431_reconciliation_ledger.json):
+Across all 73 individual observations in [`scratch/zzz1431_reconciliation_ledger.json`](file:///scratch/zzz1431_reconciliation_ledger.json):
 - **Exact Matches ($|\Delta| < 0.0001\text{ pp}$):** 73 / 73 (100.0%).
 - **Discrepancies:** 0 / 73 (0.0%).
 - **Diagnostic Cause:** Zero data corruption, timestamp truncation, or bar index slippage.

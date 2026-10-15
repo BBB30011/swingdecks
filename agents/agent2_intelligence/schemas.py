@@ -1,11 +1,14 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional, Literal
+from typing import List, Optional, Literal, Dict, Any
 
 class EvidenceReference(BaseModel):
     event_id: str
     source_id: str
     published_at: str
     description: str
+    access_class: str = "PUBLIC"
+    confidence: str = "UNKNOWN"
+    provenance: str = ""
 
 class EconomicTransmission(BaseModel):
     event_impact: Optional[str]
@@ -48,6 +51,8 @@ class Agent2IntelligenceReport(BaseModel):
     
     relationships: List[str]
     exposures: List[str]
+    mechanisms: List[Dict[str, Any]] = Field(default_factory=list)
+    graph_paths: List[List[str]] = Field(default_factory=list)
     
     economic_transmission: EconomicTransmission
     differential_assessment: DifferentialAssessment
@@ -58,3 +63,7 @@ class Agent2IntelligenceReport(BaseModel):
     
     confidence: Literal["LOW", "MEDIUM", "HIGH"]
     research_status: Literal["OBSERVATION", "HYPOTHESIS", "TESTING", "SUPPORTED", "REJECTED", "UNKNOWN", "UNRESOLVED"]
+    
+    firewall_status: str = "PASS"
+    provenance_sources: List[str] = Field(default_factory=list)
+    contradictions_found: int = 0

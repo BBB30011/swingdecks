@@ -1,5 +1,5 @@
 # PRINCIPAL AUDIT REPORT — AI SWING TRADING DESK
-## SwingDeck | D:\Project\SwingDeck
+## SwingDeck | 
 **Audit Date:** 2026-09-10  
 **Baseline Tests:** 547 PASS  
 **Real Data Status:** REAL_DATA_NOT_PROVISIONED  
@@ -437,7 +437,7 @@ Bahkan dengan real data, sistem tidak bisa menghasilkan research-grade backtest 
 ```
 === PRINCIPAL AUDIT RESULT ===
 
-Project: D:\Project\SwingDeck
+Project: 
 Tests: 547 baseline
 
 Overall Assessment:

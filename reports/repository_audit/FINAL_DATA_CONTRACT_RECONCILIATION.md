@@ -77,7 +77,7 @@ The datasets, estimands, strategy logic, and gate milestones (`ZZZ.14.9`) were u
 ---
 
 ## 6. GITHUB CHECK
-- No `C:\Users\...` or `D:\Project\...` paths remain in the python codebase.
+- No `Project\...` paths remain in the python codebase.
 - No `.env`, `credentials`, or `*.pem` tokens exist in the tracked environment.
 
 ---

@@ -1,0 +1,7 @@
+Prior_COBA,Frozen_Finding,Portfolio_Accounting_Dependency,Impact_Classification,Detailed_Assessment
+COBA_008,SIGNAL_NOT_SUPPORTED,Directional return setup foundation,LIMITED_IMPACT,Portfolio accounting reconciliation confirms that cross-sectional signal neutrality is entirely unrescued by cash accounting or lot constraints.
+COBA_009,NO_CONDITIONAL_EVIDENCE,Common support distribution across momentum strata,LIMITED_IMPACT,Structural dependence on momentum score >= 80 remains unaltered; portfolio accounting exposes no hidden conditional edge.
+COBA_010,NO_INCREMENTAL_INFORMATION_EVIDENCE,Agent 2 contradiction signals,LIMITED_IMPACT,Agent 2 research intelligence provides zero incremental directional or capital-preservation benefit under portfolio ledger accounting.
+COBA_011,STRUCTURAL_ROBUSTNESS_SUPPORTED,Multi-horizon sequential sessions and benchmark definitions,LIMITED_IMPACT,"Horizon invariance across H1, H3, H5, H10, H20 is robust; accounting confirms no horizon-dependent alpha emerges."
+COBA_012,NO_RISK_FILTER_EVIDENCE,Agent 3 downside risk filtering and loss severity,LIMITED_IMPACT,Absence of downside risk filtering persists in portfolio replay; rejected setups do not protect portfolio capital.
+COBA_013,FOUNDATION_BLOCKED,Master foundation audit and portfolio readiness blockers,LIMITED_IMPACT,"Reconciliation confirms core arithmetic (cash, lot, P&L) works, but historical replay in COBA_014 was an isolated setup shortcut, meaning concurrent portfolio evaluation remains blocked."

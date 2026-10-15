@@ -1,0 +1,13 @@
+Dimension,Value,Explanation
+Initial_Capital_IDR,100000000.0,Starting balance in cash ledger
+Risk_Budget_Per_Position_IDR,500000.0,0.5% risk budget on 100M capital
+Assumed_Stop_Distance_Pct,3.0,3.0% stop distance from entry
+Target_Notional_Per_Position_IDR,16666667.0,"500,000 / 0.03 = 16.66M IDR"
+Maximum_Concurrent_Slots,5.0,Physical maximum concurrent active positions
+Maximum_Invested_Capital_Ceiling_IDR,83333333.0,5 slots * 16.66M IDR = 83.33M IDR
+Maximum_Statutory_Buy_Fees_IDR,125000.0,"0.15% broker fee on 83.33M IDR = 125,000 IDR"
+Total_Maximum_Cash_Outflow_At_Capacity_IDR,83458333.0,83.33M + 125k = 83.46M IDR
+Theoretical_Cash_Safety_Margin_IDR,16541667.0,100M - 83.46M = 16.54M IDR buffer remaining at 5 positions
+Minimum_Observed_Cash_During_Replay_IDR,15688688.683466889,"Observed lowest cash across all 2,826 sessions"
+Capital_Contention_Blocks_Count,0.0,Structurally non-binding because 5 slots cap capital commitment below 100M IDR
+Structural_Mechanism_Verdict,1.0,STRUCTURALLY_NON_BINDING_BY_SIZING_MATHEMATICS

@@ -17,7 +17,7 @@ def run_remediation():
     ]
     
     replacements = [
-        ('SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"', 'SCRATCH_DIR = "d:/Project/SwingDeck/gates/evidence"'),
+        ('SCRATCH_DIR = "gates/evidence"', 'SCRATCH_DIR = "gates/evidence"'),
         ('SCRATCH_DIR = os.path.join(WORKSPACE_DIR, "gates/evidence")', 'SCRATCH_DIR = os.path.join(WORKSPACE_DIR, "gates/evidence")'),
         ('configs/settings.yaml', 'configs/settings.yaml'),
         ('configs/models.yaml', 'configs/models.yaml'),

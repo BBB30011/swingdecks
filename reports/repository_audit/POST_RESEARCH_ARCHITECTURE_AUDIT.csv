@@ -1,0 +1,6 @@
+Component,Expected_Role,Observed_Role,Agent_Count_Impact,Boundary_Integrity,Status
+Agent 1: Quant & Market Scanner,"WHAT IS MOVING? (Technical scanning, volume, trend, regime, ranking)","Strictly confined to quant indicators, regime detection, candidate ranking",Agent 1 of 3,"CONFIRMED (Zero semantic reasoning, zero portfolio optimization)",COMPLIANT
+Agent 2: Market Intelligence & Red Team,"WHY DID IT MOVE? (Relational intelligence, peer networks, red team validation)","Contextual peers, specificities, contradiction analysis, DuckDB ledger",Agent 2 of 3,"CONFIRMED (Zero price mutation, zero trade commitment)",COMPLIANT
+Agent 3: Investment Committee & Risk Engine,"SHOULD WE ACT? (Synthesis, timing, risk budget, sizing, invalidation)","0.5% capital at 3% stop distance, integer lots, invalidation triggers",Agent 3 of 3,CONFIRMED (Strict downstream synthesis and risk boundaries),COMPLIANT
+Agent 4 Prohibition Audit,ZERO Agent 4 across all runtime components,Only firewall enforcement rules and red-team tests reference Agent 4,Exactly 3 Agents Total,CONFIRMED (Zero unauthorized agent modules),COMPLIANT
+Orchestrator & Pipeline Runner,Platform infrastructure managing multi-agent handoff,Executes Agent 1 -> Agent 2 -> Agent 3 with stage persistence,Platform infrastructure (Not an agent),CONFIRMED (Pure orchestration),COMPLIANT

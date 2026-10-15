@@ -46,7 +46,7 @@ Batch ZZZ.11.2 executes a rigorous identification audit and observation-level tr
 
 ## 2. Observation-Level Trace of the Six Audited Tickers
 
-Every observation for the 6 tickers with setups in both states was traced at the raw observation level ([scratch/zzz112_observation_level_audit.parquet](file:///d:/Project/SwingDeck/scratch/zzz112_observation_level_audit.parquet)):
+Every observation for the 6 tickers with setups in both states was traced at the raw observation level ([scratch/zzz112_observation_level_audit.parquet](file:///scratch/zzz112_observation_level_audit.parquet)):
 
 ```text
 === ADRO === Total: 11, Ev: 7 (-2.92%), Unobs: 4 (-4.36%) -> Within-Ticker Delta: +1.44 pp

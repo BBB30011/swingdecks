@@ -26,6 +26,8 @@ class HistoricalKnowledgeState:
     relationship_state: List[Dict[str, Any]] = field(default_factory=list)
     ownership_state: List[Dict[str, Any]] = field(default_factory=list)
     exposure_state: List[Dict[str, Any]] = field(default_factory=list)
+    mechanism_state: List[Dict[str, Any]] = field(default_factory=list)
+    graph_path_state: List[List[str]] = field(default_factory=list)
     peer_state: List[str] = field(default_factory=list)
     coverage_state: Dict[str, str] = field(default_factory=dict)
     snapshot_hash: Optional[str] = None
@@ -107,6 +109,8 @@ class HistoricalKnowledgeState:
             "relationship_state": sorted([json.dumps(r, default=_json_serial, sort_keys=True) for r in self.relationship_state]),
             "ownership_state": sorted([json.dumps(o, default=_json_serial, sort_keys=True) for o in self.ownership_state]),
             "exposure_state": sorted([json.dumps(x, default=_json_serial, sort_keys=True) for x in self.exposure_state]),
+            "mechanism_state": sorted([json.dumps(m, default=_json_serial, sort_keys=True) for m in self.mechanism_state]),
+            "graph_path_state": sorted([json.dumps(p, default=_json_serial, sort_keys=True) for p in self.graph_path_state]),
             "peer_state": sorted(self.peer_state)
         }
         serialized = json.dumps(state_dict, default=_json_serial, sort_keys=True)
@@ -129,5 +133,7 @@ class HistoricalKnowledgeState:
             "relationship_state": self.relationship_state,
             "ownership_state": self.ownership_state,
             "exposure_state": self.exposure_state,
+            "mechanism_state": self.mechanism_state,
+            "graph_path_state": self.graph_path_state,
             "peer_state": self.peer_state
         }

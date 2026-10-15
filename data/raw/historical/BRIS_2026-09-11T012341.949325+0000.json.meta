@@ -1,0 +1,13 @@
+{
+    "symbol": "BRIS",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-11T01:23:41.949325+00:00",
+    "record_count": 1203,
+    "first_date": "2021-09-10T00:00:00+07:00",
+    "last_date": "2026-09-10T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "4d714b95a173ec4f76a27493671965235c044e0d1cd51e6fc93e004bc7ec0ee6"
+}

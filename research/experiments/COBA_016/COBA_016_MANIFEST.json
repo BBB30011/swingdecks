@@ -1,0 +1,104 @@
+{
+  "Experiment_ID": "COBA_016",
+  "Title": "CALENDAR-STEPPED CONCURRENT PORTFOLIO REPLAY ENGINE SCIENTIFIC VALIDATION GATE",
+  "Execution_Timestamp": "2026-09-27T12:35:00+07:00",
+  "Classification": "CONCURRENT_REPLAY_ENGINE_VALIDATED",
+  "Portfolio_Replay_Status": "CONCURRENT_PORTFOLIO_REPLAY_VALIDATED_IN_TESTED_SCOPE",
+  "Portfolio_Level_Evaluation_Gate": "UNBLOCKED_FOR_HISTORICAL_EVALUATION",
+  "Total_Calendar_Sessions": 2826,
+  "Total_Positions_Opened": 105,
+  "Total_Positions_Closed": 105,
+  "Max_Concurrent_Positions": 5,
+  "Concurrency_Blocks": 673,
+  "Capital_Contention_Blocks": 0,
+  "Invariants_Pass_Rate": "20/20 (100%)",
+  "Edge_Cases_Pass_Rate": "25/25 (100%)",
+  "Runtime_Agents": 3,
+  "Agent_4": "NONE",
+  "Causality": "NOT_PROVEN",
+  "Standalone_Alpha": "NOT_PROVEN",
+  "Strategy_Optimization": "BLOCKED",
+  "Strategy_Readiness": "NOT_READY",
+  "Artifacts": {
+    "COBA_016_ARTIFACT_INTEGRITY.csv": {
+      "File_Size_Bytes": 2301,
+      "SHA256": "3fb152767a3e2f88ae55cf899b36ac410f67b3f80d8072b1b3fa736bb50098d6"
+    },
+    "COBA_016_CAPITAL_CONTENTION.csv": {
+      "File_Size_Bytes": 17240,
+      "SHA256": "961b6cb0057d1dd6657dc634aedc0807eafb1a5d3c3a71f6c7183c2d5b9bf660"
+    },
+    "COBA_016_CASH_RECONCILIATION.csv": {
+      "File_Size_Bytes": 30971,
+      "SHA256": "64fb9126d68b550bfddea1e5fd4db5076eb5a9ffd610e2cf2e6c8d825ba2553e"
+    },
+    "COBA_016_CONCURRENCY_AUDIT.csv": {
+      "File_Size_Bytes": 144264,
+      "SHA256": "ef60699ebbe41d6103f7ab325ca2260933b33188bdfe98c93096346d096c9be2"
+    },
+    "COBA_016_CORPORATE_ACTION_AUDIT.csv": {
+      "File_Size_Bytes": 13916,
+      "SHA256": "abd482686ddf428b99d3fba5b60474f5db26aae5f4dc78bb2309c2a51fb5bd13"
+    },
+    "COBA_016_DAILY_PORTFOLIO_STATE.csv": {
+      "File_Size_Bytes": 524944,
+      "SHA256": "f1b7422f3f039e7ac1ac6e3b898ff90d5549bcbc5ac26442cec4d0f584f19545"
+    },
+    "COBA_016_EDGE_CASE_RESULTS.csv": {
+      "File_Size_Bytes": 4328,
+      "SHA256": "0b1941b2173c494bc997e7ed5bf2f1c338953ba2bbd0b489169d3f315e9e16d1"
+    },
+    "COBA_016_EQUITY_RECONCILIATION.csv": {
+      "File_Size_Bytes": 262514,
+      "SHA256": "89071cbfa036c4fbd1c1b55c4a13a47d185bedeebfb37e56c468dc9e2d7e2dbc"
+    },
+    "COBA_016_EVIDENCE_MATRIX.csv": {
+      "File_Size_Bytes": 3096,
+      "SHA256": "1e92af2b3dcdbf3d7be4a45846c84fac68999e28490fca6e325a33c79f5ac0ff"
+    },
+    "COBA_016_EXECUTION_AUDIT.csv": {
+      "File_Size_Bytes": 19541,
+      "SHA256": "df6dc941f5763ce663c28769bd4cf375f46162f6117f8d8126b5d477537e64c3"
+    },
+    "COBA_016_HORIZON_AUDIT.csv": {
+      "File_Size_Bytes": 343,
+      "SHA256": "2cf8e16f26e77569f5a6a6f654315844739ba2813139f05a939a978bea31336e"
+    },
+    "COBA_016_INDEPENDENT_RECHECK.csv": {
+      "File_Size_Bytes": 11251,
+      "SHA256": "74d6d416239b6feb227b8b5414ac16b40c86f10c2de9131de9a9cb479b730259"
+    },
+    "COBA_016_INVARIANT_RESULTS.csv": {
+      "File_Size_Bytes": 2159,
+      "SHA256": "7cbee2beba0c5cb4e913e51099f5f74a3af0d41d03065903fbd4ec7f465f1c1a"
+    },
+    "COBA_016_PIT_AUDIT.csv": {
+      "File_Size_Bytes": 898,
+      "SHA256": "7e92864a3b71cb3d31eabf005f9e23525d247d673d9d7a853b7e20c6a4cd5659"
+    },
+    "COBA_016_POSITION_LIFECYCLE.csv": {
+      "File_Size_Bytes": 39128,
+      "SHA256": "51f8ab6202af5f66235d98c67c3faaffd1683e4888811c79c4c30495e4ad97fd"
+    },
+    "COBA_016_PRIOR_COBA_IMPACT.csv": {
+      "File_Size_Bytes": 1859,
+      "SHA256": "a0548c70b460b8176f3f3cfd137b65a5f7f916e9b700ef72316298228888b961"
+    },
+    "COBA_016_REDTEAM_AUDIT.csv": {
+      "File_Size_Bytes": 6199,
+      "SHA256": "6555481ed8e718c25a77aab320d4b80cdf9d6414c42dd073bd54218fdb815bcd"
+    },
+    "COBA_016_REPRODUCIBILITY.csv": {
+      "File_Size_Bytes": 642,
+      "SHA256": "e089aebf08756808a0ad7d54fd97503d2662b4795d6bb6d059f963ee3f0b8d3f"
+    },
+    "COBA_016_SESSION_AUDIT.csv": {
+      "File_Size_Bytes": 282515,
+      "SHA256": "d759a8cda119c6967f0e518ff05d3812e75f8a5fdec478b538e97a36261a6ca4"
+    },
+    "COBA_016_REPORT.md": {
+      "File_Size_Bytes": 29733,
+      "SHA256": "cd40b9c19b423e018ce8c109ce204426c5f98f37ff3d77bfd0266a752312d862"
+    }
+  }
+}

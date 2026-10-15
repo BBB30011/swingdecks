@@ -20,6 +20,8 @@ class PaperPosition(BaseModel):
     initial_reward: float
     initial_rr: float
     position_value: float = 0.0
+    entry_cost: float = 0.0
+    exit_cost: float = 0.0
     
     # Current state
     current_price: Optional[float] = None

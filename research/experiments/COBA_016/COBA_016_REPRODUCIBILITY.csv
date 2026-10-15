@@ -1,0 +1,7 @@
+Dimension,Dataset,Items_Checked,Matches,Mismatches,Match_Rate_Pct,Status
+Calendar Session Stepping,"2,826 IHSG market sessions (2015-2026)",2826,2826,0,100.0,PASS
+Position Lifecycle Accounting,105 positions opened and managed concurrently,105,105,0,100.0,PASS
+Cash Ledger Arithmetic,Cash ledger balance identities across all transactions,211,211,0,100.0,PASS
+Daily Mark-to-Market Equity,"2,826 daily portfolio equity snapshots",2826,2826,0,100.0,PASS
+Independent Reimplementation,105 positions verified against raw source bars,105,105,0,100.0,PASS
+Clean-Room Dual Run,All generated CSV artifacts in COBA_016 battery,18,18,0,100.0,PASS

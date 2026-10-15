@@ -1,0 +1,13 @@
+{
+    "symbol": "PGAS",
+    "source": "Yahoo Finance",
+    "provider": "YFINANCE",
+    "retrieved_at": "2026-09-29T06:52:10.597101+00:00",
+    "record_count": 1204,
+    "first_date": "2021-09-29T00:00:00+07:00",
+    "last_date": "2026-09-29T00:00:00+07:00",
+    "quality": "GOOD",
+    "adjustment_status": "UNADJUSTED",
+    "corporate_action_status": "PARTIAL",
+    "checksum_sha256": "1a995eacd5e02c1d44e58948465bc6c59816a4f9ff1487bc61d8f7deef309e3f"
+}

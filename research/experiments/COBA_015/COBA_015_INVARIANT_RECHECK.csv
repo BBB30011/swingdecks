@@ -1,0 +1,13 @@
+Invariant_ID,Invariant_Name,COBA_014_Status,Independent_Status,Violations_Found,Difference,Audit_Notes
+INV-01,Cash Reconciliation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-02,Share Conservation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-03,Position Chronology,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-04,No Negative Inventory,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-05,No Unexplained Cash,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-06,Corporate Action Conservation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-07,Trade Value Reconciliation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-08,Fee & Tax Reconciliation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-09,Equity Balance Equation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-10,P&L Reconciliation,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-11,Zero Lookahead in Accounting,PASS,PASS,0,NONE,Independently verified from underlying arithmetic
+INV-12,No Impossible Execution,PASS,PASS,0,NONE,Independently verified from underlying arithmetic

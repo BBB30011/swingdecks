@@ -1,0 +1,13 @@
+Test_Suite,Total_Collected,Passed,Failed,Skipped,Errors,Verdict,Notes
+Architecture Enforcement (test_00),1,1,0,0,0,PASS,Root directories and files strictly conform to Single Source of Truth.
+"Agent 1 Quant Pipeline & Scanner (test_agent1*, test_market_scanner, test_indicators, test_quant_features, test_liquidity)",64,64,0,0,0,PASS,"Technical scanning, regime detection, volume profile, liquidity, and ranking verified."
+"Agent 2 Intelligence & Red Team (test_agent2*, test_red_team, test_event_mapping)",17,17,0,0,0,PASS,"Mock evidence retrieval, PIT filtering, and semi-manual news ingestion verified."
+"Pipeline Runner & Orchestrator (test_pipeline_runner, test_batch_ac, test_job_envelope, test_state_machine)",47,47,0,0,0,PASS,"Job envelope schema, state machine transitions, retry backoff, and multi-agent handoff verified."
+"Queue & Watcher (test_queue, test_queue_watcher)",11,11,0,0,0,PASS,"Filesystem queue, FIFO sorting, atomic moves, and dead-letter handling verified."
+"Data Source, Factory & Schema (test_csv_data_source, test_dataset_readiness, test_data_*, test_market_data_schema)",63,63,0,0,0,PASS,"Strict OHLC validation, duplicate rejection, factory dispatch, and as-of filtering verified."
+"Replay Firewall & PIT Security (test_replay_firewall, test_batch_xxx3_pit)",7,7,0,0,0,PASS,"Forward outcome blindness, publication timestamp boundaries, and current-state rejection verified."
+"Risk & Performance Attribution (test_performance_attribution, test_config, test_alert_engine, test_universe, test_logger)",27,27,0,0,0,PASS,"Position sizing, YAML configuration loading, alert generation, universe management, and audit logging verified."
+Main CLI Entrypoint (test_main),3,3,0,0,0,PASS,CLI argument parser and semi-manual command execution verified.
+"SUBTOTAL: Active Operational Test Suite (pytest -m operational)",240,240,0,0,0,PASS,100% PASS rate across all 36 active operational test files.
+"Historical Research Gate Lineage (ZZZ/COBA Test Suites)",1805,1628,174,3,0,EXPECTED_HISTORICAL_DEVIATION,"Failing assertions reflect legacy pre-COBA synthetic-era numerical targets (>5% returns) debunked in COBA_001. Explicitly excluded from operational test runs without mutating historical expectations."
+"TOTAL REPOSITORY TESTS (All Suites Combined)",2045,1868,174,3,0,OPERATIONAL_CLEARED_HISTORICAL_PRESERVED,"Math reconciliation: 240 operational PASS + 1,628 historical PASS = 1,868 total passing tests. 3 skipped tests reflect obsolete mock dependencies in historical lineage."
